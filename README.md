@@ -1,1 +1,1 @@
-支持Shadowrocket和Quantumult
+支持Shadowrocket和Quantumult X
