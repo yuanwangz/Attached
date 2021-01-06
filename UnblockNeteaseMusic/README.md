@@ -12,6 +12,8 @@ ios quanx
 
 2.订阅添加
 
+右下角小风车点一下，再拖到底选择编辑，再往下拖动，拖到[server-remote]，就在它下面一行粘贴就行了（没解析器快去下载更新）
+
  https://raw.githubusercontent.com/2k1bk/GeneralSubscribe/main/UnblockNeteaseMusic/UnblockNeteaseMusic.txt, tag=网易云, update-interval=86400, opt-parser=true, enabled=true
  
  3.策略添加
