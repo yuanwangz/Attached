@@ -1,6 +1,7 @@
 # UnblockNeteaseMusic灰色歌曲 整合版本 quanx and 3h0d0wr0cket 都可配置
 **懒人配置：本[仓库](https://github.com/2k1bk/Rules/tree/1)只是为了我个人使用而创建的一个配置仓，没分享无动力，所以大家可以订阅来使用，不用到处去搜集这么麻烦。（内含18条线路）**
 **提醒一下，节点已经集成一个通用订阅格式，quanx开启解析器解析(解析不成功请更新解析器或者直接用懒人配置)，小火箭直接就订阅，节点不会缺失，方便^.^**[解析器](https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js)地址
+
 ios quanx
 
 1.打开Safari浏览器
