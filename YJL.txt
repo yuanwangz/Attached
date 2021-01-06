@@ -1,10 +1,10 @@
-proxies: 
-  - {name:香港,server:p4.22332e.com,port:8333,type:ss,password:passfw2xs4e!,cipher:rc4-md5}
-  - {name:台湾,server:p5.22332e.com,port:8333,type:ss,password:passfw2xs4e,cipher:rc4-md5}
-  - {name:日本,server:p3.22332e.com,port:8333,type:ss,password:passfw2xs4e,cipher:rc4-md5}
-  - {name:菲律宾,server:43.243.127.132,port:810,type:ss,password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {name:一键连1,server:a1.ap.fastqvpn.com,port:29980,type:https,uuid:365270615478763520,password:fc147159-b35b-4c1c-babf-bb3abe2a301d,cipher:}
-  - {name:一键连2,server:a2.ap.fastqvpn.com,port:29980,type:https,uuid:365270615478763520,password:fc147159-b35b-4c1c-babf-bb3abe2a301d,cipher:}
-  - {name:一键连3,server:a3.ap.fastqvpn.com,port:29980,type:https,uuid:365270615478763520,password:fc147159-b35b-4c1c-babf-bb3abe2a301d,cipher:}
-  - {name:一键连4,server:a4.ap.fastqvpn.com,port:29980,type:https,uuid:365270615478763520,password:fc147159-b35b-4c1c-babf-bb3abe2a301d,cipher:}
-  - {name:vmess,server:node.er3.xyz,port:11443,type:vmess,uuid:fc147159-b35b-4c1c-babf-bb3abe2a301d,alterId:,country:cn CN,password:,cipher:chacha20-ietf-poly1305,tls:true,network:ws,ws-path:/ray,tls:1}
+proxies:
+  - {name: 🇭🇰 香港, server: p4.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: 🇨🇳 台湾, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: 🇯🇵 日本, server: p3.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: 🇵🇭 菲律宾, server: 43.243.127.132, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+vmess://Y2hhY2hhMjAtcG9seTEzMDU6ZmMxNDcxNTktYjM1Yi00YzFjLWJhYmYtYmIzYWJlMmEzMDFkQG5vZGUuZXIzLnh5ejoxMTQ0Mw?remarks=%E4%B8%80%E9%94%AE%E8%BF%9E-vmess&path=/ray&obfs=websocket&tls=1
+https://MzY1MjcwNjE1NDc4NzYzNTIwOmZjMTQ3MTU5LWIzNWItNGMxYy1iYWJmLWJiM2FiZTJhMzAxZEBhMS5hcC5mYXN0cXZwbi5jb206Mjk5ODA#%E4%B8%80%E9%94%AE%E8%BF%9E-1
+https://MzY1MjcwNjE1NDc4NzYzNTIwOmZjMTQ3MTU5LWIzNWItNGMxYy1iYWJmLWJiM2FiZTJhMzAxZEBhMi5hcC5mYXN0cXZwbi5jb206Mjk5ODA#%E4%B8%80%E9%94%AE%E8%BF%9E-2
+https://MzY1MjcwNjE1NDc4NzYzNTIwOmZjMTQ3MTU5LWIzNWItNGMxYy1iYWJmLWJiM2FiZTJhMzAxZEBhMy5hcC5mYXN0cXZwbi5jb206Mjk5ODA#%E4%B8%80%E9%94%AE%E8%BF%9E-3
+https://MzY1MjcwNjE1NDc4NzYzNTIwOmZjMTQ3MTU5LWIzNWItNGMxYy1iYWJmLWJiM2FiZTJhMzAxZEBhNC5hcC5mYXN0cXZwbi5jb206Mjk5ODA#%E4%B8%80%E9%94%AE%E8%BF%9E-4
