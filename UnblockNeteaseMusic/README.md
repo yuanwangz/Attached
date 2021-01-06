@@ -6,7 +6,7 @@ ios quanx
 
 1.打开Safari浏览器
   下载添加并信任
-  [CA证书](https://raw.githubusercontent.com/2k1bk/UnblockNeteaseMusic/master/ca.crt)
+  [CA证书](https://raw.githubusercontent.com/2k1bk/GeneralSubscribe/main/UnblockNeteaseMusic/ca.crt)
 
 以下请在quanx编辑中添加
 
@@ -32,7 +32,7 @@ ios quanx[NeteaseMusic]Rules.conf使用说明（这个很重要且简单）
   简单又方便，能去掉只能听15秒还能下载VIP歌曲
 
 1.打开Safari浏览器下载
-  [CA证书](https://raw.githubusercontent.com/2k1bk/UnblockNeteaseMusic/master/ca.crt)
+  [CA证书](https://raw.githubusercontent.com/2k1bk/GeneralSubscribe/main/UnblockNeteaseMusic/ca.crt)
 
   进入苹果设置-通用-描述文件-UnblockNeteaseMusic Root（点击安装）-回到关于本机-证书信任-把刚刚添加的[CA]文件开启信任 
   
