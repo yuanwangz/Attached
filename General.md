@@ -1,79 +1,79 @@
 proxies:
-  - {name: 🇯🇵 日本1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
-  - {name: 🇸🇬 新加坡2, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
-  - {name: 🇸🇬 新加坡3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
-  - {name: 🇸🇬 新加坡4, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
-  - {name: 🇺🇲 美国5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
-  - {name: 🇺🇲 美国6, server: azi.azzico.xyz, port: 10086, type: ss, username: 378736408061280256, password: rOHOIW, tls: true, cipher: chacha20-ietf-poly1305}
-  - {name: 🇨🇳 台湾1, server: tw.ghelper.net, port: 443, type: http, tls: true}
-  - {name: 🇨🇳 台湾2, server: tw.ghelper.net, port: 3389, type: http, tls: true}
-  - {name: 🇯🇵 日本, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 298367965575774208, password: edbd7ef2-7a29-4fae-ac62-b7a2a8680e94, tls: true}
-  - {name: 🇸🇬 新加坡1, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 298367965575774208, password: edbd7ef2-7a29-4fae-ac62-b7a2a8680e94, tls: true}
-  - {name: 🇸🇬 新加坡2, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 298367965575774208, password: edbd7ef2-7a29-4fae-ac62-b7a2a8680e94, tls: true}
-  - {name: 🇸🇬 新加坡3, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 298367965575774208, password: edbd7ef2-7a29-4fae-ac62-b7a2a8680e94, tls: true}
-  - {name: 🇺🇲 美国, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 298367965575774208, password: edbd7ef2-7a29-4fae-ac62-b7a2a8680e94, tls: true}
-  - {name: 🇸🇬 新加坡4, server: a1.er3.xyz, port: 29980, type: http, username: 298367965575774208, password: edbd7ef2-7a29-4fae-ac62-b7a2a8680e94, tls: true}
-  - {name: 🇯🇵 日本, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 404035489696317440, password: fbc82645-fa57-49a8-8b67-67c42ead9b3c, tls: true}
-  - {name: 🇸🇬 新加坡1, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 404035489696317440, password: fbc82645-fa57-49a8-8b67-67c42ead9b3c, tls: true}
-  - {name: 🇸🇬 新加坡2, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 404035489696317440, password: fbc82645-fa57-49a8-8b67-67c42ead9b3c, tls: true}
-  - {name: 🇸🇬 新加坡3, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 404035489696317440, password: fbc82645-fa57-49a8-8b67-67c42ead9b3c, tls: true}
-  - {name: 🇺🇲 美国, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 404035489696317440, password: fbc82645-fa57-49a8-8b67-67c42ead9b3c, tls: true}
-  - {name: 🇸🇬 新加坡4, server: a1.er3.xyz, port: 29980, type: http, username: 404035489696317440, password: fbc82645-fa57-49a8-8b67-67c42ead9b3c, tls: true}
-  - {name: 🇯🇵 日本, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 366279056288645120, password: c96e36a1-dec5-4a21-9c5c-b44602493b79, tls: true}
-  - {name: 🇸🇬 新加坡1, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 366279056288645120, password: c96e36a1-dec5-4a21-9c5c-b44602493b79, tls: true}
-  - {name: 🇸🇬 新加坡2, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 366279056288645120, password: c96e36a1-dec5-4a21-9c5c-b44602493b79, tls: true}
-  - {name: 🇸🇬 新加坡3, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 366279056288645120, password: c96e36a1-dec5-4a21-9c5c-b44602493b79, tls: true}
-  - {name: 🇺🇲 美国, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 366279056288645120, password: c96e36a1-dec5-4a21-9c5c-b44602493b79, tls: true}
-  - {name: 🇸🇬 新加坡4, server: a1.er3.xyz, port: 29980, type: http, username: 366279056288645120, password: c96e36a1-dec5-4a21-9c5c-b44602493b79, tls: true}
-  - {name: 🇯🇵 日本, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
-  - {name: 🇸🇬 新加坡1, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
-  - {name: 🇸🇬 新加坡2, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
-  - {name: 🇸🇬 新加坡3, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
-  - {name: 🇺🇲 美国, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
-  - {name: 🇸🇬 新加坡4, server: a1.er3.xyz, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
-  - {name: 🇯🇵 日本, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 404641112670601216, password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true}
-  - {name: 🇸🇬 新加坡1, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 404641112670601216, password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true}
-  - {name: 🇸🇬 新加坡2, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 404641112670601216, password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true}
-  - {name: 🇸🇬 新加坡3, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 404641112670601216, password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true}
-  - {name: 🇺🇲 美国, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 404641112670601216, password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true}
-  - {name: 🇸🇬 新加坡4, server: a1.er3.xyz, port: 29980, type: http, username: 404641112670601216, password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true}
-  - {name: 🇯🇵 日本, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 398622787905781760, password: e44724b4-9168-4289-b7da-91a95e76966a, tls: true}
-  - {name: 🇸🇬 新加坡1, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 398622787905781760, password: e44724b4-9168-4289-b7da-91a95e76966a, tls: true}
-  - {name: 🇸🇬 新加坡2, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 398622787905781760, password: e44724b4-9168-4289-b7da-91a95e76966a, tls: true}
-  - {name: 🇸🇬 新加坡3, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 398622787905781760, password: e44724b4-9168-4289-b7da-91a95e76966a, tls: true}
-  - {name: 🇺🇲 美国, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 398622787905781760, password: e44724b4-9168-4289-b7da-91a95e76966a, tls: true}
-  - {name: 🇸🇬 新加坡4, server: a1.er3.xyz, port: 29980, type: http, username: 398622787905781760, password: e44724b4-9168-4289-b7da-91a95e76966a, tls: true}
-  - {name: 🇯🇵 日本, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 374161806844755969, password: 8bc6e6f2-5530-4ff6-a2da-ae9af9f3b74b, tls: true}
-  - {name: 🇸🇬 新加坡1, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 374161806844755969, password: 8bc6e6f2-5530-4ff6-a2da-ae9af9f3b74b, tls: true}
-  - {name: 🇸🇬 新加坡2, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 374161806844755969, password: 8bc6e6f2-5530-4ff6-a2da-ae9af9f3b74b, tls: true}
-  - {name: 🇸🇬 新加坡3, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 374161806844755969, password: 8bc6e6f2-5530-4ff6-a2da-ae9af9f3b74b, tls: true}
-  - {name: 🇺🇲 美国, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 374161806844755969, password: 8bc6e6f2-5530-4ff6-a2da-ae9af9f3b74b, tls: true}
-  - {name: 🇸🇬 新加坡4, server: a1.er3.xyz, port: 29980, type: http, username: 374161806844755969, password: 8bc6e6f2-5530-4ff6-a2da-ae9af9f3b74b, tls: true}
-  - {name: 🇯🇵 日本, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 400038560352174080, password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
-  - {name: 🇸🇬 新加坡1, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 400038560352174080, password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
-  - {name: 🇸🇬 新加坡2, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 400038560352174080, password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
-  - {name: 🇸🇬 新加坡3, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 400038560352174080, password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
-  - {name: 🇺🇲 美国, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 400038560352174080, password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
-  - {name: 🇸🇬 新加坡4, server: a1.er3.xyz, port: 29980, type: http, username: 400038560352174080, password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
-  - {name: 🇪🇸 VMESS1, server: node.er3.xyz, port: 11443, type: vmess, uuid: edbd7ef2-7a29-4fae-ac62-b7a2a8680e94, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
-  - {name: 🇪🇸 VMESS1, server: node.er3.xyz, port: 11443, type: vmess, uuid: fbc82645-fa57-49a8-8b67-67c42ead9b3c, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
-  - {name: 🇪🇸 VMESS1, server: node.er3.xyz, port: 11443, type: vmess, uuid: c96e36a1-dec5-4a21-9c5c-b44602493b79, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
-  - {name: 🇪🇸 VMESS1, server: node.er3.xyz, port: 11443, type: vmess, uuid: 9086f1f8-b895-465e-a8ab-6faf9a011d40, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
-  - {name: 🇪🇸 VMESS1, server: node.er3.xyz, port: 11443, type: vmess, uuid: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
-  - {name: 🇪🇸 VMESS1, server: node.er3.xyz, port: 11443, type: vmess, uuid: e44724b4-9168-4289-b7da-91a95e76966a, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
-  - {name: 🇪🇸 VMESS1, server: node.er3.xyz, port: 11443, type: vmess, uuid: 8bc6e6f2-5530-4ff6-a2da-ae9af9f3b74b, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
-  - {name: 🇪🇸 VMESS1, server: node.er3.xyz, port: 11443, type: vmess, uuid: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
-  - {name: 🇪🇸 VMESS2, server: webchat.ytlxsh.cn, port: 11443, type: vmess, uuid: edbd7ef2-7a29-4fae-ac62-b7a2a8680e94, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
-  - {name: 🇪🇸 VMESS2, server: webchat.ytlxsh.cn, port: 11443, type: vmess, uuid: fbc82645-fa57-49a8-8b67-67c42ead9b3c, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
-  - {name: 🇪🇸 VMESS2, server: webchat.ytlxsh.cn, port: 11443, type: vmess, uuid: c96e36a1-dec5-4a21-9c5c-b44602493b79, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
-  - {name: 🇪🇸 VMESS2, server: webchat.ytlxsh.cn, port: 11443, type: vmess, uuid: 9086f1f8-b895-465e-a8ab-6faf9a011d40, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
-  - {name: 🇪🇸 VMESS2, server: webchat.ytlxsh.cn, port: 11443, type: vmess, uuid: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
-  - {name: 🇪🇸 VMESS2, server: webchat.ytlxsh.cn, port: 11443, type: vmess, uuid: e44724b4-9168-4289-b7da-91a95e76966a, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
-  - {name: 🇪🇸 VMESS2, server: webchat.ytlxsh.cn, port: 11443, type: vmess, uuid: 8bc6e6f2-5530-4ff6-a2da-ae9af9f3b74b, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
-  - {name: 🇪🇸 VMESS2, server: webchat.ytlxsh.cn, port: 11443, type: vmess, uuid: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
-  - {name: 🇪🇸 V1台湾A[2.0]江门-TW-NF, server: twpro6025.azzico.space, port: 11554, type: vmess, uuid: 68413849-95e0-3036-8343-9f9ae50d9804, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /video ws-headers: {Host: twpro6024.azzico.pw}}
-  - {name: 🇪🇸 V1台湾B[2.0]广州-TW-NF, server: twa3116.azzico.space, port: 11566, type: vmess, uuid: 68413849-95e0-3036-8343-9f9ae50d9804, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /video ws-headers: {Host: twa3116.azzico.pw}}
-  - {name: 🇪🇸 V1新加坡A[2.0]广州-SGP, server: sg1322.azzico.space, port: 11558, type: vmess, uuid: 68413849-95e0-3036-8343-9f9ae50d9804, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /video ws-headers: {Host: sg1322.azzico.pw}}
-  - {name: 🇪🇸 V1日本A[2.0]长沙专线-Tokyo-NF, server: jpc5269.azzico.space, port: 11562, type: vmess, uuid: 68413849-95e0-3036-8343-9f9ae50d9804, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /video ws-headers: {Host: jpc5269.azzico.pw}}
-  - {name: 🇪🇸 V1香港A[2.0] 广州专线-HKT-NF, server: hk2197.azzico.space, port: 11576, type: vmess, uuid: 68413849-95e0-3036-8343-9f9ae50d9804, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /video ws-headers: {Host: hkpro2197.azzico.pw}}
-  - {name: 🇪🇸 V1香港B[2.0] 广州专线-HKT-NF, server: hk2198.azzico.space, port: 11577, type: vmess, uuid: 68413849-95e0-3036-8343-9f9ae50d9804, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /video ws-headers: {Host: hkpro2197.azzico.pw}}
+  - {name: 日本1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
+  - {name: 新加坡2, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
+  - {name: 新加坡3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
+  - {name: 新加坡4, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
+  - {name: 美国5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
+  - {name: 美国6, server: azi.azzico.xyz, port: 10086, type: ss, username: 378736408061280256, password: rOHOIW, tls: true, cipher: chacha20-ietf-poly1305}
+  - {name: 台湾1, server: tw.ghelper.net, port: 443, type: http, tls: true}
+  - {name: 台湾2, server: tw.ghelper.net, port: 3389, type: http, tls: true}
+  - {name: 日本, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 298367965575774208, password: edbd7ef2-7a29-4fae-ac62-b7a2a8680e94, tls: true}
+  - {name: 新加坡1, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 298367965575774208, password: edbd7ef2-7a29-4fae-ac62-b7a2a8680e94, tls: true}
+  - {name: 新加坡2, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 298367965575774208, password: edbd7ef2-7a29-4fae-ac62-b7a2a8680e94, tls: true}
+  - {name: 新加坡3, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 298367965575774208, password: edbd7ef2-7a29-4fae-ac62-b7a2a8680e94, tls: true}
+  - {name: 美国, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 298367965575774208, password: edbd7ef2-7a29-4fae-ac62-b7a2a8680e94, tls: true}
+  - {name: 新加坡4, server: a1.er3.xyz, port: 29980, type: http, username: 298367965575774208, password: edbd7ef2-7a29-4fae-ac62-b7a2a8680e94, tls: true}
+  - {name: 日本, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 404035489696317440, password: fbc82645-fa57-49a8-8b67-67c42ead9b3c, tls: true}
+  - {name: 新加坡1, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 404035489696317440, password: fbc82645-fa57-49a8-8b67-67c42ead9b3c, tls: true}
+  - {name: 新加坡2, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 404035489696317440, password: fbc82645-fa57-49a8-8b67-67c42ead9b3c, tls: true}
+  - {name: 新加坡3, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 404035489696317440, password: fbc82645-fa57-49a8-8b67-67c42ead9b3c, tls: true}
+  - {name: 美国, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 404035489696317440, password: fbc82645-fa57-49a8-8b67-67c42ead9b3c, tls: true}
+  - {name: 新加坡4, server: a1.er3.xyz, port: 29980, type: http, username: 404035489696317440, password: fbc82645-fa57-49a8-8b67-67c42ead9b3c, tls: true}
+  - {name: 日本, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 366279056288645120, password: c96e36a1-dec5-4a21-9c5c-b44602493b79, tls: true}
+  - {name: 新加坡1, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 366279056288645120, password: c96e36a1-dec5-4a21-9c5c-b44602493b79, tls: true}
+  - {name: 新加坡2, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 366279056288645120, password: c96e36a1-dec5-4a21-9c5c-b44602493b79, tls: true}
+  - {name: 新加坡3, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 366279056288645120, password: c96e36a1-dec5-4a21-9c5c-b44602493b79, tls: true}
+  - {name: 美国, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 366279056288645120, password: c96e36a1-dec5-4a21-9c5c-b44602493b79, tls: true}
+  - {name: 新加坡4, server: a1.er3.xyz, port: 29980, type: http, username: 366279056288645120, password: c96e36a1-dec5-4a21-9c5c-b44602493b79, tls: true}
+  - {name: 日本, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
+  - {name: 新加坡1, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
+  - {name: 新加坡2, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
+  - {name: 新加坡3, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
+  - {name: 美国, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
+  - {name: 新加坡4, server: a1.er3.xyz, port: 29980, type: http, username: 378736408061280256, password: 9086f1f8-b895-465e-a8ab-6faf9a011d40, tls: true}
+  - {name: 日本, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 404641112670601216, password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true}
+  - {name: 新加坡1, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 404641112670601216, password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true}
+  - {name: 新加坡2, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 404641112670601216, password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true}
+  - {name: 新加坡3, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 404641112670601216, password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true}
+  - {name: 美国, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 404641112670601216, password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true}
+  - {name: 新加坡4, server: a1.er3.xyz, port: 29980, type: http, username: 404641112670601216, password: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, tls: true}
+  - {name: 日本, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 398622787905781760, password: e44724b4-9168-4289-b7da-91a95e76966a, tls: true}
+  - {name: 新加坡1, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 398622787905781760, password: e44724b4-9168-4289-b7da-91a95e76966a, tls: true}
+  - {name: 新加坡2, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 398622787905781760, password: e44724b4-9168-4289-b7da-91a95e76966a, tls: true}
+  - {name: 新加坡3, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 398622787905781760, password: e44724b4-9168-4289-b7da-91a95e76966a, tls: true}
+  - {name: 美国, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 398622787905781760, password: e44724b4-9168-4289-b7da-91a95e76966a, tls: true}
+  - {name: 新加坡4, server: a1.er3.xyz, port: 29980, type: http, username: 398622787905781760, password: e44724b4-9168-4289-b7da-91a95e76966a, tls: true}
+  - {name: 日本, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 374161806844755969, password: 8bc6e6f2-5530-4ff6-a2da-ae9af9f3b74b, tls: true}
+  - {name: 新加坡1, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 374161806844755969, password: 8bc6e6f2-5530-4ff6-a2da-ae9af9f3b74b, tls: true}
+  - {name: 新加坡2, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 374161806844755969, password: 8bc6e6f2-5530-4ff6-a2da-ae9af9f3b74b, tls: true}
+  - {name: 新加坡3, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 374161806844755969, password: 8bc6e6f2-5530-4ff6-a2da-ae9af9f3b74b, tls: true}
+  - {name: 美国, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 374161806844755969, password: 8bc6e6f2-5530-4ff6-a2da-ae9af9f3b74b, tls: true}
+  - {name: 新加坡4, server: a1.er3.xyz, port: 29980, type: http, username: 374161806844755969, password: 8bc6e6f2-5530-4ff6-a2da-ae9af9f3b74b, tls: true}
+  - {name: 日本, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 400038560352174080, password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
+  - {name: 新加坡1, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 400038560352174080, password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
+  - {name: 新加坡2, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 400038560352174080, password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
+  - {name: 新加坡3, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 400038560352174080, password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
+  - {name: 美国, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 400038560352174080, password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
+  - {name: 新加坡4, server: a1.er3.xyz, port: 29980, type: http, username: 400038560352174080, password: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, tls: true}
+  - {name: VMESS1, server: node.er3.xyz, port: 11443, type: vmess, uuid: edbd7ef2-7a29-4fae-ac62-b7a2a8680e94, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
+  - {name: VMESS1, server: node.er3.xyz, port: 11443, type: vmess, uuid: fbc82645-fa57-49a8-8b67-67c42ead9b3c, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
+  - {name: VMESS1, server: node.er3.xyz, port: 11443, type: vmess, uuid: c96e36a1-dec5-4a21-9c5c-b44602493b79, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
+  - {name: VMESS1, server: node.er3.xyz, port: 11443, type: vmess, uuid: 9086f1f8-b895-465e-a8ab-6faf9a011d40, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
+  - {name: VMESS1, server: node.er3.xyz, port: 11443, type: vmess, uuid: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
+  - {name: VMESS1, server: node.er3.xyz, port: 11443, type: vmess, uuid: e44724b4-9168-4289-b7da-91a95e76966a, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
+  - {name: VMESS1, server: node.er3.xyz, port: 11443, type: vmess, uuid: 8bc6e6f2-5530-4ff6-a2da-ae9af9f3b74b, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
+  - {name: VMESS1, server: node.er3.xyz, port: 11443, type: vmess, uuid: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
+  - {name: VMESS2, server: webchat.ytlxsh.cn, port: 11443, type: vmess, uuid: edbd7ef2-7a29-4fae-ac62-b7a2a8680e94, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
+  - {name: VMESS2, server: webchat.ytlxsh.cn, port: 11443, type: vmess, uuid: fbc82645-fa57-49a8-8b67-67c42ead9b3c, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
+  - {name: VMESS2, server: webchat.ytlxsh.cn, port: 11443, type: vmess, uuid: c96e36a1-dec5-4a21-9c5c-b44602493b79, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
+  - {name: VMESS2, server: webchat.ytlxsh.cn, port: 11443, type: vmess, uuid: 9086f1f8-b895-465e-a8ab-6faf9a011d40, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
+  - {name: VMESS2, server: webchat.ytlxsh.cn, port: 11443, type: vmess, uuid: 2ebcb6a0-432c-492a-899a-a5fb4bf4d23d, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
+  - {name: VMESS2, server: webchat.ytlxsh.cn, port: 11443, type: vmess, uuid: e44724b4-9168-4289-b7da-91a95e76966a, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
+  - {name: VMESS2, server: webchat.ytlxsh.cn, port: 11443, type: vmess, uuid: 8bc6e6f2-5530-4ff6-a2da-ae9af9f3b74b, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
+  - {name: VMESS2, server: webchat.ytlxsh.cn, port: 11443, type: vmess, uuid: 3c3e05f0-54be-49af-a81b-f54a69bbfda7, alterId: 0, cipher: chacha20-poly1305, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: node.er3.xyz}}
+  - {name: V1台湾A[2.0]江门-TW-NF, server: twpro6025.azzico.space, port: 11554, type: vmess, uuid: 68413849-95e0-3036-8343-9f9ae50d9804, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /video ws-headers: {Host: twpro6024.azzico.pw}}
+  - {name: V1台湾B[2.0]广州-TW-NF, server: twa3116.azzico.space, port: 11566, type: vmess, uuid: 68413849-95e0-3036-8343-9f9ae50d9804, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /video ws-headers: {Host: twa3116.azzico.pw}}
+  - {name: V1新加坡A[2.0]广州-SGP, server: sg1322.azzico.space, port: 11558, type: vmess, uuid: 68413849-95e0-3036-8343-9f9ae50d9804, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /video ws-headers: {Host: sg1322.azzico.pw}}
+  - {name: V1日本A[2.0]长沙专线-Tokyo-NF, server: jpc5269.azzico.space, port: 11562, type: vmess, uuid: 68413849-95e0-3036-8343-9f9ae50d9804, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /video ws-headers: {Host: jpc5269.azzico.pw}}
+  - {name: V1香港A[2.0] 广州专线-HKT-NF, server: hk2197.azzico.space, port: 11576, type: vmess, uuid: 68413849-95e0-3036-8343-9f9ae50d9804, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /video ws-headers: {Host: hkpro2197.azzico.pw}}
+  - {name: V1香港B[2.0] 广州专线-HKT-NF, server: hk2198.azzico.space, port: 11577, type: vmess, uuid: 68413849-95e0-3036-8343-9f9ae50d9804, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /video ws-headers: {Host: hkpro2197.azzico.pw}}
