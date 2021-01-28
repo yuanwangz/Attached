@@ -10,7 +10,7 @@
 Quantumult X shadowrocket
 
 ## windows
-在[tg频道]里(https://t.me/JXKR1/19)有整合包
+在[tg频道](https://t.me/JXKR1/19)里有整合包
 
 ![04GFbt.png](https://s1.ax1x.com/2020/10/14/04GFbt.png)
 
