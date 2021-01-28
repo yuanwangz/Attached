@@ -6,10 +6,12 @@
 
 由于抑郁云的PC or mobile phone客户端很多歌曲都灰掉了也无法播放，所以才打算做这个**通用订阅**因为我也有过小白的时候，各种搜索各种想弄都没有解决的办法，但是做人就是自己学到了有能力就去帮助弱小的一点人，这样才不会显得太孤单（我已出仓，感觉良好^-^）
 ###设备
-###ios
+## ios
 Quantumult X shadowrocket
 
-###windows
+## windows
+在[tg频道]里(https://t.me/JXKR1/19)有整合包
+
 ![04GFbt.png](https://s1.ax1x.com/2020/10/14/04GFbt.png)
 
 ## 特性
