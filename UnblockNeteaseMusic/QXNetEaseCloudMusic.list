@@ -1,10 +1,21 @@
-user-agent, NeteaseMusic**, 🎧𝐍𝐞𝐭𝐞𝐚𝐬𝐞𝐌𝐮𝐬𝐢𝐜
-user-agent, NeteaseMusic*, 🎧𝐍𝐞𝐭𝐞𝐚𝐬𝐞𝐌𝐮𝐬𝐢𝐜
-user-agent, NeteaseMusic**, 🎧𝐍𝐞𝐭𝐞𝐚𝐬𝐞𝐌𝐮𝐬𝐢𝐜
-user-agent, %E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*, 🎧𝐍𝐞𝐭𝐞𝐚𝐬𝐞𝐌𝐮𝐬𝐢𝐜
-user-agent, %E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**, 🎧𝐍𝐞𝐭𝐞𝐚𝐬𝐞𝐌𝐮𝐬𝐢𝐜
+# NAME: NetEaseMusic
+# AUTHOR: o7y0
+# GITHUB: https://github.com/o7y0/GeneralSubscribe/edit/main/UnblockNeteaseMusic/
+# UPDATED: 2021-02-02 13:31:30
+# HOST-SUFFIX: 10
+# IP-CIDR: 27
+# HOST: 1
+# USER-AGENT: 6
+# TOTAL: 44
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**,NetEaseMusic
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,NetEaseMusic
+USER-AGENT,NeteaseMusic**,NetEaseMusic
+USER-AGENT,NeteaseMusic*,NetEaseMusic
+USER-AGENT,网易云音乐**,NetEaseMusic
+USER-AGENT,网易云音乐*,NetEaseMusic
 
 ##### 网易云音乐解锁相关域名规则 #####
+HOST,netease.ugcvideoss.ourdvs.com,NetEaseMusic
 HOST-SUFFIX,163yun.com,🎧𝐍𝐞𝐭𝐞𝐚𝐬𝐞𝐌𝐮𝐬𝐢𝐜
 HOST-SUFFIX,api.iplay.163.com,🎧𝐍𝐞𝐭𝐞𝐚𝐬𝐞𝐌𝐮𝐬𝐢𝐜
 HOST-SUFFIX,hz.netease.com,🎧𝐍𝐞𝐭𝐞𝐚𝐬𝐞𝐌𝐮𝐬𝐢𝐜
