@@ -1,7 +1,9 @@
 #要用请到https://t.me/M0nata根据配置整套使用
 #也请不要单独将此处的节点信息发出去以免重复造轮子，就算要发请带上出处，别把我整伤心了谢谢。如果不会用请到RULES.conf用懒人配置
 proxies:
-  - {name: 🎧 不会用别用，别在那里说不行, server: lolico.me, port: 443, type: http, country:us US, tls: false, skip-cert-verify: false}
+  - {name: 🎧 节点分流全都可以用，不要在那里一开口就别用, server: 0.0.0.0, port: 443, type: http, country:us US, tls: false, skip-cert-verify: false}
+  - {name: 🎧 别乱发订阅出去,最后说一次, server: 0.0.0.0, port: 443, type: http, country:us US, tls: false, skip-cert-verify: false}
+  - {name: 🎧 自己不会别赖我，要么你别用，有小白配置一套的, server: 0.0.0.0, port: 443, type: http, country:us US, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易云音乐1, server: lolico.me, port: 443, type: http, country:us US, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易云音乐2, server: aimer.one, port: 2333, type: http, country:cn CN, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易云音乐3, server: 106.52.127.72, port: 19951, type: http, country:cn CN, tls: false, skip-cert-verify: false}
@@ -9,7 +11,7 @@ proxies:
   - {name: 🎧 网易云音乐5, server: music.griouges.cn, port: 39000, type: http, country:cn CN, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易云音乐6, server: block4music.poetyin.me, port: 39000, type: http, country:cn CN, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易云音乐7, server: xbmmw.xyz, port: 666, type: http, country:cn CN, tls: false, skip-cert-verify: false}
-  - {name: 🎧 TG频道:@M0nata, server: xbmmw.xyz, port: 666, type: http, country:cn CN, tls: false, skip-cert-verify: false}
+  - {name: 🎧 TG频道:@M0nata, server: xbmmw.xyz, port: 1001, type: http, country:cn CN, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易云音乐8, server: xbmmw.xyz, port: 1001, type: http, country:cn CN, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易云音乐9, server: xbmmw.xyz, port: 5691, type: ss, country:cn CN, cipher: aes-128-gcm, password: QQ3203434182}
   - {name: 🎧 网易云音乐10, server: sdwan-a.getluffy.cloud, port: 11000, type: ss, country:cn CN, cipher: rc4-md5, password: b22Uqr}
