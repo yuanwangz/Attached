@@ -1,7 +1,7 @@
 #要用请到https://t.me/M0nata根据配置整套使用
 #也请不要单独将此处的节点信息发出去以免重复造轮子，就算要发请带上出处，别把我整伤心了谢谢。如果不会用请到RULES.conf用懒人配置
 proxies:
-  - {name: 🎧 节点分流全都可以用，不要在那里一开口就别用, server: lolico.me, port: 443, type: http, country:us US, tls: false, skip-cert-verify: false}
+  - {name: 🎧 节点分流全都可以用，不要在那里一开口就说用不了, server: lolico.me, port: 443, type: http, country:us US, tls: false, skip-cert-verify: false}
   - {name: 🎧 别乱发订阅出去,最后说一次, server: lolico.me, port: 443, type: http, country:us US, tls: false, skip-cert-verify: false}
   - {name: 🎧 自己不会别赖我，要么你别用，有小白配置一套的, server: lolico.me, port: 443, type: http, country:us US, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易云音乐1, server: lolico.me, port: 443, type: http, country:us US, tls: false, skip-cert-verify: false}
