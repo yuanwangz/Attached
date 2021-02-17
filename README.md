@@ -1,5 +1,5 @@
 # Unlock-netease-cloud-music--GeneralSubscribe
-
+#TG频道[点我加入](https://t.me/m0nata)  #TG群聊[点我加入](https://t.me/m0natas)
 解锁网易云音乐客户端变灰歌曲的通用订阅
 
 ## 项目介绍
@@ -10,7 +10,7 @@
 Quantumult X shadowrocket
 
 ## windows
-在[tg频道](https://t.me/JXKR1/19)里有整合包
+在[tg频道](https://github.com/o7y0/GeneralSubscribe/releases/tag/0.1)
 
 ![04GFbt.png](https://s1.ax1x.com/2020/10/14/04GFbt.png)
 
