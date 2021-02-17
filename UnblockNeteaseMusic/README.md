@@ -23,18 +23,20 @@ ios quanx
 Tips：
 
     打开播放器后提示网络连接不给力或者云盘歌曲已删除这些都没关系，因为正常弄好的是不会用这些提醒，某些quanx小白总以为自己厉害了，
-    这搞搞那搞搞，请问我怎么帮你，我也不是什么都能处理的了的。自己发现问题再自己解决才是正道理。
+    这搞搞那搞搞，请问我怎么帮你，我也不是什么都能处理的了的，自己发现问题再自己解决才是正道理。还有我很讨厌某些直接把链接发给别人
+    的那类人，发出去给他你是显摆什么？还有那些纯要节点不要配置的，你用不了怪谁，给你发你还要喷用不了那还不是你的原因吗？小白就是小白，
+    别人给你弄好就说声谢谢，寻求帮助就语气好点，我们不是你爹，还给你免费打工，完全用爱发电，还得受你的气花我们的时间。
 
 
 ios sh0d0wr0cket
 
 1.添加并使用配置文件
 
-	链接:https://raw.githubusercontent.com/o7y0/GeneralSubscribe/main/UnblockNeteaseMusic/SSUnblockNeteaseMusic.conf
+    [配置链接](https://raw.githubusercontent.com/o7y0/GeneralSubscribe/main/UnblockNeteaseMusic/SSUnblockNeteaseMusic.conf)
 
 2.添加订阅
 
-	链接:https://raw.githubusercontent.com/o7y0/GeneralSubscribe/main/UnblockNeteaseMusic/UnblockNeteaseMusic.txt
+    [配置链接](https://raw.githubusercontent.com/o7y0/GeneralSubscribe/main/UnblockNeteaseMusic/UnblockNeteaseMusic.txt)
 	
 3.开启连接选择节点就可以使用
 
