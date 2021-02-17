@@ -9,10 +9,12 @@ ios quanx
   [CA证书](https://raw.githubusercontent.com/o7y0/GeneralSubscribe/main/UnblockNeteaseMusic/ca.crt)
     进入苹果设置-通用-描述文件-UnblockNeteaseMusic Root（点击安装）-回到关于本机-证书信任-把刚刚添加的[CA]文件开启信任 
   
-2.到[这里]（https://raw.githubusercontent.com/o7y0/Rules/1/Rules.conf）下载Quantumult X 小白配置
+2.到[这里](https://raw.githubusercontent.com/o7y0/Rules/1/Rules.conf)    下载Quantumult X 小白配置
+
 3.安装好配置后在
  
  设置-MITM（里安装好证书）
+
 4.在首页选择好你的分流目标的节点，跟首页（proxy）无关
 
   如此做完你就可以解锁了。解锁不了换就节点,并关掉[NeteaseMusic]再开一次再找歌曲测试能否下载和播放。
