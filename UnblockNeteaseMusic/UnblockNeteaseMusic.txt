@@ -1,13 +1,12 @@
 #要用请到https://t.me/M0nata根据配置整套使用
 #也请不要单独将此处的节点信息发出去以免重复造轮子，就算要发请带上出处，别把我整伤心了谢谢。如果不会用请到RULES.conf用懒人配置
 proxies:
-  - {name: 🎧 TG频道:@M0nata, server: xbmmw.xyz, port: 1001, type: http, country:cn CN, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易云音乐1, server: lolico.me, port: 443, type: http, country:us US, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易云音乐2, server: aimer.one, port: 2333, type: http, country:cn CN, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易云音乐3, server: 106.52.127.72, port: 19951, type: http, country:cn CN, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易云音乐4, server: music.lolico.me, port: 39000, type: http, country:cn CN, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易云音乐5, server: music.griouges.cn, port: 39000, type: http, country:cn CN, tls: false, skip-cert-verify: false}
-  - {name: 🎧 TG频道:@M0nata, server: xbmmw.xyz, port: 1001, type: http, country:cn CN, tls: false, skip-cert-verify: false}
+  - {name: 🎧 TG群:@M0natas, server: xbmmw.xyz, port: 1001, type: http, country:cn CN, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易云音乐6, server: block4music.poetyin.me, port: 39000, type: http, country:cn CN, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易云音乐7, server: xbmmw.xyz, port: 666, type: http, country:cn CN, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易云音乐8, server: xbmmw.xyz, port: 1001, type: http, country:cn CN, tls: false, skip-cert-verify: false}
@@ -20,4 +19,3 @@ proxies:
   - {name: 🎧 网易云音乐14, server: music.desperadoj.com, port: 30003, type: ss, country:cn CN, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_emx2}
   - {name: 🎧 网易云音乐15, server: music.desperadoj.com, port: 30001, type: ss, country:cn CN, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_vrfn}
   - {name: 🎧 网易云音乐16, server: blockmusic.poetyin.me, port: 30003, type: ss, country:cn CN, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_x80j}
-  - {name: 🎧 TG频道:@M0nata, server: xbmmw.xyz, port: 1001, type: http, country:cn CN, tls: false, skip-cert-verify: false}
