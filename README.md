@@ -1,4 +1,4 @@
-# Unlock-netease-cloud-music--GeneralSubscribe
+# 别forks听不懂吗？Unlock-netease-cloud-music--GeneralSubscribe
 **TG频道[点我加入](https://t.me/m0nata)  TG群聊[点我加入](https://t.me/m0natas)**
 解锁网易云音乐客户端变灰歌曲的通用订阅
 
