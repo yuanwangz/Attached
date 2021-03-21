@@ -1,16 +1,1158 @@
 proxies:
-- {"name":"🇸🇬 SG_148","server":"89.187.163.205","type":"ss","country":"🇸🇬 SG","port":33992,"password":"8n6pwAcrrv2pj6tFY2p3TbQ6","cipher":"aes-256-gcm"}
-- {"name":"🇸🇬 SG_149","server":"89.187.163.202","type":"ss","country":"🇸🇬 SG","port":33992,"password":"8n6pwAcrrv2pj6tFY2p3TbQ6","cipher":"aes-256-gcm"}
-- {"name":"🇸🇬 SG_150","server":"89.187.163.215","type":"ss","country":"🇸🇬 SG","port":33992,"password":"8n6pwAcrrv2pj6tFY2p3TbQ6","cipher":"aes-256-gcm"}
-- {"name":"🇸🇬 SG_151","server":"89.187.163.212","type":"ss","country":"🇸🇬 SG","port":33992,"password":"8n6pwAcrrv2pj6tFY2p3TbQ6","cipher":"aes-256-gcm"}
-- {"name":"🇸🇬 SG_152","server":"89.187.163.200","type":"ss","country":"🇸🇬 SG","port":33992,"password":"8n6pwAcrrv2pj6tFY2p3TbQ6","cipher":"aes-256-gcm"}
-- {"name":"🇸🇬 SG_153","server":"89.187.163.197","type":"ss","country":"🇸🇬 SG","port":40093,"password":"x23Z4LGkGDkThZ9Kaz4DURQp","cipher":"aes-256-gcm"}
-- {"name":"🇸🇬 SG_154","server":"mitao-azsg01.ddns-only.xyz","type":"vmess","country":"🇸🇬 SG","port":41201,"uuid":"c5aeb863-6956-3f6c-a9f5-f5faba0ba660","alterId":2,"cipher":"auto","network":"ws","ws-path":"/mitao","servername":"mitao-azsg01.ddns-only.xyz","ws-headers":{"HOST":"mitao-azsg01.ddns-only.xyz"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"🇸🇬 SG_155","server":"54.255.209.238","type":"vmess","country":"🇸🇬 SG","port":443,"uuid":"37932e47-dc63-4ac2-9848-5c5c63827fd6","alterId":1,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"🇸🇬 SG_156","server":"mitao-azsg02.ddns-only.xyz","type":"vmess","country":"🇸🇬 SG","port":41203,"uuid":"c5aeb863-6956-3f6c-a9f5-f5faba0ba660","alterId":2,"cipher":"auto","network":"ws","ws-path":"/mitao","servername":"mitao-azsg02.ddns-only.xyz","ws-headers":{"HOST":"mitao-azsg02.ddns-only.xyz"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"🇸🇬 SG_157","server":"54.169.218.39","type":"vmess","country":"🇸🇬 SG","port":443,"uuid":"37932e47-dc63-4ac2-9848-5c5c63827fd6","alterId":1,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-- {"name":"🇹🇼 TW_158","server":"2.58.241.45","type":"ss","country":"🇹🇼 TW","port":38033,"password":"xpQwyV4W5FdA6NMANJJx73US","cipher":"aes-256-gcm"}
-- {"name":"🇹🇼 TW_159","server":"2.58.241.45","type":"ss","country":"🇹🇼 TW","port":33992,"password":"8n6pwAcrrv2pj6tFY2p3TbQ6","cipher":"aes-256-gcm"}
-- {"name":"🇹🇼 TW_160","server":"2.58.242.46","type":"ss","country":"🇹🇼 TW","port":38033,"password":"xpQwyV4W5FdA6NMANJJx73US","cipher":"aes-256-gcm"}
-- {"name":"🇹🇼 TW_161","server":"2.58.241.45","type":"ss","country":"🇹🇼 TW","port":39772,"password":"CUndSZnYsPKcu6Kj8THVMBHD","cipher":"aes-256-gcm"}
-- {"name":"🇹🇼 TW_162","server":"61.222.202.195","type":"ss","country":"🇹🇼 TW","port":810,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - name: 高速节点1
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "405367546741522432"
+    password: abae5ebd-9abf-419e-b68b-a31e8f5096ac
+    tls: true
+  - name: 高速节点2
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "405367546741522432"
+    password: abae5ebd-9abf-419e-b68b-a31e8f5096ac
+    tls: true
+  - name: 高速节点3
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "405367546741522432"
+    password: abae5ebd-9abf-419e-b68b-a31e8f5096ac
+    tls: true
+  - name: 高速节点4
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "405367546741522432"
+    password: abae5ebd-9abf-419e-b68b-a31e8f5096ac
+    tls: true
+  - name: 高速节点5
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "405367546741522432"
+    password: abae5ebd-9abf-419e-b68b-a31e8f5096ac
+    tls: true
+  - name: 高速节点6
+    server: ap1-ge.er3.xyz
+    port: 29980
+    type: http
+    username: "374973100795625472"
+    password: 5d7040ae-0ae3-41a6-86d2-a7ee73176506
+    tls: true
+  - name: 高速节点7
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "374973100795625472"
+    password: 5d7040ae-0ae3-41a6-86d2-a7ee73176506
+    tls: true
+  - name: 高速节点8
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "374973100795625472"
+    password: 5d7040ae-0ae3-41a6-86d2-a7ee73176506
+    tls: true
+  - name: 高速节点9
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "374973100795625472"
+    password: 5d7040ae-0ae3-41a6-86d2-a7ee73176506
+    tls: true
+  - name: 高速节点10
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "374973100795625472"
+    password: 5d7040ae-0ae3-41a6-86d2-a7ee73176506
+    tls: true
+  - name: 高速节点11
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "374973100795625472"
+    password: 5d7040ae-0ae3-41a6-86d2-a7ee73176506
+    tls: true
+  - name: 高速节点12
+    server: global.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "374973100795625472"
+    password: 5d7040ae-0ae3-41a6-86d2-a7ee73176506
+    tls: true
+  - name: 高速节点13
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点14
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点15
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点16
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点17
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点18
+    server: global.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点19
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "393177908073463808"
+    password: e87991b8-2455-430d-bbbc-633a5bc2b935
+    tls: true
+  - name: 高速节点20
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "393177908073463808"
+    password: e87991b8-2455-430d-bbbc-633a5bc2b935
+    tls: true
+  - name: 高速节点21
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "393177908073463808"
+    password: e87991b8-2455-430d-bbbc-633a5bc2b935
+    tls: true
+  - name: 高速节点22
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "393177908073463808"
+    password: e87991b8-2455-430d-bbbc-633a5bc2b935
+    tls: true
+  - name: 高速节点23
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "393177908073463808"
+    password: e87991b8-2455-430d-bbbc-633a5bc2b935
+    tls: true
+  - name: 高速节点24
+    server: global.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "393177908073463808"
+    password: e87991b8-2455-430d-bbbc-633a5bc2b935
+    tls: true
+  - name: 高速节点25
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "403654808050860032"
+    password: ca583820-86f5-4096-a25b-b1ecd3c8cafc
+    tls: true
+  - name: 高速节点26
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "403654808050860032"
+    password: ca583820-86f5-4096-a25b-b1ecd3c8cafc
+    tls: true
+  - name: 高速节点27
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "403654808050860032"
+    password: ca583820-86f5-4096-a25b-b1ecd3c8cafc
+    tls: true
+  - name: 高速节点28
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "403654808050860032"
+    password: ca583820-86f5-4096-a25b-b1ecd3c8cafc
+    tls: true
+  - name: 高速节点29
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "403654808050860032"
+    password: ca583820-86f5-4096-a25b-b1ecd3c8cafc
+    tls: true
+  - name: 高速节点30
+    server: global.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "403654808050860032"
+    password: ca583820-86f5-4096-a25b-b1ecd3c8cafc
+    tls: true
+  - name: 高速节点31
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "416925204208418816"
+    password: 55842c8a-5251-4b54-a6ed-bbb7e917f9d9
+    tls: true
+  - name: 高速节点32
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "416925204208418816"
+    password: 55842c8a-5251-4b54-a6ed-bbb7e917f9d9
+    tls: true
+  - name: 高速节点33
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "416925204208418816"
+    password: 55842c8a-5251-4b54-a6ed-bbb7e917f9d9
+    tls: true
+  - name: 高速节点34
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "416925204208418816"
+    password: 55842c8a-5251-4b54-a6ed-bbb7e917f9d9
+    tls: true
+  - name: 高速节点35
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "416925204208418816"
+    password: 55842c8a-5251-4b54-a6ed-bbb7e917f9d9
+    tls: true
+  - name: 高速节点36
+    server: global.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "416925204208418816"
+    password: 55842c8a-5251-4b54-a6ed-bbb7e917f9d9
+    tls: true
+  - name: 高速节点37
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "364126551953899520"
+    password: eba2f73a-8ca3-4cdd-b9b5-91c3b538e56a
+    tls: true
+  - name: 高速节点38
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "364126551953899520"
+    password: eba2f73a-8ca3-4cdd-b9b5-91c3b538e56a
+    tls: true
+  - name: 高速节点39
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "364126551953899520"
+    password: eba2f73a-8ca3-4cdd-b9b5-91c3b538e56a
+    tls: true
+  - name: 高速节点40
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "364126551953899520"
+    password: eba2f73a-8ca3-4cdd-b9b5-91c3b538e56a
+    tls: true
+  - name: 高速节点41
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "364126551953899520"
+    password: eba2f73a-8ca3-4cdd-b9b5-91c3b538e56a
+    tls: true
+  - name: 高速节点42
+    server: global.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "364126551953899520"
+    password: eba2f73a-8ca3-4cdd-b9b5-91c3b538e56a
+    tls: true
+  - name: 高速节点43
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "410212399086305280"
+    password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308
+    tls: true
+  - name: 高速节点44
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "410212399086305280"
+    password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308
+    tls: true
+  - name: 高速节点45
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "410212399086305280"
+    password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308
+    tls: true
+  - name: 高速节点46
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "410212399086305280"
+    password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308
+    tls: true
+  - name: 高速节点47
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "410212399086305280"
+    password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308
+    tls: true
+  - name: 高速节点48
+    server: global.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "410212399086305280"
+    password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308
+    tls: true
+  - name: 高速节点49
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点50
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点51
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点52
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点53
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点54
+    server: global.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点55
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点56
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点57
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点58
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点59
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点60
+    server: global.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点61
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点62
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点63
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点64
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点65
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点66
+    server: global.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点67
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点68
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点69
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点70
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点71
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点72
+    server: global.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点73
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点74
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点75
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点76
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点77
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点78
+    server: global.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点79
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点80
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点81
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点82
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点83
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点84
+    server: global.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+  - name: 高速节点85
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "410212399086305280"
+    password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308
+    tls: true
+  - name: 高速节点86
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "410212399086305280"
+    password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308
+    tls: true
+  - name: 高速节点87
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "410212399086305280"
+    password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308
+    tls: true
+  - name: 高速节点88
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "410212399086305280"
+    password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308
+    tls: true
+  - name: 高速节点89
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "410212399086305280"
+    password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308
+    tls: true
+  - name: 高速节点90
+    server: global.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "410212399086305280"
+    password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308
+    tls: true
+  - name: 高速节点91
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "374161162251534336"
+    password: d8beb02c-e2e0-4bc1-a607-22346cbc9b2f
+    tls: true
+  - name: 高速节点92
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "374161162251534336"
+    password: d8beb02c-e2e0-4bc1-a607-22346cbc9b2f
+    tls: true
+  - name: 高速节点93
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "374161162251534336"
+    password: d8beb02c-e2e0-4bc1-a607-22346cbc9b2f
+    tls: true
+  - name: 高速节点94
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "374161162251534336"
+    password: d8beb02c-e2e0-4bc1-a607-22346cbc9b2f
+    tls: true
+  - name: 高速节点95
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "374161162251534336"
+    password: d8beb02c-e2e0-4bc1-a607-22346cbc9b2f
+    tls: true
+  - name: 高速节点96
+    server: global.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "374161162251534336"
+    password: d8beb02c-e2e0-4bc1-a607-22346cbc9b2f
+    tls: true
+  - name: 日本高速节点1
+    server: ap1-jp.er3.xyz
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 日本高速节点2
+    server: ap1-jp.er3.xyz
+    port: 29982
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 日本高速节点3
+    server: ap1-jp.er3.xyz
+    port: 29983
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 日本高速节点4
+    server: ap1-jp.er3.xyz
+    port: 29984
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 日本高速节点5
+    server: ap1-jp.er3.xyz
+    port: 29985
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 日本高速节点6
+    server: ap1-jp.er3.xyz
+    port: 29986
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 日本高速节点7
+    type: http
+    server: ap1-jp.er3.xyz
+    port: "29987"
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡高速节点1
+    server: ap1-us.er3.xyz
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡高速节点2
+    server: ap1-us.er3.xyz
+    port: 29982
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡高速节点3
+    server: ap1-us.er3.xyz
+    port: 29983
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡高速节点4
+    server: ap1-us.er3.xyz
+    port: 29984
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡高速节点5
+    server: ap1-us.er3.xyz
+    port: 29985
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡高速节点6
+    server: ap1-us.er3.xyz
+    port: 29986
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 英国高速节点1
+    server: ap1-uk.er3.xyz
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 英国高速节点2
+    server: ap1-uk.er3.xyz
+    port: 29982
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 英国高速节点3
+    server: ap1-uk.er3.xyz
+    port: 29983
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 英国高速节点4
+    server: ap1-uk.er3.xyz
+    port: 29984
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 英国高速节点5
+    server: ap1-uk.er3.xyz
+    port: 29985
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 英国高速节点6
+    server: ap1-uk.er3.xyz
+    port: 29986
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 德国高速节点1
+    server: ap1-ge.er3.xyz
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 德国高速节点2
+    server: ap1-ge.er3.xyz
+    port: 29982
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 德国高速节点3
+    server: ap1-ge.er3.xyz
+    port: 29983
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 德国高速节点4
+    server: ap1-ge.er3.xyz
+    port: 29984
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 德国高速节点5
+    server: ap1-ge.er3.xyz
+    port: 29985
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 德国高速节点6
+    server: ap1-ge.er3.xyz
+    port: 29986
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大高速节点1
+    server: ap1-ca.er3.xyz
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大高速节点2
+    server: ap1-ca.er3.xyz
+    port: 29982
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大高速节点3
+    server: ap1-ca.er3.xyz
+    port: 29983
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大高速节点4
+    server: ap1-ca.er3.xyz
+    port: 29984
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大高速节点5
+    server: ap1-ca.er3.xyz
+    port: 29985
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大高速节点6
+    server: ap1-ca.er3.xyz
+    port: 29986
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚高速节点1
+    server: ap1-au.er3.xyz
+    port: 29980
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚高速节点2
+    server: ap1-au.er3.xyz
+    port: 29982
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚高速节点3
+    server: ap1-au.er3.xyz
+    port: 29983
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚高速节点4
+    server: ap1-au.er3.xyz
+    port: 29984
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚高速节点5
+    server: ap1-au.er3.xyz
+    port: 29985
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚高速节点6
+    server: ap1-au.er3.xyz
+    port: 29986
+    type: http
+    username: "414555270656557056"
+    password: d45d85cb-8129-4f5d-a085-c8549b3fd17e
+    tls: true
+    skip-cert-verify: true
+  - name: 香港高速1
+    server: 149.129.86.48
+    port: 45234
+    type: ss
+    cipher: aes-256-cfb
+    password: aliskrskr
+    tls: true
+  - name: 香港高速2
+    server: 8.210.51.154
+    port: 444
+    type: ss
+    cipher: aes-256-cfb
+    password: aliskrskr
+    tls: true
+  - name: 香港高速3
+    server: 8.210.51.128
+    port: 444
+    type: ss
+    cipher: aes-256-cfb
+    password: aliskrskr
+    tls: true
+  - name: 美国高速1
+    server: 104.243.25.185
+    port: 501
+    type: ss
+    cipher: aes-256-cfb
+    password: bwhskrskr03
+    tls: true
+  - name: 美国高速4
+    server: 172.96.194.53
+    port: 502
+    type: ss
+    cipher: aes-256-cfb
+    password: bwhskrskr03
+    tls: true
+  - name: 美国高速6
+    server: 172.96.204.48
+    port: 446
+    type: ss
+    cipher: aes-256-cfb
+    password: bwhskrskr03
+    tls: true
+  - name: 日本高速1
+    server: 13.209.9.233
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tls: true
+  - name: 日本高速2
+    server: 13.114.101.200
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tls: true
+  - name: 日本高速3
+    server: 34.221.172.178
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tls: true
+  - name: 美国高速2
+    server: 34.219.224.246
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tls: true
+  - name: 美国高速3
+    server: 3.34.40.248
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tls: true
+  - name: 美国高速5
+    server: 54.190.39.21
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tls: true
+  - name: 日本高速4
+    server: 3.34.133.135
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tls: true
+  - name: 日本高速5
+    server: 3.112.254.11
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tls: true
+  - name: 日本高速6
+    server: 3.35.131.211
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tls: true
+  - name: 美国极速1
+    type: http
+    server: ext-usa-lax1.stackpath.ws
+    port: "443"
+    tls: true
+    skip-cert-verify: false
+  - name: 美国极速2
+    type: http
+    server: ext-usa-lax2.stackpath.ws
+    port: "443"
+    tls: true
+    skip-cert-verify: false
+  - name: 美国极速3
+    type: http
+    server: ext-usa-lax3.stackpath.ws
+    port: "443"
+    tls: true
+    skip-cert-verify: false
+  - name: 美国极速4
+    type: http
+    server: ext-usa-lax4.stackpath.ws
+    port: "443"
+    tls: true
+    skip-cert-verify: false
+  - name: 美国极速5
+    type: http
+    server: ext-usa-lax5.stackpath.ws
+    port: "443"
+    tls: true
+    skip-cert-verify: false
+  - name: 香港极速1
+    type: http
+    server: ext-cn-hk1.stackpath.ws
+    port: "443"
+    tls: true
+    skip-cert-verify: false
+  - name: 日本极速1
+    type: http
+    server: ext-jp1-tokyo.stackpath.ws
+    port: "443"
+    tls: true
+    skip-cert-verify: false
+  - name: 日本极速2
+    type: http
+    server: ext-jp2-tokyo.stackpath.ws
+    port: "443"
+    tls: true
+    skip-cert-verify: false
+  - name: 印度极速1
+    type: http
+    server: ext-in.stackpath.ws
+    port: "443"
+    tls: true
+    skip-cert-verify: false
+  - name: 新加坡极速
+    type: http
+    server: ext-sg.stackpath.ws
+    port: "443"
+    tls: true
+    skip-cert-verify: false
+  - name: 澳大利亚极速
+    type: http
+    server: ext-au.stackpath.ws
+    port: "443"
+    tls: true
+    skip-cert-verify: false
+  - name: 德国极速
+    type: http
+    server: ext-de.stackpath.ws
+    port: "443"
+    tls: true
+    skip-cert-verify: false
+  - name: 英国极速
+    type: http
+    server: ext-uk.stackpath.ws
+    port: "443"
+    tls: true
+    skip-cert-verify: false
+  - name: 荷兰极速
+    type: http
+    server: ext-nl.stackpath.ws
+    port: "443"
+    tls: true
+    skip-cert-verify: false
