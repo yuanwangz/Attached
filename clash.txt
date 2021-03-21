@@ -94,7 +94,7 @@ proxies:
   - {name: 高速节点93, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 374161162251534336, password: d8beb02c-e2e0-4bc1-a607-22346cbc9b2f, tls: true}
   - {name: 高速节点94, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 374161162251534336, password: d8beb02c-e2e0-4bc1-a607-22346cbc9b2f, tls: true}
   - {name: 高速节点95, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 374161162251534336, password: d8beb02c-e2e0-4bc1-a607-22346cbc9b2f, tls: true}
-  - {name: 高速节点96, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 374161162251534336, password: d8beb02c-e2e0-4bc1-a607-22346cbc9b2f, tls: true
+  - {name: 高速节点96, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 374161162251534336, password: d8beb02c-e2e0-4bc1-a607-22346cbc9b2f, tls: true}
   - {name: 日本高速节点1, server: ap1-jp.er3.xyz, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: true}
   - {name: 日本高速节点2, server: ap1-jp.er3.xyz, port: 29982, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: true}
   - {name: 日本高速节点3, server: ap1-jp.er3.xyz, port: 29983, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: true}
