@@ -1,130 +1,258 @@
 proxies:
-  - {name: 103.56.62.158:11531, server: 103.56.62.158, port: 11531, type: ss, cipher: aes-256-gcm, password: 1vy3lLjWHTkn}
-  - {name: 103.56.62.46:19471, server: 103.56.62.46, port: 19471, type: ss, cipher: aes-256-gcm, password: AL48ZvNwnX0k}
-  - {name: 103.56.62.93:17430, server: 103.56.62.93, port: 17430, type: ss, cipher: aes-256-gcm, password: 1uV5rRxRA4Zp}
-  - {name: 119.147.144.250:18834, server: 119.147.144.250, port: 18834, type: ss, cipher: aes-256-gcm, password: daCxNwo600NW}
-  - {name: 141.98.118.174:12730, server: 141.98.118.174, port: 12730, type: ss, cipher: aes-256-gcm, password: LppJrnZyfXuS}
-  - {name: 15.236.41.90:15343, server: 15.236.41.90, port: 15343, type: ss, cipher: aes-256-gcm, password: lj7TNOmzzLlc}
-  - {name: 15.237.50.254:19756, server: 15.237.50.254, port: 19756, type: ss, cipher: aes-256-gcm, password: 8gr8UFz29xkv}
-  - {name: 151.236.216.123:9230, server: 151.236.216.123, port: 9230, type: ss, cipher: aes-256-gcm, password: VpiKrJlrpICs}
-  - {name: 172.104.248.164:13813, server: 172.104.248.164, port: 13813, type: ss, cipher: aes-256-gcm, password: kvwbEc4zC1KC}
-  - {name: 172.105.101.62:12329, server: 172.105.101.62, port: 12329, type: ss, cipher: aes-256-gcm, password: IP70X2y7iu9R}
-  - {name: 172.105.163.191:10915, server: 172.105.163.191, port: 10915, type: ss, cipher: aes-256-gcm, password: EvdHOfGg1hW5}
-  - {name: 172.105.173.120:13917, server: 172.105.173.120, port: 13917, type: ss, cipher: aes-256-gcm, password: OBAiP6TFDVZ5}
-  - {name: 172.105.244.18:17388, server: 172.105.244.18, port: 17388, type: ss, cipher: aes-256-gcm, password: TLF7ViETYR8C}
-  - {name: 172.105.99.241:9671, server: 172.105.99.241, port: 9671, type: ss, cipher: aes-256-gcm, password: pxKTR97EQKSW}
-  - {name: 173.255.209.163:9307, server: 173.255.209.163, port: 9307, type: ss, cipher: aes-256-gcm, password: FiobCeZoNfz1}
-  - {name: 18.136.195.240:10289, server: 18.136.195.240, port: 10289, type: ss, cipher: aes-256-gcm, password: plAC8oF2SpMh}
-  - {name: 18.139.225.119:14041, server: 18.139.225.119, port: 14041, type: ss, cipher: aes-256-gcm, password: 1kmD44i6Vq3r}
-  - {name: 185.160.24.199:14301, server: 185.160.24.199, port: 14301, type: ss, cipher: aes-256-gcm, password: WWtYTj7GzW9c}
-  - {name: 185.160.25.69:11462, server: 185.160.25.69, port: 11462, type: ss, cipher: aes-256-gcm, password: kBX9w3NH39So}
-  - {name: 185.172.114.77:11286, server: 185.172.114.77, port: 11286, type: ss, cipher: aes-256-gcm, password: aonz4mHWhmet}
-  - {name: 213.168.249.125:17316, server: 213.168.249.125, port: 17316, type: ss, cipher: aes-256-gcm, password: MmIBMxpKGx4f}
-  - {name: 23.239.2.128:14482, server: 23.239.2.128, port: 14482, type: ss, cipher: aes-256-gcm, password: b738FrNLXhB0}
-  - {name: 3.1.49.29:13252, server: 3.1.49.29, port: 13252, type: ss, cipher: aes-256-gcm, password: cPQHo2tyFK29}
-  - {name: 3.36.130.5:17194, server: 3.36.130.5, port: 17194, type: ss, cipher: aes-256-gcm, password: Gt29TROd1mpX}
-  - {name: 34.245.167.150:10420, server: 34.245.167.150, port: 10420, type: ss, cipher: aes-256-gcm, password: mIuwRA7fP2aD}
-  - {name: 42.157.160.123:15709, server: 42.157.160.123, port: 15709, type: ss, cipher: aes-256-gcm, password: cdYokmRjyEb1}
-  - {name: 45.129.3.91:12028, server: 45.129.3.91, port: 12028, type: ss, cipher: aes-256-gcm, password: 8FXQ8YavBIcb}
-  - {name: 45.33.90.69:16312, server: 45.33.90.69, port: 16312, type: ss, cipher: aes-256-gcm, password: zLpaOyU69D30}
-  - {name: 45.56.95.66:11852, server: 45.56.95.66, port: 11852, type: ss, cipher: aes-256-gcm, password: UavwwFOjfQvL}
-  - {name: 45.93.217.185:9657, server: 45.93.217.185, port: 9657, type: ss, cipher: aes-256-gcm, password: 4StvDXMGOxmi}
-  - {name: 5.188.3.95:13247, server: 5.188.3.95, port: 13247, type: ss, cipher: aes-256-gcm, password: I5YtUo2riBjx}
-  - {name: 50.116.58.237:17517, server: 50.116.58.237, port: 17517, type: ss, cipher: aes-256-gcm, password: 3DW4x1TW2T3g}
-  - {name: 54.169.194.2:15833, server: 54.169.194.2, port: 15833, type: ss, cipher: aes-256-gcm, password: eGpIWDdcCemZ}
-  - {name: 54.180.157.157:14829, server: 54.180.157.157, port: 14829, type: ss, cipher: aes-256-gcm, password: TY1ehyLGFZZh}
+  - {name: 高速节点1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 405367546741522432, password: abae5ebd-9abf-419e-b68b-a31e8f5096ac, tls: true, skip-cert-verify: false}
+  - {name: 高速节点2, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 405367546741522432, password: abae5ebd-9abf-419e-b68b-a31e8f5096ac, tls: true, skip-cert-verify: false}
+  - {name: 高速节点3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 405367546741522432, password: abae5ebd-9abf-419e-b68b-a31e8f5096ac, tls: true, skip-cert-verify: false}
+  - {name: 高速节点4, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 405367546741522432, password: abae5ebd-9abf-419e-b68b-a31e8f5096ac, tls: true, skip-cert-verify: false}
+  - {name: 高速节点5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 405367546741522432, password: abae5ebd-9abf-419e-b68b-a31e8f5096ac, tls: true, skip-cert-verify: false}
+  - {name: 高速节点6, server: ap1-ge.er3.xyz, port: 29980, type: http, username: 374973100795625472, password: 5d7040ae-0ae3-41a6-86d2-a7ee73176506, tls: true, skip-cert-verify: false}
+  - {name: 高速节点7, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 374973100795625472, password: 5d7040ae-0ae3-41a6-86d2-a7ee73176506, tls: true, skip-cert-verify: false}
+  - {name: 高速节点8, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 374973100795625472, password: 5d7040ae-0ae3-41a6-86d2-a7ee73176506, tls: true, skip-cert-verify: false}
+  - {name: 高速节点9, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 374973100795625472, password: 5d7040ae-0ae3-41a6-86d2-a7ee73176506, tls: true, skip-cert-verify: false}
+  - {name: 高速节点10, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 374973100795625472, password: 5d7040ae-0ae3-41a6-86d2-a7ee73176506, tls: true, skip-cert-verify: false}
+  - {name: 高速节点11, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 374973100795625472, password: 5d7040ae-0ae3-41a6-86d2-a7ee73176506, tls: true, skip-cert-verify: false}
+  - {name: 高速节点12, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 374973100795625472, password: 5d7040ae-0ae3-41a6-86d2-a7ee73176506, tls: true, skip-cert-verify: false}
+  - {name: 高速节点13, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点14, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点15, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点16, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点17, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点18, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点19, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 393177908073463808, password: e87991b8-2455-430d-bbbc-633a5bc2b935, tls: true, skip-cert-verify: false}
+  - {name: 高速节点20, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 393177908073463808, password: e87991b8-2455-430d-bbbc-633a5bc2b935, tls: true, skip-cert-verify: false}
+  - {name: 高速节点21, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 393177908073463808, password: e87991b8-2455-430d-bbbc-633a5bc2b935, tls: true, skip-cert-verify: false}
+  - {name: 高速节点22, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 393177908073463808, password: e87991b8-2455-430d-bbbc-633a5bc2b935, tls: true, skip-cert-verify: false}
+  - {name: 高速节点23, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 393177908073463808, password: e87991b8-2455-430d-bbbc-633a5bc2b935, tls: true, skip-cert-verify: false}
+  - {name: 高速节点24, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 393177908073463808, password: e87991b8-2455-430d-bbbc-633a5bc2b935, tls: true, skip-cert-verify: false}
+  - {name: 高速节点25, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 403654808050860032, password: ca583820-86f5-4096-a25b-b1ecd3c8cafc, tls: true, skip-cert-verify: false}
+  - {name: 高速节点26, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 403654808050860032, password: ca583820-86f5-4096-a25b-b1ecd3c8cafc, tls: true, skip-cert-verify: false}
+  - {name: 高速节点27, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 403654808050860032, password: ca583820-86f5-4096-a25b-b1ecd3c8cafc, tls: true, skip-cert-verify: false}
+  - {name: 高速节点28, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 403654808050860032, password: ca583820-86f5-4096-a25b-b1ecd3c8cafc, tls: true, skip-cert-verify: false}
+  - {name: 高速节点29, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 403654808050860032, password: ca583820-86f5-4096-a25b-b1ecd3c8cafc, tls: true, skip-cert-verify: false}
+  - {name: 高速节点30, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 403654808050860032, password: ca583820-86f5-4096-a25b-b1ecd3c8cafc, tls: true, skip-cert-verify: false}
+  - {name: 高速节点31, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 416925204208418816, password: 55842c8a-5251-4b54-a6ed-bbb7e917f9d9, tls: true, skip-cert-verify: false}
+  - {name: 高速节点32, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 416925204208418816, password: 55842c8a-5251-4b54-a6ed-bbb7e917f9d9, tls: true, skip-cert-verify: false}
+  - {name: 高速节点33, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 416925204208418816, password: 55842c8a-5251-4b54-a6ed-bbb7e917f9d9, tls: true, skip-cert-verify: false}
+  - {name: 高速节点34, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 416925204208418816, password: 55842c8a-5251-4b54-a6ed-bbb7e917f9d9, tls: true, skip-cert-verify: false}
+  - {name: 高速节点35, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 416925204208418816, password: 55842c8a-5251-4b54-a6ed-bbb7e917f9d9, tls: true, skip-cert-verify: false}
+  - {name: 高速节点36, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 416925204208418816, password: 55842c8a-5251-4b54-a6ed-bbb7e917f9d9, tls: true, skip-cert-verify: false}
+  - {name: 高速节点37, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 364126551953899520, password: eba2f73a-8ca3-4cdd-b9b5-91c3b538e56a, tls: true, skip-cert-verify: false}
+  - {name: 高速节点38, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 364126551953899520, password: eba2f73a-8ca3-4cdd-b9b5-91c3b538e56a, tls: true, skip-cert-verify: false}
+  - {name: 高速节点39, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 364126551953899520, password: eba2f73a-8ca3-4cdd-b9b5-91c3b538e56a, tls: true, skip-cert-verify: false}
+  - {name: 高速节点40, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 364126551953899520, password: eba2f73a-8ca3-4cdd-b9b5-91c3b538e56a, tls: true, skip-cert-verify: false}
+  - {name: 高速节点41, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 364126551953899520, password: eba2f73a-8ca3-4cdd-b9b5-91c3b538e56a, tls: true, skip-cert-verify: false}
+  - {name: 高速节点42, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 364126551953899520, password: eba2f73a-8ca3-4cdd-b9b5-91c3b538e56a, tls: true, skip-cert-verify: false}
+  - {name: 高速节点43, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 410212399086305280, password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308, tls: true, skip-cert-verify: false}
+  - {name: 高速节点44, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 410212399086305280, password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308, tls: true, skip-cert-verify: false}
+  - {name: 高速节点45, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 410212399086305280, password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308, tls: true, skip-cert-verify: false}
+  - {name: 高速节点46, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 410212399086305280, password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308, tls: true, skip-cert-verify: false}
+  - {name: 高速节点47, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 410212399086305280, password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308, tls: true, skip-cert-verify: false}
+  - {name: 高速节点48, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 410212399086305280, password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308, tls: true, skip-cert-verify: false}
+  - {name: 高速节点49, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点50, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点51, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点52, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点53, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点54, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点55, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点56, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点57, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点58, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点59, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点60, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点61, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点62, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点63, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点64, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点65, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点66, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点67, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点68, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点69, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点70, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点71, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点72, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点73, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点74, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点75, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点76, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点77, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点78, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点79, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点80, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点81, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点82, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点83, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点84, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 高速节点85, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 410212399086305280, password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308, tls: true, skip-cert-verify: false}
+  - {name: 高速节点86, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 410212399086305280, password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308, tls: true, skip-cert-verify: false}
+  - {name: 高速节点87, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 410212399086305280, password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308, tls: true, skip-cert-verify: false}
+  - {name: 高速节点88, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 410212399086305280, password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308, tls: true, skip-cert-verify: false}
+  - {name: 高速节点89, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 410212399086305280, password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308, tls: true, skip-cert-verify: false}
+  - {name: 高速节点90, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 410212399086305280, password: 4d2f9e44-594a-4a76-9e01-37b2f3edc308, tls: true, skip-cert-verify: false}
+  - {name: 高速节点91, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 374161162251534336, password: d8beb02c-e2e0-4bc1-a607-22346cbc9b2f, tls: true, skip-cert-verify: false}
+  - {name: 高速节点92, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 374161162251534336, password: d8beb02c-e2e0-4bc1-a607-22346cbc9b2f, tls: true, skip-cert-verify: false}
+  - {name: 高速节点93, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 374161162251534336, password: d8beb02c-e2e0-4bc1-a607-22346cbc9b2f, tls: true, skip-cert-verify: false}
+  - {name: 高速节点94, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 374161162251534336, password: d8beb02c-e2e0-4bc1-a607-22346cbc9b2f, tls: true, skip-cert-verify: false}
+  - {name: 高速节点95, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 374161162251534336, password: d8beb02c-e2e0-4bc1-a607-22346cbc9b2f, tls: true, skip-cert-verify: false}
+  - {name: 高速节点96, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 374161162251534336, password: d8beb02c-e2e0-4bc1-a607-22346cbc9b2f, tls: true, skip-cert-verify: false}
+  - {name: 日本高速节点1, server: ap1-jp.er3.xyz, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 日本高速节点2, server: ap1-jp.er3.xyz, port: 29982, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 日本高速节点3, server: ap1-jp.er3.xyz, port: 29983, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 日本高速节点4, server: ap1-jp.er3.xyz, port: 29984, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 日本高速节点5, server: ap1-jp.er3.xyz, port: 29985, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 日本高速节点6, server: ap1-jp.er3.xyz, port: 29986, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 日本高速节点7, server: ap1-jp.er3.xyz, port: 29987, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 新加坡高速节点1, server: ap1-us.er3.xyz, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 新加坡高速节点2, server: ap1-us.er3.xyz, port: 29982, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 新加坡高速节点3, server: ap1-us.er3.xyz, port: 29983, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 新加坡高速节点4, server: ap1-us.er3.xyz, port: 29984, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 新加坡高速节点5, server: ap1-us.er3.xyz, port: 29985, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 新加坡高速节点6, server: ap1-us.er3.xyz, port: 29986, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 英国高速节点1, server: ap1-uk.er3.xyz, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 英国高速节点2, server: ap1-uk.er3.xyz, port: 29982, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 英国高速节点3, server: ap1-uk.er3.xyz, port: 29983, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 英国高速节点4, server: ap1-uk.er3.xyz, port: 29984, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 英国高速节点5, server: ap1-uk.er3.xyz, port: 29985, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 英国高速节点6, server: ap1-uk.er3.xyz, port: 29986, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 德国高速节点1, server: ap1-ge.er3.xyz, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 德国高速节点2, server: ap1-ge.er3.xyz, port: 29982, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 德国高速节点3, server: ap1-ge.er3.xyz, port: 29983, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 德国高速节点4, server: ap1-ge.er3.xyz, port: 29984, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 德国高速节点5, server: ap1-ge.er3.xyz, port: 29985, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 德国高速节点6, server: ap1-ge.er3.xyz, port: 29986, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 加拿大高速节点1, server: ap1-ca.er3.xyz, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 加拿大高速节点2, server: ap1-ca.er3.xyz, port: 29982, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 加拿大高速节点3, server: ap1-ca.er3.xyz, port: 29983, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 加拿大高速节点4, server: ap1-ca.er3.xyz, port: 29984, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 加拿大高速节点5, server: ap1-ca.er3.xyz, port: 29985, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 加拿大高速节点6, server: ap1-ca.er3.xyz, port: 29986, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 澳大利亚高速节点1, server: ap1-au.er3.xyz, port: 29980, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 澳大利亚高速节点2, server: ap1-au.er3.xyz, port: 29982, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 澳大利亚高速节点3, server: ap1-au.er3.xyz, port: 29983, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 澳大利亚高速节点4, server: ap1-au.er3.xyz, port: 29984, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 澳大利亚高速节点5, server: ap1-au.er3.xyz, port: 29985, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 澳大利亚高速节点6, server: ap1-au.er3.xyz, port: 29986, type: http, username: 414555270656557056, password: d45d85cb-8129-4f5d-a085-c8549b3fd17e, tls: true, skip-cert-verify: false}
+  - {name: 香港高速1, server: 149.129.86.48, port: 45234, type: ss, cipher: aes-256-cfb, password: aliskrskr}
+  - {name: 香港高速2, server: 8.210.51.154, port: 444, type: ss, cipher: aes-256-cfb, password: aliskrskr}
+  - {name: 香港高速3, server: 8.210.51.128, port: 444, type: ss, cipher: aes-256-cfb, password: aliskrskr}
+  - {name: 美国高速1, server: 104.243.25.185, port: 501, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: 美国高速4, server: 172.96.194.53, port: 502, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: 美国高速6, server: 172.96.204.48, port: 446, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: 日本高速1, server: 13.209.9.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本高速2, server: 13.114.101.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本高速3, server: 34.221.172.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 美国高速2, server: 34.219.224.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 美国高速3, server: 3.34.40.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 美国高速5, server: 54.190.39.21, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本高速4, server: 3.34.133.135, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本高速5, server: 3.112.254.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本高速6, server: 3.35.131.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 美国极速1, server: ext-usa-lax1.stackpath.ws, port: 443, type: http, tls: true, skip-cert-verify: false}
+  - {name: 美国极速2, server: ext-usa-lax2.stackpath.ws, port: 443, type: http, tls: true, skip-cert-verify: false}
+  - {name: 美国极速3, server: ext-usa-lax3.stackpath.ws, port: 443, type: http, tls: true, skip-cert-verify: false}
+  - {name: 美国极速4, server: ext-usa-lax4.stackpath.ws, port: 443, type: http, tls: true, skip-cert-verify: false}
+  - {name: 美国极速5, server: ext-usa-lax5.stackpath.ws, port: 443, type: http, tls: true, skip-cert-verify: false}
+  - {name: 香港极速1, server: ext-cn-hk1.stackpath.ws, port: 443, type: http, tls: true, skip-cert-verify: false}
+  - {name: 日本极速1, server: ext-jp1-tokyo.stackpath.ws, port: 443, type: http, tls: true, skip-cert-verify: false}
+  - {name: 日本极速2, server: ext-jp2-tokyo.stackpath.ws, port: 443, type: http, tls: true, skip-cert-verify: false}
+  - {name: 印度极速1, server: ext-in.stackpath.ws, port: 443, type: http, tls: true, skip-cert-verify: false}
+  - {name: 新加坡极速, server: ext-sg.stackpath.ws, port: 443, type: http, tls: true, skip-cert-verify: false}
+  - {name: 澳大利亚极速, server: ext-au.stackpath.ws, port: 443, type: http, tls: true, skip-cert-verify: false}
+  - {name: 德国极速, server: ext-de.stackpath.ws, port: 443, type: http, tls: true, skip-cert-verify: false}
+  - {name: 英国极速, server: ext-uk.stackpath.ws, port: 443, type: http, tls: true, skip-cert-verify: false}
+  - {name: 荷兰极速, server: ext-nl.stackpath.ws, port: 443, type: http, tls: true, skip-cert-verify: false}
+  - {name: 香港BGP 线路 6 - NETFLIX, server: bgp3.gemgems.net, port: 11391, type: ss, cipher: aes-256-gcm, password: KBpK7OGoFyCu}
+  - {name: 香港BGP 线路 3 - NETFLIX, server: bgp3.gemgems.net, port: 13020, type: ss, cipher: aes-256-gcm, password: J9IfUMxRHSCX}
+  - {name: 香港BGP 线路 4 - NETFLIX, server: bgp3.gemgems.net, port: 13283, type: ss, cipher: aes-256-gcm, password: Ot1XvufPXGjd}
+  - {name: bgp2.gemgems.net:15202, server: bgp2.gemgems.net, port: 15202, type: ss, cipher: aes-256-gcm, password: h5B3sCrTFjD9}
+  - {name: bgp2.gemgems.net:18513, server: bgp2.gemgems.net, port: 18513, type: ss, cipher: aes-256-gcm, password: ipZAmyss2mPB}
+  - {name: bgp2.gemgems.net:9300, server: bgp2.gemgems.net, port: 9300, type: ss, cipher: aes-256-gcm, password: 3wf6HllIYs0d}
+  - {name: bgp2.gemgems.net:9123, server: bgp2.gemgems.net, port: 9123, type: ss, cipher: aes-256-gcm, password: ei0UmSE2sO76}
   - {name: bgp1.gemgems.net:15202, server: bgp1.gemgems.net, port: 15202, type: ss, cipher: aes-256-gcm, password: h5B3sCrTFjD9}
   - {name: bgp1.gemgems.net:18513, server: bgp1.gemgems.net, port: 18513, type: ss, cipher: aes-256-gcm, password: ipZAmyss2mPB}
-  - {name: bgp1.gemgems.net:9123, server: bgp1.gemgems.net, port: 9123, type: ss, cipher: aes-256-gcm, password: ei0UmSE2sO76}
   - {name: bgp1.gemgems.net:9300, server: bgp1.gemgems.net, port: 9300, type: ss, cipher: aes-256-gcm, password: 3wf6HllIYs0d}
-  - {name: bgp2.gemgems.net:11852, server: bgp2.gemgems.net, port: 11852, type: ss, cipher: aes-256-gcm, password: UavwwFOjfQvL}
-  - {name: bgp2.gemgems.net:13813, server: bgp2.gemgems.net, port: 13813, type: ss, cipher: aes-256-gcm, password: kvwbEc4zC1KC}
-  - {name: bgp2.gemgems.net:14482, server: bgp2.gemgems.net, port: 14482, type: ss, cipher: aes-256-gcm, password: b738FrNLXhB0}
-  - {name: bgp2.gemgems.net:15202, server: bgp2.gemgems.net, port: 15202, type: ss, cipher: aes-256-gcm, password: h5B3sCrTFjD9}
-  - {name: bgp2.gemgems.net:17388, server: bgp2.gemgems.net, port: 17388, type: ss, cipher: aes-256-gcm, password: TLF7ViETYR8C}
-  - {name: bgp2.gemgems.net:18513, server: bgp2.gemgems.net, port: 18513, type: ss, cipher: aes-256-gcm, password: ipZAmyss2mPB}
-  - {name: bgp2.gemgems.net:9123, server: bgp2.gemgems.net, port: 9123, type: ss, cipher: aes-256-gcm, password: ei0UmSE2sO76}
-  - {name: bgp2.gemgems.net:9300, server: bgp2.gemgems.net, port: 9300, type: ss, cipher: aes-256-gcm, password: 3wf6HllIYs0d}
-  - {name: bgp2.gemgems.net:9307, server: bgp2.gemgems.net, port: 9307, type: ss, cipher: aes-256-gcm, password: FiobCeZoNfz1}
-  - {name: bgp3.gemgems.net:11286, server: bgp3.gemgems.net, port: 11286, type: ss, cipher: aes-256-gcm, password: aonz4mHWhmet}
-  - {name: bgp3.gemgems.net:11462, server: bgp3.gemgems.net, port: 11462, type: ss, cipher: aes-256-gcm, password: kBX9w3NH39So}
-  - {name: bgp3.gemgems.net:14301, server: bgp3.gemgems.net, port: 14301, type: ss, cipher: aes-256-gcm, password: WWtYTj7GzW9c}
-  - {name: bgp3.gemgems.net:18477, server: bgp3.gemgems.net, port: 18477, type: ss, cipher: aes-256-gcm, password: oS7ztgjRuQO1}
-  - {name: bgp3.gemgems.net:9657, server: bgp3.gemgems.net, port: 9657, type: ss, cipher: aes-256-gcm, password: 4StvDXMGOxmi}
-  - {name: bgp4.gemgems.net:10289, server: bgp4.gemgems.net, port: 10289, type: ss, cipher: aes-256-gcm, password: plAC8oF2SpMh}
-  - {name: bgp4.gemgems.net:10760, server: bgp4.gemgems.net, port: 10760, type: ss, cipher: aes-256-gcm, password: kmaWmvE8fWdP}
-  - {name: bgp4.gemgems.net:12431, server: bgp4.gemgems.net, port: 12431, type: ss, cipher: aes-256-gcm, password: RIjuZSqiiXP4}
-  - {name: bgp4.gemgems.net:13252, server: bgp4.gemgems.net, port: 13252, type: ss, cipher: aes-256-gcm, password: cPQHo2tyFK29}
-  - {name: bgp4.gemgems.net:14041, server: bgp4.gemgems.net, port: 14041, type: ss, cipher: aes-256-gcm, password: 1kmD44i6Vq3r}
-  - {name: bgp4.gemgems.net:14829, server: bgp4.gemgems.net, port: 14829, type: ss, cipher: aes-256-gcm, password: TY1ehyLGFZZh}
-  - {name: bgp4.gemgems.net:15833, server: bgp4.gemgems.net, port: 15833, type: ss, cipher: aes-256-gcm, password: eGpIWDdcCemZ}
-  - {name: bgp4.gemgems.net:17194, server: bgp4.gemgems.net, port: 17194, type: ss, cipher: aes-256-gcm, password: Gt29TROd1mpX}
-  - {name: c1s1.jamjams.net:30181, server: c1s1.jamjams.net, port: 30181, type: ss, cipher: aes-256-gcm, password: Zh2NBJm5hW}
-  - {name: c1s2.jamjams.net:30181, server: c1s2.jamjams.net, port: 30181, type: ss, cipher: aes-256-gcm, password: Zh2NBJm5hW}
-  - {name: c32s1.jamjams.net:63866, server: c32s1.jamjams.net, port: 63866, type: ss, cipher: aes-256-gcm, password: uC6k6fSJQS}
-  - {name: c32s2.jamjams.net:63866, server: c32s2.jamjams.net, port: 63866, type: ss, cipher: aes-256-gcm, password: uC6k6fSJQS}
-  - {name: 澳大利亚悉尼线路 1, server: 91.220.202.189, port: 9132, type: ss, cipher: aes-256-gcm, password: 4CLkZErgCiF7}
-  - {name: 澳大利亚悉尼线路 2, server: 172.105.189.26, port: 10915, type: ss, cipher: aes-256-gcm, password: EvdHOfGg1hW5}
-  - {name: 加拿大多伦多线路 1, server: hinet3.gemgems.net, port: 10760, type: ss, cipher: aes-256-gcm, password: kmaWmvE8fWdP}
-  - {name: 加拿大多伦多线路 2, server: 172.105.111.70, port: 12329, type: ss, cipher: aes-256-gcm, password: IP70X2y7iu9R}
-  - {name: 加拿大多伦多线路 3, server: 192.53.123.171, port: 9671, type: ss, cipher: aes-256-gcm, password: pxKTR97EQKSW}
-  - {name: hinet1.gemgems.net:18477, server: hinet1.gemgems.net, port: 18477, type: ss, cipher: aes-256-gcm, password: oS7ztgjRuQO1}
-  - {name: hinet2.gemgems.net:12431, server: hinet2.gemgems.net, port: 12431, type: ss, cipher: aes-256-gcm, password: RIjuZSqiiXP4}
-  - {name: hinet3.gemgems.net:10760, server: hinet3.gemgems.net, port: 10760, type: ss, cipher: aes-256-gcm, password: kmaWmvE8fWdP}
-  - {name: 台湾台北BGP 线路 1 - NETFLIX, server: 141.98.118.173, port: 12730, type: ss, cipher: aes-256-gcm, password: LppJrnZyfXuS}
-  - {name: 台湾台北BGP 线路 2 - NETFLIX, server: bgp2.gemgems.net, port: 18477, type: ss, cipher: aes-256-gcm, password: oS7ztgjRuQO1}
-  - {name: 台湾台北BGP 线路 3 - NETFLIX, server: 120.232.181.222, port: 12431, type: ss, cipher: aes-256-gcm, password: RIjuZSqiiXP4}
-  - {name: 台湾台北线路 1 - NETFLIX, server: 120.232.181.222, port: 10760, type: ss, cipher: aes-256-gcm, password: kmaWmvE8fWdP}
-  - {name: 台湾台北线路 2 - NETFLIX, server: hinet1.gemgems.net, port: 18477, type: ss, cipher: aes-256-gcm, password: oS7ztgjRuQO1}
-  - {name: 台湾台北线路 3 - NETFLIX, server: hinet2.gemgems.net, port: 12431, type: ss, cipher: aes-256-gcm, password: RIjuZSqiiXP4}
-  - {name: 回国线路上海, server: 122.192.87.134, port: 13043, type: ss, cipher: aes-256-gcm, password: N1O2FCcERq5a}
-  - {name: 回国线路广州, server: 120.232.193.100, port: 10739, type: ss, cipher: aes-256-gcm, password: ERVIY2EDZNZT}
-  - {name: 回国线路江苏, server: 122.192.87.142, port: 15401, type: ss, cipher: aes-256-gcm, password: sbJe04yx0FlG}
-  - {name: 德国CN2 GIA 线路 1 - NETFLIX, server: 217.197.160.139, port: 19753, type: ss, cipher: aes-256-gcm, password: xCDPVAIreHQ3}
-  - {name: 德国CN2 GIA 线路 2 - NETFLIX, server: 45.137.217.185, port: 13810, type: ss, cipher: aes-256-gcm, password: j3CfjqHdmDbv}
-  - {name: 德国法兰克福线路 1, server: 45.137.217.116, port: 10357, type: ss, cipher: aes-256-gcm, password: ZoXaSQjq10Rr}
-  - {name: 德国法兰克福线路 2, server: 35.158.205.169, port: 15211, type: ss, cipher: aes-256-gcm, password: npVODD8aLdMv}
-  - {name: 法国巴黎线路 1, server: 45.79.236.60, port: 13917, type: ss, cipher: aes-256-gcm, password: OBAiP6TFDVZ5}
-  - {name: 法国巴黎线路 2, server: 15.188.145.45, port: 13115, type: ss, cipher: aes-256-gcm, password: VEyu3OSO3rWC}
-  - {name: 英国伦敦线路 1, server: 54.195.30.33, port: 16774, type: ss, cipher: aes-256-gcm, password: YNs5gdm8Wt3c}
-  - {name: 英国伦敦线路 2, server: 151.236.221.105, port: 9230, type: ss, cipher: aes-256-gcm, password: VpiKrJlrpICs}
+  - {name: bgp1.gemgems.net:9123, server: bgp1.gemgems.net, port: 9123, type: ss, cipher: aes-256-gcm, password: ei0UmSE2sO76}
+  - {name: 119.147.144.250:18834, server: 119.147.144.250, port: 18834, type: ss, cipher: aes-256-gcm, password: daCxNwo600NW}
   - {name: hkt1.gemgems.net:15202, server: hkt1.gemgems.net, port: 15202, type: ss, cipher: aes-256-gcm, password: h5B3sCrTFjD9}
   - {name: hkt2.gemgems.net:18513, server: hkt2.gemgems.net, port: 18513, type: ss, cipher: aes-256-gcm, password: ipZAmyss2mPB}
   - {name: hkt3.gemgems.net:9300, server: hkt3.gemgems.net, port: 9300, type: ss, cipher: aes-256-gcm, password: 3wf6HllIYs0d}
   - {name: hkt4.gemgems.net:9123, server: hkt4.gemgems.net, port: 9123, type: ss, cipher: aes-256-gcm, password: ei0UmSE2sO76}
-  - {name: 香港BGP 线路 2 - NETFLIX, server: bgp1.gemgems.net, port: 11391, type: ss, cipher: aes-256-gcm, password: KBpK7OGoFyCu}
-  - {name: 香港BGP 线路 2 - NETFLIX 2, server: hkt1.gemgems.net, port: 11391, type: ss, cipher: aes-256-gcm, password: KBpK7OGoFyCu}
-  - {name: 香港BGP 线路 3 - NETFLIX, server: bgp1.gemgems.net, port: 13020, type: ss, cipher: aes-256-gcm, password: J9IfUMxRHSCX}
-  - {name: 香港BGP 线路 3 - NETFLIX 2, server: bgp3.gemgems.net, port: 13020, type: ss, cipher: aes-256-gcm, password: J9IfUMxRHSCX}
-  - {name: 香港BGP 线路 3 - NETFLIX 3, server: hkt2.gemgems.net, port: 13020, type: ss, cipher: aes-256-gcm, password: J9IfUMxRHSCX}
-  - {name: 香港BGP 线路 4 - NETFLIX, server: bgp3.gemgems.net, port: 13283, type: ss, cipher: aes-256-gcm, password: Ot1XvufPXGjd}
-  - {name: 香港BGP 线路 4 - NETFLIX 2, server: hkt3.gemgems.net, port: 13283, type: ss, cipher: aes-256-gcm, password: Ot1XvufPXGjd}
-  - {name: 香港BGP 线路 4 - NETFLIX 3, server: bgp1.gemgems.net, port: 13283, type: ss, cipher: aes-256-gcm, password: Ot1XvufPXGjd}
+  - {name: bgp4.gemgems.net:14829, server: bgp4.gemgems.net, port: 14829, type: ss, cipher: aes-256-gcm, password: TY1ehyLGFZZh}
+  - {name: bgp4.gemgems.net:17194, server: bgp4.gemgems.net, port: 17194, type: ss, cipher: aes-256-gcm, password: Gt29TROd1mpX}
+  - {name: 54.180.157.157:14829, server: 54.180.157.157, port: 14829, type: ss, cipher: aes-256-gcm, password: TY1ehyLGFZZh}
+  - {name: 3.36.130.5:17194, server: 3.36.130.5, port: 17194, type: ss, cipher: aes-256-gcm, password: Gt29TROd1mpX}
+  - {name: 34.245.167.150:10420, server: 34.245.167.150, port: 10420, type: ss, cipher: aes-256-gcm, password: mIuwRA7fP2aD}
+  - {name: 151.236.216.123:9230, server: 151.236.216.123, port: 9230, type: ss, cipher: aes-256-gcm, password: VpiKrJlrpICs}
+  - {name: 213.168.249.125:17316, server: 213.168.249.125, port: 17316, type: ss, cipher: aes-256-gcm, password: MmIBMxpKGx4f}
+  - {name: 50.116.58.237:17517, server: 50.116.58.237, port: 17517, type: ss, cipher: aes-256-gcm, password: 3DW4x1TW2T3g}
+  - {name: 45.33.90.69:16312, server: 45.33.90.69, port: 16312, type: ss, cipher: aes-256-gcm, password: zLpaOyU69D30}
+  - {name: bgp2.gemgems.net:9307, server: bgp2.gemgems.net, port: 9307, type: ss, cipher: aes-256-gcm, password: FiobCeZoNfz1}
+  - {name: bgp2.gemgems.net:14482, server: bgp2.gemgems.net, port: 14482, type: ss, cipher: aes-256-gcm, password: b738FrNLXhB0}
+  - {name: bgp2.gemgems.net:11852, server: bgp2.gemgems.net, port: 11852, type: ss, cipher: aes-256-gcm, password: UavwwFOjfQvL}
+  - {name: c32s1.jamjams.net:63866, server: c32s1.jamjams.net, port: 63866, type: ss, cipher: aes-256-gcm, password: uC6k6fSJQS}
+  - {name: c32s2.jamjams.net:63866, server: c32s2.jamjams.net, port: 63866, type: ss, cipher: aes-256-gcm, password: uC6k6fSJQS}
+  - {name: c1s1.jamjams.net:30181, server: c1s1.jamjams.net, port: 30181, type: ss, cipher: aes-256-gcm, password: Zh2NBJm5hW}
+  - {name: c1s2.jamjams.net:30181, server: c1s2.jamjams.net, port: 30181, type: ss, cipher: aes-256-gcm, password: Zh2NBJm5hW}
+  - {name: 173.255.209.163:9307, server: 173.255.209.163, port: 9307, type: ss, cipher: aes-256-gcm, password: FiobCeZoNfz1}
+  - {name: 23.239.2.128:14482, server: 23.239.2.128, port: 14482, type: ss, cipher: aes-256-gcm, password: b738FrNLXhB0}
+  - {name: 45.56.95.66:11852, server: 45.56.95.66, port: 11852, type: ss, cipher: aes-256-gcm, password: UavwwFOjfQvL}
+  - {name: 172.105.163.191:10915, server: 172.105.163.191, port: 10915, type: ss, cipher: aes-256-gcm, password: EvdHOfGg1hW5}
+  - {name: 172.105.173.120:13917, server: 172.105.173.120, port: 13917, type: ss, cipher: aes-256-gcm, password: OBAiP6TFDVZ5}
+  - {name: 15.236.41.90:15343, server: 15.236.41.90, port: 15343, type: ss, cipher: aes-256-gcm, password: lj7TNOmzzLlc}
+  - {name: 15.237.50.254:19756, server: 15.237.50.254, port: 19756, type: ss, cipher: aes-256-gcm, password: 8gr8UFz29xkv}
+  - {name: bgp3.gemgems.net:11462, server: bgp3.gemgems.net, port: 11462, type: ss, cipher: aes-256-gcm, password: kBX9w3NH39So}
+  - {name: bgp3.gemgems.net:9657, server: bgp3.gemgems.net, port: 9657, type: ss, cipher: aes-256-gcm, password: 4StvDXMGOxmi}
+  - {name: bgp3.gemgems.net:11286, server: bgp3.gemgems.net, port: 11286, type: ss, cipher: aes-256-gcm, password: aonz4mHWhmet}
+  - {name: bgp3.gemgems.net:14301, server: bgp3.gemgems.net, port: 14301, type: ss, cipher: aes-256-gcm, password: WWtYTj7GzW9c}
+  - {name: 42.157.160.123:15709, server: 42.157.160.123, port: 15709, type: ss, cipher: aes-256-gcm, password: cdYokmRjyEb1}
+  - {name: 185.160.25.69:11462, server: 185.160.25.69, port: 11462, type: ss, cipher: aes-256-gcm, password: kBX9w3NH39So}
+  - {name: 45.93.217.185:9657, server: 45.93.217.185, port: 9657, type: ss, cipher: aes-256-gcm, password: 4StvDXMGOxmi}
+  - {name: 185.172.114.77:11286, server: 185.172.114.77, port: 11286, type: ss, cipher: aes-256-gcm, password: aonz4mHWhmet}
+  - {name: 185.160.24.199:14301, server: 185.160.24.199, port: 14301, type: ss, cipher: aes-256-gcm, password: WWtYTj7GzW9c}
+  - {name: bgp4.gemgems.net:13252, server: bgp4.gemgems.net, port: 13252, type: ss, cipher: aes-256-gcm, password: cPQHo2tyFK29}
+  - {name: bgp4.gemgems.net:14041, server: bgp4.gemgems.net, port: 14041, type: ss, cipher: aes-256-gcm, password: 1kmD44i6Vq3r}
+  - {name: bgp4.gemgems.net:10289, server: bgp4.gemgems.net, port: 10289, type: ss, cipher: aes-256-gcm, password: plAC8oF2SpMh}
+  - {name: bgp4.gemgems.net:15833, server: bgp4.gemgems.net, port: 15833, type: ss, cipher: aes-256-gcm, password: eGpIWDdcCemZ}
+  - {name: 3.1.49.29:13252, server: 3.1.49.29, port: 13252, type: ss, cipher: aes-256-gcm, password: cPQHo2tyFK29}
+  - {name: 18.139.225.119:14041, server: 18.139.225.119, port: 14041, type: ss, cipher: aes-256-gcm, password: 1kmD44i6Vq3r}
+  - {name: 18.136.195.240:10289, server: 18.136.195.240, port: 10289, type: ss, cipher: aes-256-gcm, password: plAC8oF2SpMh}
+  - {name: 54.169.194.2:15833, server: 54.169.194.2, port: 15833, type: ss, cipher: aes-256-gcm, password: eGpIWDdcCemZ}
+  - {name: bgp2.gemgems.net:13813, server: bgp2.gemgems.net, port: 13813, type: ss, cipher: aes-256-gcm, password: kvwbEc4zC1KC}
+  - {name: bgp2.gemgems.net:17388, server: bgp2.gemgems.net, port: 17388, type: ss, cipher: aes-256-gcm, password: TLF7ViETYR8C}
+  - {name: 172.104.248.164:13813, server: 172.104.248.164, port: 13813, type: ss, cipher: aes-256-gcm, password: kvwbEc4zC1KC}
+  - {name: 172.105.244.18:17388, server: 172.105.244.18, port: 17388, type: ss, cipher: aes-256-gcm, password: TLF7ViETYR8C}
+  - {name: 141.98.118.174:12730, server: 141.98.118.174, port: 12730, type: ss, cipher: aes-256-gcm, password: LppJrnZyfXuS}
+  - {name: bgp3.gemgems.net:18477, server: bgp3.gemgems.net, port: 18477, type: ss, cipher: aes-256-gcm, password: oS7ztgjRuQO1}
+  - {name: bgp4.gemgems.net:12431, server: bgp4.gemgems.net, port: 12431, type: ss, cipher: aes-256-gcm, password: RIjuZSqiiXP4}
+  - {name: bgp4.gemgems.net:10760, server: bgp4.gemgems.net, port: 10760, type: ss, cipher: aes-256-gcm, password: kmaWmvE8fWdP}
+  - {name: hinet1.gemgems.net:18477, server: hinet1.gemgems.net, port: 18477, type: ss, cipher: aes-256-gcm, password: oS7ztgjRuQO1}
+  - {name: hinet2.gemgems.net:12431, server: hinet2.gemgems.net, port: 12431, type: ss, cipher: aes-256-gcm, password: RIjuZSqiiXP4}
+  - {name: hinet3.gemgems.net:10760, server: hinet3.gemgems.net, port: 10760, type: ss, cipher: aes-256-gcm, password: kmaWmvE8fWdP}
+  - {name: 172.105.101.62:12329, server: 172.105.101.62, port: 12329, type: ss, cipher: aes-256-gcm, password: IP70X2y7iu9R}
+  - {name: 172.105.99.241:9671, server: 172.105.99.241, port: 9671, type: ss, cipher: aes-256-gcm, password: pxKTR97EQKSW}
+  - {name: 45.129.3.91:12028, server: 45.129.3.91, port: 12028, type: ss, cipher: aes-256-gcm, password: 8FXQ8YavBIcb}
+  - {name: 5.188.3.95:13247, server: 5.188.3.95, port: 13247, type: ss, cipher: aes-256-gcm, password: I5YtUo2riBjx}
+  - {name: 103.56.62.46:19471, server: 103.56.62.46, port: 19471, type: ss, cipher: aes-256-gcm, password: AL48ZvNwnX0k}
+  - {name: 103.56.62.158:11531, server: 103.56.62.158, port: 11531, type: ss, cipher: aes-256-gcm, password: 1vy3lLjWHTkn}
+  - {name: 103.56.62.93:17430, server: 103.56.62.93, port: 17430, type: ss, cipher: aes-256-gcm, password: 1uV5rRxRA4Zp}
   - {name: 香港BGP 线路 5 - NETFLIX, server: bgp3.gemgems.net, port: 18206, type: ss, cipher: aes-256-gcm, password: PKrvc3ilQA5q}
-  - {name: 香港BGP 线路 5 - NETFLIX 2, server: hkt4.gemgems.net, port: 18206, type: ss, cipher: aes-256-gcm, password: PKrvc3ilQA5q}
-  - {name: 香港BGP 线路 5 - NETFLIX 3, server: bgp1.gemgems.net, port: 18206, type: ss, cipher: aes-256-gcm, password: PKrvc3ilQA5q}
-  - {name: 香港BGP 线路 6 - NETFLIX, server: bgp3.gemgems.net, port: 11391, type: ss, cipher: aes-256-gcm, password: KBpK7OGoFyCu}
+  - {name: 香港BGP 线路 2 - NETFLIX, server: bgp1.gemgems.net, port: 11391, type: ss, cipher: aes-256-gcm, password: KBpK7OGoFyCu}
+  - {name: 香港BGP 线路 3 - NETFLIX 2, server: bgp1.gemgems.net, port: 13020, type: ss, cipher: aes-256-gcm, password: J9IfUMxRHSCX}
+  - {name: 香港BGP 线路 4 - NETFLIX 2, server: bgp1.gemgems.net, port: 13283, type: ss, cipher: aes-256-gcm, password: Ot1XvufPXGjd}
+  - {name: 香港BGP 线路 5 - NETFLIX 2, server: bgp1.gemgems.net, port: 18206, type: ss, cipher: aes-256-gcm, password: PKrvc3ilQA5q}
   - {name: 香港线路 1 - NETFLIX, server: 119.147.144.250, port: 18834, type: ss, cipher: aes-256-gcm, password: daCxNwo600NW}
-  - {name: 爱尔兰线路 1, server: 120.232.181.222, port: 18752, type: ss, cipher: aes-256-gcm, password: kkUf9sv5brzD}
-  - {name: 日本东京AWS 线路 1, server: 35.180.187.190, port: 15593, type: ss, cipher: aes-256-gcm, password: nJYKGBXUcOCu}
-  - {name: 日本东京AWS 线路 2, server: 54.250.143.142, port: 15366, type: ss, cipher: aes-256-gcm, password: 5d3eUWRGV9kd}
-  - {name: 日本东京AWS 线路 3, server: 13.231.151.45, port: 16732, type: ss, cipher: aes-256-gcm, password: 0Wn23E6KrI9f}
-  - {name: 日本东京AWS 线路 4, server: 54.250.147.170, port: 15278, type: ss, cipher: aes-256-gcm, password: B5MicL36xgXl}
-  - {name: 日本东京BGP 线路 1, server: 3.112.42.180, port: 16944, type: ss, cipher: aes-256-gcm, password: zWGe1wK5H4MR}
-  - {name: 日本东京BGP 线路 2, server: bgp2.gemgems.net, port: 19796, type: ss, cipher: aes-256-gcm, password: OyT643NEtsBn}
-  - {name: 日本东京BGP 线路 3, server: bgp2.gemgems.net, port: 13690, type: ss, cipher: aes-256-gcm, password: AZtF0EWG3u4m}
-  - {name: 日本东京BGP 线路 4, server: bgp2.gemgems.net, port: 19340, type: ss, cipher: aes-256-gcm, password: 0chA7lFrpyY0}
-  - {name: 日本东京IPLC 专线 - 游戏 - 禁止视频, server: bgp2.gemgems.net, port: 9968, type: ss, cipher: aes-256-gcm, password: lRrsE3Ju37yW}
+  - {name: 香港BGP 线路 2 - NETFLIX 2, server: hkt1.gemgems.net, port: 11391, type: ss, cipher: aes-256-gcm, password: KBpK7OGoFyCu}
+  - {name: 香港BGP 线路 3 - NETFLIX 3, server: hkt2.gemgems.net, port: 13020, type: ss, cipher: aes-256-gcm, password: J9IfUMxRHSCX}
+  - {name: 香港BGP 线路 4 - NETFLIX 3, server: hkt3.gemgems.net, port: 13283, type: ss, cipher: aes-256-gcm, password: Ot1XvufPXGjd}
+  - {name: 香港BGP 线路 5 - NETFLIX 3, server: hkt4.gemgems.net, port: 18206, type: ss, cipher: aes-256-gcm, password: PKrvc3ilQA5q}
   - {name: 韩国首尔AWS 线路 2, server: 13.124.168.1, port: 18813, type: ss, cipher: aes-256-gcm, password: QLr39nJqH5Mb}
   - {name: 韩国首尔BGP 线路 1, server: 52.79.115.169, port: 18752, type: ss, cipher: aes-256-gcm, password: kkUf9sv5brzD}
   - {name: 韩国首尔BGP 线路 2, server: 120.232.181.222, port: 18813, type: ss, cipher: aes-256-gcm, password: QLr39nJqH5Mb}
-  - {name: 俄罗斯柏利, server: 92.38.129.210, port: 13247, type: ss, cipher: aes-256-gcm, password: I5YtUo2riBjx}
-  - {name: 俄罗斯莫斯科, server: 185.22.152.116, port: 12028, type: ss, cipher: aes-256-gcm, password: 8FXQ8YavBIcb}
-  - {name: 新加坡BGP 线路 1, server: 42.157.160.123, port: 15709, type: ss, cipher: aes-256-gcm, password: cdYokmRjyEb1}
-  - {name: 新加坡BGP 线路 2, server: 120.232.181.222, port: 17013, type: ss, cipher: aes-256-gcm, password: v9P9pTMfgGod}
-  - {name: 新加坡线路 1, server: 120.232.181.222, port: 19753, type: ss, cipher: aes-256-gcm, password: xCDPVAIreHQ3}
-  - {name: 新加坡线路 2, server: 217.197.160.160, port: 17013, type: ss, cipher: aes-256-gcm, password: v9P9pTMfgGod}
-  - {name: 土耳其伊斯坦布尔线路 1, server: 3.124.188.49, port: 10679, type: ss, cipher: aes-256-gcm, password: jKF5lPyDVx3P}
+  - {name: 爱尔兰线路 1, server: 120.232.181.222, port: 18752, type: ss, cipher: aes-256-gcm, password: kkUf9sv5brzD}
+  - {name: 英国伦敦线路 1, server: 54.195.30.33, port: 16774, type: ss, cipher: aes-256-gcm, password: YNs5gdm8Wt3c}
+  - {name: 英国伦敦线路 2, server: 151.236.221.105, port: 9230, type: ss, cipher: aes-256-gcm, password: VpiKrJlrpICs}
+  - {name: 美国纽约线路 1 - NETFLIX, server: 178.79.158.229, port: 17316, type: ss, cipher: aes-256-gcm, password: MmIBMxpKGx4f}
+  - {name: 美国纽约线路 2 - NETFLIX, server: 185.187.239.17, port: 11411, type: ss, cipher: aes-256-gcm, password: fRrbnEqPkR1w}
   - {name: 美国洛杉矶BGP 线路 1 - NETFLIX, server: 185.187.239.18, port: 12824, type: ss, cipher: aes-256-gcm, password: u8VktmkJOUEi}
   - {name: 美国洛杉矶BGP 线路 2 - NETFLIX, server: bgp2.gemgems.net, port: 13957, type: ss, cipher: aes-256-gcm, password: LxZHEAAqmYqr}
   - {name: 美国洛杉矶BGP 线路 3 - NETFLIX, server: bgp2.gemgems.net, port: 16061, type: ss, cipher: aes-256-gcm, password: QZfgCeMQt97P}
@@ -135,5 +263,39 @@ proxies:
   - {name: 美国洛杉矶线路 1 - NETFLIX, server: c1s2.jamjams.net, port: 30181, type: ss, cipher: aes-256-gcm, password: Zh2NBJm5hW}
   - {name: 美国洛杉矶线路 2 - NETFLIX, server: 91.220.202.187, port: 13957, type: ss, cipher: aes-256-gcm, password: LxZHEAAqmYqr}
   - {name: 美国洛杉矶线路 3 - NETFLIX, server: 91.220.202.188, port: 16061, type: ss, cipher: aes-256-gcm, password: QZfgCeMQt97P}
-  - {name: 美国纽约线路 1 - NETFLIX, server: 178.79.158.229, port: 17316, type: ss, cipher: aes-256-gcm, password: MmIBMxpKGx4f}
-  - {name: 美国纽约线路 2 - NETFLIX, server: 185.187.239.17, port: 11411, type: ss, cipher: aes-256-gcm, password: fRrbnEqPkR1w}
+  - {name: 澳大利亚悉尼线路 1, server: 91.220.202.189, port: 9132, type: ss, cipher: aes-256-gcm, password: 4CLkZErgCiF7}
+  - {name: 澳大利亚悉尼线路 2, server: 172.105.189.26, port: 10915, type: ss, cipher: aes-256-gcm, password: EvdHOfGg1hW5}
+  - {name: 法国巴黎线路 1, server: 45.79.236.60, port: 13917, type: ss, cipher: aes-256-gcm, password: OBAiP6TFDVZ5}
+  - {name: 法国巴黎线路 2, server: 15.188.145.45, port: 13115, type: ss, cipher: aes-256-gcm, password: VEyu3OSO3rWC}
+  - {name: 日本东京AWS 线路 1, server: 35.180.187.190, port: 15593, type: ss, cipher: aes-256-gcm, password: nJYKGBXUcOCu}
+  - {name: 日本东京AWS 线路 2, server: 54.250.143.142, port: 15366, type: ss, cipher: aes-256-gcm, password: 5d3eUWRGV9kd}
+  - {name: 日本东京AWS 线路 3, server: 13.231.151.45, port: 16732, type: ss, cipher: aes-256-gcm, password: 0Wn23E6KrI9f}
+  - {name: 日本东京AWS 线路 4, server: 54.250.147.170, port: 15278, type: ss, cipher: aes-256-gcm, password: B5MicL36xgXl}
+  - {name: 日本东京BGP 线路 1, server: 3.112.42.180, port: 16944, type: ss, cipher: aes-256-gcm, password: zWGe1wK5H4MR}
+  - {name: 日本东京BGP 线路 2, server: bgp2.gemgems.net, port: 19796, type: ss, cipher: aes-256-gcm, password: OyT643NEtsBn}
+  - {name: 日本东京BGP 线路 3, server: bgp2.gemgems.net, port: 13690, type: ss, cipher: aes-256-gcm, password: AZtF0EWG3u4m}
+  - {name: 日本东京BGP 线路 4, server: bgp2.gemgems.net, port: 19340, type: ss, cipher: aes-256-gcm, password: 0chA7lFrpyY0}
+  - {name: 日本东京IPLC 专线 - 游戏 - 禁止视频, server: bgp2.gemgems.net, port: 9968, type: ss, cipher: aes-256-gcm, password: lRrsE3Ju37yW}
+  - {name: 新加坡BGP 线路 1, server: 42.157.160.123, port: 15709, type: ss, cipher: aes-256-gcm, password: cdYokmRjyEb1}
+  - {name: 新加坡BGP 线路 2, server: 120.232.181.222, port: 17013, type: ss, cipher: aes-256-gcm, password: v9P9pTMfgGod}
+  - {name: 新加坡线路 1, server: 120.232.181.222, port: 19753, type: ss, cipher: aes-256-gcm, password: xCDPVAIreHQ3}
+  - {name: 新加坡线路 2, server: 217.197.160.160, port: 17013, type: ss, cipher: aes-256-gcm, password: v9P9pTMfgGod}
+  - {name: 德国CN2 GIA 线路 1 - NETFLIX, server: 217.197.160.139, port: 19753, type: ss, cipher: aes-256-gcm, password: xCDPVAIreHQ3}
+  - {name: 德国CN2 GIA 线路 2 - NETFLIX, server: 45.137.217.185, port: 13810, type: ss, cipher: aes-256-gcm, password: j3CfjqHdmDbv}
+  - {name: 德国法兰克福线路 1, server: 45.137.217.116, port: 10357, type: ss, cipher: aes-256-gcm, password: ZoXaSQjq10Rr}
+  - {name: 德国法兰克福线路 2, server: 35.158.205.169, port: 15211, type: ss, cipher: aes-256-gcm, password: npVODD8aLdMv}
+  - {name: 土耳其伊斯坦布尔线路 1, server: 3.124.188.49, port: 10679, type: ss, cipher: aes-256-gcm, password: jKF5lPyDVx3P}
+  - {name: 台湾台北BGP 线路 1 - NETFLIX, server: 141.98.118.173, port: 12730, type: ss, cipher: aes-256-gcm, password: LppJrnZyfXuS}
+  - {name: 台湾台北BGP 线路 2 - NETFLIX, server: bgp2.gemgems.net, port: 18477, type: ss, cipher: aes-256-gcm, password: oS7ztgjRuQO1}
+  - {name: 台湾台北BGP 线路 3 - NETFLIX, server: 120.232.181.222, port: 12431, type: ss, cipher: aes-256-gcm, password: RIjuZSqiiXP4}
+  - {name: 台湾台北线路 1 - NETFLIX, server: 120.232.181.222, port: 10760, type: ss, cipher: aes-256-gcm, password: kmaWmvE8fWdP}
+  - {name: 台湾台北线路 2 - NETFLIX, server: hinet1.gemgems.net, port: 18477, type: ss, cipher: aes-256-gcm, password: oS7ztgjRuQO1}
+  - {name: 台湾台北线路 3 - NETFLIX, server: hinet2.gemgems.net, port: 12431, type: ss, cipher: aes-256-gcm, password: RIjuZSqiiXP4}
+  - {name: 加拿大多伦多线路 1, server: hinet3.gemgems.net, port: 10760, type: ss, cipher: aes-256-gcm, password: kmaWmvE8fWdP}
+  - {name: 加拿大多伦多线路 2, server: 172.105.111.70, port: 12329, type: ss, cipher: aes-256-gcm, password: IP70X2y7iu9R}
+  - {name: 加拿大多伦多线路 3, server: 192.53.123.171, port: 9671, type: ss, cipher: aes-256-gcm, password: pxKTR97EQKSW}
+  - {name: 俄罗斯莫斯科, server: 185.22.152.116, port: 12028, type: ss, cipher: aes-256-gcm, password: 8FXQ8YavBIcb}
+  - {name: 俄罗斯柏利, server: 92.38.129.210, port: 13247, type: ss, cipher: aes-256-gcm, password: I5YtUo2riBjx}
+  - {name: 回国线路江苏, server: 122.192.87.142, port: 15401, type: ss, cipher: aes-256-gcm, password: sbJe04yx0FlG}
+  - {name: 回国线路广州, server: 120.232.193.100, port: 10739, type: ss, cipher: aes-256-gcm, password: ERVIY2EDZNZT}
+  - {name: 回国线路上海, server: 122.192.87.134, port: 13043, type: ss, cipher: aes-256-gcm, password: N1O2FCcERq5a}
