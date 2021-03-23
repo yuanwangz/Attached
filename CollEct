@@ -1,24 +1,14 @@
-vmess = 172.67.186.204:443, method=chacha20-ietf-poly1305, password=db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, obfs=wss, obfs-host=c-ru2.ooxc.cc, obfs-uri=/jj, fast-open=false, tag=🇺🇸 美国CloudFlare节点 6
-vmess = 132.145.111.134:443, method=chacha20-ietf-poly1305, password=bae399d4-13a4-46a3-b144-4af2c0004c2e, obfs=wss, obfs-host=132.145.111.134, obfs-uri=/v2ray, fast-open=false, tag=🇨🇦 加拿大多伦多Oracle云计算数据中心 12
-shadowsocks = 119.147.144.250:18834, method=aes-256-gcm, password=daCxNwo600NW, fast-open=false, tag=🇭🇰 香港线路 1 - NETFLIX
-shadowsocks = c32s1.jamjams.net:63866, method=aes-256-gcm, password=uC6k6fSJQS, fast-open=false, tag=🇺🇸 美国洛杉矶CN2 GIA 线路 2
-shadowsocks = c32s2.jamjams.net:63866, method=aes-256-gcm, password=uC6k6fSJQS, fast-open=false, tag=🇺🇸 美国洛杉矶CN2 GIA 线路 3
-shadowsocks = 42.157.160.123:15709, method=aes-256-gcm, password=cdYokmRjyEb1, fast-open=false, tag=🇸🇬 新加坡BGP 线路 1
-shadowsocks = bgp2.gemgems.net:18477, method=aes-256-gcm, password=oS7ztgjRuQO1, fast-open=false, tag=🇨🇳 台湾台北BGP 线路 2 - NETFLIX
-shadowsocks = hinet1.gemgems.net:18477, method=aes-256-gcm, password=oS7ztgjRuQO1, fast-open=false, tag=🇨🇳 台湾台北线路 2 - NETFLIX
-shadowsocks = hinet2.gemgems.net:12431, method=aes-256-gcm, password=RIjuZSqiiXP4, fast-open=false, tag=🇨🇳 台湾台北线路 3 - NETFLIX
-shadowsocks = hinet3.gemgems.net:10760, method=aes-256-gcm, password=kmaWmvE8fWdP, fast-open=false, tag=🇨🇦 加拿大多伦多线路 1
 shadowsocks = cn2.flushingx.com:1487, method=rc4-md5, password=7611866184, ssr-protocol=origin, obfs=plain, fast-open=false, udp-relay=false, tag=CN1
 vmess = jpc5269.azzico.space:11562, method=chacha20-ietf-poly1305, password=15a76c75-da8a-3de2-bdc2-3bbd389d7ee1, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=CN2
-vmess = jpc5269.azzico.space:11562, method=chacha20-ietf-poly1305, password=8bdd2925-7218-314b-987a-dcbb44d09852, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=3
+vmess = jpc5269.azzico.space:11562, method=chacha20-ietf-poly1305, password=8bdd2925-7218-314b-987a-dcbb44d09852, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=CN3
 vmess = jpc5269.azzico.space:11562, method=chacha20-ietf-poly1305, password=8bdd2925-7218-314b-987a-dcbb44d09852, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=CN4
 vmess = jpc5269.azzico.space:11562, method=chacha20-ietf-poly1305, password=15a76c75-da8a-3de2-bdc2-3bbd389d7ee1, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=CN5
 vmess = jpc5269.azzico.space:11562, method=chacha20-ietf-poly1305, password=15a76c75-da8a-3de2-bdc2-3bbd389d7ee1, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=CN6
 vmess = us.199301.xyz:30010, method=chacha20-ietf-poly1305, password=fd00927a-b0c2-4629-aef7-d9ff15a9d722, obfs=ws, obfs-host=us.199301.xyz, obfs-uri=/websocket, fast-open=false, udp-relay=false, tag=CN7
 vmess = us.199301.xyz:30010, method=chacha20-ietf-poly1305, password=fd00927a-b0c2-4629-aef7-d9ff15a9d722, obfs=ws, obfs-host=us.199301.xyz, obfs-uri=/websocket, fast-open=false, udp-relay=false, tag=CN8
 vmess = 116.163.14.88:11562, method=chacha20-ietf-poly1305, password=8bdd2925-7218-314b-987a-dcbb44d09852, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=CN9
-vmess = 116.163.14.88:11562, method=chacha20-ietf-poly1305, password=8bdd2925-7218-314b-987a-dcbb44d09852, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=CN0
-vmess = 116.163.14.88:11562, method=chacha20-ietf-poly1305, password=8bdd2925-7218-314b-987a-dcbb44d09852, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=CN-
+vmess = 116.163.14.88:11562, method=chacha20-ietf-poly1305, password=8bdd2925-7218-314b-987a-dcbb44d09852, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=CN10
+vmess = 116.163.14.88:11562, method=chacha20-ietf-poly1305, password=8bdd2925-7218-314b-987a-dcbb44d09852, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=CN11
 shadowsocks = 84.17.37.156:31572, method=aes-256-gcm, password=n8w4StnbVD9dmXYn4Ajt87EA, fast-open=false, udp-relay=false, tag=HK12
 shadowsocks = 84.17.37.158:33992, method=aes-256-gcm, password=8n6pwAcrrv2pj6tFY2p3TbQ6, fast-open=false, udp-relay=false, tag=HK13
 shadowsocks = 84.17.37.158:40093, method=aes-256-gcm, password=x23Z4LGkGDkThZ9Kaz4DURQp, fast-open=false, udp-relay=false, tag=HK14
@@ -55,3 +45,11 @@ shadowsocks = 2.58.242.133:37588, method=aes-256-gcm, password=kD9vkjnE6dsUzwQfv
 shadowsocks = 2.58.242.133:37588, method=aes-256-gcm, password=kD9vkjnE6dsUzwQfvKkPkQAd, fast-open=false, udp-relay=false, tag=TW45
 shadowsocks = 2.58.242.133:37588, method=aes-256-gcm, password=kD9vkjnE6dsUzwQfvKkPkQAd, fast-open=false, udp-relay=false, tag=TW46
 shadowsocks = 2.58.242.133:31764, method=aes-256-gcm, password=YgusH2MWA8PWc3p2VDsR7AVv, fast-open=false, udp-relay=false, tag=TW47
+shadowsocks = 119.147.144.250:18834, method=aes-256-gcm, password=daCxNwo600NW, fast-open=false, tag=hk48
+shadowsocks = c32s1.jamjams.net:63866, method=aes-256-gcm, password=uC6k6fSJQS, fast-open=false, tag=US49
+shadowsocks = c32s2.jamjams.net:63866, method=aes-256-gcm, password=uC6k6fSJQS, fast-open=false, tag=US50
+hadowsocks = 42.157.160.123:15709, method=aes-256-gcm, password=cdYokmRjyEb1, fast-open=false, tag=SG51
+shadowsocks = bgp2.gemgems.net:18477, method=aes-256-gcm, password=oS7ztgjRuQO1, fast-open=false, tag=TW52
+shadowsocks = hinet1.gemgems.net:18477, method=aes-256-gcm, password=oS7ztgjRuQO1, fast-open=false, tag=TW53
+shadowsocks = hinet2.gemgems.net:12431, method=aes-256-gcm, password=RIjuZSqiiXP4, fast-open=false, tag=TW54
+shadowsocks = hinet3.gemgems.net:10760, method=aes-256-gcm, password=kmaWmvE8fWdP, fast-open=false, tag=CA55
