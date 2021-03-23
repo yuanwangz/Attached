@@ -8,3 +8,50 @@ shadowsocks = bgp2.gemgems.net:18477, method=aes-256-gcm, password=oS7ztgjRuQO1,
 shadowsocks = hinet1.gemgems.net:18477, method=aes-256-gcm, password=oS7ztgjRuQO1, fast-open=false, tag=🇨🇳 台湾台北线路 2 - NETFLIX
 shadowsocks = hinet2.gemgems.net:12431, method=aes-256-gcm, password=RIjuZSqiiXP4, fast-open=false, tag=🇨🇳 台湾台北线路 3 - NETFLIX
 shadowsocks = hinet3.gemgems.net:10760, method=aes-256-gcm, password=kmaWmvE8fWdP, fast-open=false, tag=🇨🇦 加拿大多伦多线路 1
+shadowsocks = cn2.flushingx.com:1487, method=rc4-md5, password=7611866184, ssr-protocol=origin, obfs=plain, fast-open=false, udp-relay=false, tag=CN1
+vmess = jpc5269.azzico.space:11562, method=chacha20-ietf-poly1305, password=15a76c75-da8a-3de2-bdc2-3bbd389d7ee1, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=CN2
+vmess = jpc5269.azzico.space:11562, method=chacha20-ietf-poly1305, password=8bdd2925-7218-314b-987a-dcbb44d09852, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=3
+vmess = jpc5269.azzico.space:11562, method=chacha20-ietf-poly1305, password=8bdd2925-7218-314b-987a-dcbb44d09852, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=CN4
+vmess = jpc5269.azzico.space:11562, method=chacha20-ietf-poly1305, password=15a76c75-da8a-3de2-bdc2-3bbd389d7ee1, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=CN5
+vmess = jpc5269.azzico.space:11562, method=chacha20-ietf-poly1305, password=15a76c75-da8a-3de2-bdc2-3bbd389d7ee1, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=CN6
+vmess = us.199301.xyz:30010, method=chacha20-ietf-poly1305, password=fd00927a-b0c2-4629-aef7-d9ff15a9d722, obfs=ws, obfs-host=us.199301.xyz, obfs-uri=/websocket, fast-open=false, udp-relay=false, tag=CN7
+vmess = us.199301.xyz:30010, method=chacha20-ietf-poly1305, password=fd00927a-b0c2-4629-aef7-d9ff15a9d722, obfs=ws, obfs-host=us.199301.xyz, obfs-uri=/websocket, fast-open=false, udp-relay=false, tag=CN8
+vmess = 116.163.14.88:11562, method=chacha20-ietf-poly1305, password=8bdd2925-7218-314b-987a-dcbb44d09852, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=CN9
+vmess = 116.163.14.88:11562, method=chacha20-ietf-poly1305, password=8bdd2925-7218-314b-987a-dcbb44d09852, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=CN0
+vmess = 116.163.14.88:11562, method=chacha20-ietf-poly1305, password=8bdd2925-7218-314b-987a-dcbb44d09852, obfs=ws, obfs-host=jpc5269.azzico.pw, obfs-uri=/video, fast-open=false, udp-relay=false, tag=CN-
+shadowsocks = 84.17.37.156:31572, method=aes-256-gcm, password=n8w4StnbVD9dmXYn4Ajt87EA, fast-open=false, udp-relay=false, tag=HK12
+shadowsocks = 84.17.37.158:33992, method=aes-256-gcm, password=8n6pwAcrrv2pj6tFY2p3TbQ6, fast-open=false, udp-relay=false, tag=HK13
+shadowsocks = 84.17.37.158:40093, method=aes-256-gcm, password=x23Z4LGkGDkThZ9Kaz4DURQp, fast-open=false, udp-relay=false, tag=HK14
+shadowsocks = 84.17.37.156:33992, method=aes-256-gcm, password=8n6pwAcrrv2pj6tFY2p3TbQ6, fast-open=false, udp-relay=false, tag=HK15
+shadowsocks = 84.17.37.154:33992, method=aes-256-gcm, password=8n6pwAcrrv2pj6tFY2p3TbQ6, fast-open=false, udp-relay=false, tag=HK16
+shadowsocks = 84.17.34.46:33992, method=aes-256-gcm, password=8n6pwAcrrv2pj6tFY2p3TbQ6, fast-open=false, udp-relay=false, tag=JP17
+shadowsocks = 45.85.3.153:805, method=chacha20-ietf-poly1305, password=G!yBwPWH3Vao, fast-open=false, udp-relay=false, tag=JP18
+shadowsocks = 45.85.3.153:803, method=chacha20-ietf-poly1305, password=G!yBwPWH3Vao, fast-open=false, udp-relay=false, tag=JP19
+shadowsocks = 185.242.4.163:37588, method=aes-256-gcm, password=kD9vkjnE6dsUzwQfvKkPkQAd, fast-open=false, udp-relay=false, tag=JP20
+shadowsocks = 185.242.4.163:33992, method=aes-256-gcm, password=8n6pwAcrrv2pj6tFY2p3TbQ6, fast-open=false, udp-relay=false, tag=JP21
+shadowsocks = 45.87.213.243:33992, method=aes-256-gcm, password=8n6pwAcrrv2pj6tFY2p3TbQ6, fast-open=false, udp-relay=false, tag=JP22
+shadowsocks = 185.242.4.163:39772, method=aes-256-gcm, password=CUndSZnYsPKcu6Kj8THVMBHD, fast-open=false, udp-relay=false, tag=JP23
+shadowsocks = 45.87.213.243:39772, method=aes-256-gcm, password=CUndSZnYsPKcu6Kj8THVMBHD, fast-open=false, udp-relay=false, tag=JP24
+vmess = 52.196.144.61:443, method=chacha20-ietf-poly1305, password=57e0cb4d-eae5-48ec-8091-149dc2b309e0, obfs=wss, obfs-host=52.196.144.61, obfs-uri=/s/c27821f.fm.icloud.com:16708, fast-open=false, udp-relay=false, tag=JP25
+shadowsocks = 2.58.242.131:40093, method=aes-256-gcm, password=x23Z4LGkGDkThZ9Kaz4DURQp, fast-open=false, udp-relay=false, tag=TW26
+shadowsocks = 2.58.242.53:31572, method=aes-256-gcm, password=n8w4StnbVD9dmXYn4Ajt87EA, fast-open=false, udp-relay=false, tag=TW27
+shadowsocks = 2.58.242.133:31944, method=aes-256-gcm, password=aYNeKDMzYQYw4KbUbJA8Wszq, fast-open=false, udp-relay=false, tag=TW28
+shadowsocks = 2.58.242.133:31944, method=aes-256-gcm, password=aYNeKDMzYQYw4KbUbJA8Wszq, fast-open=false, udp-relay=false, tag=TW29
+shadowsocks = 2.58.242.131:31944, method=aes-256-gcm, password=aYNeKDMzYQYw4KbUbJA8Wszq, fast-open=false, udp-relay=false, tag=TW30
+shadowsocks = 2.58.242.133:38033, method=aes-256-gcm, password=xpQwyV4W5FdA6NMANJJx73US, fast-open=false, udp-relay=false, tag=TW31
+shadowsocks = 2.58.242.131:40093, method=aes-256-gcm, password=x23Z4LGkGDkThZ9Kaz4DURQp, fast-open=false, udp-relay=false, tag=TW32
+shadowsocks = 2.58.242.131:40093, method=aes-256-gcm, password=x23Z4LGkGDkThZ9Kaz4DURQp, fast-open=false, udp-relay=false, tag=TW33
+shadowsocks = 2.58.242.133:31944, method=aes-256-gcm, password=aYNeKDMzYQYw4KbUbJA8Wszq, fast-open=false, udp-relay=false, tag=TW34
+shadowsocks = 2.58.242.131:34815, method=aes-256-gcm, password=LkFAzkzXkSCRYa2CsRdL8cGb, fast-open=false, udp-relay=false, tag=TW35
+shadowsocks = 2.58.242.53:31572, method=aes-256-gcm, password=n8w4StnbVD9dmXYn4Ajt87EA, fast-open=false, udp-relay=false, tag=TW36
+shadowsocks = 2.58.242.53:31572, method=aes-256-gcm, password=n8w4StnbVD9dmXYn4Ajt87EA, fast-open=false, udp-relay=false, tag=TW37
+shadowsocks = 2.58.242.131:31944, method=aes-256-gcm, password=aYNeKDMzYQYw4KbUbJA8Wszq, fast-open=false, udp-relay=false, tag=TW38
+shadowsocks = 2.58.242.131:31944, method=aes-256-gcm, password=aYNeKDMzYQYw4KbUbJA8Wszq, fast-open=false, udp-relay=false, tag=TW39
+shadowsocks = 2.58.242.133:37473, method=aes-256-gcm, password=enctdKyJfSu76VqznKwTt6Ap, fast-open=false, udp-relay=false, tag=TW40
+shadowsocks = 2.58.242.133:37473, method=aes-256-gcm, password=enctdKyJfSu76VqznKwTt6Ap, fast-open=false, udp-relay=false, tag=TW41
+shadowsocks = 2.58.242.131:31764, method=aes-256-gcm, password=YgusH2MWA8PWc3p2VDsR7AVv, fast-open=false, udp-relay=false, tag=TW42
+shadowsocks = 2.58.242.131:35294, method=aes-256-gcm, password=J9Y2ncrdPEC38gwydNFFGBna, fast-open=false, udp-relay=false, tag=TW43
+shadowsocks = 2.58.242.133:37588, method=aes-256-gcm, password=kD9vkjnE6dsUzwQfvKkPkQAd, fast-open=false, udp-relay=false, tag=TW44
+shadowsocks = 2.58.242.133:37588, method=aes-256-gcm, password=kD9vkjnE6dsUzwQfvKkPkQAd, fast-open=false, udp-relay=false, tag=TW45
+shadowsocks = 2.58.242.133:37588, method=aes-256-gcm, password=kD9vkjnE6dsUzwQfvKkPkQAd, fast-open=false, udp-relay=false, tag=TW46
+shadowsocks = 2.58.242.133:31764, method=aes-256-gcm, password=YgusH2MWA8PWc3p2VDsR7AVv, fast-open=false, udp-relay=false, tag=TW47
