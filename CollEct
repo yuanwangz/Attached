@@ -177,7 +177,7 @@ shadowsocks = 2.58.242.133:37588, method=aes-256-gcm, password=kD9vkjnE6dsUzwQfv
 shadowsocks = 2.58.242.133:37588, method=aes-256-gcm, password=kD9vkjnE6dsUzwQfvKkPkQAd, fast-open=false, udp-relay=false, tag=177
 shadowsocks = 2.58.242.133:37588, method=aes-256-gcm, password=kD9vkjnE6dsUzwQfvKkPkQAd, fast-open=false, udp-relay=false, tag=178
 shadowsocks = 2.58.242.133:31764, method=aes-256-gcm, password=YgusH2MWA8PWc3p2VDsR7AVv, fast-open=false, udp-relay=false, tag=179
-shadowsocks = cn2.flushingx.com:1487, method=rc4-md5, password=7611866184, ssr-protocol=origin,	obfs=plain, fast-open=false, udp-relay=false, tag=180
+shadowsocks = cn2.flushingx.com:1487, method=rc4-md5, password=7611866184, ssr-protocol=origin, obfs=, fast-open=false, udp-relay=false, tag=180
 vmess = us.199301.xyz:30010, method=chacha20-ietf-poly1305, password=fd00927a-b0c2-4629-aef7-d9ff15a9d722, obfs=ws, obfs-host=us.199301.xyz, obfs-uri=/websocket, fast-open=false, udp-relay=false, tag=181
 vmess = us.199301.xyz:30010, method=chacha20-ietf-poly1305, password=fd00927a-b0c2-4629-aef7-d9ff15a9d722, obfs=ws, obfs-host=us.199301.xyz, obfs-uri=/websocket, fast-open=false, udp-relay=false, tag=182
 vmess = 52.196.144.61:443, method=chacha20-ietf-poly1305, password=57e0cb4d-eae5-48ec-8091-149dc2b309e0, obfs=wss, obfs-host=52.196.144.61, obfs-uri=/s/c27821f.fm.icloud.com:16708, fast-open=false, udp-relay=false, tag=183
