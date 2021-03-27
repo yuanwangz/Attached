@@ -1,3 +1,4 @@
+#@O7Y0
 http = a1.ap.fastqvpn.com:29980, username=426515995012628480, password=8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b, over-tls=true, fast-open=false, tls-verification=true, tag=TG@M0NATA-1
 http = a2.ap.fastqvpn.com:29980, username=426515995012628480, password=8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b, over-tls=true, fast-open=false, tls-verification=true, tag=TG@M0NATA-2
 http = a3.ap.fastqvpn.com:29980, username=426515995012628480, password=8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b, over-tls=true, fast-open=false, tls-verification=true, tag=TG@M0NATA-3
@@ -12,7 +13,7 @@ http = ap1-ge.er3.xyz:29984, username=426515995012628480, password=8a687e6b-c85c
 http = ap1-ca.er3.xyz:29983, username=426515995012628480, password=8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b, over-tls=true, fast-open=false, tls-verification=true, tag=TG@M0NATA-12
 http = ap1-au.er3.xyz:29982, username=426515995012628480, password=8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b, over-tls=true, fast-open=false, tls-verification=true, tag=TG@M0NATA-13
 http = ap1-uk.er3.xyz:29987, username=426515995012628480, password=8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b, over-tls=true, fast-open=false, tls-verification=true, tag=TG@M0NATA-14
-
+#@Crayon_112
 http = a1.ap.fastqvpn.com:29980, username=428313520019341312, password=b8792991-4ede-49f8-a4b1-8878acdc90cb, over-tls=true, fast-open=false, tls-verification=true, tag=TG@M0NATA-15
 http = a2.ap.fastqvpn.com:29980, username=428313520019341312, password=b8792991-4ede-49f8-a4b1-8878acdc90cb, over-tls=true, fast-open=false, tls-verification=true, tag=TG@M0NATA-16
 http = a3.ap.fastqvpn.com:29980, username=428313520019341312, password=b8792991-4ede-49f8-a4b1-8878acdc90cb, over-tls=true, fast-open=false, tls-verification=true, tag=TG@M0NATA-17
