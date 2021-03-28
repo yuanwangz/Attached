@@ -118,6 +118,150 @@ proxies:
     tls: true
     skip-cert-verify: true
   - name: TG@M0NATA-15
+    server: he.ghelper.net
+    port: 443
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-16
+    server: cm-hk.stunnel.vip
+    port: 4700
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-17
+    server: hkbn-home.ghelper.net
+    port: 443
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-18
+    server: seattle.tcpbbr.net
+    port: 443
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-19
+    server: cm-us.stunnel.vip
+    port: 3300
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-20
+    server: us-01.ghelper.net
+    port: 443
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-21
+    server: ext-au.stackpath.ws
+    port: 443
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-22
+    server: ext-de.stackpath.ws
+    port: 443
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-23
+    server: ext-uk.stackpath.ws
+    port: 443
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-24
+    server: ext-nl.stackpath.ws
+    port: 443
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-25
+    server: tx.wy.fastqvpn.com
+    port: 29980
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-26
+    server: tx.wy.fastqvpn.com
+    port: 29982
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-27
+    server: tx.wy.fastqvpn.com
+    port: 29983
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-28
+    server: tx.wy.fastqvpn.com
+    port: 29984
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-29
+    server: tx.wy.fastqvpn.com
+    port: 29985
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-30
+    server: tx.wy.fastqvpn.com
+    port: 29986
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-31
+    server: tx.wy.fastqvpn.com
+    port: 29987
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-32
+    server: tx.wy.fastqvpn.com
+    port: 29988
+    type: http
+    username: "426515995012628480"
+    password: 8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b
+    tls: true
+    skip-cert-verify: true
+  - name: TG@M0NATA-33
     server: a1.ap.fastqvpn.com
     port: 29980
     type: http
@@ -125,7 +269,7 @@ proxies:
     password: b8792991-4ede-49f8-a4b1-8878acdc90cb
     tls: true
     skip-cert-verify: true
-  - name: TG@M0NATA-16
+  - name: TG@M0NATA-34
     server: a2.ap.fastqvpn.com
     port: 29980
     type: http
@@ -133,7 +277,7 @@ proxies:
     password: b8792991-4ede-49f8-a4b1-8878acdc90cb
     tls: true
     skip-cert-verify: true
-  - name: TG@M0NATA-17
+  - name: TG@M0NATA-35
     server: a3.ap.fastqvpn.com
     port: 29980
     type: http
@@ -141,7 +285,7 @@ proxies:
     password: b8792991-4ede-49f8-a4b1-8878acdc90cb
     tls: true
     skip-cert-verify: true
-  - name: TG@M0NATA-18
+  - name: TG@M0NATA-36
     server: a4.ap.fastqvpn.com
     port: 29980
     type: http
@@ -149,7 +293,7 @@ proxies:
     password: b8792991-4ede-49f8-a4b1-8878acdc90cb
     tls: true
     skip-cert-verify: true
-  - name: TG@M0NATA-19
+  - name: TG@M0NATA-37
     server: a5.ap.fastqvpn.com
     port: 29980
     type: http
@@ -157,7 +301,7 @@ proxies:
     password: b8792991-4ede-49f8-a4b1-8878acdc90cb
     tls: true
     skip-cert-verify: true
-  - name: TG@M0NATA-20
+  - name: TG@M0NATA-38
     server: ap1-jp.er3.xyz
     port: 29985
     type: http
@@ -165,7 +309,7 @@ proxies:
     password: b8792991-4ede-49f8-a4b1-8878acdc90cb
     tls: true
     skip-cert-verify: true
-  - name: TG@M0NATA-21
+  - name: TG@M0NATA-39
     server: tx.wy.fastqvpn.com
     port: 29980
     type: http
@@ -173,7 +317,7 @@ proxies:
     password: b8792991-4ede-49f8-a4b1-8878acdc90cb
     tls: true
     skip-cert-verify: true
-  - name: TG@M0NATA-22
+  - name: TG@M0NATA-40
     server: ap1-sg.er3.xyz
     port: 29986
     type: http
@@ -181,7 +325,7 @@ proxies:
     password: b8792991-4ede-49f8-a4b1-8878acdc90cb
     tls: true
     skip-cert-verify: true
-  - name: TG@M0NATA-23
+  - name: TG@M0NATA-41
     server: a1.er3.xyz
     port: 29980
     type: http
@@ -189,7 +333,7 @@ proxies:
     password: b8792991-4ede-49f8-a4b1-8878acdc90cb
     tls: true
     skip-cert-verify: true
-  - name: TG@M0NATA-24
+  - name: TG@M0NATA-42
     server: ap1-us.er3.xyz
     port: 29988
     type: http
@@ -197,7 +341,7 @@ proxies:
     password: b8792991-4ede-49f8-a4b1-8878acdc90cb
     tls: true
     skip-cert-verify: true
-  - name: TG@M0NATA-25
+  - name: TG@M0NATA-43
     server: ap1-ge.er3.xyz
     port: 29984
     type: http
@@ -205,7 +349,7 @@ proxies:
     password: b8792991-4ede-49f8-a4b1-8878acdc90cb
     tls: true
     skip-cert-verify: true
-  - name: TG@M0NATA-26
+  - name: TG@M0NATA-44
     server: ap1-ca.er3.xyz
     port: 29983
     type: http
@@ -213,7 +357,7 @@ proxies:
     password: b8792991-4ede-49f8-a4b1-8878acdc90cb
     tls: true
     skip-cert-verify: true
-  - name: TG@M0NATA-27
+  - name: TG@M0NATA-45
     server: ap1-au.er3.xyz
     port: 29982
     type: http
@@ -221,7 +365,7 @@ proxies:
     password: b8792991-4ede-49f8-a4b1-8878acdc90cb
     tls: true
     skip-cert-verify: true
-  - name: TG@M0NATA-28
+  - name: TG@M0NATA-46
     server: ap1-uk.er3.xyz
     port: 29987
     type: http
@@ -233,7 +377,6 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - ♻️ 自动选择
       - DIRECT
       - TG@M0NATA-1
       - TG@M0NATA-2
@@ -263,40 +406,24 @@ proxy-groups:
       - TG@M0NATA-26
       - TG@M0NATA-27
       - TG@M0NATA-28
-  - name: ♻️ 自动选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - TG@M0NATA-1
-      - TG@M0NATA-2
-      - TG@M0NATA-3
-      - TG@M0NATA-4
-      - TG@M0NATA-5
-      - TG@M0NATA-6
-      - TG@M0NATA-7
-      - TG@M0NATA-8
-      - TG@M0NATA-9
-      - TG@M0NATA-10
-      - TG@M0NATA-11
-      - TG@M0NATA-12
-      - TG@M0NATA-13
-      - TG@M0NATA-14
-      - TG@M0NATA-15
-      - TG@M0NATA-16
-      - TG@M0NATA-17
-      - TG@M0NATA-18
-      - TG@M0NATA-19
-      - TG@M0NATA-20
-      - TG@M0NATA-21
-      - TG@M0NATA-22
-      - TG@M0NATA-23
-      - TG@M0NATA-24
-      - TG@M0NATA-25
-      - TG@M0NATA-26
-      - TG@M0NATA-27
-      - TG@M0NATA-28
+      - TG@M0NATA-29
+      - TG@M0NATA-30
+      - TG@M0NATA-31
+      - TG@M0NATA-32
+      - TG@M0NATA-33
+      - TG@M0NATA-34
+      - TG@M0NATA-35
+      - TG@M0NATA-36
+      - TG@M0NATA-37
+      - TG@M0NATA-38
+      - TG@M0NATA-39
+      - TG@M0NATA-40
+      - TG@M0NATA-41
+      - TG@M0NATA-42
+      - TG@M0NATA-43
+      - TG@M0NATA-44
+      - TG@M0NATA-45
+      - TG@M0NATA-46
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -328,6 +455,24 @@ proxy-groups:
       - TG@M0NATA-26
       - TG@M0NATA-27
       - TG@M0NATA-28
+      - TG@M0NATA-29
+      - TG@M0NATA-30
+      - TG@M0NATA-31
+      - TG@M0NATA-32
+      - TG@M0NATA-33
+      - TG@M0NATA-34
+      - TG@M0NATA-35
+      - TG@M0NATA-36
+      - TG@M0NATA-37
+      - TG@M0NATA-38
+      - TG@M0NATA-39
+      - TG@M0NATA-40
+      - TG@M0NATA-41
+      - TG@M0NATA-42
+      - TG@M0NATA-43
+      - TG@M0NATA-44
+      - TG@M0NATA-45
+      - TG@M0NATA-46
   - name: 📲 电报信息
     type: select
     proxies:
@@ -359,6 +504,24 @@ proxy-groups:
       - TG@M0NATA-26
       - TG@M0NATA-27
       - TG@M0NATA-28
+      - TG@M0NATA-29
+      - TG@M0NATA-30
+      - TG@M0NATA-31
+      - TG@M0NATA-32
+      - TG@M0NATA-33
+      - TG@M0NATA-34
+      - TG@M0NATA-35
+      - TG@M0NATA-36
+      - TG@M0NATA-37
+      - TG@M0NATA-38
+      - TG@M0NATA-39
+      - TG@M0NATA-40
+      - TG@M0NATA-41
+      - TG@M0NATA-42
+      - TG@M0NATA-43
+      - TG@M0NATA-44
+      - TG@M0NATA-45
+      - TG@M0NATA-46
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -390,6 +553,24 @@ proxy-groups:
       - TG@M0NATA-26
       - TG@M0NATA-27
       - TG@M0NATA-28
+      - TG@M0NATA-29
+      - TG@M0NATA-30
+      - TG@M0NATA-31
+      - TG@M0NATA-32
+      - TG@M0NATA-33
+      - TG@M0NATA-34
+      - TG@M0NATA-35
+      - TG@M0NATA-36
+      - TG@M0NATA-37
+      - TG@M0NATA-38
+      - TG@M0NATA-39
+      - TG@M0NATA-40
+      - TG@M0NATA-41
+      - TG@M0NATA-42
+      - TG@M0NATA-43
+      - TG@M0NATA-44
+      - TG@M0NATA-45
+      - TG@M0NATA-46
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -421,6 +602,24 @@ proxy-groups:
       - TG@M0NATA-26
       - TG@M0NATA-27
       - TG@M0NATA-28
+      - TG@M0NATA-29
+      - TG@M0NATA-30
+      - TG@M0NATA-31
+      - TG@M0NATA-32
+      - TG@M0NATA-33
+      - TG@M0NATA-34
+      - TG@M0NATA-35
+      - TG@M0NATA-36
+      - TG@M0NATA-37
+      - TG@M0NATA-38
+      - TG@M0NATA-39
+      - TG@M0NATA-40
+      - TG@M0NATA-41
+      - TG@M0NATA-42
+      - TG@M0NATA-43
+      - TG@M0NATA-44
+      - TG@M0NATA-45
+      - TG@M0NATA-46
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -452,6 +651,24 @@ proxy-groups:
       - TG@M0NATA-26
       - TG@M0NATA-27
       - TG@M0NATA-28
+      - TG@M0NATA-29
+      - TG@M0NATA-30
+      - TG@M0NATA-31
+      - TG@M0NATA-32
+      - TG@M0NATA-33
+      - TG@M0NATA-34
+      - TG@M0NATA-35
+      - TG@M0NATA-36
+      - TG@M0NATA-37
+      - TG@M0NATA-38
+      - TG@M0NATA-39
+      - TG@M0NATA-40
+      - TG@M0NATA-41
+      - TG@M0NATA-42
+      - TG@M0NATA-43
+      - TG@M0NATA-44
+      - TG@M0NATA-45
+      - TG@M0NATA-46
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -502,6 +719,24 @@ proxy-groups:
       - TG@M0NATA-26
       - TG@M0NATA-27
       - TG@M0NATA-28
+      - TG@M0NATA-29
+      - TG@M0NATA-30
+      - TG@M0NATA-31
+      - TG@M0NATA-32
+      - TG@M0NATA-33
+      - TG@M0NATA-34
+      - TG@M0NATA-35
+      - TG@M0NATA-36
+      - TG@M0NATA-37
+      - TG@M0NATA-38
+      - TG@M0NATA-39
+      - TG@M0NATA-40
+      - TG@M0NATA-41
+      - TG@M0NATA-42
+      - TG@M0NATA-43
+      - TG@M0NATA-44
+      - TG@M0NATA-45
+      - TG@M0NATA-46
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
