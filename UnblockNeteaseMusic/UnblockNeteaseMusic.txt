@@ -12,8 +12,8 @@ proxies:
   - {name: 🎧 网易云音乐7, server: block4music.poetyin.me, port: 39000, type: http, country:cn CN, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易云音乐8, server: xbmmw.xyz, port: 23333, type: ss, country:cn CN, cipher: aes-128-cfb, password: QQ3203434182}
   - {name: 🎧 网易云音乐9, server: sdwan-a.getluffy.cloud, port: 11000, type: ss, country:cn CN, cipher: rc4-md5, password: b22Uqr}
-  - {name: 🎧 TG群@M0NATAS, server: proxy.plusmedia.site, port: 58080, type: ss, country:us US, cipher: rc4-md5, password: ieG9l1nte5eo7IBZas84jLi}
-  - {name: 🎧 网易云音乐11, server: proxy.plusmedia.site, port: 58081, type: ss, country:us US, cipher: rc4-md5, password: ieG9l1nte5eo7IBZas84jLi}
+  - {name: 🎧 TG群@M0NATAS, server: proxy.plusmedia.site, port: 58080, type: ss, country:us US, cipher: rc4-md5, password: T5ckndbLSXHQ}
+  - {name: 🎧 网易云音乐11, server: proxy.plusmedia.site, port: 58081, type: ss, country:us US, cipher: rc4-md5, password: T5ckndbLSXHQ}
   - {name: 🎧 网易云音乐12, server: music.desperadoj.com, port: 30001, type: ss, country:cn CN, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_emx2}
   - {name: 🎧 网易云音乐13, server: music.desperadoj.com, port: 30003, type: ss, country:cn CN, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_emx2}
   - {name: 🎧 网易云音乐14, server: music.desperadoj.com, port: 30001, type: ss, country:cn CN, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_vrfn}
