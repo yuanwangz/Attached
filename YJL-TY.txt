@@ -4796,11 +4796,6 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
-  - name: 广告拦截
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
   - name: 黑白名单
     type: select
     proxies:
