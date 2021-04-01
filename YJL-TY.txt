@@ -2816,7 +2816,7 @@ proxy-groups:
       - TG@M0NATA_O7Y0_4新加坡
       - TG@M0NATA_O7Y0_4英国
       - TG@M0NATA_O7Y0_4美国
-      - TG@M0NATA_O7Y1香港_1-1000g
+      - TG@M0NATA_O7Y1香港_1-1000G
       - TG@M0NATA_O7Y1香港_2
       - TG@M0NATA_O7Y1香港_3
       - TG@M0NATA_O7Y1香港_4
@@ -3159,7 +3159,7 @@ proxy-groups:
       - TG@M0NATA_O7Y0_4新加坡
       - TG@M0NATA_O7Y0_4英国
       - TG@M0NATA_O7Y0_4美国
-      - TG@M0NATA_O7Y1香港_1-1000g
+      - TG@M0NATA_O7Y1香港_1-1000G
       - TG@M0NATA_O7Y1香港_2
       - TG@M0NATA_O7Y1香港_3
       - TG@M0NATA_O7Y1香港_4
@@ -3502,7 +3502,7 @@ proxy-groups:
       - TG@M0NATA_O7Y0_4新加坡
       - TG@M0NATA_O7Y0_4英国
       - TG@M0NATA_O7Y0_4美国
-      - TG@M0NATA_O7Y1香港_1-1000g
+      - TG@M0NATA_O7Y1香港_1-1000G
       - TG@M0NATA_O7Y1香港_2
       - TG@M0NATA_O7Y1香港_3
       - TG@M0NATA_O7Y1香港_4
@@ -3845,7 +3845,7 @@ proxy-groups:
       - TG@M0NATA_O7Y0_4新加坡
       - TG@M0NATA_O7Y0_4英国
       - TG@M0NATA_O7Y0_4美国
-      - TG@M0NATA_O7Y1香港_1-1000g
+      - TG@M0NATA_O7Y1香港_1-1000G
       - TG@M0NATA_O7Y1香港_2
       - TG@M0NATA_O7Y1香港_3
       - TG@M0NATA_O7Y1香港_4
@@ -4188,7 +4188,7 @@ proxy-groups:
       - TG@M0NATA_O7Y0_4新加坡
       - TG@M0NATA_O7Y0_4英国
       - TG@M0NATA_O7Y0_4美国
-      - TG@M0NATA_O7Y1香港_1-1000g
+      - TG@M0NATA_O7Y1香港_1-1000G
       - TG@M0NATA_O7Y1香港_2
       - TG@M0NATA_O7Y1香港_3
       - TG@M0NATA_O7Y1香港_4
@@ -4531,7 +4531,7 @@ proxy-groups:
       - TG@M0NATA_O7Y0_4新加坡
       - TG@M0NATA_O7Y0_4英国
       - TG@M0NATA_O7Y0_4美国
-      - TG@M0NATA_O7Y1香港_1-1000g
+      - TG@M0NATA_O7Y1香港_1-1000G
       - TG@M0NATA_O7Y1香港_2
       - TG@M0NATA_O7Y1香港_3
       - TG@M0NATA_O7Y1香港_4
@@ -4886,7 +4886,7 @@ proxy-groups:
       - TG@M0NATA_O7Y0_4新加坡
       - TG@M0NATA_O7Y0_4英国
       - TG@M0NATA_O7Y0_4美国
-      - TG@M0NATA_O7Y1香港_1-1000g
+      - TG@M0NATA_O7Y1香港_1-1000G
       - TG@M0NATA_O7Y1香港_2
       - TG@M0NATA_O7Y1香港_3
       - TG@M0NATA_O7Y1香港_4
