@@ -6,7 +6,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: TG@M0NATA_O7Y0香港_1_4000G
+  - name: TG@M0NATA_O7Y0香港_1_174G
     server: a1.ap.fastqvpn.com
     port: 29980
     type: http
@@ -2731,7 +2731,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - TG@M0NATA_O7Y0香港_1_4000G
+      - TG@M0NATA_O7Y0香港_1_174G
       - TG@M0NATA_O7Y0香港_2
       - TG@M0NATA_O7Y0香港_3
       - TG@M0NATA_O7Y0香港_4
@@ -3074,7 +3074,7 @@ proxy-groups:
   - name: 国际媒体
     type: select
     proxies:
-      - TG@M0NATA_O7Y0香港_1_4000G
+      - TG@M0NATA_O7Y0香港_1_174G
       - TG@M0NATA_O7Y0香港_2
       - TG@M0NATA_O7Y0香港_3
       - TG@M0NATA_O7Y0香港_4
@@ -3417,7 +3417,7 @@ proxy-groups:
   - name: 电报信息
     type: select
     proxies:
-      - TG@M0NATA_O7Y0香港_1_4000G
+      - TG@M0NATA_O7Y0香港_1_174G
       - TG@M0NATA_O7Y0香港_2
       - TG@M0NATA_O7Y0香港_3
       - TG@M0NATA_O7Y0香港_4
@@ -3760,7 +3760,7 @@ proxy-groups:
   - name: 微软服务
     type: select
     proxies:
-      - TG@M0NATA_O7Y0香港_1_4000G
+      - TG@M0NATA_O7Y0香港_1_174G
       - TG@M0NATA_O7Y0香港_2
       - TG@M0NATA_O7Y0香港_3
       - TG@M0NATA_O7Y0香港_4
@@ -4103,7 +4103,7 @@ proxy-groups:
   - name: 苹果服务
     type: select
     proxies:
-      - TG@M0NATA_O7Y0香港_1_4000G
+      - TG@M0NATA_O7Y0香港_1_174G
       - TG@M0NATA_O7Y0香港_2
       - TG@M0NATA_O7Y0香港_3
       - TG@M0NATA_O7Y0香港_4
@@ -4446,7 +4446,7 @@ proxy-groups:
   - name: 谷歌加速
     type: select
     proxies:
-      - TG@M0NATA_O7Y0香港_1_4000G
+      - TG@M0NATA_O7Y0香港_1_174G
       - TG@M0NATA_O7Y0香港_2
       - TG@M0NATA_O7Y0香港_3
       - TG@M0NATA_O7Y0香港_4
@@ -4801,7 +4801,7 @@ proxy-groups:
     proxies:
       - 节点选择
       - 全球直连
-      - TG@M0NATA_O7Y0香港_1_4000G
+      - TG@M0NATA_O7Y0香港_1_174G
       - TG@M0NATA_O7Y0香港_2
       - TG@M0NATA_O7Y0香港_3
       - TG@M0NATA_O7Y0香港_4
