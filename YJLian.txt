@@ -1,4 +1,4 @@
-http = a1.ap.fastqvpn.com:29980, username=426515995012628480, password=8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b, over-tls=true, fast-open=false, tls-verification=true, tag=TG@M0NATA_O7Y0香港_1_174G
+http = a1.ap.fastqvpn.com:29980, username=426515995012628480, password=8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b, over-tls=true, fast-open=false, tls-verification=true, tag=TG@M0NATA_O7Y0香港_1_4.9
 http = a2.ap.fastqvpn.com:29980, username=426515995012628480, password=8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b, over-tls=true, fast-open=false, tls-verification=true, tag=TG@M0NATA_O7Y0香港_2
 http = a3.ap.fastqvpn.com:29980, username=426515995012628480, password=8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b, over-tls=true, fast-open=false, tls-verification=true, tag=TG@M0NATA_O7Y0香港_3
 http = a4.ap.fastqvpn.com:29980, username=426515995012628480, password=8a687e6b-c85c-4d7a-9762-3c2c20c3fd9b, over-tls=true, fast-open=false, tls-verification=true, tag=TG@M0NATA_O7Y0香港_4
