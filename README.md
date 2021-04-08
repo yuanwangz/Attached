@@ -11,7 +11,7 @@
 Quantumult X shadowrocket
 
 ## windows
-[下载链接](https://github.com/o7y0/GeneralSubscribe/releases/tag/0.1)
+[下载链接](https://github.com/o7y0/Attached/releases/tag/0.1)
 
 ![04GFbt.png](https://s1.ax1x.com/2020/10/14/04GFbt.png)
 
