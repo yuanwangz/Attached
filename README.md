@@ -1,4 +1,4 @@
-# 别forks听不懂吗？Unlock-netease-cloud-music--GeneralSubscribe
+# 别forks听不懂吗？Unlock-netease-cloud-music
 #然后下载了意义何在？节点死了也等于废了，所有你下载重建一个库有何意义？何不刷个固件给路由直接解锁抑郁云？或者你在本地电脑nssm解锁抑郁云不更方便？
 **TG频道[点我加入](https://t.me/m0nata)  TG群聊[点我加入](https://t.me/m0natas)**
 解锁网易云音乐客户端变灰歌曲的通用订阅
