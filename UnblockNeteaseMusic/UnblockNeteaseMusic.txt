@@ -1,5 +1,5 @@
-#要用请到https://t.me/M0nata根据配置整套使用
-#也请不要单独将此处的节点信息发出去以免重复造轮子，就算要发请带上出处，别把我整伤心了谢谢。如果不会用请到RULES.conf用懒人配置
+#推荐用配置整套用，省区自己折腾时间，配置简洁干净上手难度为0
+#https://github.com/O7Y0/Profiles/blob/master/O7Y0-Quantumult%20X.conf
 proxies:
   - {name: 🎧 第一项有数值就可用/火箭圈x通用, server: lolico.me, port: 443, type: http, country:us US, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易音乐1, server: lolico.me, port: 443, type: http, country:us US, tls: false, skip-cert-verify: false}
