@@ -1,13 +1,15 @@
-# 使用方法
-[下载配置]（https://raw.githubusercontent.com/O7Y0/Profiles/master/O7Y0-Quantumult%20X.conf）到quanx，更新分流，网易音乐策略选择节点，好了你可以用了
+# 项目介绍
+解锁网易云音乐客户端变灰歌曲的通用订阅(支持Quantumult X shadowrocket)
+
+## 使用方法
+1.[下载配置](https://raw.githubusercontent.com/O7Y0/Profiles/master/O7Y0-Quantumult%20X.conf)
+到QuantumultX
+<br>2.更新分流/订阅
+<br>3.网易音乐策略选择节点
+<br>4.开启连接打开抑郁云哭去吧
+
+### 后续更新
 **TG频道[点我加入](https://t.me/m0nata)  TG群聊[点我加入](https://t.me/m0natas)**
-解锁网易云音乐客户端变灰歌曲的通用订阅
-
-## 项目介绍
-
-
-## ios
-Quantumult X shadowrocket
 
 ## windows
 [下载链接](https://github.com/o7y0/Attached/releases/tag/0.1)
