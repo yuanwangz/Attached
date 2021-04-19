@@ -9,7 +9,7 @@
 <br>4.开启连接打开抑郁云哭去吧
 
 ### 后续更新
-**TG频道[点我加入](https://t.me/m0nata)  TG群聊[点我加入](https://t.me/m0natas)**
+**[TG频道](https://t.me/m0nata)   丨   [TG群组](https://t.me/m0natas)**
 
 ## windows
 [下载链接](https://github.com/o7y0/Attached/releases/tag/0.1)
