@@ -1,11 +1,10 @@
-# 别forks听不懂吗？Unlock-netease-cloud-music
-#然后下载了意义何在？节点死了也等于废了，所有你下载重建一个库有何意义？何不刷个固件给路由直接解锁抑郁云？或者你在本地电脑nssm解锁抑郁云不更方便？
+# 使用方法
+[下载配置]（https://raw.githubusercontent.com/O7Y0/Profiles/master/O7Y0-Quantumult%20X.conf）到quanx，更新分流，网易音乐策略选择节点，好了你可以用了
 **TG频道[点我加入](https://t.me/m0nata)  TG群聊[点我加入](https://t.me/m0natas)**
 解锁网易云音乐客户端变灰歌曲的通用订阅
 
 ## 项目介绍
 
-由于抑郁云的PC or mobile phone客户端很多歌曲都灰掉了也无法播放，所以才打算做这个**通用订阅**因为我也有过小白的时候，各种搜索各种想弄都没有解决的办法，但是做人就是自己学到了有能力就去帮助弱小的一点人，这样才不会显得太孤单（我已出仓，感觉良好^-^）
 
 ## ios
 Quantumult X shadowrocket
