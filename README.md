@@ -8,7 +8,7 @@
 <br>3.网易音乐策略选择节点
 <br>4.开启连接打开抑郁云哭去吧
 
-### 后续更新
+### 后续更新（欢迎加入）
 **[TG频道](https://t.me/m0nata)   丨   [TG群组](https://t.me/m0natas)**
 
 ## windows
