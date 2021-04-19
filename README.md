@@ -1,6 +1,7 @@
 # 项目介绍
 解锁网易云音乐的通用订阅
-<br>(支持IOS-Quantumult X - shadowrocket 丨 Windows)
+<br>(支持IOS-Quantumult X - Shadowrocket)
+<br>也支持windows解锁
 
 ## 使用方法
 1.[下载配置](https://raw.githubusercontent.com/O7Y0/Profiles/master/O7Y0-Quantumult%20X.conf)
