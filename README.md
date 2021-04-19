@@ -1,7 +1,6 @@
 # 项目介绍
-解锁网易云音乐
-<br>变灰歌曲的通用订阅
-<br>(支持Quantumult X shadowrocket)
+解锁网易云音乐的通用订阅
+<br>(支持IOS-Quantumult X - shadowrocket 丨 Windows)
 
 ## 使用方法
 1.[下载配置](https://raw.githubusercontent.com/O7Y0/Profiles/master/O7Y0-Quantumult%20X.conf)
