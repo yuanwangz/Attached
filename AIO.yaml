@@ -20,18 +20,6 @@ proxies:
   - {name: TW, Taipei, server: 54.202.67.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: US, California, server: 65.49.223.117, port: 448, type: ss, cipher: aes-256-cfb, password: bwhskrskr01}
   - {name: JP, Tokyo 2, server: 54.244.175.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 香港A | 直连, server: hke5.ddns.tjiasu.xyz, port: 443, type: vmess, uuid: 5b6ef8c0-ef4e-4fe4-a322-3bf9a78bf12c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /api/shop, ws-headers: {Host: hkv2-1.ddns.tjiasu.xyz}}
-  - {name: 香港A | 中转 | 杭移, server: hzyd.ddns.tjiasu.xyz, port: 11443, type: vmess, uuid: 5b6ef8c0-ef4e-4fe4-a322-3bf9a78bf12c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /api/shop, ws-headers: {Host: hkv2-1.ddns.tjiasu.xyz}}
-  - {name: 香港B | 不能用请更新订阅, server: jm.mfjlb.top, port: 20061, type: vmess, uuid: 5b6ef8c0-ef4e-4fe4-a322-3bf9a78bf12c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /api/www, ws-headers: {Host: hkv2.ddns.tjiasu.xyz}}
-  - {name: 日本A | 直连, server: jpac.ddns.tjiasu.xyz, port: 443, type: vmess, uuid: 5b6ef8c0-ef4e-4fe4-a322-3bf9a78bf12c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /api/v2/home, ws-headers: {Host: jpac.ddns.tjiasu.xyz}}
-  - {name: 新加坡A | 直连, server: aga.ddns.tjiasu.xyz, port: 443, type: vmess, uuid: 5b6ef8c0-ef4e-4fe4-a322-3bf9a78bf12c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /api/sg, ws-headers: {Host: sgav2.ddns.tjiasu.xyz}}
-  - {name: 新加坡B | 中转, server: hzyd.ddns.tjiasu.xyz, port: 11443, type: vmess, uuid: 5b6ef8c0-ef4e-4fe4-a322-3bf9a78bf12c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /api/pianist, ws-headers: {Host: pianist.ddns.tjiasu.xyz}}
-  - {name: 新加坡C | 临时节点, server: container-service-1.1p141cdo9m8vm.ap-southeast-1.cs.amazonlightsail.com, port: 443, type: vmess, uuid: 5b6ef8c0-ef4e-4fe4-a322-3bf9a78bf12c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /api/ddns, ws-headers: {Host: container-service-1.1p141cdo9m8vm.ap-southeast-1.cs.amazonlightsail.com}}
-  - {name: 美国A | 中转, server: aga.ddns.tjiasu.xyz, port: 443, type: vmess, uuid: 5b6ef8c0-ef4e-4fe4-a322-3bf9a78bf12c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /api/common, ws-headers: {Host: usav2.ddns.tjiasu.xyz}}
-  - {name: 美国B | 中转, server: aga-sg.ddns.tjiasu.xyz, port: 443, type: vmess, uuid: 5b6ef8c0-ef4e-4fe4-a322-3bf9a78bf12c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /api/rn, ws-headers: {Host: usbv2.ddns.tjiasu.xyz}}
-  - {name: 美国C | 直连, server: shopv3.ddns.tjiasu.xyz, port: 443, type: vmess, uuid: 5b6ef8c0-ef4e-4fe4-a322-3bf9a78bf12c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /api/shop, ws-headers: {Host: shopv3.ddns.tjiasu.xyz}}
-  - {name: 美国D | 中转, server: shopv3.ddns.tjiasu.xyz, port: 443, type: vmess, uuid: 5b6ef8c0-ef4e-4fe4-a322-3bf9a78bf12c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /api/usdt, ws-headers: {Host: usdt.ddns.tjiasu.xyz}}
-  - {name: 德国A | 直连, server: deaa.ddns.tjiasu.xyz, port: 11130, type: vmess, uuid: 5b6ef8c0-ef4e-4fe4-a322-3bf9a78bf12c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /api/deaa, ws-headers: {Host: deaa.ddns.tjiasu.xyz}}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -51,18 +39,6 @@ proxy-groups:
       - TW, Taipei
       - US, California
       - JP, Tokyo 2
-      - 香港A | 直连
-      - 香港A | 中转 | 杭移
-      - 香港B | 不能用请更新订阅
-      - 日本A | 直连
-      - 新加坡A | 直连
-      - 新加坡B | 中转
-      - 新加坡C | 临时节点
-      - 美国A | 中转
-      - 美国B | 中转
-      - 美国C | 直连
-      - 美国D | 中转
-      - 德国A | 直连
   - name: 国外媒体
     type: select
     proxies:
