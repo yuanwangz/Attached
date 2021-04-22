@@ -5,34 +5,40 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 新加坡8-联通移动, server: sg06.ronghuafugui.xyz, port: 443, type: vmess, uuid: e3029569-f951-35d6-a7fd-438d5a07e412, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: sg06.ronghuafugui.xyz}}
-  - {name: 🇯🇵 日本8-联通移动, server: jp01.ronghuafugui.xyz, port: 443, type: vmess, uuid: e3029569-f951-35d6-a7fd-438d5a07e412, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: jp01.ronghuafugui.xyz}}
-  - {name: 🇺🇲 美国1-电信联通, server: 322us.fans8.xyz, port: 443, type: vmess, uuid: e3029569-f951-35d6-a7fd-438d5a07e412, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 322us.fans8.xyz}}
-  - {name: 🇰🇷 韩国10-联通移动, server: kr06.ronghuafugui.xyz, port: 443, type: vmess, uuid: e3029569-f951-35d6-a7fd-438d5a07e412, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: kr06.ronghuafugui.xyz}}
-  - {name: 🇰🇷 韩国8-联通移动, server: kr03.ronghuafugui.xyz, port: 443, type: vmess, uuid: e3029569-f951-35d6-a7fd-438d5a07e412, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: kr03.ronghuafugui.xyz}}
-  - {name: 🇰🇷 韩国9-联通移动, server: kr05.ronghuafugui.xyz, port: 443, type: vmess, uuid: e3029569-f951-35d6-a7fd-438d5a07e412, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: kr05.ronghuafugui.xyz}}
-  - {name: 🇭🇰 香港0-电信联通, server: hk06.ronghuafugui.xyz, port: 443, type: vmess, uuid: e3029569-f951-35d6-a7fd-438d5a07e412, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: hk06.ronghuafugui.xyz}}
-  - {name: 🇭🇰 香港1-三网优化, server: hk01.mail88.icu, port: 443, type: vmess, uuid: e3029569-f951-35d6-a7fd-438d5a07e412, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: hk01.mail88.icu}}
-  - {name: 🇭🇰 香港2-三网优化, server: hk02.mail88.icu, port: 443, type: vmess, uuid: e3029569-f951-35d6-a7fd-438d5a07e412, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: hk02.mail88.icu}}
-  - {name: 🇭🇰 香港3-联通移动, server: hk02.ronghuafugui.xyz, port: 443, type: vmess, uuid: e3029569-f951-35d6-a7fd-438d5a07e412, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: hk02.ronghuafugui.xyz}}
-  - {name: 🇭🇰 香港5-电信联通, server: hk02.101justice.xyz, port: 443, type: vmess, uuid: e3029569-f951-35d6-a7fd-438d5a07e412, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: hk02.101justice.xyz}}
-  - {name: 🇭🇰 香港6-三网优化, server: hk01.99justice.xyz, port: 443, type: vmess, uuid: e3029569-f951-35d6-a7fd-438d5a07e412, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: hk01.99justice.xyz}}
+  - {name: "US, Dallas", server: 97.64.122.63, port: 668, type: ss, cipher: aes-256-cfb, password: bwhskrskr01}
+  - {name: "US, Houston", server: 34.211.119.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "CA, Vancouver", server: 52.34.165.6, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "HK, New Territories", server: 3.36.100.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "JP, Tokyo", server: 13.212.113.145, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "JP, Osaka", server: 13.231.173.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SG, Singapore", server: 13.212.137.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "US, Los Angeles", server: 95.169.4.174, port: 672, type: ss, cipher: aes-256-cfb, password: bwhskrskr01}
+  - {name: "US, Dallas 2", server: 176.122.166.159, port: 666, type: ss, cipher: aes-256-cfb, password: bwhskrskr01}
+  - {name: "HK, Kowloon", server: 18.183.77.208, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "KR, Incheon", server: 52.192.209.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "HK, Kowloon 2", server: 34.217.68.45, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "TW, Taipei", server: 54.202.67.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "US, California", server: 65.49.223.117, port: 448, type: ss, cipher: aes-256-cfb, password: bwhskrskr01}
+  - {name: "JP, Tokyo 2", server: 54.244.175.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 节点选择
     type: select
     proxies:
-      - 🇸🇬 新加坡8-联通移动
-      - 🇯🇵 日本8-联通移动
-      - 🇺🇲 美国1-电信联通
-      - 🇰🇷 韩国10-联通移动
-      - 🇰🇷 韩国8-联通移动
-      - 🇰🇷 韩国9-联通移动
-      - 🇭🇰 香港0-电信联通
-      - 🇭🇰 香港1-三网优化
-      - 🇭🇰 香港2-三网优化
-      - 🇭🇰 香港3-联通移动
-      - 🇭🇰 香港5-电信联通
-      - 🇭🇰 香港6-三网优化
+      - US, Dallas
+      - US, Houston
+      - CA, Vancouver
+      - HK, New Territories
+      - JP, Tokyo
+      - JP, Osaka
+      - SG, Singapore
+      - US, Los Angeles
+      - US, Dallas 2
+      - HK, Kowloon
+      - KR, Incheon
+      - HK, Kowloon 2
+      - TW, Taipei
+      - US, California
+      - JP, Tokyo 2
   - name: 国外媒体
     type: select
     proxies:
