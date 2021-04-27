@@ -203,6 +203,11 @@ proxy-groups:
     proxies:
       - 节点选择
       - 全球直连
+  - name: 电报信息
+    type: select
+    proxies:
+      - 全球直连
+      - 节点选择
   - name: 国内媒体
     type: select
     proxies:
