@@ -5,690 +5,202 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: AI2_HK_1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_HK_2, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_HK_3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_HK_4, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_HK_5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_JP_1, server: ap1-jp.er3.xyz, port: 29980, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_JP_2, server: ap1-jp.er3.xyz, port: 29982, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_JP_3, server: ap1-jp.er3.xyz, port: 29983, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_JP_4, server: ap1-jp.er3.xyz, port: 29984, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_JP_5, server: ap1-jp.er3.xyz, port: 29985, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_JP_6, server: ap1-jp.er3.xyz, port: 29986, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_JP_7, server: ap1-jp.er3.xyz, port: 29987, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_JP_8, server: ap1-jp.er3.xyz, port: 29988, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_SG_1, server: ap1-sg.er3.xyz, port: 29980, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_SG_2, server: ap1-sg.er3.xyz, port: 29982, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_SG_3, server: ap1-sg.er3.xyz, port: 29983, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_SG_4, server: ap1-sg.er3.xyz, port: 29984, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_SG_5, server: ap1-sg.er3.xyz, port: 29985, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_SG_6, server: ap1-sg.er3.xyz, port: 29986, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_SG_7, server: ap1-sg.er3.xyz, port: 29987, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_SG_8, server: ap1-sg.er3.xyz, port: 29988, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_US_1, server: ap1-us.er3.xyz, port: 29980, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_US_2, server: ap1-us.er3.xyz, port: 29982, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_US_3, server: ap1-us.er3.xyz, port: 29983, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_US_4, server: ap1-us.er3.xyz, port: 29984, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_US_5, server: ap1-us.er3.xyz, port: 29985, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_US_6, server: ap1-us.er3.xyz, port: 29986, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_US_7, server: ap1-us.er3.xyz, port: 29987, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_US_8, server: ap1-us.er3.xyz, port: 29988, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_UK_1, server: ap1-uk.er3.xyz, port: 29980, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_UK_2, server: ap1-uk.er3.xyz, port: 29982, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_UK_3, server: ap1-uk.er3.xyz, port: 29983, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_UK_4, server: ap1-uk.er3.xyz, port: 29984, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_UK_5, server: ap1-uk.er3.xyz, port: 29985, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_UK_6, server: ap1-uk.er3.xyz, port: 29986, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_UK_7, server: ap1-uk.er3.xyz, port: 29987, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_UK_8, server: ap1-uk.er3.xyz, port: 29988, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_CA_1, server: ap1-ca.er3.xyz, port: 29980, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_CA_2, server: ap1-ca.er3.xyz, port: 29982, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_CA_3, server: ap1-ca.er3.xyz, port: 29983, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_CA_4, server: ap1-ca.er3.xyz, port: 29984, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_CA_5, server: ap1-ca.er3.xyz, port: 29985, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_CA_6, server: ap1-ca.er3.xyz, port: 29986, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_CA_7, server: ap1-ca.er3.xyz, port: 29987, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_CA_8, server: ap1-ca.er3.xyz, port: 29988, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_AU_1, server: ap1-au.er3.xyz, port: 29980, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_AU_2, server: ap1-au.er3.xyz, port: 29982, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_AU_3, server: ap1-au.er3.xyz, port: 29983, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_AU_4, server: ap1-au.er3.xyz, port: 29984, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_AU_5, server: ap1-au.er3.xyz, port: 29985, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_AU_6, server: ap1-au.er3.xyz, port: 29986, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_AU_7, server: ap1-au.er3.xyz, port: 29987, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_AU_8, server: ap1-au.er3.xyz, port: 29988, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_G_1, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_G_2, server: global.ap.fastqvpn.com, port: 29982, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_G_3, server: global.ap.fastqvpn.com, port: 29983, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_G_4, server: global.ap.fastqvpn.com, port: 29984, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_G_5, server: global.ap.fastqvpn.com, port: 29985, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_G_6, server: global.ap.fastqvpn.com, port: 29986, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_G_7, server: global.ap.fastqvpn.com, port: 29987, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_G_8, server: global.ap.fastqvpn.com, port: 29988, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_T_1, server: tx.wy.fastqvpn.com, port: 29980, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_T_2, server: tx.wy.fastqvpn.com, port: 29982, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_T_3, server: tx.wy.fastqvpn.com, port: 29983, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_T_4, server: tx.wy.fastqvpn.com, port: 29984, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_T_5, server: tx.wy.fastqvpn.com, port: 29985, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_T_6, server: tx.wy.fastqvpn.com, port: 29986, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_T_7, server: tx.wy.fastqvpn.com, port: 29987, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_T_8, server: tx.wy.fastqvpn.com, port: 29988, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_E_1, server: a1.er3.xyz, port: 29980, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_E_2, server: a1.er3.xyz, port: 29982, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_E_3, server: a1.er3.xyz, port: 29983, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_E_4, server: a1.er3.xyz, port: 29984, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_E_5, server: a1.er3.xyz, port: 29985, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_E_6, server: a1.er3.xyz, port: 29986, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_E_7, server: a1.er3.xyz, port: 29987, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_E_8, server: a1.er3.xyz, port: 29988, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_P_1, server: ap1-ge.er3.xyz, port: 29980, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_P_2, server: ap1-ge.er3.xyz, port: 29982, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_P_3, server: ap1-ge.er3.xyz, port: 29983, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_P_4, server: ap1-ge.er3.xyz, port: 29984, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_P_5, server: ap1-ge.er3.xyz, port: 29985, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_P_6, server: ap1-ge.er3.xyz, port: 29986, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_P_7, server: ap1-ge.er3.xyz, port: 29987, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI2_P_8, server: ap1-ge.er3.xyz, port: 29988, type: http, username: 437202693103026176, password: 31f74732-8086-4a24-a4c9-721d40c82d85, tls: true, skip-cert-verify: false}
-  - {name: AI3_HK_1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_HK_2, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_HK_3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_HK_4, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_HK_5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_JP_1, server: ap1-jp.er3.xyz, port: 29980, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_JP_2, server: ap1-jp.er3.xyz, port: 29982, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_JP_3, server: ap1-jp.er3.xyz, port: 29983, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_JP_4, server: ap1-jp.er3.xyz, port: 29984, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_JP_5, server: ap1-jp.er3.xyz, port: 29985, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_JP_6, server: ap1-jp.er3.xyz, port: 29986, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_JP_7, server: ap1-jp.er3.xyz, port: 29987, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_JP_8, server: ap1-jp.er3.xyz, port: 29988, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_SG_1, server: ap1-sg.er3.xyz, port: 29980, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_SG_2, server: ap1-sg.er3.xyz, port: 29982, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_SG_3, server: ap1-sg.er3.xyz, port: 29983, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_SG_4, server: ap1-sg.er3.xyz, port: 29984, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_SG_5, server: ap1-sg.er3.xyz, port: 29985, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_SG_6, server: ap1-sg.er3.xyz, port: 29986, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_SG_7, server: ap1-sg.er3.xyz, port: 29987, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_SG_8, server: ap1-sg.er3.xyz, port: 29988, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_US_1, server: ap1-us.er3.xyz, port: 29980, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_US_2, server: ap1-us.er3.xyz, port: 29982, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_US_3, server: ap1-us.er3.xyz, port: 29983, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_US_4, server: ap1-us.er3.xyz, port: 29984, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_US_5, server: ap1-us.er3.xyz, port: 29985, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_US_6, server: ap1-us.er3.xyz, port: 29986, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_US_7, server: ap1-us.er3.xyz, port: 29987, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_US_8, server: ap1-us.er3.xyz, port: 29988, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_UK_1, server: ap1-uk.er3.xyz, port: 29980, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_UK_2, server: ap1-uk.er3.xyz, port: 29982, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_UK_3, server: ap1-uk.er3.xyz, port: 29983, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_UK_4, server: ap1-uk.er3.xyz, port: 29984, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_UK_5, server: ap1-uk.er3.xyz, port: 29985, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_UK_6, server: ap1-uk.er3.xyz, port: 29986, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_UK_7, server: ap1-uk.er3.xyz, port: 29987, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_UK_8, server: ap1-uk.er3.xyz, port: 29988, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_CA_1, server: ap1-ca.er3.xyz, port: 29980, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_CA_2, server: ap1-ca.er3.xyz, port: 29982, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_CA_3, server: ap1-ca.er3.xyz, port: 29983, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_CA_4, server: ap1-ca.er3.xyz, port: 29984, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_CA_5, server: ap1-ca.er3.xyz, port: 29985, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_CA_6, server: ap1-ca.er3.xyz, port: 29986, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_CA_7, server: ap1-ca.er3.xyz, port: 29987, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_CA_8, server: ap1-ca.er3.xyz, port: 29988, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_AU_1, server: ap1-au.er3.xyz, port: 29980, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_AU_2, server: ap1-au.er3.xyz, port: 29982, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_AU_3, server: ap1-au.er3.xyz, port: 29983, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_AU_4, server: ap1-au.er3.xyz, port: 29984, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_AU_5, server: ap1-au.er3.xyz, port: 29985, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_AU_6, server: ap1-au.er3.xyz, port: 29986, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_AU_7, server: ap1-au.er3.xyz, port: 29987, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_AU_8, server: ap1-au.er3.xyz, port: 29988, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_G_1, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_G_2, server: global.ap.fastqvpn.com, port: 29982, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_G_3, server: global.ap.fastqvpn.com, port: 29983, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_G_4, server: global.ap.fastqvpn.com, port: 29984, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_G_5, server: global.ap.fastqvpn.com, port: 29985, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_G_6, server: global.ap.fastqvpn.com, port: 29986, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_G_7, server: global.ap.fastqvpn.com, port: 29987, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_G_8, server: global.ap.fastqvpn.com, port: 29988, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_T_1, server: tx.wy.fastqvpn.com, port: 29980, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_T_2, server: tx.wy.fastqvpn.com, port: 29982, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_T_3, server: tx.wy.fastqvpn.com, port: 29983, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_T_4, server: tx.wy.fastqvpn.com, port: 29984, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_T_5, server: tx.wy.fastqvpn.com, port: 29985, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_T_6, server: tx.wy.fastqvpn.com, port: 29986, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_T_7, server: tx.wy.fastqvpn.com, port: 29987, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_T_8, server: tx.wy.fastqvpn.com, port: 29988, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_E_1, server: a1.er3.xyz, port: 29980, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_E_2, server: a1.er3.xyz, port: 29982, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_E_3, server: a1.er3.xyz, port: 29983, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_E_4, server: a1.er3.xyz, port: 29984, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_E_5, server: a1.er3.xyz, port: 29985, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_E_6, server: a1.er3.xyz, port: 29986, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_E_7, server: a1.er3.xyz, port: 29987, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_E_8, server: a1.er3.xyz, port: 29988, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_P_1, server: ap1-ge.er3.xyz, port: 29980, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_P_2, server: ap1-ge.er3.xyz, port: 29982, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_P_3, server: ap1-ge.er3.xyz, port: 29983, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_P_4, server: ap1-ge.er3.xyz, port: 29984, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_P_5, server: ap1-ge.er3.xyz, port: 29985, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_P_6, server: ap1-ge.er3.xyz, port: 29986, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_P_7, server: ap1-ge.er3.xyz, port: 29987, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI3_P_8, server: ap1-ge.er3.xyz, port: 29988, type: http, username: 437031926864281600, password: f3a7a9b4-461d-44dd-b636-243d044c4967, tls: true, skip-cert-verify: false}
-  - {name: AI4_HK_1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_HK_2, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_HK_3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_HK_4, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_HK_5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_JP_1, server: ap1-jp.er3.xyz, port: 29980, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_JP_2, server: ap1-jp.er3.xyz, port: 29982, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_JP_3, server: ap1-jp.er3.xyz, port: 29983, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_JP_4, server: ap1-jp.er3.xyz, port: 29984, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_JP_5, server: ap1-jp.er3.xyz, port: 29985, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_JP_6, server: ap1-jp.er3.xyz, port: 29986, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_JP_7, server: ap1-jp.er3.xyz, port: 29987, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_JP_8, server: ap1-jp.er3.xyz, port: 29988, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_SG_1, server: ap1-sg.er3.xyz, port: 29980, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_SG_2, server: ap1-sg.er3.xyz, port: 29982, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_SG_3, server: ap1-sg.er3.xyz, port: 29983, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_SG_4, server: ap1-sg.er3.xyz, port: 29984, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_SG_5, server: ap1-sg.er3.xyz, port: 29985, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_SG_6, server: ap1-sg.er3.xyz, port: 29986, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_SG_7, server: ap1-sg.er3.xyz, port: 29987, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_SG_8, server: ap1-sg.er3.xyz, port: 29988, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_US_1, server: ap1-us.er3.xyz, port: 29980, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_US_2, server: ap1-us.er3.xyz, port: 29982, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_US_3, server: ap1-us.er3.xyz, port: 29983, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_US_4, server: ap1-us.er3.xyz, port: 29984, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_US_5, server: ap1-us.er3.xyz, port: 29985, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_US_6, server: ap1-us.er3.xyz, port: 29986, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_US_7, server: ap1-us.er3.xyz, port: 29987, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_US_8, server: ap1-us.er3.xyz, port: 29988, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_UK_1, server: ap1-uk.er3.xyz, port: 29980, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_UK_2, server: ap1-uk.er3.xyz, port: 29982, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_UK_3, server: ap1-uk.er3.xyz, port: 29983, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_UK_4, server: ap1-uk.er3.xyz, port: 29984, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_UK_5, server: ap1-uk.er3.xyz, port: 29985, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_UK_6, server: ap1-uk.er3.xyz, port: 29986, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_UK_7, server: ap1-uk.er3.xyz, port: 29987, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_UK_8, server: ap1-uk.er3.xyz, port: 29988, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_CA_1, server: ap1-ca.er3.xyz, port: 29980, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_CA_2, server: ap1-ca.er3.xyz, port: 29982, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_CA_3, server: ap1-ca.er3.xyz, port: 29983, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_CA_4, server: ap1-ca.er3.xyz, port: 29984, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_CA_5, server: ap1-ca.er3.xyz, port: 29985, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_CA_6, server: ap1-ca.er3.xyz, port: 29986, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_CA_7, server: ap1-ca.er3.xyz, port: 29987, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_CA_8, server: ap1-ca.er3.xyz, port: 29988, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_AU_1, server: ap1-au.er3.xyz, port: 29980, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_AU_2, server: ap1-au.er3.xyz, port: 29982, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_AU_3, server: ap1-au.er3.xyz, port: 29983, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_AU_4, server: ap1-au.er3.xyz, port: 29984, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_AU_5, server: ap1-au.er3.xyz, port: 29985, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_AU_6, server: ap1-au.er3.xyz, port: 29986, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_AU_7, server: ap1-au.er3.xyz, port: 29987, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_AU_8, server: ap1-au.er3.xyz, port: 29988, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_G_1, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_G_2, server: global.ap.fastqvpn.com, port: 29982, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_G_3, server: global.ap.fastqvpn.com, port: 29983, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_G_4, server: global.ap.fastqvpn.com, port: 29984, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_G_5, server: global.ap.fastqvpn.com, port: 29985, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_G_6, server: global.ap.fastqvpn.com, port: 29986, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_G_7, server: global.ap.fastqvpn.com, port: 29987, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_G_8, server: global.ap.fastqvpn.com, port: 29988, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_T_1, server: tx.wy.fastqvpn.com, port: 29980, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_T_2, server: tx.wy.fastqvpn.com, port: 29982, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_T_3, server: tx.wy.fastqvpn.com, port: 29983, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_T_4, server: tx.wy.fastqvpn.com, port: 29984, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_T_5, server: tx.wy.fastqvpn.com, port: 29985, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_T_6, server: tx.wy.fastqvpn.com, port: 29986, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_T_7, server: tx.wy.fastqvpn.com, port: 29987, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_T_8, server: tx.wy.fastqvpn.com, port: 29988, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_E_1, server: a1.er3.xyz, port: 29980, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_E_2, server: a1.er3.xyz, port: 29982, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_E_3, server: a1.er3.xyz, port: 29983, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_E_4, server: a1.er3.xyz, port: 29984, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_E_5, server: a1.er3.xyz, port: 29985, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_E_6, server: a1.er3.xyz, port: 29986, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_E_7, server: a1.er3.xyz, port: 29987, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_E_8, server: a1.er3.xyz, port: 29988, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_P_1, server: ap1-ge.er3.xyz, port: 29980, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_P_2, server: ap1-ge.er3.xyz, port: 29982, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_P_3, server: ap1-ge.er3.xyz, port: 29983, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_P_4, server: ap1-ge.er3.xyz, port: 29984, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_P_5, server: ap1-ge.er3.xyz, port: 29985, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_P_6, server: ap1-ge.er3.xyz, port: 29986, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_P_7, server: ap1-ge.er3.xyz, port: 29987, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI4_P_8, server: ap1-ge.er3.xyz, port: 29988, type: http, username: 434719327753601024, password: 721710-2d65-403d-9f2f-e87933e86850, tls: true, skip-cert-verify: false}
-  - {name: AI5_HK_1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_HK_2, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_HK_3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_HK_4, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_HK_5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_JP_1, server: ap1-jp.er3.xyz, port: 29980, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_JP_2, server: ap1-jp.er3.xyz, port: 29982, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_JP_3, server: ap1-jp.er3.xyz, port: 29983, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_JP_4, server: ap1-jp.er3.xyz, port: 29984, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_JP_5, server: ap1-jp.er3.xyz, port: 29985, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_JP_6, server: ap1-jp.er3.xyz, port: 29986, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_JP_7, server: ap1-jp.er3.xyz, port: 29987, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_JP_8, server: ap1-jp.er3.xyz, port: 29988, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_SG_1, server: ap1-sg.er3.xyz, port: 29980, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_SG_2, server: ap1-sg.er3.xyz, port: 29982, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_SG_3, server: ap1-sg.er3.xyz, port: 29983, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_SG_4, server: ap1-sg.er3.xyz, port: 29984, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_SG_5, server: ap1-sg.er3.xyz, port: 29985, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_SG_6, server: ap1-sg.er3.xyz, port: 29986, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_SG_7, server: ap1-sg.er3.xyz, port: 29987, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_SG_8, server: ap1-sg.er3.xyz, port: 29988, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_US_1, server: ap1-us.er3.xyz, port: 29980, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_US_2, server: ap1-us.er3.xyz, port: 29982, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_US_3, server: ap1-us.er3.xyz, port: 29983, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_US_4, server: ap1-us.er3.xyz, port: 29984, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_US_5, server: ap1-us.er3.xyz, port: 29985, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_US_6, server: ap1-us.er3.xyz, port: 29986, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_US_7, server: ap1-us.er3.xyz, port: 29987, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_US_8, server: ap1-us.er3.xyz, port: 29988, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_UK_1, server: ap1-uk.er3.xyz, port: 29980, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_UK_2, server: ap1-uk.er3.xyz, port: 29982, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_UK_3, server: ap1-uk.er3.xyz, port: 29983, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_UK_4, server: ap1-uk.er3.xyz, port: 29984, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_UK_5, server: ap1-uk.er3.xyz, port: 29985, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_UK_6, server: ap1-uk.er3.xyz, port: 29986, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_UK_7, server: ap1-uk.er3.xyz, port: 29987, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_UK_8, server: ap1-uk.er3.xyz, port: 29988, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_CA_1, server: ap1-ca.er3.xyz, port: 29980, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_CA_2, server: ap1-ca.er3.xyz, port: 29982, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_CA_3, server: ap1-ca.er3.xyz, port: 29983, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_CA_4, server: ap1-ca.er3.xyz, port: 29984, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_CA_5, server: ap1-ca.er3.xyz, port: 29985, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_CA_6, server: ap1-ca.er3.xyz, port: 29986, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_CA_7, server: ap1-ca.er3.xyz, port: 29987, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_CA_8, server: ap1-ca.er3.xyz, port: 29988, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_AU_1, server: ap1-au.er3.xyz, port: 29980, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_AU_2, server: ap1-au.er3.xyz, port: 29982, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_AU_3, server: ap1-au.er3.xyz, port: 29983, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_AU_4, server: ap1-au.er3.xyz, port: 29984, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_AU_5, server: ap1-au.er3.xyz, port: 29985, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_AU_6, server: ap1-au.er3.xyz, port: 29986, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_AU_7, server: ap1-au.er3.xyz, port: 29987, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_AU_8, server: ap1-au.er3.xyz, port: 29988, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_G_1, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_G_2, server: global.ap.fastqvpn.com, port: 29982, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_G_3, server: global.ap.fastqvpn.com, port: 29983, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_G_4, server: global.ap.fastqvpn.com, port: 29984, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_G_5, server: global.ap.fastqvpn.com, port: 29985, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_G_6, server: global.ap.fastqvpn.com, port: 29986, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_G_7, server: global.ap.fastqvpn.com, port: 29987, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_G_8, server: global.ap.fastqvpn.com, port: 29988, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_T_1, server: tx.wy.fastqvpn.com, port: 29980, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_T_2, server: tx.wy.fastqvpn.com, port: 29982, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_T_3, server: tx.wy.fastqvpn.com, port: 29983, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_T_4, server: tx.wy.fastqvpn.com, port: 29984, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_T_5, server: tx.wy.fastqvpn.com, port: 29985, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_T_6, server: tx.wy.fastqvpn.com, port: 29986, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_T_7, server: tx.wy.fastqvpn.com, port: 29987, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_T_8, server: tx.wy.fastqvpn.com, port: 29988, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_E_1, server: a1.er3.xyz, port: 29980, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_E_2, server: a1.er3.xyz, port: 29982, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_E_3, server: a1.er3.xyz, port: 29983, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_E_4, server: a1.er3.xyz, port: 29984, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_E_5, server: a1.er3.xyz, port: 29985, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_E_6, server: a1.er3.xyz, port: 29986, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_E_7, server: a1.er3.xyz, port: 29987, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_E_8, server: a1.er3.xyz, port: 29988, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_P_1, server: ap1-ge.er3.xyz, port: 29980, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_P_2, server: ap1-ge.er3.xyz, port: 29982, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_P_3, server: ap1-ge.er3.xyz, port: 29983, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_P_4, server: ap1-ge.er3.xyz, port: 29984, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_P_5, server: ap1-ge.er3.xyz, port: 29985, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_P_6, server: ap1-ge.er3.xyz, port: 29986, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_P_7, server: ap1-ge.er3.xyz, port: 29987, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
-  - {name: AI5_P_8, server: ap1-ge.er3.xyz, port: 29988, type: http, username: 432931141142446080, password: afa7e167-4c16-4e70-9af4-48755f54e1ab, tls: true, skip-cert-verify: false}
+  - {name: 1, server: 119.147.144.250, port: 18834, type: ss, cipher: aes-256-gcm, password: daCxNwo600NW}
+  - {name: 2, server: 2.58.242.133, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 3, server: 2.58.242.133, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 4, server: 2.58.242.43, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 5, server: 45.43.14.75, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 6, server: 68.183.89.47, port: 18798, type: ss, cipher: chacha20-ietf-poly1305, password: Gs8mxoZyDgTh}
+  - {name: 7, server: 45.43.14.75, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 8, server: 2.58.242.133, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 9, server: 2.58.242.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 10, server: 85.10.56.192, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 11, server: 37.10.114.67, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 12, server: 64.44.42.164, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 13, server: 5.133.14.196, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 14, server: 2.58.242.131, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 15, server: 5.133.14.196, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 16, server: 164.90.234.85, port: 18492, type: ss, cipher: chacha20-ietf-poly1305, password: fdRAl4scWDTg}
+  - {name: 17, server: 193.29.107.221, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 18, server: 91.206.168.19, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 19, server: 180.149.228.27, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 20, server: 103.152.151.21, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 21, server: 176.222.34.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 22, server: 89.187.168.46, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 23, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 24, server: 66.115.182.77, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 25, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 26, server: 91.206.168.19, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 27, server: 188.92.78.152, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 28, server: 180.149.231.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 29, server: 66.115.147.89, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 30, server: 37.120.194.115, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 31, server: 217.138.222.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 32, server: 207.244.67.149, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 33, server: 37.120.194.109, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 34, server: 193.29.107.221, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 35, server: 180.149.231.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 36, server: 194.110.115.75, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 37, server: 180.149.231.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 38, server: 217.138.222.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 39, server: 37.120.148.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 40, server: 138.197.174.245, port: 56443, type: ss, cipher: chacha20-ietf-poly1305, password: 5N9wgv89gum9}
+  - {name: 41, server: 31.171.153.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 42, server: 31.171.153.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 43, server: 180.149.231.45, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 44, server: 180.149.231.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 45, server: 217.138.222.53, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 46, server: 217.138.222.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 47, server: 31.171.153.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 48, server: 176.125.231.29, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 49, server: 217.138.222.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 50, server: 31.171.153.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 51, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 52, server: 193.29.107.93, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 53, server: 178.62.253.150, port: 11541, type: ss, cipher: chacha20-ietf-poly1305, password: jNd5a6C0jXMf}
+  - {name: 54, server: 104.131.61.113, port: 17477, type: ss, cipher: chacha20-ietf-poly1305, password: uSyOR25J2ChR}
+  - {name: 55, server: 184.170.250.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 56, server: 207.244.127.118, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 57, server: 180.149.228.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 58, server: 217.138.222.53, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 59, server: 176.222.34.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 60, server: 193.29.107.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 61, server: 196.244.191.93, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 62, server: 176.125.231.29, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 63, server: 180.149.231.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 64, server: 31.171.154.221, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 65, server: 31.171.153.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 66, server: 180.149.231.45, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 67, server: 180.149.228.27, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 68, server: 193.29.107.221, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 69, server: 103.120.66.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 70, server: 185.210.217.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 71, server: 185.210.217.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 72, server: 180.149.228.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 73, server: 180.149.228.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 74, server: 180.149.228.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 75, server: 2.58.242.131, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 76, server: 2.58.242.133, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 77, server: 2.58.242.133, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 78, server: 2.58.242.133, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 79, server: 2.58.242.133, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 80, server: 2.58.242.133, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 81, server: 2.58.242.131, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 82, server: 2.58.242.131, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 83, server: 2.58.242.133, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 84, server: 2.58.242.131, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 85, server: 2.58.242.133, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 86, server: 2.58.242.133, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 87, server: 2.58.242.131, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 88, server: 2.58.242.131, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 89, server: 2.58.242.133, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 90, server: 2.58.242.133, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 91, server: cn2.flushingx.com, port: 1487, type: ssr, cipher: rc4-md5, password: !<str> 7611866184, protocol: origin, obfs: "", protocol-param: "", obfs-param: ""}
+  - {name: 92, server: 23.224.31.202, port: 443, type: vmess, uuid: 28a84b69-e118-47a0-9869-f397bcc9fbbd, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: www.28057431.xyz}}
+  - {name: 93, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: www.10925848.xyz}}
+  - {name: 94, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: www.09025120.xyz}}
+  - {name: 95, server: 23.225.213.242, port: 443, type: vmess, uuid: 11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: www.16789312.xyz}}
+  - {name: 96, server: 52.196.144.61, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-path: /s/c27821f.fm.icloud.com:16708, ws-headers: {Host: 52.196.144.61}}
 proxy-groups:
   - name: 节点选择
     type: select
     proxies:
-      - AI2_HK_1
-      - AI2_HK_2
-      - AI2_HK_3
-      - AI2_HK_4
-      - AI2_HK_5
-      - AI2_JP_1
-      - AI2_JP_2
-      - AI2_JP_3
-      - AI2_JP_4
-      - AI2_JP_5
-      - AI2_JP_6
-      - AI2_JP_7
-      - AI2_JP_8
-      - AI2_SG_1
-      - AI2_SG_2
-      - AI2_SG_3
-      - AI2_SG_4
-      - AI2_SG_5
-      - AI2_SG_6
-      - AI2_SG_7
-      - AI2_SG_8
-      - AI2_US_1
-      - AI2_US_2
-      - AI2_US_3
-      - AI2_US_4
-      - AI2_US_5
-      - AI2_US_6
-      - AI2_US_7
-      - AI2_US_8
-      - AI2_UK_1
-      - AI2_UK_2
-      - AI2_UK_3
-      - AI2_UK_4
-      - AI2_UK_5
-      - AI2_UK_6
-      - AI2_UK_7
-      - AI2_UK_8
-      - AI2_CA_1
-      - AI2_CA_2
-      - AI2_CA_3
-      - AI2_CA_4
-      - AI2_CA_5
-      - AI2_CA_6
-      - AI2_CA_7
-      - AI2_CA_8
-      - AI2_AU_1
-      - AI2_AU_2
-      - AI2_AU_3
-      - AI2_AU_4
-      - AI2_AU_5
-      - AI2_AU_6
-      - AI2_AU_7
-      - AI2_AU_8
-      - AI2_G_1
-      - AI2_G_2
-      - AI2_G_3
-      - AI2_G_4
-      - AI2_G_5
-      - AI2_G_6
-      - AI2_G_7
-      - AI2_G_8
-      - AI2_T_1
-      - AI2_T_2
-      - AI2_T_3
-      - AI2_T_4
-      - AI2_T_5
-      - AI2_T_6
-      - AI2_T_7
-      - AI2_T_8
-      - AI2_E_1
-      - AI2_E_2
-      - AI2_E_3
-      - AI2_E_4
-      - AI2_E_5
-      - AI2_E_6
-      - AI2_E_7
-      - AI2_E_8
-      - AI2_P_1
-      - AI2_P_2
-      - AI2_P_3
-      - AI2_P_4
-      - AI2_P_5
-      - AI2_P_6
-      - AI2_P_7
-      - AI2_P_8
-      - AI3_HK_1
-      - AI3_HK_2
-      - AI3_HK_3
-      - AI3_HK_4
-      - AI3_HK_5
-      - AI3_JP_1
-      - AI3_JP_2
-      - AI3_JP_3
-      - AI3_JP_4
-      - AI3_JP_5
-      - AI3_JP_6
-      - AI3_JP_7
-      - AI3_JP_8
-      - AI3_SG_1
-      - AI3_SG_2
-      - AI3_SG_3
-      - AI3_SG_4
-      - AI3_SG_5
-      - AI3_SG_6
-      - AI3_SG_7
-      - AI3_SG_8
-      - AI3_US_1
-      - AI3_US_2
-      - AI3_US_3
-      - AI3_US_4
-      - AI3_US_5
-      - AI3_US_6
-      - AI3_US_7
-      - AI3_US_8
-      - AI3_UK_1
-      - AI3_UK_2
-      - AI3_UK_3
-      - AI3_UK_4
-      - AI3_UK_5
-      - AI3_UK_6
-      - AI3_UK_7
-      - AI3_UK_8
-      - AI3_CA_1
-      - AI3_CA_2
-      - AI3_CA_3
-      - AI3_CA_4
-      - AI3_CA_5
-      - AI3_CA_6
-      - AI3_CA_7
-      - AI3_CA_8
-      - AI3_AU_1
-      - AI3_AU_2
-      - AI3_AU_3
-      - AI3_AU_4
-      - AI3_AU_5
-      - AI3_AU_6
-      - AI3_AU_7
-      - AI3_AU_8
-      - AI3_G_1
-      - AI3_G_2
-      - AI3_G_3
-      - AI3_G_4
-      - AI3_G_5
-      - AI3_G_6
-      - AI3_G_7
-      - AI3_G_8
-      - AI3_T_1
-      - AI3_T_2
-      - AI3_T_3
-      - AI3_T_4
-      - AI3_T_5
-      - AI3_T_6
-      - AI3_T_7
-      - AI3_T_8
-      - AI3_E_1
-      - AI3_E_2
-      - AI3_E_3
-      - AI3_E_4
-      - AI3_E_5
-      - AI3_E_6
-      - AI3_E_7
-      - AI3_E_8
-      - AI3_P_1
-      - AI3_P_2
-      - AI3_P_3
-      - AI3_P_4
-      - AI3_P_5
-      - AI3_P_6
-      - AI3_P_7
-      - AI3_P_8
-      - AI4_HK_1
-      - AI4_HK_2
-      - AI4_HK_3
-      - AI4_HK_4
-      - AI4_HK_5
-      - AI4_JP_1
-      - AI4_JP_2
-      - AI4_JP_3
-      - AI4_JP_4
-      - AI4_JP_5
-      - AI4_JP_6
-      - AI4_JP_7
-      - AI4_JP_8
-      - AI4_SG_1
-      - AI4_SG_2
-      - AI4_SG_3
-      - AI4_SG_4
-      - AI4_SG_5
-      - AI4_SG_6
-      - AI4_SG_7
-      - AI4_SG_8
-      - AI4_US_1
-      - AI4_US_2
-      - AI4_US_3
-      - AI4_US_4
-      - AI4_US_5
-      - AI4_US_6
-      - AI4_US_7
-      - AI4_US_8
-      - AI4_UK_1
-      - AI4_UK_2
-      - AI4_UK_3
-      - AI4_UK_4
-      - AI4_UK_5
-      - AI4_UK_6
-      - AI4_UK_7
-      - AI4_UK_8
-      - AI4_CA_1
-      - AI4_CA_2
-      - AI4_CA_3
-      - AI4_CA_4
-      - AI4_CA_5
-      - AI4_CA_6
-      - AI4_CA_7
-      - AI4_CA_8
-      - AI4_AU_1
-      - AI4_AU_2
-      - AI4_AU_3
-      - AI4_AU_4
-      - AI4_AU_5
-      - AI4_AU_6
-      - AI4_AU_7
-      - AI4_AU_8
-      - AI4_G_1
-      - AI4_G_2
-      - AI4_G_3
-      - AI4_G_4
-      - AI4_G_5
-      - AI4_G_6
-      - AI4_G_7
-      - AI4_G_8
-      - AI4_T_1
-      - AI4_T_2
-      - AI4_T_3
-      - AI4_T_4
-      - AI4_T_5
-      - AI4_T_6
-      - AI4_T_7
-      - AI4_T_8
-      - AI4_E_1
-      - AI4_E_2
-      - AI4_E_3
-      - AI4_E_4
-      - AI4_E_5
-      - AI4_E_6
-      - AI4_E_7
-      - AI4_E_8
-      - AI4_P_1
-      - AI4_P_2
-      - AI4_P_3
-      - AI4_P_4
-      - AI4_P_5
-      - AI4_P_6
-      - AI4_P_7
-      - AI4_P_8
-      - AI5_HK_1
-      - AI5_HK_2
-      - AI5_HK_3
-      - AI5_HK_4
-      - AI5_HK_5
-      - AI5_JP_1
-      - AI5_JP_2
-      - AI5_JP_3
-      - AI5_JP_4
-      - AI5_JP_5
-      - AI5_JP_6
-      - AI5_JP_7
-      - AI5_JP_8
-      - AI5_SG_1
-      - AI5_SG_2
-      - AI5_SG_3
-      - AI5_SG_4
-      - AI5_SG_5
-      - AI5_SG_6
-      - AI5_SG_7
-      - AI5_SG_8
-      - AI5_US_1
-      - AI5_US_2
-      - AI5_US_3
-      - AI5_US_4
-      - AI5_US_5
-      - AI5_US_6
-      - AI5_US_7
-      - AI5_US_8
-      - AI5_UK_1
-      - AI5_UK_2
-      - AI5_UK_3
-      - AI5_UK_4
-      - AI5_UK_5
-      - AI5_UK_6
-      - AI5_UK_7
-      - AI5_UK_8
-      - AI5_CA_1
-      - AI5_CA_2
-      - AI5_CA_3
-      - AI5_CA_4
-      - AI5_CA_5
-      - AI5_CA_6
-      - AI5_CA_7
-      - AI5_CA_8
-      - AI5_AU_1
-      - AI5_AU_2
-      - AI5_AU_3
-      - AI5_AU_4
-      - AI5_AU_5
-      - AI5_AU_6
-      - AI5_AU_7
-      - AI5_AU_8
-      - AI5_G_1
-      - AI5_G_2
-      - AI5_G_3
-      - AI5_G_4
-      - AI5_G_5
-      - AI5_G_6
-      - AI5_G_7
-      - AI5_G_8
-      - AI5_T_1
-      - AI5_T_2
-      - AI5_T_3
-      - AI5_T_4
-      - AI5_T_5
-      - AI5_T_6
-      - AI5_T_7
-      - AI5_T_8
-      - AI5_E_1
-      - AI5_E_2
-      - AI5_E_3
-      - AI5_E_4
-      - AI5_E_5
-      - AI5_E_6
-      - AI5_E_7
-      - AI5_E_8
-      - AI5_P_1
-      - AI5_P_2
-      - AI5_P_3
-      - AI5_P_4
-      - AI5_P_5
-      - AI5_P_6
-      - AI5_P_7
-      - AI5_P_8
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      - 53
+      - 54
+      - 55
+      - 56
+      - 57
+      - 58
+      - 59
+      - 60
+      - 61
+      - 62
+      - 63
+      - 64
+      - 65
+      - 66
+      - 67
+      - 68
+      - 69
+      - 70
+      - 71
+      - 72
+      - 73
+      - 74
+      - 75
+      - 76
+      - 77
+      - 78
+      - 79
+      - 80
+      - 81
+      - 82
+      - 83
+      - 84
+      - 85
+      - 86
+      - 87
+      - 88
+      - 89
+      - 90
+      - 91
+      - 92
+      - 93
+      - 94
+      - 95
+      - 96
   - name: 国外媒体
     type: select
     proxies:
@@ -10706,6 +10218,422 @@ rules:
   - DOMAIN-SUFFIX,lanzous.com,全球直连
   - DOMAIN-SUFFIX,licdn.com,全球直连
   - DOMAIN-SUFFIX,linkedin.com,全球直连
+  - DOMAIN-SUFFIX,loli.net,全球直连
+  - DOMAIN-SUFFIX,luojilab.com,全球直连
+  - DOMAIN-SUFFIX,maoyan.com,全球直连
+  - DOMAIN-SUFFIX,maoyun.tv,全球直连
+  - DOMAIN-SUFFIX,meituan.com,全球直连
+  - DOMAIN-SUFFIX,meituan.net,全球直连
+  - DOMAIN-SUFFIX,mls-cdn.com,全球直连
+  - DOMAIN-SUFFIX,mobike.com,全球直连
+  - DOMAIN-SUFFIX,moke.com,全球直连
+  - DOMAIN-SUFFIX,mubu.com,全球直连
+  - DOMAIN-SUFFIX,myzaker.com,全球直连
+  - DOMAIN-SUFFIX,nim-lang-cn.org,全球直连
+  - DOMAIN-SUFFIX,nvidia.com,全球直连
+  - DOMAIN-SUFFIX,oracle.com,全球直连
+  - DOMAIN-SUFFIX,plex.tv,全球直连
+  - DOMAIN-SUFFIX,qdaily.com,全球直连
+  - DOMAIN-SUFFIX,qidian.com,全球直连
+  - DOMAIN-SUFFIX,qyer.com,全球直连
+  - DOMAIN-SUFFIX,qyerstatic.com,全球直连
+  - DOMAIN-SUFFIX,raychase.net,全球直连
+  - DOMAIN-SUFFIX,ronghub.com,全球直连
+  - DOMAIN-SUFFIX,ruguoapp.com,全球直连
+  - DOMAIN-SUFFIX,sankuai.com,全球直连
+  - DOMAIN-SUFFIX,scomper.me,全球直连
+  - DOMAIN-SUFFIX,seafile.com,全球直连
+  - DOMAIN-SUFFIX,sm.ms,全球直连
+  - DOMAIN-SUFFIX,smzdm.com,全球直连
+  - DOMAIN-SUFFIX,snapdrop.net,全球直连
+  - DOMAIN-SUFFIX,snwx.com,全球直连
+  - DOMAIN-SUFFIX,s-reader.com,全球直连
+  - DOMAIN-SUFFIX,sspai.com,全球直连
+  - DOMAIN-SUFFIX,subhd.tv,全球直连
+  - DOMAIN-SUFFIX,takungpao.com,全球直连
+  - DOMAIN-SUFFIX,teamviewer.com,全球直连
+  - DOMAIN-SUFFIX,tianyancha.com,全球直连
+  - DOMAIN-SUFFIX,tophub.today,全球直连
+  - DOMAIN-SUFFIX,udacity.com,全球直连
+  - DOMAIN-SUFFIX,uning.com,全球直连
+  - DOMAIN-SUFFIX,weather.com,全球直连
+  - DOMAIN-SUFFIX,weico.cc,全球直连
+  - DOMAIN-SUFFIX,weidian.com,全球直连
+  - DOMAIN-SUFFIX,xiachufang.com,全球直连
+  - DOMAIN-SUFFIX,xiaoka.tv,全球直连
+  - DOMAIN-SUFFIX,ximalaya.com,全球直连
+  - DOMAIN-SUFFIX,xinhuanet.com,全球直连
+  - DOMAIN-SUFFIX,xmcdn.com,全球直连
+  - DOMAIN-SUFFIX,yangkeduo.com,全球直连
+  - DOMAIN-SUFFIX,yizhibo.com,全球直连
+  - DOMAIN-SUFFIX,zhangzishi.cc,全球直连
+  - DOMAIN-SUFFIX,zhihu.com,全球直连
+  - DOMAIN-SUFFIX,zhihuishu.com,全球直连
+  - DOMAIN-SUFFIX,zhimg.com,全球直连
+  - DOMAIN-SUFFIX,zhuihd.com,全球直连
+  - DOMAIN,download.jetbrains.com,全球直连
+  - DOMAIN,images-cn.ssl-images-amazon.com,全球直连
+  - IP-CIDR,119.28.28.28/32,全球直连,no-resolve
+  - IP-CIDR,182.254.116.0/24,全球直连,no-resolve
+  - PROCESS-NAME,aria2c,全球直连
+  - PROCESS-NAME,fdm,全球直连
+  - PROCESS-NAME,Folx,全球直连
+  - PROCESS-NAME,NetTransport,全球直连
+  - PROCESS-NAME,Thunder,全球直连
+  - PROCESS-NAME,Transmission,全球直连
+  - PROCESS-NAME,uTorrent,全球直连
+  - PROCESS-NAME,WebTorrent,全球直连
+  - PROCESS-NAME,WebTorrent Helper,全球直连
+  - PROCESS-NAME,DownloadService,全球直连
+  - PROCESS-NAME,Weiyun,全球直连
+  - DOMAIN-KEYWORD,aria2,全球直连
+  - DOMAIN-KEYWORD,xunlei,全球直连
+  - DOMAIN-KEYWORD,yunpan,全球直连
+  - DOMAIN-KEYWORD,Thunder,全球直连
+  - DOMAIN-KEYWORD,XLLiveUD,全球直连
+  - GEOIP,CN,全球直连
+  - MATCH,黑白名单,苹果服务
+  - DOMAIN-KEYWORD,apple.com.akadns.net,苹果服务
+  - DOMAIN-KEYWORD,icloud.com.akadns.net,苹果服务
+  - IP-CIDR,17.0.0.0/8,苹果服务,no-resolve
+  - IP-CIDR,63.92.224.0/19,苹果服务,no-resolve
+  - IP-CIDR,65.199.22.0/23,苹果服务,no-resolve
+  - IP-CIDR,139.178.128.0/18,苹果服务,no-resolve
+  - IP-CIDR,144.178.0.0/19,苹果服务,no-resolve
+  - IP-CIDR,192.35.50.0/24,苹果服务,no-resolve
+  - IP-CIDR,198.183.17.0/24,苹果服务,no-resolve
+  - IP-CIDR,205.180.175.0/24,苹果服务,no-resolve
+  - DOMAIN-SUFFIX,qhres.com,全球直连
+  - DOMAIN-SUFFIX,qhimg.com,全球直连
+  - DOMAIN-SUFFIX,alibaba.com,全球直连
+  - DOMAIN-SUFFIX,alibabausercontent.com,全球直连
+  - DOMAIN-SUFFIX,alicdn.com,全球直连
+  - DOMAIN-SUFFIX,alikunlun.com,全球直连
+  - DOMAIN-SUFFIX,alipay.com,全球直连
+  - DOMAIN-SUFFIX,amap.com,全球直连
+  - DOMAIN-SUFFIX,autonavi.com,全球直连
+  - DOMAIN-SUFFIX,dingtalk.com,全球直连
+  - DOMAIN-SUFFIX,mxhichina.com,全球直连
+  - DOMAIN-SUFFIX,soku.com,全球直连
+  - DOMAIN-SUFFIX,taobao.com,全球直连
+  - DOMAIN-SUFFIX,tmall.com,全球直连
+  - DOMAIN-SUFFIX,tmall.hk,全球直连
+  - DOMAIN-SUFFIX,ykimg.com,全球直连
+  - DOMAIN-SUFFIX,youku.com,全球直连
+  - DOMAIN-SUFFIX,xiami.com,全球直连
+  - DOMAIN-SUFFIX,xiami.net,全球直连
+  - DOMAIN-SUFFIX,aaplimg.com,全球直连
+  - DOMAIN-SUFFIX,apple.co,全球直连
+  - DOMAIN-SUFFIX,apple.com,全球直连
+  - DOMAIN-SUFFIX,apple-cloudkit.com,全球直连
+  - DOMAIN-SUFFIX,appstore.com,全球直连
+  - DOMAIN-SUFFIX,cdn-apple.com,全球直连
+  - DOMAIN-SUFFIX,icloud.com,全球直连
+  - DOMAIN-SUFFIX,icloud-content.com,全球直连
+  - DOMAIN-SUFFIX,me.com,全球直连
+  - DOMAIN-SUFFIX,mzstatic.com,全球直连
+  - DOMAIN-KEYWORD,apple.com.akadns.net,全球直连
+  - DOMAIN-KEYWORD,icloud.com.akadns.net,全球直连
+  - DOMAIN-SUFFIX,baidu.com,全球直连
+  - DOMAIN-SUFFIX,baidubcr.com,全球直连
+  - DOMAIN-SUFFIX,baidupan.com,全球直连
+  - DOMAIN-SUFFIX,baidupcs.com,全球直连
+  - DOMAIN-SUFFIX,bdstatic.com,全球直连
+  - DOMAIN-SUFFIX,yunjiasu-cdn.net,全球直连
+  - DOMAIN-SUFFIX,acgvideo.com,全球直连
+  - DOMAIN-SUFFIX,biliapi.com,全球直连
+  - DOMAIN-SUFFIX,biliapi.net,全球直连
+  - DOMAIN-SUFFIX,bilibili.com,全球直连
+  - DOMAIN-SUFFIX,bilibili.tv,全球直连
+  - DOMAIN-SUFFIX,hdslb.com,全球直连
+  - DOMAIN-SUFFIX,feiliao.com,全球直连
+  - DOMAIN-SUFFIX,pstatp.com,全球直连
+  - DOMAIN-SUFFIX,snssdk.com,全球直连
+  - DOMAIN-SUFFIX,iesdouyin.com,全球直连
+  - DOMAIN-SUFFIX,toutiao.com,全球直连
+  - DOMAIN-SUFFIX,cctv.com,全球直连
+  - DOMAIN-SUFFIX,cctvpic.com,全球直连
+  - DOMAIN-SUFFIX,livechina.com,全球直连
+  - DOMAIN-SUFFIX,didialift.com,全球直连
+  - DOMAIN-SUFFIX,didiglobal.com,全球直连
+  - DOMAIN-SUFFIX,udache.com,全球直连
+  - DOMAIN-SUFFIX,21cn.com,全球直连
+  - DOMAIN-SUFFIX,hitv.com,全球直连
+  - DOMAIN-SUFFIX,mgtv.com,全球直连
+  - DOMAIN-SUFFIX,iqiyi.com,全球直连
+  - DOMAIN-SUFFIX,iqiyipic.com,全球直连
+  - DOMAIN-SUFFIX,71.am,全球直连
+  - DOMAIN-SUFFIX,jd.com,全球直连
+  - DOMAIN-SUFFIX,jd.hk,全球直连
+  - DOMAIN-SUFFIX,jdpay.com,全球直连
+  - DOMAIN-SUFFIX,360buyimg.com,全球直连
+  - DOMAIN-SUFFIX,iciba.com,全球直连
+  - DOMAIN-SUFFIX,ksosoft.com,全球直连
+  - DOMAIN-SUFFIX,meitu.com,全球直连
+  - DOMAIN-SUFFIX,meitudata.com,全球直连
+  - DOMAIN-SUFFIX,meitustat.com,全球直连
+  - DOMAIN-SUFFIX,meipai.com,全球直连
+  - DOMAIN-SUFFIX,duokan.com,全球直连
+  - DOMAIN-SUFFIX,mi.com,全球直连
+  - DOMAIN-SUFFIX,mi-img.com,全球直连
+  - DOMAIN-SUFFIX,miui.com,全球直连
+  - DOMAIN-SUFFIX,miwifi.com,全球直连
+  - DOMAIN-SUFFIX,xiaomi.com,全球直连
+  - DOMAIN-SUFFIX,xiaomi.net,全球直连
+  - DOMAIN-SUFFIX,hotmail.com,全球直连
+  - DOMAIN-SUFFIX,microsoft.com,全球直连
+  - DOMAIN-SUFFIX,msecnd.net,全球直连
+  - DOMAIN-SUFFIX,office365.com,全球直连
+  - DOMAIN-SUFFIX,outlook.com,全球直连
+  - DOMAIN-SUFFIX,s-microsoft.com,全球直连
+  - DOMAIN-SUFFIX,visualstudio.com,全球直连
+  - DOMAIN-SUFFIX,windows.com,全球直连
+  - DOMAIN-SUFFIX,windowsupdate.com,全球直连
+  - DOMAIN-SUFFIX,163.com,全球直连
+  - DOMAIN-SUFFIX,126.com,全球直连
+  - DOMAIN-SUFFIX,126.net,全球直连
+  - DOMAIN-SUFFIX,127.net,全球直连
+  - DOMAIN-SUFFIX,163yun.com,全球直连
+  - DOMAIN-SUFFIX,lofter.com,全球直连
+  - DOMAIN-SUFFIX,netease.com,全球直连
+  - DOMAIN-SUFFIX,ydstatic.com,全球直连
+  - DOMAIN-SUFFIX,paypal.com,全球直连
+  - DOMAIN-SUFFIX,paypal.me,全球直连
+  - DOMAIN-SUFFIX,paypalobjects.com,全球直连
+  - DOMAIN-SUFFIX,sina.com,全球直连
+  - DOMAIN-SUFFIX,weibo.com,全球直连
+  - DOMAIN-SUFFIX,weibocdn.com,全球直连
+  - DOMAIN-SUFFIX,sohu.com,全球直连
+  - DOMAIN-SUFFIX,sohucs.com,全球直连
+  - DOMAIN-SUFFIX,sohu-inc.com,全球直连
+  - DOMAIN-SUFFIX,v-56.com,全球直连
+  - DOMAIN-SUFFIX,sogo.com,全球直连
+  - DOMAIN-SUFFIX,sogou.com,全球直连
+  - DOMAIN-SUFFIX,sogoucdn.com,全球直连
+  - DOMAIN-SUFFIX,steamcontent.com,全球直连
+  - DOMAIN-SUFFIX,steampowered.com,全球直连
+  - DOMAIN-SUFFIX,steamstatic.com,全球直连
+  - DOMAIN-SUFFIX,gtimg.com,全球直连
+  - DOMAIN-SUFFIX,idqqimg.com,全球直连
+  - DOMAIN-SUFFIX,igamecj.com,全球直连
+  - DOMAIN-SUFFIX,myapp.com,全球直连
+  - DOMAIN-SUFFIX,myqcloud.com,全球直连
+  - DOMAIN-SUFFIX,qq.com,全球直连
+  - DOMAIN-SUFFIX,qqmail.com,全球直连
+  - DOMAIN-SUFFIX,servicewechat.com,全球直连
+  - DOMAIN-SUFFIX,tencent.com,全球直连
+  - DOMAIN-SUFFIX,tencent-cloud.net,全球直连
+  - DOMAIN-SUFFIX,tenpay.com,全球直连
+  - DOMAIN-SUFFIX,wechat.com,全球直连
+  - DOMAIN,file-igamecj.akamaized.net,全球直连
+  - DOMAIN-SUFFIX,ccgslb.com,全球直连
+  - DOMAIN-SUFFIX,ccgslb.net,全球直连
+  - DOMAIN-SUFFIX,chinanetcenter.com,全球直连
+  - DOMAIN-SUFFIX,meixincdn.com,全球直连
+  - DOMAIN-SUFFIX,ourdvs.com,全球直连
+  - DOMAIN-SUFFIX,staticdn.net,全球直连
+  - DOMAIN-SUFFIX,wangsu.com,全球直连
+  - DOMAIN-SUFFIX,ipip.net,全球直连
+  - DOMAIN-SUFFIX,ip.la,全球直连
+  - DOMAIN-SUFFIX,ip.sb,全球直连
+  - DOMAIN-SUFFIX,ip-cdn.com,全球直连
+  - DOMAIN-SUFFIX,ipv6-test.com,全球直连
+  - DOMAIN-SUFFIX,test-ipv6.com,全球直连
+  - DOMAIN-SUFFIX,whatismyip.com,全球直连
+  - DOMAIN,ip.istatmenus.app,全球直连
+  - DOMAIN-SUFFIX,netspeedtestmaster.com,全球直连
+  - DOMAIN,speedtest.macpaw.com,全球直连
+  - DOMAIN-SUFFIX,acg.rip,全球直连
+  - DOMAIN-SUFFIX,animebytes.tv,全球直连
+  - DOMAIN-SUFFIX,awesome-hd.me,全球直连
+  - DOMAIN-SUFFIX,broadcasthe.net,全球直连
+  - DOMAIN-SUFFIX,chdbits.co,全球直连
+  - DOMAIN-SUFFIX,classix-unlimited.co.uk,全球直连
+  - DOMAIN-SUFFIX,comicat.org,全球直连
+  - DOMAIN-SUFFIX,empornium.me,全球直连
+  - DOMAIN-SUFFIX,gazellegames.net,全球直连
+  - DOMAIN-SUFFIX,hdbits.org,全球直连
+  - DOMAIN-SUFFIX,hdchina.org,全球直连
+  - DOMAIN-SUFFIX,hddolby.com,全球直连
+  - DOMAIN-SUFFIX,hdhome.org,全球直连
+  - DOMAIN-SUFFIX,hdsky.me,全球直连
+  - DOMAIN-SUFFIX,icetorrent.org,全球直连
+  - DOMAIN-SUFFIX,jpopsuki.eu,全球直连
+  - DOMAIN-SUFFIX,keepfrds.com,全球直连
+  - DOMAIN-SUFFIX,madsrevolution.net,全球直连
+  - DOMAIN-SUFFIX,morethan.tv,全球直连
+  - DOMAIN-SUFFIX,m-team.cc,全球直连
+  - DOMAIN-SUFFIX,myanonamouse.net,全球直连
+  - DOMAIN-SUFFIX,nanyangpt.com,全球直连
+  - DOMAIN-SUFFIX,ncore.cc,全球直连
+  - DOMAIN-SUFFIX,open.cd,全球直连
+  - DOMAIN-SUFFIX,ourbits.club,全球直连
+  - DOMAIN-SUFFIX,passthepopcorn.me,全球直连
+  - DOMAIN-SUFFIX,privatehd.to,全球直连
+  - DOMAIN-SUFFIX,pterclub.com,全球直连
+  - DOMAIN-SUFFIX,redacted.ch,全球直连
+  - DOMAIN-SUFFIX,springsunday.net,全球直连
+  - DOMAIN-SUFFIX,tjupt.org,全球直连
+  - DOMAIN-SUFFIX,totheglory.im,全球直连
+  - DOMAIN-SUFFIX,343480.com,全球直连
+  - DOMAIN-SUFFIX,agefans.tv,全球直连
+  - DOMAIN-SUFFIX,baduziyuan.com,全球直连
+  - DOMAIN-SUFFIX,cdn9-okzy.com,全球直连
+  - DOMAIN-SUFFIX,com-hs-hkdy.com,全球直连
+  - DOMAIN-SUFFIX,czybjz.com,全球直连
+  - DOMAIN-SUFFIX,dandanzan.com,全球直连
+  - DOMAIN-SUFFIX,fjhps.com,全球直连
+  - DOMAIN-SUFFIX,kuyunbo.club,全球直连
+  - DOMAIN-SUFFIX,nfmovies.com,全球直连
+  - DOMAIN-SUFFIX,okokbo.com,全球直连
+  - DOMAIN-SUFFIX,sd-dykj.com,全球直连
+  - DOMAIN-SUFFIX,yhdm.tv,全球直连
+  - DOMAIN-SUFFIX,youkutv.cc,全球直连
+  - DOMAIN-SUFFIX,cn,全球直连
+  - DOMAIN-SUFFIX,115.com,全球直连
+  - DOMAIN-SUFFIX,360in.com,全球直连
+  - DOMAIN-SUFFIX,51ym.me,全球直连
+  - DOMAIN-SUFFIX,8686c.com,全球直连
+  - DOMAIN-SUFFIX,99.com,全球直连
+  - DOMAIN-SUFFIX,abchina.com,全球直连
+  - DOMAIN-SUFFIX,accuweather.com,全球直连
+  - DOMAIN-SUFFIX,aicoinstorge.com,全球直连
+  - DOMAIN-SUFFIX,air-matters.com,全球直连
+  - DOMAIN-SUFFIX,air-matters.io,全球直连
+  - DOMAIN-SUFFIX,aixifan.com,全球直连
+  - DOMAIN-SUFFIX,amd.com,全球直连
+  - DOMAIN-SUFFIX,b612.net,全球直连
+  - DOMAIN-SUFFIX,bdatu.com,全球直连
+  - DOMAIN-SUFFIX,beitaichufang.com,全球直连
+  - DOMAIN-SUFFIX,bjango.com,全球直连
+  - DOMAIN-SUFFIX,booking.com,全球直连
+  - DOMAIN-SUFFIX,bstatic.com,全球直连
+  - DOMAIN-SUFFIX,cailianpress.com,全球直连
+  - DOMAIN-SUFFIX,camera360.com,全球直连
+  - DOMAIN-SUFFIX,chaoxing.com,全球直连
+  - DOMAIN-SUFFIX,chaoxing.com,全球直连
+  - DOMAIN-SUFFIX,chinaso.com,全球直连
+  - DOMAIN-SUFFIX,chuimg.com,全球直连
+  - DOMAIN-SUFFIX,chunyu.mobi,全球直连
+  - DOMAIN-SUFFIX,cmbchina.com,全球直连
+  - DOMAIN-SUFFIX,cmbimg.com,全球直连
+  - DOMAIN-SUFFIX,ctrip.com,全球直连
+  - DOMAIN-SUFFIX,dfcfw.com,全球直连
+  - DOMAIN-SUFFIX,docschina.org,全球直连
+  - DOMAIN-SUFFIX,douban.com,全球直连
+  - DOMAIN-SUFFIX,doubanio.com,全球直连
+  - DOMAIN-SUFFIX,douyu.com,全球直连
+  - DOMAIN-SUFFIX,dxycdn.com,全球直连
+  - DOMAIN-SUFFIX,dytt8.net,全球直连
+  - DOMAIN-SUFFIX,eastmoney.com,全球直连
+  - DOMAIN-SUFFIX,eudic.net,全球直连
+  - DOMAIN-SUFFIX,feng.com,全球直连
+  - DOMAIN-SUFFIX,fengkongcloud.com,全球直连
+  - DOMAIN-SUFFIX,frdic.com,全球直连
+  - DOMAIN-SUFFIX,futu5.com,全球直连
+  - DOMAIN-SUFFIX,futunn.com,全球直连
+  - DOMAIN-SUFFIX,gandi.net,全球直连
+  - DOMAIN-SUFFIX,gcores.com,全球直连
+  - DOMAIN-SUFFIX,geilicdn.com,全球直连
+  - DOMAIN-SUFFIX,getpricetag.com,全球直连
+  - DOMAIN-SUFFIX,gifshow.com,全球直连
+  - DOMAIN-SUFFIX,godic.net,全球直连
+  - DOMAIN-SUFFIX,hicloud.com,全球直连
+  - DOMAIN-SUFFIX,hongxiu.com,全球直连
+  - DOMAIN-SUFFIX,hostbuf.com,全球直连
+  - DOMAIN-SUFFIX,huxiucdn.com,全球直连
+  - DOMAIN-SUFFIX,huya.com,全球直连
+  - DOMAIN-SUFFIX,ibm.com,全球直连
+  - DOMAIN-SUFFIX,infinitynewtab.com,全球直连
+  - DOMAIN-SUFFIX,ithome.com,全球直连
+  - DOMAIN-SUFFIX,java.com,全球直连
+  - DOMAIN-SUFFIX,jianguoyun.com,全球直连
+  - DOMAIN-SUFFIX,jianshu.com,全球直连
+  - DOMAIN-SUFFIX,jianshu.io,全球直连
+  - DOMAIN-SUFFIX,jidian.im,全球直连
+  - DOMAIN-SUFFIX,kaiyanapp.com,全球直连
+  - DOMAIN-SUFFIX,kaspersky-labs.com,全球直连
+  - DOMAIN-SUFFIX,keepcdn.com,全球直连
+  - DOMAIN-SUFFIX,kkmh.com,全球直连
+  - DOMAIN-SUFFIX,lanzous.com,全球直连
+  - DOMAIN-SUFFIX,lemonhd.org,全球直连
+  - DOMAIN-SUFFIX,licdn.com,全球直连
+  - DOMAIN-SUFFIX,linkedin.com,全球直连
+  - DOMAIN-SUFFIX,loli.net,全球直连
+  - DOMAIN-SUFFIX,luojilab.com,全球直连
+  - DOMAIN-SUFFIX,maoyan.com,全球直连
+  - DOMAIN-SUFFIX,maoyun.tv,全球直连
+  - DOMAIN-SUFFIX,meituan.com,全球直连
+  - DOMAIN-SUFFIX,meituan.net,全球直连
+  - DOMAIN-SUFFIX,mls-cdn.com,全球直连
+  - DOMAIN-SUFFIX,mobike.com,全球直连
+  - DOMAIN-SUFFIX,moke.com,全球直连
+  - DOMAIN-SUFFIX,mubu.com,全球直连
+  - DOMAIN-SUFFIX,myzaker.com,全球直连
+  - DOMAIN-SUFFIX,nim-lang-cn.org,全球直连
+  - DOMAIN-SUFFIX,nvidia.com,全球直连
+  - DOMAIN-SUFFIX,oracle.com,全球直连
+  - DOMAIN-SUFFIX,plex.tv,全球直连
+  - DOMAIN-SUFFIX,qdaily.com,全球直连
+  - DOMAIN-SUFFIX,qidian.com,全球直连
+  - DOMAIN-SUFFIX,qyer.com,全球直连
+  - DOMAIN-SUFFIX,qyerstatic.com,全球直连
+  - DOMAIN-SUFFIX,raychase.net,全球直连
+  - DOMAIN-SUFFIX,ronghub.com,全球直连
+  - DOMAIN-SUFFIX,ruguoapp.com,全球直连
+  - DOMAIN-SUFFIX,sankuai.com,全球直连
+  - DOMAIN-SUFFIX,scomper.me,全球直连
+  - DOMAIN-SUFFIX,seafile.com,全球直连
+  - DOMAIN-SUFFIX,sm.ms,全球直连
+  - DOMAIN-SUFFIX,smzdm.com,全球直连
+  - DOMAIN-SUFFIX,snapdrop.net,全球直连
+  - DOMAIN-SUFFIX,snwx.com,全球直连
+  - DOMAIN-SUFFIX,s-reader.com,全球直连
+  - DOMAIN-SUFFIX,sspai.com,全球直连
+  - DOMAIN-SUFFIX,subhd.tv,全球直连
+  - DOMAIN-SUFFIX,takungpao.com,全球直连
+  - DOMAIN-SUFFIX,teamviewer.com,全球直连
+  - DOMAIN-SUFFIX,tianyancha.com,全球直连
+  - DOMAIN-SUFFIX,tophub.today,全球直连
+  - DOMAIN-SUFFIX,udacity.com,全球直连
+  - DOMAIN-SUFFIX,uning.com,全球直连
+  - DOMAIN-SUFFIX,weather.com,全球直连
+  - DOMAIN-SUFFIX,weico.cc,全球直连
+  - DOMAIN-SUFFIX,weidian.com,全球直连
+  - DOMAIN-SUFFIX,xiachufang.com,全球直连
+  - DOMAIN-SUFFIX,xiaoka.tv,全球直连
+  - DOMAIN-SUFFIX,ximalaya.com,全球直连
+  - DOMAIN-SUFFIX,xinhuanet.com,全球直连
+  - DOMAIN-SUFFIX,xmcdn.com,全球直连
+  - DOMAIN-SUFFIX,yangkeduo.com,全球直连
+  - DOMAIN-SUFFIX,yizhibo.com,全球直连
+  - DOMAIN-SUFFIX,zhangzishi.cc,全球直连
+  - DOMAIN-SUFFIX,zhihu.com,全球直连
+  - DOMAIN-SUFFIX,zhihuishu.com,全球直连
+  - DOMAIN-SUFFIX,zhimg.com,全球直连
+  - DOMAIN-SUFFIX,zhuihd.com,全球直连
+  - DOMAIN,download.jetbrains.com,全球直连
+  - DOMAIN,images-cn.ssl-images-amazon.com,全球直连
+  - IP-CIDR,119.28.28.28/32,全球直连,no-resolve
+  - IP-CIDR,182.254.116.0/24,全球直连,no-resolve
+  - PROCESS-NAME,aria2c,全球直连
+  - PROCESS-NAME,fdm,全球直连
+  - PROCESS-NAME,Folx,全球直连
+  - PROCESS-NAME,NetTransport,全球直连
+  - PROCESS-NAME,Thunder,全球直连
+  - PROCESS-NAME,Transmission,全球直连
+  - PROCESS-NAME,uTorrent,全球直连
+  - PROCESS-NAME,WebTorrent,全球直连
+  - PROCESS-NAME,WebTorrent Helper,全球直连
+  - PROCESS-NAME,DownloadService,全球直连
+  - PROCESS-NAME,Weiyun,全球直连
+  - DOMAIN-KEYWORD,aria2,全球直连
+  - DOMAIN-KEYWORD,xunlei,全球直连
+  - DOMAIN-KEYWORD,yunpan,全球直连
+  - DOMAIN-KEYWORD,Thunder,全球直连
+  - DOMAIN-KEYWORD,XLLiveUD,全球直连
+  - GEOIP,CN,全球直连
+  - MATCH,黑白名单,全球直连
   - DOMAIN-SUFFIX,loli.net,全球直连
   - DOMAIN-SUFFIX,luojilab.com,全球直连
   - DOMAIN-SUFFIX,maoyan.com,全球直连
