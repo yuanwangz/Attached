@@ -83,9 +83,6 @@ proxies:
   - {name: 212, server: 180.149.228.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 213, server: 180.149.228.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 214, server: 180.149.228.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 216, server: 158.101.139.4, port: 52760, type: vmess, uuid: fda3ec3a-ff20-47b2-83a4-62e301fed24c, alterId: 0, cipher: chacha20-ietf-poly1305, tls: false, skip-cert-verify: false}
-  - {name: 218, server: 13.231.173.43, port: 443, type: ssr, cipher: aes-256-cfb, password: amazonskr05, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 219, server: 18.183.77.208, port: 444, type: ssr, cipher: aes-256-cfb, password: amazonskr05, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 220, server: 2.58.242.131, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: 221, server: 2.58.242.133, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 222, server: 2.58.242.133, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
@@ -185,9 +182,6 @@ proxy-groups:
       - 212
       - 213
       - 214
-      - 216
-      - 218
-      - 219
       - 220
       - 221
       - 222
