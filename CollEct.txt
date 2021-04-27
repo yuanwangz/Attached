@@ -76,9 +76,6 @@ shadowsocks = 185.210.217.107:40093, method=aes-256-gcm, password=x23Z4LGkGDkThZ
 shadowsocks = 180.149.228.147:33992, method=aes-256-gcm, password=8n6pwAcrrv2pj6tFY2p3TbQ6, fast-open=false, tag=212
 shadowsocks = 180.149.228.147:39772, method=aes-256-gcm, password=CUndSZnYsPKcu6Kj8THVMBHD, fast-open=false, tag=213
 shadowsocks = 180.149.228.147:39772, method=aes-256-gcm, password=CUndSZnYsPKcu6Kj8THVMBHD, fast-open=false, tag=214
-vmess = 158.101.139.4:52760, method=chacha20-ietf-poly1305, password=fda3ec3a-ff20-47b2-83a4-62e301fed24c, fast-open=false, tag=216
-shadowsocks = 13.231.173.43:443, method=aes-256-cfb, password=amazonskr05, ssr-protocol=origin, obfs=plain, fast-open=false, tag=218
-shadowsocks = 18.183.77.208:444, method=aes-256-cfb, password=amazonskr05, ssr-protocol=origin, obfs=plain, fast-open=false, tag=219
 shadowsocks = 2.58.242.131:35294, method=aes-256-gcm, password=J9Y2ncrdPEC38gwydNFFGBna, fast-open=false, udp-relay=false, tag=220
 shadowsocks = 2.58.242.133:37588, method=aes-256-gcm, password=kD9vkjnE6dsUzwQfvKkPkQAd, fast-open=false, udp-relay=false, tag=221
 shadowsocks = 2.58.242.133:37588, method=aes-256-gcm, password=kD9vkjnE6dsUzwQfvKkPkQAd, fast-open=false, udp-relay=false, tag=222
