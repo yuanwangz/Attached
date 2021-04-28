@@ -1,39 +1,44 @@
-# NAME: NetEaseMusic-QuantumultX
-# AUTHOR: o7y0
-# GITHUB: https://github.com/o7y0/Attached
-# UPDATED: 2021-02-02 13:31:30
-# HOST-SUFFIX: 10
-# IP-CIDR: 27
-# HOST: 1
-# USER-AGENT: 6
-# TOTAL: 58
+# URL:     https://raw.githubusercontent.com/O7Y0/Attached/main/UnblockNeteaseMusic/NeteaseCloudMusic.list
+# Project: https://github.com/O7Y0/Attached/blob/main/UnblockNeteaseMusic
+# W:O7Y0
+
+# Netease Music USER-AGENT
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**,NeteaseMusic
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,NeteaseMusic
 USER-AGENT,NeteaseMusic**,NeteaseMusic
 USER-AGENT,NeteaseMusic*,NeteaseMusic
-HOST,netease.ugcvideoss.ourdvs.com,NeteaseMusic
+
+# Netease Music Advertising
+HOST,admusicpic.music.126.net,REJECT
+HOST,iadmat.nosdn.127.net,REJECT
+HOST,iadmusicmat.music.126.net,REJECT
+HOST,iadmusicmatvideo.music.126.net,REJECT
+
+# Netease Music
+HOST,163yun.com,NeteaseMusic
+HOST,imap.163.com,NeteaseMusic
+HOST,crash.163.com,NeteaseMusic
+HOST,music.126.net,NeteaseMusic
+HOST,music.163.com,NeteaseMusic
+HOST,hz.netease.com,NeteaseMusic
+HOST,mam.netease.com,NeteaseMusic
+HOST,ac.dun.163yun.com,NeteaseMusic
+HOST,mr.da.netease.com,NeteaseMusic
+HOST,api.iplay.163.com,NeteaseMusic
+HOST,apm.music.163.com,NeteaseMusic
+HOST,apm3.music.163.com,NeteaseMusic
+HOST,interface.music.163.com,NeteaseMusic
+HOST,interface1.music.163.com,NeteaseMusic
+HOST,interface2.music.163.com,NeteaseMusic
+HOST,interface3.music.163.com,NeteaseMusic
 HOST,interface3.music.163.com.163jiasu.com,NeteaseMusic
-HOST-SUFFIX,163yun.com,NeteaseMusic
-HOST-SUFFIX,imap.163.com,NeteaseMusic
-HOST-SUFFIX,crash.163.com,NeteaseMusic
-HOST-SUFFIX,music.126.net,NeteaseMusic
-HOST-SUFFIX,music.163.com,NeteaseMusic
-HOST-SUFFIX,hz.netease.com,NeteaseMusic
-HOST-SUFFIX,mam.netease.com,NeteaseMusic
-HOST-SUFFIX,ac.dun.163yun.com,NeteaseMusic
-HOST-SUFFIX,mr.da.netease.com,NeteaseMusic
-HOST-SUFFIX,api.iplay.163.com,NeteaseMusic
-HOST-SUFFIX,apm.music.163.com,NeteaseMusic
-HOST-SUFFIX,apm3.music.163.com,NeteaseMusic
-HOST-SUFFIX,interface.music.163.com,NeteaseMusic
-HOST-SUFFIX,interface.music.163.com,NeteaseMusic
-HOST-SUFFIX,interface1.music.163.com,NeteaseMusic
-HOST-SUFFIX,interface2.music.163.com,NeteaseMusic
-HOST-SUFFIX,interface3.music.163.com,NeteaseMusic
-HOST-SUFFIX,interface4.music.163.com,NeteaseMusic
-HOST-SUFFIX,interface5.music.163.com,NeteaseMusic
-HOST-SUFFIX,music.163.com.163jiasu.com,NeteaseMusic
+HOST,interface4.music.163.com,NeteaseMusic
+HOST,interface5.music.163.com,NeteaseMusic
+HOST,music.163.com.163jiasu.com,NeteaseMusic
+HOST,netease.ugcvideoss.ourdvs.com,NeteaseMusic
 HOST-KEYWORD,netease,NeteaseMusic
+
+#IP-CIDR
 IP-CIDR,39.105.63.80/32,NeteaseMusic
 IP-CIDR,39.105.175.128/32,NeteaseMusic
 IP-CIDR,45.254.48.1/32,NeteaseMusic
