@@ -5,690 +5,834 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: AI2①香港_1_4000G, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①香港_2, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①香港_3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①香港_4, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①香港_5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①日本_1, server: ap1-jp.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①日本_2, server: ap1-jp.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①日本_3, server: ap1-jp.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①日本_4, server: ap1-jp.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①日本_5, server: ap1-jp.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①日本_6, server: ap1-jp.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①日本_7, server: ap1-jp.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①日本_8, server: ap1-jp.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①新加坡_1, server: ap1-sg.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①新加坡_2, server: ap1-sg.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①新加坡_3, server: ap1-sg.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①新加坡_4, server: ap1-sg.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①新加坡_5, server: ap1-sg.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①新加坡_6, server: ap1-sg.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①新加坡_7, server: ap1-sg.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①新加坡_8, server: ap1-sg.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①美国_1, server: ap1-us.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①美国_2, server: ap1-us.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①美国_3, server: ap1-us.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①美国_4, server: ap1-us.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①美国_5, server: ap1-us.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①美国_6, server: ap1-us.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①美国_7, server: ap1-us.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①美国_8, server: ap1-us.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①英国_1, server: ap1-uk.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①英国_2, server: ap1-uk.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①英国_3, server: ap1-uk.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①英国_4, server: ap1-uk.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①英国_5, server: ap1-uk.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①英国_6, server: ap1-uk.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①英国_7, server: ap1-uk.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①英国_8, server: ap1-uk.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①加拿大_1, server: ap1-ca.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①加拿大_2, server: ap1-ca.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①加拿大_3, server: ap1-ca.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①加拿大_4, server: ap1-ca.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①加拿大_5, server: ap1-ca.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①加拿大_6, server: ap1-ca.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①加拿大_7, server: ap1-ca.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①加拿大_8, server: ap1-ca.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①澳洲_1, server: ap1-au.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①澳洲_2, server: ap1-au.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①澳洲_3, server: ap1-au.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①澳洲_4, server: ap1-au.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①澳洲_5, server: ap1-au.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①澳洲_6, server: ap1-au.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①澳洲_7, server: ap1-au.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①澳洲_8, server: ap1-au.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①香港, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①澳洲, server: global.ap.fastqvpn.com, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①加拿大, server: global.ap.fastqvpn.com, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①德国, server: global.ap.fastqvpn.com, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①日本, server: global.ap.fastqvpn.com, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①新加坡, server: global.ap.fastqvpn.com, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①英国, server: global.ap.fastqvpn.com, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①美国, server: global.ap.fastqvpn.com, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①香港, server: tx.wy.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①澳洲, server: tx.wy.fastqvpn.com, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①加拿大, server: tx.wy.fastqvpn.com, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①德国, server: tx.wy.fastqvpn.com, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①日本, server: tx.wy.fastqvpn.com, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①新加坡, server: tx.wy.fastqvpn.com, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①英国, server: tx.wy.fastqvpn.com, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①美国, server: tx.wy.fastqvpn.com, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①香港, server: a1.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①澳洲, server: a1.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①加拿大, server: a1.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①德国, server: a1.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①日本, server: a1.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①新加坡, server: a1.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①英国, server: a1.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①美国, server: a1.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①香港, server: ap1-ge.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①澳洲, server: ap1-ge.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①加拿大, server: ap1-ge.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①德国, server: ap1-ge.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①日本, server: ap1-ge.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①新加坡, server: ap1-ge.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①英国, server: ap1-ge.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2①美国, server: ap1-ge.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②香港_1_1000G, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②香港_2, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②香港_3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②香港_4, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②香港_5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②日本_1, server: ap1-jp.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②日本_2, server: ap1-jp.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②日本_3, server: ap1-jp.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②日本_4, server: ap1-jp.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②日本_5, server: ap1-jp.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②日本_6, server: ap1-jp.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②日本_7, server: ap1-jp.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②日本_8, server: ap1-jp.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②新加坡_1, server: ap1-sg.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②新加坡_2, server: ap1-sg.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②新加坡_3, server: ap1-sg.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②新加坡_4, server: ap1-sg.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②新加坡_5, server: ap1-sg.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②新加坡_6, server: ap1-sg.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②新加坡_7, server: ap1-sg.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②新加坡_8, server: ap1-sg.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②美国_1, server: ap1-us.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②美国_2, server: ap1-us.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②美国_3, server: ap1-us.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②美国_4, server: ap1-us.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②美国_5, server: ap1-us.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②美国_6, server: ap1-us.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②美国_7, server: ap1-us.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②美国_8, server: ap1-us.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②英国_1, server: ap1-uk.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②英国_2, server: ap1-uk.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②英国_3, server: ap1-uk.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②英国_4, server: ap1-uk.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②英国_5, server: ap1-uk.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②英国_6, server: ap1-uk.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②英国_7, server: ap1-uk.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②英国_8, server: ap1-uk.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②加拿大_1, server: ap1-ca.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②加拿大_2, server: ap1-ca.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②加拿大_3, server: ap1-ca.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②加拿大_4, server: ap1-ca.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②加拿大_5, server: ap1-ca.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②加拿大_6, server: ap1-ca.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②加拿大_7, server: ap1-ca.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②加拿大_8, server: ap1-ca.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②澳洲_1, server: ap1-au.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②澳洲_2, server: ap1-au.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②澳洲_3, server: ap1-au.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②澳洲_4, server: ap1-au.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②澳洲_5, server: ap1-au.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②澳洲_6, server: ap1-au.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②澳洲_7, server: ap1-au.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②澳洲_8, server: ap1-au.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②香港, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②澳洲, server: global.ap.fastqvpn.com, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②加拿大, server: global.ap.fastqvpn.com, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②德国, server: global.ap.fastqvpn.com, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②日本, server: global.ap.fastqvpn.com, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②新加坡, server: global.ap.fastqvpn.com, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②英国, server: global.ap.fastqvpn.com, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②美国, server: global.ap.fastqvpn.com, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②香港, server: tx.wy.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②澳洲, server: tx.wy.fastqvpn.com, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②加拿大, server: tx.wy.fastqvpn.com, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②德国, server: tx.wy.fastqvpn.com, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②日本, server: tx.wy.fastqvpn.com, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②新加坡, server: tx.wy.fastqvpn.com, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②英国, server: tx.wy.fastqvpn.com, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②美国, server: tx.wy.fastqvpn.com, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②香港, server: a1.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②澳洲, server: a1.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②加拿大, server: a1.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②德国, server: a1.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②日本, server: a1.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②新加坡, server: a1.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②英国, server: a1.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②美国, server: a1.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②香港, server: ap1-ge.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②澳洲, server: ap1-ge.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②加拿大, server: ap1-ge.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②德国, server: ap1-ge.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②日本, server: ap1-ge.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②新加坡, server: ap1-ge.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②英国, server: ap1-ge.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2②美国, server: ap1-ge.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③香港_1_2000G, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③香港_2, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③香港_3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③香港_4, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③香港_5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③日本_1, server: ap1-jp.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③日本_2, server: ap1-jp.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③日本_3, server: ap1-jp.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③日本_4, server: ap1-jp.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③日本_5, server: ap1-jp.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③日本_6, server: ap1-jp.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③日本_7, server: ap1-jp.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③日本_8, server: ap1-jp.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③新加坡_1, server: ap1-sg.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③新加坡_2, server: ap1-sg.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③新加坡_3, server: ap1-sg.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③新加坡_4, server: ap1-sg.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③新加坡_5, server: ap1-sg.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③新加坡_6, server: ap1-sg.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③新加坡_7, server: ap1-sg.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③新加坡_8, server: ap1-sg.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③美国_1, server: ap1-us.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③美国_2, server: ap1-us.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③美国_3, server: ap1-us.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③美国_4, server: ap1-us.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③美国_5, server: ap1-us.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③美国_6, server: ap1-us.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③美国_7, server: ap1-us.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③美国_8, server: ap1-us.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③英国_1, server: ap1-uk.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③英国_2, server: ap1-uk.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③英国_3, server: ap1-uk.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③英国_4, server: ap1-uk.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③英国_5, server: ap1-uk.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③英国_6, server: ap1-uk.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③英国_7, server: ap1-uk.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③英国_8, server: ap1-uk.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③加拿大_1, server: ap1-ca.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③加拿大_2, server: ap1-ca.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③加拿大_3, server: ap1-ca.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③加拿大_4, server: ap1-ca.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③加拿大_5, server: ap1-ca.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③加拿大_6, server: ap1-ca.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③加拿大_7, server: ap1-ca.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③加拿大_8, server: ap1-ca.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③澳洲_1, server: ap1-au.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③澳洲_2, server: ap1-au.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③澳洲_3, server: ap1-au.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③澳洲_4, server: ap1-au.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③澳洲_5, server: ap1-au.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③澳洲_6, server: ap1-au.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③澳洲_7, server: ap1-au.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③澳洲_8, server: ap1-au.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③1香港, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③1澳洲, server: global.ap.fastqvpn.com, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③1加拿大, server: global.ap.fastqvpn.com, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③1德国, server: global.ap.fastqvpn.com, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③1日本, server: global.ap.fastqvpn.com, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③1新加坡, server: global.ap.fastqvpn.com, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③1英国, server: global.ap.fastqvpn.com, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③1美国, server: global.ap.fastqvpn.com, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③2香港, server: tx.wy.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③2澳洲, server: tx.wy.fastqvpn.com, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③2加拿大, server: tx.wy.fastqvpn.com, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③2德国, server: tx.wy.fastqvpn.com, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③2日本, server: tx.wy.fastqvpn.com, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③2新加坡, server: tx.wy.fastqvpn.com, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③2英国, server: tx.wy.fastqvpn.com, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③2美国, server: tx.wy.fastqvpn.com, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③3香港, server: a1.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③3澳洲, server: a1.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③3加拿大, server: a1.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③3德国, server: a1.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③3日本, server: a1.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③3新加坡, server: a1.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③3英国, server: a1.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③3美国, server: a1.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③4香港, server: ap1-ge.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③4澳洲, server: ap1-ge.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③4加拿大, server: ap1-ge.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③4德国, server: ap1-ge.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③4日本, server: ap1-ge.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③4新加坡, server: ap1-ge.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③4英国, server: ap1-ge.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2③4美国, server: ap1-ge.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④香港_1_703G, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④香港_2, server: a2.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④香港_3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④香港_4, server: a4.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④香港_5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④日本_1, server: ap1-jp.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④日本_2, server: ap1-jp.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④日本_3, server: ap1-jp.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④日本_4, server: ap1-jp.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④日本_5, server: ap1-jp.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④日本_6, server: ap1-jp.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④日本_7, server: ap1-jp.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④日本_8, server: ap1-jp.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④新加坡_1, server: ap1-sg.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④新加坡_2, server: ap1-sg.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④新加坡_3, server: ap1-sg.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④新加坡_4, server: ap1-sg.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④新加坡_5, server: ap1-sg.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④新加坡_6, server: ap1-sg.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④新加坡_7, server: ap1-sg.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④新加坡_8, server: ap1-sg.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④美国_1, server: ap1-us.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④美国_2, server: ap1-us.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④美国_3, server: ap1-us.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④美国_4, server: ap1-us.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④美国_5, server: ap1-us.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④美国_6, server: ap1-us.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④美国_7, server: ap1-us.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④美国_8, server: ap1-us.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④英国_1, server: ap1-uk.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④英国_2, server: ap1-uk.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④英国_3, server: ap1-uk.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④英国_4, server: ap1-uk.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④英国_5, server: ap1-uk.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④英国_6, server: ap1-uk.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④英国_7, server: ap1-uk.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④英国_8, server: ap1-uk.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④加拿大_1, server: ap1-ca.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④加拿大_2, server: ap1-ca.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④加拿大_3, server: ap1-ca.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④加拿大_4, server: ap1-ca.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④加拿大_5, server: ap1-ca.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④加拿大_6, server: ap1-ca.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④加拿大_7, server: ap1-ca.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④加拿大_8, server: ap1-ca.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④澳洲_1, server: ap1-au.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④澳洲_2, server: ap1-au.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④澳洲_3, server: ap1-au.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④澳洲_4, server: ap1-au.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④澳洲_5, server: ap1-au.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④澳洲_6, server: ap1-au.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④澳洲_7, server: ap1-au.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④澳洲_8, server: ap1-au.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④1香港, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④1澳洲, server: global.ap.fastqvpn.com, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④1加拿大, server: global.ap.fastqvpn.com, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④1德国, server: global.ap.fastqvpn.com, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④1日本, server: global.ap.fastqvpn.com, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④1新加坡, server: global.ap.fastqvpn.com, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④1英国, server: global.ap.fastqvpn.com, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④1美国, server: global.ap.fastqvpn.com, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④2香港, server: tx.wy.fastqvpn.com, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④2澳洲, server: tx.wy.fastqvpn.com, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④2加拿大, server: tx.wy.fastqvpn.com, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④2德国, server: tx.wy.fastqvpn.com, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④2日本, server: tx.wy.fastqvpn.com, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④2新加坡, server: tx.wy.fastqvpn.com, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④2英国, server: tx.wy.fastqvpn.com, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④2美国, server: tx.wy.fastqvpn.com, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④3香港, server: a1.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④3澳洲, server: a1.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④3加拿大, server: a1.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④3德国, server: a1.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④3日本, server: a1.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④3新加坡, server: a1.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④3英国, server: a1.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④3美国, server: a1.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④4香港, server: ap1-ge.er3.xyz, port: 29980, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④4澳洲, server: ap1-ge.er3.xyz, port: 29982, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④4加拿大, server: ap1-ge.er3.xyz, port: 29983, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④4德国, server: ap1-ge.er3.xyz, port: 29984, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④4日本, server: ap1-ge.er3.xyz, port: 29985, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④4新加坡, server: ap1-ge.er3.xyz, port: 29986, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④4英国, server: ap1-ge.er3.xyz, port: 29987, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
-  - {name: AI2④4美国, server: ap1-ge.er3.xyz, port: 29988, type: http, username: 438001037811384320, password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9, tls: true, skip-cert-verify: true}
+  - name: 香港FASTQ_G
+    type: http
+    server: global.ap.fastqvpn.com
+    port: 29980
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+  - name: 澳大利亚FASTQ_G
+    type: http
+    server: global.ap.fastqvpn.com
+    port: 29982
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+  - name: 加拿大FASTQ_G
+    type: http
+    server: global.ap.fastqvpn.com
+    port: 29983
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+  - name: 德国FASTQ_G
+    type: http
+    server: global.ap.fastqvpn.com
+    port: 29984
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+  - name: 日本FASTQ_G
+    type: http
+    server: global.ap.fastqvpn.com
+    port: 29985
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+  - name: 新加坡FASTQ_G
+    type: http
+    server: global.ap.fastqvpn.com
+    port: 29986
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+  - name: 英国FASTQ_G
+    type: http
+    server: global.ap.fastqvpn.com
+    port: 29987
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+  - name: 美国FASTQ_G
+    type: http
+    server: global.ap.fastqvpn.com
+    port: 29988
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+  - name: 香港FASTQ_A_1
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+  - name: 香港FASTQ_A_2
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+  - name: 香港FASTQ_A_3
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+  - name: 香港FASTQ_A_4
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+  - name: 香港FASTQ_A_5
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+  - name: 香港FASTQ_WY
+    server: tx.wy.fastqvpn.com
+    port: 29980
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚FASTQ_WY
+    server: tx.wy.fastqvpn.com
+    port: 29982
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大FASTQ_WY
+    server: tx.wy.fastqvpn.com
+    port: 29983
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 德国FASTQ_WY
+    server: tx.wy.fastqvpn.com
+    port: 29984
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 日本FASTQ_WY
+    server: tx.wy.fastqvpn.com
+    port: 29985
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡FASTQ_WY
+    server: tx.wy.fastqvpn.com
+    port: 29986
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 英国FASTQ_WY
+    server: tx.wy.fastqvpn.com
+    port: 29987
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 美国FASTQ_WY
+    server: tx.wy.fastqvpn.com
+    port: 29988
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 香港ER3_A1
+    server: a1.er3.xyz
+    port: 29980
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚ER3_A1
+    server: a1.er3.xyz
+    port: 29982
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大ER3_A1
+    server: a1.er3.xyz
+    port: 29983
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 德国ER3_A1
+    server: a1.er3.xyz
+    port: 29984
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 日本ER3_A1
+    server: a1.er3.xyz
+    port: 29985
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡ER3_A1
+    server: a1.er3.xyz
+    port: 29986
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 英国ER3_A1
+    server: a1.er3.xyz
+    port: 29987
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 美国ER3_A1
+    server: a1.er3.xyz
+    port: 29988
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 香港ER3_NODE
+    server: node.er3.xyz
+    port: 29980
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚ER3_NODE
+    server: node.er3.xyz
+    port: 29982
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大ER3_NODE
+    server: node.er3.xyz
+    port: 29983
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 德国ER3_NODE
+    server: node.er3.xyz
+    port: 29984
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 日本ER3_NODE
+    server: node.er3.xyz
+    port: 29985
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡ER3_NODE
+    server: node.er3.xyz
+    port: 29986
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 英国ER3_NODE
+    server: node.er3.xyz
+    port: 29987
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 美国ER3_NODE
+    server: node.er3.xyz
+    port: 29988
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚ER3_AU_1
+    server: ap1-au.er3.xyz
+    port: 29980
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚ER3_AU_2
+    server: ap1-au.er3.xyz
+    port: 29982
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚ER3_AU_3
+    server: ap1-au.er3.xyz
+    port: 29983
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚ER3_AU_4
+    server: ap1-au.er3.xyz
+    port: 29984
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚ER3_AU_5
+    server: ap1-au.er3.xyz
+    port: 29985
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚ER3_AU_6
+    server: ap1-au.er3.xyz
+    port: 29986
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚ER3_AU_7
+    server: ap1-au.er3.xyz
+    port: 29987
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚ER3_AU_8
+    server: ap1-au.er3.xyz
+    port: 29988
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大ER3_CA_1
+    server: ap1-ca.er3.xyz
+    port: 29980
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大ER3_CA_2
+    server: ap1-ca.er3.xyz
+    port: 29982
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大ER3_CA_3
+    server: ap1-ca.er3.xyz
+    port: 29983
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大ER3_CA_4
+    server: ap1-ca.er3.xyz
+    port: 29984
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大ER3_CA_5
+    server: ap1-ca.er3.xyz
+    port: 29985
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大ER3_CA_6
+    server: ap1-ca.er3.xyz
+    port: 29986
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大ER3_CA_7
+    server: ap1-ca.er3.xyz
+    port: 29987
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大ER3_CA_8
+    server: ap1-ca.er3.xyz
+    port: 29988
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 香港ER3_GE
+    server: ap1-ge.er3.xyz
+    port: 29980
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 澳大利亚ER3_GE
+    server: ap1-ge.er3.xyz
+    port: 29982
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 加拿大ER3_GE
+    server: ap1-ge.er3.xyz
+    port: 29983
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 德国ER3_GE
+    server: ap1-ge.er3.xyz
+    port: 29984
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 日本ER3_GE
+    server: ap1-ge.er3.xyz
+    port: 29985
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡ER3_GE
+    server: ap1-ge.er3.xyz
+    port: 29986
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 英国ER3_GE
+    server: ap1-ge.er3.xyz
+    port: 29987
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 美国ER3_GE
+    server: ap1-ge.er3.xyz
+    port: 29988
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 日本ER3_JP_1
+    server: ap1-jp.er3.xyz
+    port: 29980
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 日本ER3_JP_2
+    server: ap1-jp.er3.xyz
+    port: 29982
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 日本ER3_JP_3
+    server: ap1-jp.er3.xyz
+    port: 29983
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 日本ER3_JP_4
+    server: ap1-jp.er3.xyz
+    port: 29984
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 日本ER3_JP_5
+    server: ap1-jp.er3.xyz
+    port: 29985
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 日本ER3_JP_6
+    server: ap1-jp.er3.xyz
+    port: 29986
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 日本ER3_JP_7
+    server: ap1-jp.er3.xyz
+    port: 29987
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 日本ER3_JP_8
+    server: ap1-jp.er3.xyz
+    port: 29988
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡ER3_SG_1
+    server: ap1-sg.er3.xyz
+    port: 29980
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡ER3_SG_2
+    server: ap1-sg.er3.xyz
+    port: 29982
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡ER3_SG_3
+    server: ap1-sg.er3.xyz
+    port: 29983
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡ER3_SG_4
+    server: ap1-sg.er3.xyz
+    port: 29984
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡ER3_SG_5
+    server: ap1-sg.er3.xyz
+    port: 29985
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡ER3_SG_6
+    server: ap1-sg.er3.xyz
+    port: 29986
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡ER3_SG_7
+    server: ap1-sg.er3.xyz
+    port: 29987
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 新加坡ER3_SG_8
+    server: ap1-sg.er3.xyz
+    port: 29988
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 英国ER3_UK_1
+    server: ap1-uk.er3.xyz
+    port: 29980
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 英国ER3_UK_2
+    server: ap1-uk.er3.xyz
+    port: 29982
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 英国ER3_UK_3
+    server: ap1-uk.er3.xyz
+    port: 29983
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 英国ER3_UK_4
+    server: ap1-uk.er3.xyz
+    port: 29984
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 英国ER3_UK_5
+    server: ap1-uk.er3.xyz
+    port: 29985
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 英国ER3_UK_6
+    server: ap1-uk.er3.xyz
+    port: 29986
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 英国ER3_UK_7
+    server: ap1-uk.er3.xyz
+    port: 29987
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 英国ER3_UK_8
+    server: ap1-uk.er3.xyz
+    port: 29988
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 美国ER3_US_1
+    server: ap1-us.er3.xyz
+    port: 29980
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 美国ER3_US_2
+    server: ap1-us.er3.xyz
+    port: 29982
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 美国ER3_US_3
+    server: ap1-us.er3.xyz
+    port: 29983
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 美国ER3_US_4
+    server: ap1-us.er3.xyz
+    port: 29984
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 美国ER3_US_5
+    server: ap1-us.er3.xyz
+    port: 29985
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 美国ER3_US_6
+    server: ap1-us.er3.xyz
+    port: 29986
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 美国ER3_US_7
+    server: ap1-us.er3.xyz
+    port: 29987
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
+  - name: 美国ER3_US_8
+    server: ap1-us.er3.xyz
+    port: 29988
+    type: http
+    username: "438001037811384320"
+    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
+    tls: true
+    skip-cert-verify: true
 proxy-groups:
   - name: 节点选择
     type: select
     proxies:
-      - AI2①香港_1_4000G
-      - AI2①香港_2
-      - AI2①香港_3
-      - AI2①香港_4
-      - AI2①香港_5
-      - AI2①日本_1
-      - AI2①日本_2
-      - AI2①日本_3
-      - AI2①日本_4
-      - AI2①日本_5
-      - AI2①日本_6
-      - AI2①日本_7
-      - AI2①日本_8
-      - AI2①新加坡_1
-      - AI2①新加坡_2
-      - AI2①新加坡_3
-      - AI2①新加坡_4
-      - AI2①新加坡_5
-      - AI2①新加坡_6
-      - AI2①新加坡_7
-      - AI2①新加坡_8
-      - AI2①美国_1
-      - AI2①美国_2
-      - AI2①美国_3
-      - AI2①美国_4
-      - AI2①美国_5
-      - AI2①美国_6
-      - AI2①美国_7
-      - AI2①美国_8
-      - AI2①英国_1
-      - AI2①英国_2
-      - AI2①英国_3
-      - AI2①英国_4
-      - AI2①英国_5
-      - AI2①英国_6
-      - AI2①英国_7
-      - AI2①英国_8
-      - AI2①加拿大_1
-      - AI2①加拿大_2
-      - AI2①加拿大_3
-      - AI2①加拿大_4
-      - AI2①加拿大_5
-      - AI2①加拿大_6
-      - AI2①加拿大_7
-      - AI2①加拿大_8
-      - AI2①澳洲_1
-      - AI2①澳洲_2
-      - AI2①澳洲_3
-      - AI2①澳洲_4
-      - AI2①澳洲_5
-      - AI2①澳洲_6
-      - AI2①澳洲_7
-      - AI2①澳洲_8
-      - AI2①香港
-      - AI2①澳洲
-      - AI2①加拿大
-      - AI2①德国
-      - AI2①日本
-      - AI2①新加坡
-      - AI2①英国
-      - AI2①美国
-      - AI2①香港
-      - AI2①澳洲
-      - AI2①加拿大
-      - AI2①德国
-      - AI2①日本
-      - AI2①新加坡
-      - AI2①英国
-      - AI2①美国
-      - AI2①香港
-      - AI2①澳洲
-      - AI2①加拿大
-      - AI2①德国
-      - AI2①日本
-      - AI2①新加坡
-      - AI2①英国
-      - AI2①美国
-      - AI2①香港
-      - AI2①澳洲
-      - AI2①加拿大
-      - AI2①德国
-      - AI2①日本
-      - AI2①新加坡
-      - AI2①英国
-      - AI2①美国
-      - AI2②香港_1_1000G
-      - AI2②香港_2
-      - AI2②香港_3
-      - AI2②香港_4
-      - AI2②香港_5
-      - AI2②日本_1
-      - AI2②日本_2
-      - AI2②日本_3
-      - AI2②日本_4
-      - AI2②日本_5
-      - AI2②日本_6
-      - AI2②日本_7
-      - AI2②日本_8
-      - AI2②新加坡_1
-      - AI2②新加坡_2
-      - AI2②新加坡_3
-      - AI2②新加坡_4
-      - AI2②新加坡_5
-      - AI2②新加坡_6
-      - AI2②新加坡_7
-      - AI2②新加坡_8
-      - AI2②美国_1
-      - AI2②美国_2
-      - AI2②美国_3
-      - AI2②美国_4
-      - AI2②美国_5
-      - AI2②美国_6
-      - AI2②美国_7
-      - AI2②美国_8
-      - AI2②英国_1
-      - AI2②英国_2
-      - AI2②英国_3
-      - AI2②英国_4
-      - AI2②英国_5
-      - AI2②英国_6
-      - AI2②英国_7
-      - AI2②英国_8
-      - AI2②加拿大_1
-      - AI2②加拿大_2
-      - AI2②加拿大_3
-      - AI2②加拿大_4
-      - AI2②加拿大_5
-      - AI2②加拿大_6
-      - AI2②加拿大_7
-      - AI2②加拿大_8
-      - AI2②澳洲_1
-      - AI2②澳洲_2
-      - AI2②澳洲_3
-      - AI2②澳洲_4
-      - AI2②澳洲_5
-      - AI2②澳洲_6
-      - AI2②澳洲_7
-      - AI2②澳洲_8
-      - AI2②香港
-      - AI2②澳洲
-      - AI2②加拿大
-      - AI2②德国
-      - AI2②日本
-      - AI2②新加坡
-      - AI2②英国
-      - AI2②美国
-      - AI2②香港
-      - AI2②澳洲
-      - AI2②加拿大
-      - AI2②德国
-      - AI2②日本
-      - AI2②新加坡
-      - AI2②英国
-      - AI2②美国
-      - AI2②香港
-      - AI2②澳洲
-      - AI2②加拿大
-      - AI2②德国
-      - AI2②日本
-      - AI2②新加坡
-      - AI2②英国
-      - AI2②美国
-      - AI2②香港
-      - AI2②澳洲
-      - AI2②加拿大
-      - AI2②德国
-      - AI2②日本
-      - AI2②新加坡
-      - AI2②英国
-      - AI2②美国
-      - AI2③香港_1_2000G
-      - AI2③香港_2
-      - AI2③香港_3
-      - AI2③香港_4
-      - AI2③香港_5
-      - AI2③日本_1
-      - AI2③日本_2
-      - AI2③日本_3
-      - AI2③日本_4
-      - AI2③日本_5
-      - AI2③日本_6
-      - AI2③日本_7
-      - AI2③日本_8
-      - AI2③新加坡_1
-      - AI2③新加坡_2
-      - AI2③新加坡_3
-      - AI2③新加坡_4
-      - AI2③新加坡_5
-      - AI2③新加坡_6
-      - AI2③新加坡_7
-      - AI2③新加坡_8
-      - AI2③美国_1
-      - AI2③美国_2
-      - AI2③美国_3
-      - AI2③美国_4
-      - AI2③美国_5
-      - AI2③美国_6
-      - AI2③美国_7
-      - AI2③美国_8
-      - AI2③英国_1
-      - AI2③英国_2
-      - AI2③英国_3
-      - AI2③英国_4
-      - AI2③英国_5
-      - AI2③英国_6
-      - AI2③英国_7
-      - AI2③英国_8
-      - AI2③加拿大_1
-      - AI2③加拿大_2
-      - AI2③加拿大_3
-      - AI2③加拿大_4
-      - AI2③加拿大_5
-      - AI2③加拿大_6
-      - AI2③加拿大_7
-      - AI2③加拿大_8
-      - AI2③澳洲_1
-      - AI2③澳洲_2
-      - AI2③澳洲_3
-      - AI2③澳洲_4
-      - AI2③澳洲_5
-      - AI2③澳洲_6
-      - AI2③澳洲_7
-      - AI2③澳洲_8
-      - AI2③1香港
-      - AI2③1澳洲
-      - AI2③1加拿大
-      - AI2③1德国
-      - AI2③1日本
-      - AI2③1新加坡
-      - AI2③1英国
-      - AI2③1美国
-      - AI2③2香港
-      - AI2③2澳洲
-      - AI2③2加拿大
-      - AI2③2德国
-      - AI2③2日本
-      - AI2③2新加坡
-      - AI2③2英国
-      - AI2③2美国
-      - AI2③3香港
-      - AI2③3澳洲
-      - AI2③3加拿大
-      - AI2③3德国
-      - AI2③3日本
-      - AI2③3新加坡
-      - AI2③3英国
-      - AI2③3美国
-      - AI2③4香港
-      - AI2③4澳洲
-      - AI2③4加拿大
-      - AI2③4德国
-      - AI2③4日本
-      - AI2③4新加坡
-      - AI2③4英国
-      - AI2③4美国
-      - AI2④香港_1_703G
-      - AI2④香港_2
-      - AI2④香港_3
-      - AI2④香港_4
-      - AI2④香港_5
-      - AI2④日本_1
-      - AI2④日本_2
-      - AI2④日本_3
-      - AI2④日本_4
-      - AI2④日本_5
-      - AI2④日本_6
-      - AI2④日本_7
-      - AI2④日本_8
-      - AI2④新加坡_1
-      - AI2④新加坡_2
-      - AI2④新加坡_3
-      - AI2④新加坡_4
-      - AI2④新加坡_5
-      - AI2④新加坡_6
-      - AI2④新加坡_7
-      - AI2④新加坡_8
-      - AI2④美国_1
-      - AI2④美国_2
-      - AI2④美国_3
-      - AI2④美国_4
-      - AI2④美国_5
-      - AI2④美国_6
-      - AI2④美国_7
-      - AI2④美国_8
-      - AI2④英国_1
-      - AI2④英国_2
-      - AI2④英国_3
-      - AI2④英国_4
-      - AI2④英国_5
-      - AI2④英国_6
-      - AI2④英国_7
-      - AI2④英国_8
-      - AI2④加拿大_1
-      - AI2④加拿大_2
-      - AI2④加拿大_3
-      - AI2④加拿大_4
-      - AI2④加拿大_5
-      - AI2④加拿大_6
-      - AI2④加拿大_7
-      - AI2④加拿大_8
-      - AI2④澳洲_1
-      - AI2④澳洲_2
-      - AI2④澳洲_3
-      - AI2④澳洲_4
-      - AI2④澳洲_5
-      - AI2④澳洲_6
-      - AI2④澳洲_7
-      - AI2④澳洲_8
-      - AI2④1香港
-      - AI2④1澳洲
-      - AI2④1加拿大
-      - AI2④1德国
-      - AI2④1日本
-      - AI2④1新加坡
-      - AI2④1英国
-      - AI2④1美国
-      - AI2④2香港
-      - AI2④2澳洲
-      - AI2④2加拿大
-      - AI2④2德国
-      - AI2④2日本
-      - AI2④2新加坡
-      - AI2④2英国
-      - AI2④2美国
-      - AI2④3香港
-      - AI2④3澳洲
-      - AI2④3加拿大
-      - AI2④3德国
-      - AI2④3日本
-      - AI2④3新加坡
-      - AI2④3英国
-      - AI2④3美国
-      - AI2④4香港
-      - AI2④4澳洲
-      - AI2④4加拿大
-      - AI2④4德国
-      - AI2④4日本
-      - AI2④4新加坡
-      - AI2④4英国
-      - AI2④4美国
+      - 香港FASTQ_G
+      - 日本FASTQ_G
+      - 新加坡FASTQ_G
+      - 澳大利亚FASTQ_G
+      - 美国FASTQ_G
+      - 加拿大FASTQ_G
+      - 德国FASTQ_G
+      - 英国FASTQ_G
+      - 香港FASTQ_A_1
+      - 香港FASTQ_A_2
+      - 香港FASTQ_A_3
+      - 香港FASTQ_A_4
+      - 香港FASTQ_A_5
+      - 香港FASTQ_WY
+      - 澳大利亚FASTQ_WY
+      - 加拿大FASTQ_WY
+      - 德国FASTQ_WY
+      - 日本FASTQ_WY
+      - 新加坡FASTQ_WY
+      - 英国FASTQ_WY
+      - 美国FASTQ_WY
+      - 香港ER3_A1
+      - 澳大利亚ER3_A1
+      - 加拿大ER3_A1
+      - 德国ER3_A1
+      - 日本ER3_A1
+      - 新加坡ER3_A1
+      - 英国ER3_A1
+      - 美国ER3_A1
+      - 香港ER3_NODE
+      - 澳大利亚ER3_NODE
+      - 加拿大ER3_NODE
+      - 德国ER3_NODE
+      - 日本ER3_NODE
+      - 新加坡ER3_NODE
+      - 英国ER3_NODE
+      - 美国ER3_NODE
+      - 澳大利亚ER3_AU_1
+      - 澳大利亚ER3_AU_2
+      - 澳大利亚ER3_AU_3
+      - 澳大利亚ER3_AU_4
+      - 澳大利亚ER3_AU_5
+      - 澳大利亚ER3_AU_6
+      - 澳大利亚ER3_AU_7
+      - 澳大利亚ER3_AU_8
+      - 加拿大ER3_CA_1
+      - 加拿大ER3_CA_2
+      - 加拿大ER3_CA_3
+      - 加拿大ER3_CA_4
+      - 加拿大ER3_CA_5
+      - 加拿大ER3_CA_6
+      - 加拿大ER3_CA_7
+      - 加拿大ER3_CA_8
+      - 香港ER3_GE
+      - 澳大利亚ER3_GE
+      - 加拿大ER3_GE
+      - 德国ER3_GE
+      - 日本ER3_GE
+      - 新加坡ER3_GE
+      - 英国ER3_GE
+      - 美国ER3_GE
+      - 日本ER3_JP_1
+      - 日本ER3_JP_2
+      - 日本ER3_JP_3
+      - 日本ER3_JP_4
+      - 日本ER3_JP_5
+      - 日本ER3_JP_6
+      - 日本ER3_JP_7
+      - 日本ER3_JP_8
+      - 新加坡ER3_SG_1
+      - 新加坡ER3_SG_2
+      - 新加坡ER3_SG_3
+      - 新加坡ER3_SG_4
+      - 新加坡ER3_SG_5
+      - 新加坡ER3_SG_6
+      - 新加坡ER3_SG_7
+      - 新加坡ER3_SG_8
+      - 英国ER3_UK_1
+      - 英国ER3_UK_2
+      - 英国ER3_UK_3
+      - 英国ER3_UK_4
+      - 英国ER3_UK_5
+      - 英国ER3_UK_6
+      - 英国ER3_UK_7
+      - 英国ER3_UK_8
+      - 美国ER3_US_1
+      - 美国ER3_US_2
+      - 美国ER3_US_3
+      - 美国ER3_US_4
+      - 美国ER3_US_5
+      - 美国ER3_US_6
+      - 美国ER3_US_7
+      - 美国ER3_US_8
   - name: 国外媒体
     type: select
     proxies:
