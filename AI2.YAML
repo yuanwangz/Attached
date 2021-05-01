@@ -130,6 +130,16 @@ proxies:
   - {name: fr-8, type: trojan, password: iyinglong, server: fr-8.tjjjt.top, sni: fr-8.tjjjt.top, port: 443, skip-cert-verify: true}
   - {name: fr-9, type: trojan, password: iyinglong, server: fr-9.tjjjt.top, sni: fr-9.tjjjt.top, port: 443, skip-cert-verify: true}
   - {name: fr-10, type: trojan, password: iyinglong, server: fr-10.tjjjt.top, sni: fr-10.tjjjt.top, port: 443, skip-cert-verify: true}
+  - {name: github.com/freefq - 亚太地区  1, server: hk01.99justice.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: hk01.99justice.xyz}, udp: true}
+  - {name: github.com/freefq - 亚太地区  2, server: hk01.mail88.icu, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: hk01.mail88.icu}, udp: true}
+  - {name: github.com/freefq - 亚太地区  3, server: hk02.mail88.icu, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: hk02.mail88.icu}, udp: true}
+  - {name: 🇭🇰 github.com/freefq - 香港Amazon数据中心 7, server: hk02.ronghuafugui.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: hk02.ronghuafugui.xyz}, udp: true}
+  - {name: 🇯🇵 github.com/freefq - 日本东京都亚马逊(Amazon)公司数据中心 6, server: jp01.ronghuafugui.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: jp01.ronghuafugui.xyz}, udp: true}
+  - {name: 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 9, server: kr05.ronghuafugui.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: kr05.ronghuafugui.xyz}, udp: true}
+  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 4, server: sg06.ronghuafugui.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: sg06.ronghuafugui.xyz}, udp: true}
+  - {name: 🇺🇸 github.com/freefq - 美国  10, server: hk06.ronghuafugui.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: hk06.ronghuafugui.xyz}, udp: true}
+  - {name: 🇺🇸 github.com/freefq - 美国  5, server: hk02.101justice.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: hk02.101justice.xyz}, udp: true}
+  - {name: 🇺🇸 github.com/freefq - 美国  8, server: 429jp.fans8.xyz, port: 443, type: vmess, uuid: a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 429jp.fans8.xyz}, udp: true}
 proxy-groups:
   - name: 自动选择
     type: url-test
@@ -262,6 +272,16 @@ proxy-groups:
       - fr-8
       - fr-9
       - fr-10
+      - github.com/freefq - 亚太地区  1
+      - github.com/freefq - 亚太地区  2
+      - github.com/freefq - 亚太地区  3
+      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 7
+      - 🇯🇵 github.com/freefq - 日本东京都亚马逊(Amazon)公司数据中心 6
+      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 9
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 4
+      - 🇺🇸 github.com/freefq - 美国  10
+      - 🇺🇸 github.com/freefq - 美国  5
+      - 🇺🇸 github.com/freefq - 美国  8
   - name: 节点选择
     type: select
     proxies:
@@ -391,6 +411,16 @@ proxy-groups:
       - fr-8
       - fr-9
       - fr-10
+      - github.com/freefq - 亚太地区  1
+      - github.com/freefq - 亚太地区  2
+      - github.com/freefq - 亚太地区  3
+      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 7
+      - 🇯🇵 github.com/freefq - 日本东京都亚马逊(Amazon)公司数据中心 6
+      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 9
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 4
+      - 🇺🇸 github.com/freefq - 美国  10
+      - 🇺🇸 github.com/freefq - 美国  5
+      - 🇺🇸 github.com/freefq - 美国  8
   - name: 国外媒体
     type: select
     proxies:
