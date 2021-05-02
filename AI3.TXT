@@ -1,67 +1,63 @@
-vmess = sg06.ronghuafugui.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=sg06.ronghuafugui.xyz, obfs-uri=/ray, fast-open=false, tag=新加坡8-联通移动
-vmess = 429jp.fans8.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=429jp.fans8.xyz, obfs-uri=/ray, fast-open=false, tag=日本1-电信联通
-vmess = jp01.ronghuafugui.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=jp01.ronghuafugui.xyz, obfs-uri=/ray, fast-open=false, tag=日本8-联通移动
-vmess = jp03.ronghuafugui.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=jp03.ronghuafugui.xyz, obfs-uri=/ray, fast-open=false, tag=日本9-联通移动
-vmess = 322us.fans8.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=322us.fans8.xyz, obfs-uri=/ray, fast-open=false, tag=美国1-电信联通
-vmess = kr06.ronghuafugui.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=kr06.ronghuafugui.xyz, obfs-uri=/ray, fast-open=false, tag=韩国10-联通移动
-vmess = kr03.ronghuafugui.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=kr03.ronghuafugui.xyz, obfs-uri=/ray, fast-open=false, tag=韩国8-联通移动
-vmess = kr05.ronghuafugui.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=kr05.ronghuafugui.xyz, obfs-uri=/ray, fast-open=false, tag=韩国9-联通移动
-vmess = hk06.ronghuafugui.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=hk06.ronghuafugui.xyz, obfs-uri=/ray, fast-open=false, tag=香港0-电信联通
-vmess = hk01.mail88.icu:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=hk01.mail88.icu, obfs-uri=/ray, fast-open=false, tag=香港1-三网优化
-vmess = hk02.mail88.icu:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=hk02.mail88.icu, obfs-uri=/ray, fast-open=false, tag=香港2-三网优化
-vmess = hk02.ronghuafugui.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=hk02.ronghuafugui.xyz, obfs-uri=/ray, fast-open=false, tag=香港3-联通移动
-vmess = hk02.101justice.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=hk02.101justice.xyz, obfs-uri=/ray, fast-open=false, tag=香港5-电信联通
-vmess = hk01.99justice.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=hk01.99justice.xyz, obfs-uri=/ray, fast-open=false, tag=香港6-三网优化
-vmess = linode-zy.ddns-only.xyz:51196, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转2919|广东-新加坡|x2.5|V2ray
-vmess = linode-zy.ddns-only.xyz:51197, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转2920|广东-新加坡|x2.5|V2ray
-vmess = linode-zy.ddns-only.xyz:51198, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转2921|广东-新加坡|x2.5|V2ray
-vmess = linode-zy.ddns-only.xyz:51200, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转2923|广东-新加坡|x2.5|V2ray
-vmess = linode-zy.ddns-only.xyz:12988, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转2988|广东-新加坡|解锁|x2.0|V2ray
-vmess = linode-zy.ddns-only.xyz:12989, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转2989|广东-新加坡|解锁|x2.0|V2ray
-vmess = linode-zy.ddns-only.xyz:12990, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转2990|广东-新加坡|解锁|x2.0|V2ray
-vmess = linode-zy.ddns-only.xyz:12991, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转2991|广东-新加坡|解锁|x2.0|V2ray
-vmess = xgd-01.ddns-only.xyz:13093, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=xgd-01.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3093|新广东-日本|解锁|x1.0|V2ray
-vmess = xgd-01.ddns-only.xyz:13094, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=xgd-01.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3094|新广东-日本|解锁|x1.0|V2ray
-vmess = guanggang-sy-03.ddns-only.xyz:13096, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=guanggang-sy-03.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3096|广港B-日本|解锁|x2.0|V2ray
-vmess = guanggang-sy-03.ddns-only.xyz:13306, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=guanggang-sy-03.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3306|广港B-台湾|解锁|x2.5|V2ray
-vmess = guangdong02.ddns-only.xyz:13307, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=guangdong02.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3307|广东-台湾|解锁|x2.5|V2ray
-vmess = guangdong02.ddns-only.xyz:13308, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=guangdong02.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3308|广东-台湾|解锁|x2.0|V2ray
-vmess = guanggang-sy-03.ddns-only.xyz:13309, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=guanggang-sy-03.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3309|广港B-台湾|解锁|x2.0|V2ray
-vmess = guanggang-sy-03.ddns-only.xyz:13310, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=guanggang-sy-03.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3310|广港B-台湾|解锁|x2.5|V2ray
-vmess = guanggang-sy-03.ddns-only.xyz:13311, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=guanggang-sy-03.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3311|广港B-台湾|解锁|x2.0|V2ray
-vmess = guanggang-sy-03.ddns-only.xyz:13312, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=guanggang-sy-03.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3312|广港B-台湾|解锁|x2.0|V2ray
-vmess = guangdong02.ddns-only.xyz:13313, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=guangdong02.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3313|广东-台湾|解锁|x2.0|V2ray
-vmess = linode-zy.ddns-only.xyz:13361, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3361|广东-新加坡|x2.5|V2ray
-vmess = linode-zy.ddns-only.xyz:13367, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3367|广东-新加坡|x2.5|V2ray
-vmess = linode-zy.ddns-only.xyz:13368, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3368|广东-新加坡|x2.5|V2ray
-vmess = guangdong05.ddns-only.xyz:13502, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=guangdong05.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3502|广东-香港HKT|解锁|x1.5|V2ray
-vmess = guangdong05.ddns-only.xyz:13503, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=guangdong05.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3503|广东-香港HKT|解锁|x1.5|V2ray
-vmess = sy-gg-02.ddns-only.xyz:13542, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=sy-gg-02.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3542|沪港-日本软银|解锁|x1.5|V2ray
-vmess = sy-gg-02.ddns-only.xyz:13544, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=sy-gg-02.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3544|沪港-日本软银|解锁|x1.5|V2ray
-vmess = linode-zy.ddns-only.xyz:13557, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3557|广东-新加坡|x2.0|V2ray
-vmess = linode-zy.ddns-only.xyz:13559, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3559|广东-新加坡|x2.0|V2ray
-vmess = linode-zy.ddns-only.xyz:13561, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3561|广东-新加坡|x2.0|V2ray
-vmess = linode-zy.ddns-only.xyz:13563, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3563|广东-新加坡|x2.0|V2ray
-vmess = linode-zy.ddns-only.xyz:13565, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3565|广东-新加坡|x2.0|V2ray
-vmess = linode-zy.ddns-only.xyz:13567, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3567|广东-新加坡|x2.0|V2ray
-vmess = linode-zy.ddns-only.xyz:13569, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3569|广东-新加坡|x2.0|V2ray
-vmess = linode-zy.ddns-only.xyz:13586, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=linode-zy.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-中转3586|广东-新加坡|解锁|x2.0|V2ray
-vmess = azure-n7.ddns-only.xyz:52346, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=azure-n7.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-香港3082|Azure|x1.0|V2ray
-vmess = azure-n9.ddns-only.xyz:54888, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=azure-n9.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-香港3084|Azure|x1.0|V2ray
-vmess = azure-n10.ddns-only.xyz:56666, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=azure-n10.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-香港3085|Azure|x1.0|V2ray
-vmess = azure-aa19.ddns-only.xyz:57894, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=azure-aa19.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-香港3254|Azure|x1.0|V2ray
-vmess = sy-azp5.ddns-only.xyz:56666, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=sy-azp5.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-香港3397|Azure|x1.0|V2ray
-vmess = azure-n17.ddns-only.xyz:56899, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=azure-n17.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-香港3409|Azure|x1.0|V2ray
-vmess = azure-aa3.ddns-only.xyz:45678, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=azure-aa3.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-香港3411|Azure|x1.0|V2ray
-vmess = azure-n11.ddns-only.xyz:45688, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=azure-n11.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-香港3419|Azure|x1.0|V2ray
-vmess = azure-p7.ddns-only.xyz:56666, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=azure-p7.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-香港3420|Azure|x1.0|V2ray
-vmess = azure-p8.ddns-only.xyz:45678, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=azure-p8.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-香港3421|Azure|x1.0|V2ray
-vmess = azure-n8.ddns-only.xyz:45688, method=chacha20-ietf-poly1305, password=af58cbc9-ac46-3da6-a88f-8d05e0f6e1bc, obfs=ws, obfs-host=azure-n8.ddns-only.xyz, obfs-uri=/v2ray, fast-open=false, tag=V4-香港3540|Azure|x1.0|V2ray
+vmess = sg06.ronghuafugui.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=sg06.ronghuafugui.xyz, obfs-uri=/ray, fast-open=false, tag=🇸🇬 新加坡8-联通移动
+vmess = agahk.sczssr.xyz:39653, method=chacha20-ietf-poly1305, password=41822903-38f6-3633-b5e6-415b14d11d11, obfs=ws, obfs-host=agahk.sczssr.xyz, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇨🇳 台湾  电信加速线路 移动请换三网优化
+vmess = agahk.sczssr.xyz:39098, method=chacha20-ietf-poly1305, password=41822903-38f6-3633-b5e6-415b14d11d11, obfs=ws, obfs-host=35.243.81.244, obfs-uri=/ny, fast-open=false, udp-relay=true, tag=🇯🇵 日本01 电信加速路线
+vmess = agahk.sczssr.xyz:39003, method=chacha20-ietf-poly1305, password=41822903-38f6-3633-b5e6-415b14d11d11, obfs=ws, obfs-host=agahk.sczssr.xyz, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇭🇰 香港00 电信加速线路 移动请换三网优化
+vmess = 23.97.66.222:25001, method=chacha20-ietf-poly1305, password=41822903-38f6-3633-b5e6-415b14d11d11, obfs=ws, obfs-host=23.97.66.222, obfs-uri=/ny, fast-open=false, udp-relay=true, tag=🇭🇰 香港01 三网优化 已流媒体 奈飞
+vmess = 13.248.165.181:39004, method=chacha20-ietf-poly1305, password=41822903-38f6-3633-b5e6-415b14d11d11, obfs=ws, obfs-host=13.248.165.181, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇭🇰 香港02 电信加速线路 移动请换三网优化
+vmess = 13.248.189.78:39004, method=chacha20-ietf-poly1305, password=41822903-38f6-3633-b5e6-415b14d11d11, obfs=ws, obfs-host=13.248.189.78, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇭🇰 香港05 电信优化 VIP2 移动请换三网优化
+vmess = 40.83.101.225:25001, method=chacha20-ietf-poly1305, password=41822903-38f6-3633-b5e6-415b14d11d11, obfs=ws, obfs-host=149.129.56.249, obfs-uri=/ny, fast-open=false, udp-relay=true, tag=🇭🇰 香港06 三网优化 流媒体奈飞
+vmess = 40.83.101.225:25002, method=chacha20-ietf-poly1305, password=41822903-38f6-3633-b5e6-415b14d11d11, obfs=ws, obfs-host=40.83.101.225, obfs-uri=/ny, fast-open=false, udp-relay=true, tag=🇭🇰 香港07维护 三网优化 流媒体 奈飞
+vmess = 40.83.101.225:25003, method=chacha20-ietf-poly1305, password=41822903-38f6-3633-b5e6-415b14d11d11, obfs=ws, obfs-host=40.83.101.225, obfs-uri=/ny, fast-open=false, udp-relay=true, tag=🇭🇰 香港08 三网优化 流媒体 奈飞
+trojan = 13.94.35.160:10001, password=6b15108e-8373-4832-8fc3-668ab5030b8d, over-tls=true, tls-host=jp.xxl123.fun, fast-open=false, tls-verification=true, tag=🇯🇵 日本01|中转AZ
+trojan = 13.94.35.160:10000, password=6b15108e-8373-4832-8fc3-668ab5030b8d, over-tls=true, tls-host=hk1.xxl123.fun, fast-open=false, tls-verification=true, tag=🇭🇰 香港01|中转AZ
+trojan = us.xxl123.fun:443, password=6b15108e-8373-4832-8fc3-668ab5030b8d, over-tls=true, tls-host=us.xxl123.fun, fast-open=false, tls-verification=true, tag=🇺🇸 美国01|Netflix
+trojan = us2.xxl123.fun:8998, password=6b15108e-8373-4832-8fc3-668ab5030b8d, over-tls=true, tls-host=us2.xxl123.fun, fast-open=false, tls-verification=true, tag=🇺🇸 美国02|Netflix
+trojan = us3.xxl123.fun:8998, password=6b15108e-8373-4832-8fc3-668ab5030b8d, over-tls=true, tls-host=us3.xxl123.fun, fast-open=false, tls-verification=true, tag=🇺🇸 美国03|Netflix
+trojan = jm.mfjlb.top:20027, password=6b15108e-8373-4832-8fc3-668ab5030b8d, over-tls=true, tls-host=us2.xxl123.fun, fast-open=false, tls-verification=true, tag=🇺🇸 美国02|江门移动|Netflix
+trojan = hz.mfjlb.top:20052, password=6b15108e-8373-4832-8fc3-668ab5030b8d, over-tls=true, tls-host=us3.xxl123.fun, fast-open=false, tls-verification=true, tag=🇺🇸 美国03|中转杭州移动|Netflix
+vmess = 13.94.35.160:10003, method=chacha20-ietf-poly1305, password=6b15108e-8373-4832-8fc3-668ab5030b8d, obfs=wss, obfs-host=us4.xxl123.fun, obfs-uri=/index, fast-open=false, tag=🇺🇸 美国04|中转AZ
+vmess = tomg.jiasu1.xyz:10001, method=chacha20-ietf-poly1305, password=6b15108e-8373-4832-8fc3-668ab5030b8d, obfs=wss, obfs-host=us4.xxl123.fun, obfs-uri=/index, fast-open=false, tag=🇺🇸 美国04|中转AGA
+trojan = node01-trojan.cloudddns.icu:1010, password=6eed0024-10a8-4ada-a8b8-c8516be06800, over-tls=true, tls-host=node01-trojan.cloudddns.icu, fast-open=false, tls-verification=true, tag=直连节点
+vmess = cn1.relay.iplc.pro:52000, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇭🇰 HK1(IPLC) - 深港国际专线
+vmess = cn1.relay.iplc.pro:52001, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇭🇰 HK2(IPLC) - 深港国际专线
+vmess = cn1.relay.iplc.pro:52002, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇭🇰 HK3(IPLC) - 深港国际专线
+vmess = cn1.relay.iplc.pro:52004, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇨🇳 TW1(IPLC) - 深台国际专线
+vmess = cn1.relay.iplc.pro:52006, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇯🇵 JP2(IPLC) - 深日国际专线
+vmess = cn1.relay.iplc.pro:52011, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇸🇬 SG1(IPLC) - 深新国际专线
+vmess = cn1.relay.iplc.pro:52007, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇺🇸 US1(IPLC) - 深美国际专线
+vmess = cn1.relay.iplc.pro:52008, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇺🇸 US2(IPLC) - 深美国际专线
+vmess = cn1.relay.iplc.pro:52010, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇷🇺 RU1(IPLC) - 深俄国际专线
+vmess = cn2.relay.iplc.pro:52000, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇭🇰 HK1(IPLC) - 沪港国际专线
+vmess = cn2.relay.iplc.pro:52001, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇭🇰 HK2(IPLC) - 沪港国际专线
+vmess = cn2.relay.iplc.pro:52002, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇭🇰 HK3(IPLC) - 沪港国际专线
+vmess = cn2.relay.iplc.pro:52003, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇭🇰 HK4(IPLC) - 沪港国际专线
+vmess = cn2.relay.iplc.pro:52012, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇭🇰 HK5(IPLC) - 沪港国际专线
+vmess = cn2.relay.iplc.pro:52004, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇨🇳 TW1(IPLC) - 沪台国际专线
+vmess = cn2.relay.iplc.pro:52006, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇯🇵 JP2(IPLC) - 沪日国际专线
+vmess = cn2.relay.iplc.pro:52009, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇰🇷 KR1(IPLC) - 沪韩国际专线
+vmess = cn2.relay.iplc.pro:52011, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇸🇬 SG1(IPLC) - 沪新国际专线
+vmess = cn2.relay.iplc.pro:52007, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇺🇸 US1(IPLC) - 沪美国际专线
+vmess = cn2.relay.iplc.pro:52008, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇺🇸 US2(IPLC) - 沪美国际专线
+vmess = cn2.relay.iplc.pro:52010, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇷🇺 RU1(IPLC) - 沪俄国际专线
+vmess = hk1.direct.iplc.pro:52000, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇭🇰 HK1(Direct) - 香港直连专线
+vmess = hk2.direct.iplc.pro:52000, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇭🇰 HK2(Direct) - 香港直连专线
+vmess = hk3.direct.iplc.pro:52000, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇭🇰 HK3(Direct) - 香港直连专线
+vmess = hk4.direct.iplc.pro:52000, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇭🇰 HK4(Direct) - 香港直连专线
+vmess = hk5.direct.iplc.pro:52000, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇭🇰 HK5(Direct) - 香港直连专线
+vmess = tw1.direct.iplc.pro:52000, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇨🇳 TW1(Direct) - 台湾直连专线
+vmess = jp1.direct.iplc.pro:52000, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇯🇵 JP1(Direct) - 日本直连专线
+vmess = jp2.direct.iplc.pro:52000, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇯🇵 JP2(Direct) - 日本直连专线
+vmess = kr1.direct.iplc.pro:52000, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇰🇷 KR1(Direct) - 韩国直连专线
+vmess = sg1.direct.iplc.pro:52000, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇸🇬 SG1(Direct) - 新加坡直连专线
+vmess = us1.direct.iplc.pro:52000, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇺🇸 US1(Direct) - 美国直连专线
+vmess = ru1.direct.iplc.pro:52000, method=chacha20-ietf-poly1305, password=441e522c-6329-406d-b018-775db7311201, fast-open=false, tag=🇷🇺 RU1(Direct) - 俄罗斯直连专线
+vmess = gonyiazhk2.xiaobaiyun.me:800, method=chacha20-ietf-poly1305, password=b90aeb2e-e665-3967-bf65-3b73ee83fb87, obfs=ws, obfs-host=els.xiaobaiyun.me, obfs-uri=/hls, fast-open=false, tag=🇷🇺 俄罗斯 -- A --  --（公益）-- 2x -- --官網-- -- ninihao.me -- 2x
+vmess = gonyiazhk2.xiaobaiyun.me:809, method=chacha20-ietf-poly1305, password=b90aeb2e-e665-3967-bf65-3b73ee83fb87, obfs=ws, obfs-host=elsxxbly.xiaobaiyun.me, obfs-uri=/hls, fast-open=false, tag=🇷🇺 俄罗斯 -- B --  --（公益）-- 2x -- --官網-- -- ninihao.me -- 2x
 trojan = jp-vip.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=jp-vip.tjjjt.top, fast-open=false, tls-verification=true, tag=jp-vip
 trojan = sg-vip.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=sg-vip.tjjjt.top, fast-open=false, tls-verification=true, tag=sg-vip
-trojan = us-vip.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-vip.tjjjt.top, fast-open=false, tls-verification=true, tag=us-vip
+trojan = us-vip.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-vip.tjjjt.top, fast-open=false, tls-verification=true, tag=🇺🇸 us-vip
 trojan = kr-vip.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=kr-vip.tjjjt.top, fast-open=false, tls-verification=true, tag=kr-vip
-trojan = uk-vip.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-vip.tjjjt.top, fast-open=false, tls-verification=true, tag=uk-vip
+trojan = uk-vip.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-vip.tjjjt.top, fast-open=false, tls-verification=true, tag=🇬🇧 uk-vip
 trojan = fr-vip.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=fr-vip.tjjjt.top, fast-open=false, tls-verification=true, tag=fr-vip
 trojan = jp-1.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=jp-1.tjjjt.top, fast-open=false, tls-verification=true, tag=jp-1
 trojan = jp-2.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=jp-2.tjjjt.top, fast-open=false, tls-verification=true, tag=jp-2
@@ -83,16 +79,16 @@ trojan = sg-7.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=sg-7.tj
 trojan = sg-8.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=sg-8.tjjjt.top, fast-open=false, tls-verification=true, tag=sg-8
 trojan = sg-9.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=sg-9.tjjjt.top, fast-open=false, tls-verification=true, tag=sg-9
 trojan = sg-10.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=sg-10.tjjjt.top, fast-open=false, tls-verification=true, tag=sg-10
-trojan = us-1.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-1.tjjjt.top, fast-open=false, tls-verification=true, tag=us-1
-trojan = us-2.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-2.tjjjt.top, fast-open=false, tls-verification=true, tag=us-2
-trojan = us-3.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-3.tjjjt.top, fast-open=false, tls-verification=true, tag=us-3
-trojan = us-4.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-4.tjjjt.top, fast-open=false, tls-verification=true, tag=us-4
-trojan = us-5.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-5.tjjjt.top, fast-open=false, tls-verification=true, tag=us-5
-trojan = us-6.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-6.tjjjt.top, fast-open=false, tls-verification=true, tag=us-6
-trojan = us-7.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-7.tjjjt.top, fast-open=false, tls-verification=true, tag=us-7
-trojan = us-8.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-8.tjjjt.top, fast-open=false, tls-verification=true, tag=us-8
-trojan = us-9.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-9.tjjjt.top, fast-open=false, tls-verification=true, tag=us-9
-trojan = us-10.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-10.tjjjt.top, fast-open=false, tls-verification=true, tag=us-10
+trojan = us-1.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-1.tjjjt.top, fast-open=false, tls-verification=true, tag=🇺🇸 us-1
+trojan = us-2.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-2.tjjjt.top, fast-open=false, tls-verification=true, tag=🇺🇸 us-2
+trojan = us-3.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-3.tjjjt.top, fast-open=false, tls-verification=true, tag=🇺🇸 us-3
+trojan = us-4.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-4.tjjjt.top, fast-open=false, tls-verification=true, tag=🇺🇸 us-4
+trojan = us-5.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-5.tjjjt.top, fast-open=false, tls-verification=true, tag=🇺🇸 us-5
+trojan = us-6.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-6.tjjjt.top, fast-open=false, tls-verification=true, tag=🇺🇸 us-6
+trojan = us-7.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-7.tjjjt.top, fast-open=false, tls-verification=true, tag=🇺🇸 us-7
+trojan = us-8.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-8.tjjjt.top, fast-open=false, tls-verification=true, tag=🇺🇸 us-8
+trojan = us-9.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-9.tjjjt.top, fast-open=false, tls-verification=true, tag=🇺🇸 us-9
+trojan = us-10.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=us-10.tjjjt.top, fast-open=false, tls-verification=true, tag=🇺🇸 us-10
 trojan = kr-1.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=kr-1.tjjjt.top, fast-open=false, tls-verification=true, tag=kr-1
 trojan = kr-2.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=kr-2.tjjjt.top, fast-open=false, tls-verification=true, tag=kr-2
 trojan = kr-3.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=kr-3.tjjjt.top, fast-open=false, tls-verification=true, tag=kr-3
@@ -103,16 +99,16 @@ trojan = kr-7.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=kr-7.tj
 trojan = kr-8.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=kr-8.tjjjt.top, fast-open=false, tls-verification=true, tag=kr-8
 trojan = kr-9.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=kr-9.tjjjt.top, fast-open=false, tls-verification=true, tag=kr-9
 trojan = kr-10.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=kr-10.tjjjt.top, fast-open=false, tls-verification=true, tag=kr-10
-trojan = uk-1.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-1.tjjjt.top, fast-open=false, tls-verification=true, tag=uk-1
-trojan = uk-2.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-2.tjjjt.top, fast-open=false, tls-verification=true, tag=uk-2
-trojan = uk-3.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-3.tjjjt.top, fast-open=false, tls-verification=true, tag=uk-3
-trojan = uk-4.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-4.tjjjt.top, fast-open=false, tls-verification=true, tag=uk-4
-trojan = uk-5.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-5.tjjjt.top, fast-open=false, tls-verification=true, tag=uk-5
-trojan = uk-6.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-6.tjjjt.top, fast-open=false, tls-verification=true, tag=uk-6
-trojan = uk-7.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-7.tjjjt.top, fast-open=false, tls-verification=true, tag=uk-7
-trojan = uk-8.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-8.tjjjt.top, fast-open=false, tls-verification=true, tag=uk-8
-trojan = uk-9.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-9.tjjjt.top, fast-open=false, tls-verification=true, tag=uk-9
-trojan = uk-10.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-10.tjjjt.top, fast-open=false, tls-verification=true, tag=uk-10
+trojan = uk-1.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-1.tjjjt.top, fast-open=false, tls-verification=true, tag=🇬🇧 uk-1
+trojan = uk-2.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-2.tjjjt.top, fast-open=false, tls-verification=true, tag=🇬🇧 uk-2
+trojan = uk-3.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-3.tjjjt.top, fast-open=false, tls-verification=true, tag=🇬🇧 uk-3
+trojan = uk-4.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-4.tjjjt.top, fast-open=false, tls-verification=true, tag=🇬🇧 uk-4
+trojan = uk-5.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-5.tjjjt.top, fast-open=false, tls-verification=true, tag=🇬🇧 uk-5
+trojan = uk-6.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-6.tjjjt.top, fast-open=false, tls-verification=true, tag=🇬🇧 uk-6
+trojan = uk-7.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-7.tjjjt.top, fast-open=false, tls-verification=true, tag=🇬🇧 uk-7
+trojan = uk-8.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-8.tjjjt.top, fast-open=false, tls-verification=true, tag=🇬🇧 uk-8
+trojan = uk-9.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-9.tjjjt.top, fast-open=false, tls-verification=true, tag=🇬🇧 uk-9
+trojan = uk-10.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=uk-10.tjjjt.top, fast-open=false, tls-verification=true, tag=🇬🇧 uk-10
 trojan = fr-1.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=fr-1.tjjjt.top, fast-open=false, tls-verification=true, tag=fr-1
 trojan = fr-2.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=fr-2.tjjjt.top, fast-open=false, tls-verification=true, tag=fr-2
 trojan = fr-3.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=fr-3.tjjjt.top, fast-open=false, tls-verification=true, tag=fr-3
@@ -123,13 +119,3 @@ trojan = fr-7.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=fr-7.tj
 trojan = fr-8.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=fr-8.tjjjt.top, fast-open=false, tls-verification=true, tag=fr-8
 trojan = fr-9.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=fr-9.tjjjt.top, fast-open=false, tls-verification=true, tag=fr-9
 trojan = fr-10.tjjjt.top:443, password=iyinglong, over-tls=true, tls-host=fr-10.tjjjt.top, fast-open=false, tls-verification=true, tag=fr-10
-vmess = hk01.99justice.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=hk01.99justice.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=github.com/freefq - 亚太地区  1
-vmess = hk01.mail88.icu:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=hk01.mail88.icu, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=github.com/freefq - 亚太地区  2
-vmess = hk02.mail88.icu:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=hk02.mail88.icu, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=github.com/freefq - 亚太地区  3
-vmess = hk02.ronghuafugui.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=hk02.ronghuafugui.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=github.com/freefq - 香港Amazon数据中心 7
-vmess = jp01.ronghuafugui.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=jp01.ronghuafugui.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=github.com/freefq - 日本东京都亚马逊(Amazon)公司数据中心 6
-vmess = kr05.ronghuafugui.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=kr05.ronghuafugui.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=github.com/freefq - 韩国首尔Amazon数据中心 9
-vmess = sg06.ronghuafugui.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=sg06.ronghuafugui.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=github.com/freefq - 新加坡Amazon数据中心 4
-vmess = hk06.ronghuafugui.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=hk06.ronghuafugui.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=github.com/freefq - 美国  10
-vmess = hk02.101justice.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=hk02.101justice.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=github.com/freefq - 美国  5
-vmess = 429jp.fans8.xyz:443, method=chacha20-ietf-poly1305, password=a366e1e2-26e8-31a6-a7d5-23df56a9e9d8, obfs=wss, obfs-host=429jp.fans8.xyz, obfs-uri=/ray, fast-open=false, udp-relay=true, tag=github.com/freefq - 美国  8
