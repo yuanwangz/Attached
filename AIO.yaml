@@ -736,6 +736,737 @@ proxies:
     password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
     tls: true
     skip-cert-verify: true
+  - name: TH香港FASTQ_G
+    type: http
+    server: global.ap.fastqvpn.com
+    port: 29980
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+  - name: TH澳大利亚FASTQ_G
+    type: http
+    server: global.ap.fastqvpn.com
+    port: 29982
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+  - name: TH加拿大FASTQ_G
+    type: http
+    server: global.ap.fastqvpn.com
+    port: 29983
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+  - name: TH德国FASTQ_G
+    type: http
+    server: global.ap.fastqvpn.com
+    port: 29984
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+  - name: TH日本FASTQ_G
+    type: http
+    server: global.ap.fastqvpn.com
+    port: 29985
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+  - name: TH新加坡FASTQ_G
+    type: http
+    server: global.ap.fastqvpn.com
+    port: 29986
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+  - name: TH英国FASTQ_G
+    type: http
+    server: global.ap.fastqvpn.com
+    port: 29987
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+  - name: TH美国FASTQ_G
+    type: http
+    server: global.ap.fastqvpn.com
+    port: 29988
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+  - name: TH香港FASTQ_A_1
+    server: a1.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+  - name: TH香港FASTQ_A_2
+    server: a2.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+  - name: TH香港FASTQ_A_3
+    server: a3.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+  - name: TH香港FASTQ_A_4
+    server: a4.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+  - name: TH香港FASTQ_A_5
+    server: a5.ap.fastqvpn.com
+    port: 29980
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+  - name: TH香港FASTQ_WY
+    server: tx.wy.fastqvpn.com
+    port: 29980
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH澳大利亚FASTQ_WY
+    server: tx.wy.fastqvpn.com
+    port: 29982
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH加拿大FASTQ_WY
+    server: tx.wy.fastqvpn.com
+    port: 29983
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH德国FASTQ_WY
+    server: tx.wy.fastqvpn.com
+    port: 29984
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH日本FASTQ_WY
+    server: tx.wy.fastqvpn.com
+    port: 29985
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH新加坡FASTQ_WY
+    server: tx.wy.fastqvpn.com
+    port: 29986
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH英国FASTQ_WY
+    server: tx.wy.fastqvpn.com
+    port: 29987
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH美国FASTQ_WY
+    server: tx.wy.fastqvpn.com
+    port: 29988
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH香港ER3_A1
+    server: a1.er3.xyz
+    port: 29980
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH澳大利亚ER3_A1
+    server: a1.er3.xyz
+    port: 29982
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH加拿大ER3_A1
+    server: a1.er3.xyz
+    port: 29983
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH德国ER3_A1
+    server: a1.er3.xyz
+    port: 29984
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH日本ER3_A1
+    server: a1.er3.xyz
+    port: 29985
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH新加坡ER3_A1
+    server: a1.er3.xyz
+    port: 29986
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH英国ER3_A1
+    server: a1.er3.xyz
+    port: 29987
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH美国ER3_A1
+    server: a1.er3.xyz
+    port: 29988
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH香港ER3_NODE
+    server: node.er3.xyz
+    port: 29980
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH澳大利亚ER3_NODE
+    server: node.er3.xyz
+    port: 29982
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH加拿大ER3_NODE
+    server: node.er3.xyz
+    port: 29983
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH德国ER3_NODE
+    server: node.er3.xyz
+    port: 29984
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH日本ER3_NODE
+    server: node.er3.xyz
+    port: 29985
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH新加坡ER3_NODE
+    server: node.er3.xyz
+    port: 29986
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH英国ER3_NODE
+    server: node.er3.xyz
+    port: 29987
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH美国ER3_NODE
+    server: node.er3.xyz
+    port: 29988
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH澳大利亚ER3_AU_1
+    server: ap1-au.er3.xyz
+    port: 29980
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH澳大利亚ER3_AU_2
+    server: ap1-au.er3.xyz
+    port: 29982
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH澳大利亚ER3_AU_3
+    server: ap1-au.er3.xyz
+    port: 29983
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH澳大利亚ER3_AU_4
+    server: ap1-au.er3.xyz
+    port: 29984
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH澳大利亚ER3_AU_5
+    server: ap1-au.er3.xyz
+    port: 29985
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH澳大利亚ER3_AU_6
+    server: ap1-au.er3.xyz
+    port: 29986
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH澳大利亚ER3_AU_7
+    server: ap1-au.er3.xyz
+    port: 29987
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH澳大利亚ER3_AU_8
+    server: ap1-au.er3.xyz
+    port: 29988
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH加拿大ER3_CA_1
+    server: ap1-ca.er3.xyz
+    port: 29980
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH加拿大ER3_CA_2
+    server: ap1-ca.er3.xyz
+    port: 29982
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH加拿大ER3_CA_3
+    server: ap1-ca.er3.xyz
+    port: 29983
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH加拿大ER3_CA_4
+    server: ap1-ca.er3.xyz
+    port: 29984
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH加拿大ER3_CA_5
+    server: ap1-ca.er3.xyz
+    port: 29985
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH加拿大ER3_CA_6
+    server: ap1-ca.er3.xyz
+    port: 29986
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH加拿大ER3_CA_7
+    server: ap1-ca.er3.xyz
+    port: 29987
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH加拿大ER3_CA_8
+    server: ap1-ca.er3.xyz
+    port: 29988
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH香港ER3_GE
+    server: ap1-ge.er3.xyz
+    port: 29980
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH澳大利亚ER3_GE
+    server: ap1-ge.er3.xyz
+    port: 29982
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH加拿大ER3_GE
+    server: ap1-ge.er3.xyz
+    port: 29983
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH德国ER3_GE
+    server: ap1-ge.er3.xyz
+    port: 29984
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH日本ER3_GE
+    server: ap1-ge.er3.xyz
+    port: 29985
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH新加坡ER3_GE
+    server: ap1-ge.er3.xyz
+    port: 29986
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH英国ER3_GE
+    server: ap1-ge.er3.xyz
+    port: 29987
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH美国ER3_GE
+    server: ap1-ge.er3.xyz
+    port: 29988
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH日本ER3_JP_1
+    server: ap1-jp.er3.xyz
+    port: 29980
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH日本ER3_JP_2
+    server: ap1-jp.er3.xyz
+    port: 29982
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH日本ER3_JP_3
+    server: ap1-jp.er3.xyz
+    port: 29983
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH日本ER3_JP_4
+    server: ap1-jp.er3.xyz
+    port: 29984
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH日本ER3_JP_5
+    server: ap1-jp.er3.xyz
+    port: 29985
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH日本ER3_JP_6
+    server: ap1-jp.er3.xyz
+    port: 29986
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH日本ER3_JP_7
+    server: ap1-jp.er3.xyz
+    port: 29987
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH日本ER3_JP_8
+    server: ap1-jp.er3.xyz
+    port: 29988
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH新加坡ER3_SG_1
+    server: ap1-sg.er3.xyz
+    port: 29980
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH新加坡ER3_SG_2
+    server: ap1-sg.er3.xyz
+    port: 29982
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH新加坡ER3_SG_3
+    server: ap1-sg.er3.xyz
+    port: 29983
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH新加坡ER3_SG_4
+    server: ap1-sg.er3.xyz
+    port: 29984
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH新加坡ER3_SG_5
+    server: ap1-sg.er3.xyz
+    port: 29985
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH新加坡ER3_SG_6
+    server: ap1-sg.er3.xyz
+    port: 29986
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH新加坡ER3_SG_7
+    server: ap1-sg.er3.xyz
+    port: 29987
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH新加坡ER3_SG_8
+    server: ap1-sg.er3.xyz
+    port: 29988
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH英国ER3_UK_1
+    server: ap1-uk.er3.xyz
+    port: 29980
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH英国ER3_UK_2
+    server: ap1-uk.er3.xyz
+    port: 29982
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH英国ER3_UK_3
+    server: ap1-uk.er3.xyz
+    port: 29983
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH英国ER3_UK_4
+    server: ap1-uk.er3.xyz
+    port: 29984
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH英国ER3_UK_5
+    server: ap1-uk.er3.xyz
+    port: 29985
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH英国ER3_UK_6
+    server: ap1-uk.er3.xyz
+    port: 29986
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH英国ER3_UK_7
+    server: ap1-uk.er3.xyz
+    port: 29987
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH英国ER3_UK_8
+    server: ap1-uk.er3.xyz
+    port: 29988
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH美国ER3_US_1
+    server: ap1-us.er3.xyz
+    port: 29980
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH美国ER3_US_2
+    server: ap1-us.er3.xyz
+    port: 29982
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH美国ER3_US_3
+    server: ap1-us.er3.xyz
+    port: 29983
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH美国ER3_US_4
+    server: ap1-us.er3.xyz
+    port: 29984
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH美国ER3_US_5
+    server: ap1-us.er3.xyz
+    port: 29985
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH美国ER3_US_6
+    server: ap1-us.er3.xyz
+    port: 29986
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH美国ER3_US_7
+    server: ap1-us.er3.xyz
+    port: 29987
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
+  - name: TH美国ER3_US_8
+    server: ap1-us.er3.xyz
+    port: 29988
+    type: http
+    username: "436299585514635264"
+    password: b3272869-9501-466e-98cb-8af7c1218d66
+    tls: true
+    skip-cert-verify: true
 proxy-groups:
   - name: 自动选择
     type: url-test
@@ -836,6 +1567,99 @@ proxy-groups:
       - 美国ER3_US_6
       - 美国ER3_US_7
       - 美国ER3_US_8
+      - TH香港FASTQ_G
+      - TH日本FASTQ_G
+      - TH新加坡FASTQ_G
+      - TH澳大利亚FASTQ_G
+      - TH美国FASTQ_G
+      - TH加拿大FASTQ_G
+      - TH德国FASTQ_G
+      - TH英国FASTQ_G
+      - TH香港FASTQ_A_1
+      - TH香港FASTQ_A_2
+      - TH香港FASTQ_A_3
+      - TH香港FASTQ_A_4
+      - TH香港FASTQ_A_5
+      - TH香港FASTQ_WY
+      - TH澳大利亚FASTQ_WY
+      - TH加拿大FASTQ_WY
+      - TH德国FASTQ_WY
+      - TH日本FASTQ_WY
+      - TH新加坡FASTQ_WY
+      - TH英国FASTQ_WY
+      - TH美国FASTQ_WY
+      - TH香港ER3_A1
+      - TH澳大利亚ER3_A1
+      - TH加拿大ER3_A1
+      - TH德国ER3_A1
+      - TH日本ER3_A1
+      - TH新加坡ER3_A1
+      - TH英国ER3_A1
+      - TH美国ER3_A1
+      - TH香港ER3_NODE
+      - TH澳大利亚ER3_NODE
+      - TH加拿大ER3_NODE
+      - TH德国ER3_NODE
+      - TH日本ER3_NODE
+      - TH新加坡ER3_NODE
+      - TH英国ER3_NODE
+      - TH美国ER3_NODE
+      - TH澳大利亚ER3_AU_1
+      - TH澳大利亚ER3_AU_2
+      - TH澳大利亚ER3_AU_3
+      - TH澳大利亚ER3_AU_4
+      - TH澳大利亚ER3_AU_5
+      - TH澳大利亚ER3_AU_6
+      - TH澳大利亚ER3_AU_7
+      - TH澳大利亚ER3_AU_8
+      - TH加拿大ER3_CA_1
+      - TH加拿大ER3_CA_2
+      - TH加拿大ER3_CA_3
+      - TH加拿大ER3_CA_4
+      - TH加拿大ER3_CA_5
+      - TH加拿大ER3_CA_6
+      - TH加拿大ER3_CA_7
+      - TH加拿大ER3_CA_8
+      - TH香港ER3_GE
+      - TH澳大利亚ER3_GE
+      - TH加拿大ER3_GE
+      - TH德国ER3_GE
+      - TH日本ER3_GE
+      - TH新加坡ER3_GE
+      - TH英国ER3_GE
+      - TH美国ER3_GE
+      - TH日本ER3_JP_1
+      - TH日本ER3_JP_2
+      - TH日本ER3_JP_3
+      - TH日本ER3_JP_4
+      - TH日本ER3_JP_5
+      - TH日本ER3_JP_6
+      - TH日本ER3_JP_7
+      - TH日本ER3_JP_8
+      - TH新加坡ER3_SG_1
+      - TH新加坡ER3_SG_2
+      - TH新加坡ER3_SG_3
+      - TH新加坡ER3_SG_4
+      - TH新加坡ER3_SG_5
+      - TH新加坡ER3_SG_6
+      - TH新加坡ER3_SG_7
+      - TH新加坡ER3_SG_8
+      - TH英国ER3_UK_1
+      - TH英国ER3_UK_2
+      - TH英国ER3_UK_3
+      - TH英国ER3_UK_4
+      - TH英国ER3_UK_5
+      - TH英国ER3_UK_6
+      - TH英国ER3_UK_7
+      - TH英国ER3_UK_8
+      - TH美国ER3_US_1
+      - TH美国ER3_US_2
+      - TH美国ER3_US_3
+      - TH美国ER3_US_4
+      - TH美国ER3_US_5
+      - TH美国ER3_US_6
+      - TH美国ER3_US_7
+      - TH美国ER3_US_8
   - name: 节点选择
     type: select
     proxies:
@@ -932,6 +1756,99 @@ proxy-groups:
       - 美国ER3_US_6
       - 美国ER3_US_7
       - 美国ER3_US_8
+      - TH香港FASTQ_G
+      - TH日本FASTQ_G
+      - TH新加坡FASTQ_G
+      - TH澳大利亚FASTQ_G
+      - TH美国FASTQ_G
+      - TH加拿大FASTQ_G
+      - TH德国FASTQ_G
+      - TH英国FASTQ_G
+      - TH香港FASTQ_A_1
+      - TH香港FASTQ_A_2
+      - TH香港FASTQ_A_3
+      - TH香港FASTQ_A_4
+      - TH香港FASTQ_A_5
+      - TH香港FASTQ_WY
+      - TH澳大利亚FASTQ_WY
+      - TH加拿大FASTQ_WY
+      - TH德国FASTQ_WY
+      - TH日本FASTQ_WY
+      - TH新加坡FASTQ_WY
+      - TH英国FASTQ_WY
+      - TH美国FASTQ_WY
+      - TH香港ER3_A1
+      - TH澳大利亚ER3_A1
+      - TH加拿大ER3_A1
+      - TH德国ER3_A1
+      - TH日本ER3_A1
+      - TH新加坡ER3_A1
+      - TH英国ER3_A1
+      - TH美国ER3_A1
+      - TH香港ER3_NODE
+      - TH澳大利亚ER3_NODE
+      - TH加拿大ER3_NODE
+      - TH德国ER3_NODE
+      - TH日本ER3_NODE
+      - TH新加坡ER3_NODE
+      - TH英国ER3_NODE
+      - TH美国ER3_NODE
+      - TH澳大利亚ER3_AU_1
+      - TH澳大利亚ER3_AU_2
+      - TH澳大利亚ER3_AU_3
+      - TH澳大利亚ER3_AU_4
+      - TH澳大利亚ER3_AU_5
+      - TH澳大利亚ER3_AU_6
+      - TH澳大利亚ER3_AU_7
+      - TH澳大利亚ER3_AU_8
+      - TH加拿大ER3_CA_1
+      - TH加拿大ER3_CA_2
+      - TH加拿大ER3_CA_3
+      - TH加拿大ER3_CA_4
+      - TH加拿大ER3_CA_5
+      - TH加拿大ER3_CA_6
+      - TH加拿大ER3_CA_7
+      - TH加拿大ER3_CA_8
+      - TH香港ER3_GE
+      - TH澳大利亚ER3_GE
+      - TH加拿大ER3_GE
+      - TH德国ER3_GE
+      - TH日本ER3_GE
+      - TH新加坡ER3_GE
+      - TH英国ER3_GE
+      - TH美国ER3_GE
+      - TH日本ER3_JP_1
+      - TH日本ER3_JP_2
+      - TH日本ER3_JP_3
+      - TH日本ER3_JP_4
+      - TH日本ER3_JP_5
+      - TH日本ER3_JP_6
+      - TH日本ER3_JP_7
+      - TH日本ER3_JP_8
+      - TH新加坡ER3_SG_1
+      - TH新加坡ER3_SG_2
+      - TH新加坡ER3_SG_3
+      - TH新加坡ER3_SG_4
+      - TH新加坡ER3_SG_5
+      - TH新加坡ER3_SG_6
+      - TH新加坡ER3_SG_7
+      - TH新加坡ER3_SG_8
+      - TH英国ER3_UK_1
+      - TH英国ER3_UK_2
+      - TH英国ER3_UK_3
+      - TH英国ER3_UK_4
+      - TH英国ER3_UK_5
+      - TH英国ER3_UK_6
+      - TH英国ER3_UK_7
+      - TH英国ER3_UK_8
+      - TH美国ER3_US_1
+      - TH美国ER3_US_2
+      - TH美国ER3_US_3
+      - TH美国ER3_US_4
+      - TH美国ER3_US_5
+      - TH美国ER3_US_6
+      - TH美国ER3_US_7
+      - TH美国ER3_US_8
   - name: 国外媒体
     type: select
     proxies:
