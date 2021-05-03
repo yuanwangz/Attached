@@ -200,14 +200,6 @@ proxies:
     password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
     tls: true
     skip-cert-verify: true
-  - name: 新加坡ER3_A1
-    server: a1.er3.xyz
-    port: 29986
-    type: http
-    username: "438001037811384320"
-    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
-    tls: true
-    skip-cert-verify: true
   - name: 英国ER3_A1
     server: a1.er3.xyz
     port: 29987
@@ -451,14 +443,6 @@ proxies:
   - name: 日本ER3_GE
     server: ap1-ge.er3.xyz
     port: 29985
-    type: http
-    username: "438001037811384320"
-    password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
-    tls: true
-    skip-cert-verify: true
-  - name: 新加坡ER3_GE
-    server: ap1-ge.er3.xyz
-    port: 29986
     type: http
     username: "438001037811384320"
     password: a3755f9b-88f2-4c7b-afcc-42ecf05098e9
@@ -931,14 +915,6 @@ proxies:
     password: b3272869-9501-466e-98cb-8af7c1218d66
     tls: true
     skip-cert-verify: true
-  - name: TH新加坡ER3_A1
-    server: a1.er3.xyz
-    port: 29986
-    type: http
-    username: "436299585514635264"
-    password: b3272869-9501-466e-98cb-8af7c1218d66
-    tls: true
-    skip-cert-verify: true
   - name: TH英国ER3_A1
     server: a1.er3.xyz
     port: 29987
@@ -1182,14 +1158,6 @@ proxies:
   - name: TH日本ER3_GE
     server: ap1-ge.er3.xyz
     port: 29985
-    type: http
-    username: "436299585514635264"
-    password: b3272869-9501-466e-98cb-8af7c1218d66
-    tls: true
-    skip-cert-verify: true
-  - name: TH新加坡ER3_GE
-    server: ap1-ge.er3.xyz
-    port: 29986
     type: http
     username: "436299585514635264"
     password: b3272869-9501-466e-98cb-8af7c1218d66
@@ -1500,7 +1468,6 @@ proxy-groups:
       - 加拿大ER3_A1
       - 德国ER3_A1
       - 日本ER3_A1
-      - 新加坡ER3_A1
       - 英国ER3_A1
       - 美国ER3_A1
       - 香港ER3_NODE
@@ -1532,7 +1499,6 @@ proxy-groups:
       - 加拿大ER3_GE
       - 德国ER3_GE
       - 日本ER3_GE
-      - 新加坡ER3_GE
       - 英国ER3_GE
       - 美国ER3_GE
       - 日本ER3_JP_1
@@ -1593,7 +1559,6 @@ proxy-groups:
       - TH加拿大ER3_A1
       - TH德国ER3_A1
       - TH日本ER3_A1
-      - TH新加坡ER3_A1
       - TH英国ER3_A1
       - TH美国ER3_A1
       - TH香港ER3_NODE
@@ -1625,7 +1590,6 @@ proxy-groups:
       - TH加拿大ER3_GE
       - TH德国ER3_GE
       - TH日本ER3_GE
-      - TH新加坡ER3_GE
       - TH英国ER3_GE
       - TH美国ER3_GE
       - TH日本ER3_JP_1
@@ -1689,7 +1653,6 @@ proxy-groups:
       - 加拿大ER3_A1
       - 德国ER3_A1
       - 日本ER3_A1
-      - 新加坡ER3_A1
       - 英国ER3_A1
       - 美国ER3_A1
       - 香港ER3_NODE
@@ -1721,7 +1684,6 @@ proxy-groups:
       - 加拿大ER3_GE
       - 德国ER3_GE
       - 日本ER3_GE
-      - 新加坡ER3_GE
       - 英国ER3_GE
       - 美国ER3_GE
       - 日本ER3_JP_1
@@ -1782,7 +1744,6 @@ proxy-groups:
       - TH加拿大ER3_A1
       - TH德国ER3_A1
       - TH日本ER3_A1
-      - TH新加坡ER3_A1
       - TH英国ER3_A1
       - TH美国ER3_A1
       - TH香港ER3_NODE
@@ -1814,7 +1775,6 @@ proxy-groups:
       - TH加拿大ER3_GE
       - TH德国ER3_GE
       - TH日本ER3_GE
-      - TH新加坡ER3_GE
       - TH英国ER3_GE
       - TH美国ER3_GE
       - TH日本ER3_JP_1
