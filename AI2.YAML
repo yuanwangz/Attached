@@ -126,6 +126,36 @@ proxies:
   - {name: fr-8, type: trojan, password: iyinglong, server: fr-8.tjjjt.top, sni: fr-8.tjjjt.top, port: 443, skip-cert-verify: true}
   - {name: fr-9, type: trojan, password: iyinglong, server: fr-9.tjjjt.top, sni: fr-9.tjjjt.top, port: 443, skip-cert-verify: true}
   - {name: fr-10, type: trojan, password: iyinglong, server: fr-10.tjjjt.top, sni: fr-10.tjjjt.top, port: 443, skip-cert-verify: true}
+  - {name: "酸奶HK_1, Kowloon", server: 52.11.131.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶HK_2, Kowloon", server: 52.79.129.60, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶HK_3, New Territories", server: 34.217.10.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶HK_4, Kowloon", server: 52.41.0.94, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶HK_5, New Territories", server: 52.199.210.67, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶HK_6, Kowloon", server: 52.27.186.38, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶TW_1, Taipei", server: 3.112.68.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶TW_2, Taipei", server: 52.221.222.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶JP_1, Osaka", server: 13.229.60.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶JP_2, Osaka", server: 13.229.60.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶JP_3, Tokyo", server: 52.11.131.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶JP_4, Tokyo", server: 52.194.225.48, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶JP_5, Tokyo", server: 34.216.172.191, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶JP_6, Tokyo", server: 52.41.0.94, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶KR_1, Incheon", server: 13.231.214.6, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶KR_2, Incheon", server: 13.231.214.6, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶SG_1, Singapore", server: 54.245.159.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶SG_2, Singapore", server: 15.164.245.65, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶CA_1, Vancouver", server: 3.112.68.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶CA_2, Vancouver", server: 54.245.159.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶US_1, Los Angeles", server: 172.96.214.140, port: 448, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: "酸奶US_2, Dallas", server: 104.243.30.27, port: 501, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: "酸奶US_3, HoUS_ton", server: 15.164.245.65, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶US_4, CA_lifornia", server: 97.64.21.214, port: 449, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: "酸奶US_5, Dallas", server: 107.182.16.238, port: 502, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: "酸奶US_6, Los Angeles", server: 107.182.177.136, port: 502, type: ss, cipher: aes-256-cfb, password: bwhskrskr01}
+  - {name: "酸奶US_7, CA_lifornia", server: 97.64.28.52, port: 501, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: "酸奶US_8, HoUS_ton", server: 52.221.222.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "酸奶US_9, Dallas", server: 104.243.30.27, port: 501, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: "酸奶US_10, Dallas", server: 107.182.16.238, port: 502, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
 proxy-groups:
   - name: 自动选择
     type: url-test
@@ -253,6 +283,36 @@ proxy-groups:
       - fr-8
       - fr-9
       - fr-10
+      - 酸奶HK_1, Kowloon
+      - 酸奶HK_2, Kowloon
+      - 酸奶HK_3, New Territories
+      - 酸奶HK_4, Kowloon
+      - 酸奶HK_5, New Territories
+      - 酸奶HK_6, Kowloon
+      - 酸奶TW_1, Taipei
+      - 酸奶TW_2, Taipei
+      - 酸奶JP_1, Osaka
+      - 酸奶JP_2, Osaka
+      - 酸奶JP_3, Tokyo
+      - 酸奶JP_4, Tokyo
+      - 酸奶JP_5, Tokyo
+      - 酸奶JP_6, Tokyo
+      - 酸奶KR_1, Incheon
+      - 酸奶KR_2, Incheon
+      - 酸奶SG_1, Singapore
+      - 酸奶SG_2, Singapore
+      - 酸奶CA_1, Vancouver
+      - 酸奶CA_2, Vancouver
+      - 酸奶US_1, Los Angeles
+      - 酸奶US_2, Dallas
+      - 酸奶US_3, HoUS_ton
+      - 酸奶US_4, CA_lifornia
+      - 酸奶US_5, Dallas
+      - 酸奶US_6, Los Angeles
+      - 酸奶US_7, CA_lifornia
+      - 酸奶US_8, HoUS_ton
+      - 酸奶US_9, Dallas
+      - 酸奶US_10, Dallas
   - name: 节点选择
     type: select
     proxies:
@@ -377,6 +437,36 @@ proxy-groups:
       - fr-8
       - fr-9
       - fr-10
+      - 酸奶HK_1, Kowloon
+      - 酸奶HK_2, Kowloon
+      - 酸奶HK_3, New Territories
+      - 酸奶HK_4, Kowloon
+      - 酸奶HK_5, New Territories
+      - 酸奶HK_6, Kowloon
+      - 酸奶TW_1, Taipei
+      - 酸奶TW_2, Taipei
+      - 酸奶JP_1, Osaka
+      - 酸奶JP_2, Osaka
+      - 酸奶JP_3, Tokyo
+      - 酸奶JP_4, Tokyo
+      - 酸奶JP_5, Tokyo
+      - 酸奶JP_6, Tokyo
+      - 酸奶KR_1, Incheon
+      - 酸奶KR_2, Incheon
+      - 酸奶SG_1, Singapore
+      - 酸奶SG_2, Singapore
+      - 酸奶CA_1, Vancouver
+      - 酸奶CA_2, Vancouver
+      - 酸奶US_1, Los Angeles
+      - 酸奶US_2, Dallas
+      - 酸奶US_3, HoUS_ton
+      - 酸奶US_4, CA_lifornia
+      - 酸奶US_5, Dallas
+      - 酸奶US_6, Los Angeles
+      - 酸奶US_7, CA_lifornia
+      - 酸奶US_8, HoUS_ton
+      - 酸奶US_9, Dallas
+      - 酸奶US_10, Dallas
   - name: 国外媒体
     type: select
     proxies:
