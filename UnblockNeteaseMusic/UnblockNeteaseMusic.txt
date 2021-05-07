@@ -9,7 +9,7 @@ proxies:
   - {name: 🎧 TG频道@M0NATA, server: gx3dong.top, port: 8088, type: http, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易音乐 6, server: music.griouges.cn, port: 39000, type: http, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易音乐 7, server: block4music.poetyin.me, port: 39000, type: http, tls: false, skip-cert-verify: false}
-  - {name: 🎧 网易音乐 8, server: 47.104.11.10, port: 19980, type: http, tls: false, skip-cert-verify: false}
+  - {name: 🎧 网易音乐 8, server: salvan.icu, port: 19980, type: http, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易音乐 TG群@M0NATAS, server: 59.24.3.174, port: 58080, type: ss, cipher: rc4-md5, password: T5ckndbLSXHQ}
   - {name: 🎧 网易音乐 10, server: 59.24.3.174, port: 58081, type: ss, cipher: rc4-md5, password: T5ckndbLSXHQ}
   - {name: 🎧 网易音乐 11, server: music.desperadoj.com, port: 30001, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
