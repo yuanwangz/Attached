@@ -21,7 +21,6 @@ proxies:
   - {name: 德国2, server: 139.177.180.192, port: 443, type: trojan, password: tENss836LLCWkcs6, sni: ge2.bingbinghouse.com}
   - {name: 印度1, server: 172.105.41.96, port: 16576, type: ss, cipher: aes-256-gcm, password: 90Np8h8xmN29KlLX}
   - {name: 加拿大1, server: 172.105.99.241, port: 9671, type: ss, cipher: aes-256-gcm, password: rVtt9X3aS2zUCe9F}
-  - {name: 53, server: 2.58.242.43, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
 proxy-groups:
   - name: 自动选择
     type: url-test
@@ -44,7 +43,6 @@ proxy-groups:
       - 德国2
       - 印度1
       - 加拿大1
-      - 53
   - name: 节点选择
     type: select
     proxies:
@@ -65,7 +63,6 @@ proxy-groups:
       - 德国2
       - 印度1
       - 加拿大1
-      - 53
   - name: 国外媒体
     type: select
     proxies:
