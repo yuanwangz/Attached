@@ -5,122 +5,203 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港1, server: 138.19.202.6, port: 443, type: trojan, password: NQ2H6EvQT7rIoqVl, sni: hkt5.welsonal.xyz}
-  - {name: 香港2, server: 161.81.42.63, port: 443, type: trojan, password: aJQiv8hsiYV3NzmS, sni: hkt6.welsonal.xyz}
-  - {name: 香港3, server: 203.218.253.196, port: 443, type: trojan, password: B1vXvRHAtGIcPE5l, sni: hkt3.welsonal.xyz}
-  - {name: 香港4, server: 1.65.203.2, port: 443, type: trojan, password: wv2y9LS8uwVmLmvK, sni: hkt4.welsonal.xyz}
-  - {name: 香港5, server: 203.218.253.16, port: 443, type: trojan, password: LhaehkQuP5i0z7G6, sni: hkt1.welsonal.xyz}
-  - {name: 香港6, server: 203.218.254.126, port: 443, type: trojan, password: 4df3DRWVEefugStR, sni: hkt2.welsonal.xyz}
-  - {name: 香港7, server: 23.97.66.222, port: 39004, type: vmess, uuid: 55c89b13-9e7f-3a94-a7f2-bc7213364c5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 23.97.66.222}}
-  - {name: 香港8, server: 23.97.66.222, port: 39005, type: vmess, uuid: 55c89b13-9e7f-3a94-a7f2-bc7213364c5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 23.97.66.222}}
-  - {name: 香港9, server: 168.63.132.199, port: 39004, type: vmess, uuid: 55c89b13-9e7f-3a94-a7f2-bc7213364c5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 168.63.132.199}}
-  - {name: 香港10, server: 168.63.132.199, port: 39005, type: vmess, uuid: 55c89b13-9e7f-3a94-a7f2-bc7213364c5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 168.63.132.199}}
-  - {name: 香港11, server: 168.63.132.199, port: 39010, type: vmess, uuid: 55c89b13-9e7f-3a94-a7f2-bc7213364c5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 168.63.132.199}}
-  - {name: 香港12, server: 168.63.132.199, port: 39006, type: vmess, uuid: 55c89b13-9e7f-3a94-a7f2-bc7213364c5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 168.63.132.199}}
-  - {name: 香港13, server: 13.248.165.181, port: 39005, type: vmess, uuid: 55c89b13-9e7f-3a94-a7f2-bc7213364c5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 13.248.165.181}}
-  - {name: 香港14, server: 13.248.165.181, port: 39006, type: vmess, uuid: 55c89b13-9e7f-3a94-a7f2-bc7213364c5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 13.248.165.181}}
-  - {name: 香港15, server: 13.248.189.78, port: 39005, type: vmess, uuid: 55c89b13-9e7f-3a94-a7f2-bc7213364c5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 13.248.189.78}}
-  - {name: 香港16, server: 13.248.189.78, port: 39006, type: vmess, uuid: 55c89b13-9e7f-3a94-a7f2-bc7213364c5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 13.248.189.78}}
-  - {name: O7Y0_HK_1_1, server: dg-hk-node01.linkthink.app, port: 10425, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 111579:DOvpnHy4Fg, obfs-param: ajax.microsoft.com}
-  - {name: O7Y0_HK_1_2, server: dg-hk-node02.linkthink.app, port: 12565, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 111579:DOvpnHy4Fg, obfs-param: ajax.microsoft.com}
-  - {name: O7Y0_HK_1_3, server: 42.157.196.104, port: 20072, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 111579:DOvpnHy4Fg, obfs-param: ajax.microsoft.com}
-  - {name: O7Y0_HK_1_4, server: dg-hk-node01.linkthink.app, port: 10572, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 111579:DOvpnHy4Fg, obfs-param: ajax.microsoft.com}
-  - {name: O7Y0_HK_1_5, server: dg-hk-node02.linkthink.app, port: 12287, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 111579:DOvpnHy4Fg, obfs-param: ajax.microsoft.com}
-  - {name: O7Y0_HK_1_6, server: 42.157.196.104, port: 20430, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 111579:DOvpnHy4Fg, obfs-param: ajax.microsoft.com}
-  - {name: O7Y0_HK_2_1, server: dg-hk-node01.linkthink.app, port: 10407, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126263:tayq1Hjmbe, obfs-param: ajax.microsoft.com}
-  - {name: O7Y0_HK_2_2, server: dg-hk-node02.linkthink.app, port: 12528, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126263:tayq1Hjmbe, obfs-param: ajax.microsoft.com}
-  - {name: O7Y0_HK_2_3, server: 42.157.196.103, port: 10271, type: ssr, cipher: aes-256-cfb, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126263:tayq1Hjmbe, obfs-param: ajax.microsoft.com}
-  - {name: O7Y0_HK_2_4, server: 42.157.196.104, port: 20864, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 126263:tayq1Hjmbe, obfs-param: ajax.microsoft.com}
-  - {name: O7Y0_HK_3_1, server: dg-hk-node01.linkthink.app, port: 10870, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126268:AlUKjZ2JPX, obfs-param: ajax.microsoft.com}
-  - {name: O7Y0_HK_3_2, server: dg-hk-node02.linkthink.app, port: 12448, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126268:AlUKjZ2JPX, obfs-param: ajax.microsoft.com}
-  - {name: O7Y0_HK_3_3, server: 42.157.196.103, port: 10040, type: ssr, cipher: aes-256-cfb, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126268:AlUKjZ2JPX, obfs-param: ajax.microsoft.com}
-  - {name: O7Y0_HK_3_4, server: 42.157.196.104, port: 20040, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 126268:AlUKjZ2JPX, obfs-param: ajax.microsoft.com}
-  - {name: O7Y0_HK_4_1, server: dg-hk-node01.linkthink.app, port: 10794, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126271:HOFkwXgeP4, obfs-param: ajax.microsoft.com}
-  - {name: O7Y0_HK_4_2, server: dg-hk-node02.linkthink.app, port: 12226, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126271:HOFkwXgeP4, obfs-param: ajax.microsoft.com}
-  - {name: O7Y0_HK_4_3, server: 42.157.196.103, port: 10579, type: ssr, cipher: aes-256-cfb, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126271:HOFkwXgeP4, obfs-param: ajax.microsoft.com}
-  - {name: O7Y0_HK_4_4, server: 42.157.196.104, port: 20667, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 126271:HOFkwXgeP4, obfs-param: ajax.microsoft.com}
-  - {name: 香港游戏, server: 119.147.144.250, port: 18834, type: ss, cipher: aes-256-gcm, password: daCxNwo600NW}
+  - {name: 香港1_1, server: dg-hk-node01.linkthink.app, port: 10425, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 111579:DOvpnHy4Fg, obfs-param: ajax.microsoft.com}
+  - {name: 香港1_2, server: dg-hk-node02.linkthink.app, port: 12565, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 111579:DOvpnHy4Fg, obfs-param: ajax.microsoft.com}
+  - {name: 香港1_3, server: 42.157.196.104, port: 20072, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 111579:DOvpnHy4Fg, obfs-param: ajax.microsoft.com}
+  - {name: 香港1_4, server: dg-hk-node01.linkthink.app, port: 10572, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 111579:DOvpnHy4Fg, obfs-param: ajax.microsoft.com}
+  - {name: 香港1_5, server: dg-hk-node02.linkthink.app, port: 12287, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 111579:DOvpnHy4Fg, obfs-param: ajax.microsoft.com}
+  - {name: 香港1_6, server: 42.157.196.104, port: 20430, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 111579:DOvpnHy4Fg, obfs-param: ajax.microsoft.com}
+  - {name: 香港2_1, server: dg-hk-node01.linkthink.app, port: 10407, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126263:tayq1Hjmbe, obfs-param: ajax.microsoft.com}
+  - {name: 香港2_2, server: dg-hk-node02.linkthink.app, port: 12528, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126263:tayq1Hjmbe, obfs-param: ajax.microsoft.com}
+  - {name: 香港2_3, server: 42.157.196.103, port: 10271, type: ssr, cipher: aes-256-cfb, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126263:tayq1Hjmbe, obfs-param: ajax.microsoft.com}
+  - {name: 香港2_4, server: 42.157.196.104, port: 20864, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 126263:tayq1Hjmbe, obfs-param: ajax.microsoft.com}
+  - {name: 香港3_1, server: dg-hk-node01.linkthink.app, port: 10870, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126268:AlUKjZ2JPX, obfs-param: ajax.microsoft.com}
+  - {name: 香港3_2, server: dg-hk-node02.linkthink.app, port: 12448, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126268:AlUKjZ2JPX, obfs-param: ajax.microsoft.com}
+  - {name: 香港3_3, server: 42.157.196.103, port: 10040, type: ssr, cipher: aes-256-cfb, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126268:AlUKjZ2JPX, obfs-param: ajax.microsoft.com}
+  - {name: 香港3_4, server: 42.157.196.104, port: 20040, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 126268:AlUKjZ2JPX, obfs-param: ajax.microsoft.com}
+  - {name: 香港4_1, server: dg-hk-node01.linkthink.app, port: 10794, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126271:HOFkwXgeP4, obfs-param: ajax.microsoft.com}
+  - {name: 香港4_2, server: dg-hk-node02.linkthink.app, port: 12226, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126271:HOFkwXgeP4, obfs-param: ajax.microsoft.com}
+  - {name: 香港4_3, server: 42.157.196.103, port: 10579, type: ssr, cipher: aes-256-cfb, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 126271:HOFkwXgeP4, obfs-param: ajax.microsoft.com}
+  - {name: 香港4_4, server: 42.157.196.104, port: 20667, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 126271:HOFkwXgeP4, obfs-param: ajax.microsoft.com}
+  - {name: 台湾 01, server: 42.157.196.104, port: 10408, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149849:u15b3CLtQz, obfs-param: ajax.microsoft.com}
+  - {name: 香港 01, server: dg-hk-node01.linkthink.app, port: 10632, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149849:u15b3CLtQz, obfs-param: ajax.microsoft.com}
+  - {name: 香港 02, server: dg-hk-node02.linkthink.app, port: 12014, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149849:u15b3CLtQz, obfs-param: ajax.microsoft.com}
+  - {name: 香港04-测试, server: 42.157.196.104, port: 20014, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 149849:u15b3CLtQz, obfs-param: ajax.microsoft.com}
+  - {name: 台湾 01 2, server: 42.157.196.104, port: 10160, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149851:xEuYZt3TeU, obfs-param: ajax.microsoft.com}
+  - {name: 香港 01 2, server: dg-hk-node01.linkthink.app, port: 10205, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149851:xEuYZt3TeU, obfs-param: ajax.microsoft.com}
+  - {name: 香港 02 2, server: dg-hk-node02.linkthink.app, port: 12068, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149851:xEuYZt3TeU, obfs-param: ajax.microsoft.com}
+  - {name: 香港04-测试 2, server: 42.157.196.104, port: 20267, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 149851:xEuYZt3TeU, obfs-param: ajax.microsoft.com}
+  - {name: 台湾 01 3, server: 42.157.196.104, port: 10316, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149852:2QJPVaYrEF, obfs-param: ajax.microsoft.com}
+  - {name: 香港 01 3, server: dg-hk-node01.linkthink.app, port: 10519, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149852:2QJPVaYrEF, obfs-param: ajax.microsoft.com}
+  - {name: 香港 02 3, server: dg-hk-node02.linkthink.app, port: 12535, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149852:2QJPVaYrEF, obfs-param: ajax.microsoft.com}
+  - {name: 香港04-测试 3, server: 42.157.196.104, port: 20930, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 149852:2QJPVaYrEF, obfs-param: ajax.microsoft.com}
+  - {name: 台湾 01 4, server: 42.157.196.104, port: 10573, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149853:Emv6MkpX3q, obfs-param: ajax.microsoft.com}
+  - {name: 香港 01 4, server: dg-hk-node01.linkthink.app, port: 10243, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149853:Emv6MkpX3q, obfs-param: ajax.microsoft.com}
+  - {name: 香港 02 4, server: dg-hk-node02.linkthink.app, port: 12569, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149853:Emv6MkpX3q, obfs-param: ajax.microsoft.com}
+  - {name: 香港04-测试 4, server: 42.157.196.104, port: 20074, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 149853:Emv6MkpX3q, obfs-param: ajax.microsoft.com}
+  - {name: 台湾 01 5, server: 42.157.196.104, port: 10764, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149854:97qbiTv0mg, obfs-param: ajax.microsoft.com}
+  - {name: 香港 01 5, server: dg-hk-node01.linkthink.app, port: 10256, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149854:97qbiTv0mg, obfs-param: ajax.microsoft.com}
+  - {name: 香港 02 5, server: dg-hk-node02.linkthink.app, port: 12325, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149854:97qbiTv0mg, obfs-param: ajax.microsoft.com}
+  - {name: 香港04-测试 5, server: 42.157.196.104, port: 20674, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 149854:97qbiTv0mg, obfs-param: ajax.microsoft.com}
+  - {name: 台湾 01 6, server: 42.157.196.104, port: 10021, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149855:lF8iRVyHhg, obfs-param: ajax.microsoft.com}
+  - {name: 香港 01 6, server: dg-hk-node01.linkthink.app, port: 10679, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149855:lF8iRVyHhg, obfs-param: ajax.microsoft.com}
+  - {name: 香港 02 6, server: dg-hk-node02.linkthink.app, port: 12443, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149855:lF8iRVyHhg, obfs-param: ajax.microsoft.com}
+  - {name: 香港04-测试 6, server: 42.157.196.104, port: 20015, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 149855:lF8iRVyHhg, obfs-param: ajax.microsoft.com}
+  - {name: 台湾 01 7, server: 42.157.196.104, port: 10598, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149856:wLWxtUBfq6, obfs-param: ajax.microsoft.com}
+  - {name: 香港 01 7, server: dg-hk-node01.linkthink.app, port: 10901, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149856:wLWxtUBfq6, obfs-param: ajax.microsoft.com}
+  - {name: 香港 02 7, server: dg-hk-node02.linkthink.app, port: 12462, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149856:wLWxtUBfq6, obfs-param: ajax.microsoft.com}
+  - {name: 香港04-测试 7, server: 42.157.196.104, port: 20661, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 149856:wLWxtUBfq6, obfs-param: ajax.microsoft.com}
+  - {name: 台湾 01 8, server: 42.157.196.104, port: 10492, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149858:mKEP6tVWwN, obfs-param: ajax.microsoft.com}
+  - {name: 香港 01 8, server: dg-hk-node01.linkthink.app, port: 10902, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149858:mKEP6tVWwN, obfs-param: ajax.microsoft.com}
+  - {name: 香港 02 8, server: dg-hk-node02.linkthink.app, port: 12217, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149858:mKEP6tVWwN, obfs-param: ajax.microsoft.com}
+  - {name: 香港04-测试 8, server: 42.157.196.104, port: 20779, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 149858:mKEP6tVWwN, obfs-param: ajax.microsoft.com}
+  - {name: 台湾 01 9, server: 42.157.196.104, port: 10421, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149859:XWg4AISHjT, obfs-param: ajax.microsoft.com}
+  - {name: 香港 01 9, server: dg-hk-node01.linkthink.app, port: 10591, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149859:XWg4AISHjT, obfs-param: ajax.microsoft.com}
+  - {name: 香港 02 9, server: dg-hk-node02.linkthink.app, port: 12461, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149859:XWg4AISHjT, obfs-param: ajax.microsoft.com}
+  - {name: 香港04-测试 9, server: 42.157.196.104, port: 20575, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 149859:XWg4AISHjT, obfs-param: ajax.microsoft.com}
+  - {name: 台湾 01 10, server: 42.157.196.104, port: 10142, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149860:k8Cd9cyUuT, obfs-param: ajax.microsoft.com}
+  - {name: 香港 01 10, server: dg-hk-node01.linkthink.app, port: 10680, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149860:k8Cd9cyUuT, obfs-param: ajax.microsoft.com}
+  - {name: 香港 02 10, server: dg-hk-node02.linkthink.app, port: 12110, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149860:k8Cd9cyUuT, obfs-param: ajax.microsoft.com}
+  - {name: 香港04-测试 10, server: 42.157.196.104, port: 20236, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 149860:k8Cd9cyUuT, obfs-param: ajax.microsoft.com}
+  - {name: 台湾 01 11, server: 42.157.196.104, port: 10407, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149861:YOpodiGlau, obfs-param: ajax.microsoft.com}
+  - {name: 香港 01 11, server: dg-hk-node01.linkthink.app, port: 10942, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149861:YOpodiGlau, obfs-param: ajax.microsoft.com}
+  - {name: 香港 02 11, server: dg-hk-node02.linkthink.app, port: 12683, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149861:YOpodiGlau, obfs-param: ajax.microsoft.com}
+  - {name: 香港04-测试 11, server: 42.157.196.104, port: 20856, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 149861:YOpodiGlau, obfs-param: ajax.microsoft.com}
 proxy-groups:
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港1
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
-      - 香港6
-      - 香港7
-      - 香港8
-      - 香港9
-      - 香港10
-      - 香港11
-      - 香港12
-      - 香港13
-      - 香港14
-      - 香港15
-      - 香港16
-      - O7Y0_HK_1_1
-      - O7Y0_HK_1_2
-      - O7Y0_HK_1_3
-      - O7Y0_HK_1_4
-      - O7Y0_HK_1_5
-      - O7Y0_HK_1_6
-      - O7Y0_HK_2_1
-      - O7Y0_HK_2_2
-      - O7Y0_HK_2_3
-      - O7Y0_HK_2_4
-      - O7Y0_HK_3_1
-      - O7Y0_HK_3_2
-      - O7Y0_HK_3_3
-      - O7Y0_HK_3_4
-      - O7Y0_HK_4_1
-      - O7Y0_HK_4_2
-      - O7Y0_HK_4_3
-      - O7Y0_HK_4_4
-      - 香港游戏
+      - 香港1_1
+      - 香港1_2
+      - 香港1_3
+      - 香港1_4
+      - 香港1_5
+      - 香港1_6
+      - 香港2_1
+      - 香港2_2
+      - 香港2_3
+      - 香港2_4
+      - 香港3_1
+      - 香港3_2
+      - 香港3_3
+      - 香港3_4
+      - 香港4_1
+      - 香港4_2
+      - 香港4_3
+      - 香港4_4
+      - 台湾 01
+      - 香港 01
+      - 香港 02
+      - 香港04-测试
+      - 台湾 01 2
+      - 香港 01 2
+      - 香港 02 2
+      - 香港04-测试 2
+      - 台湾 01 3
+      - 香港 01 3
+      - 香港 02 3
+      - 香港04-测试 3
+      - 台湾 01 4
+      - 香港 01 4
+      - 香港 02 4
+      - 香港04-测试 4
+      - 台湾 01 5
+      - 香港 01 5
+      - 香港 02 5
+      - 香港04-测试 5
+      - 台湾 01 6
+      - 香港 01 6
+      - 香港 02 6
+      - 香港04-测试 6
+      - 台湾 01 7
+      - 香港 01 7
+      - 香港 02 7
+      - 香港04-测试 7
+      - 台湾 01 8
+      - 香港 01 8
+      - 香港 02 8
+      - 香港04-测试 8
+      - 台湾 01 9
+      - 香港 01 9
+      - 香港 02 9
+      - 香港04-测试 9
+      - 台湾 01 10
+      - 香港 01 10
+      - 香港 02 10
+      - 香港04-测试 10
+      - 台湾 01 11
+      - 香港 01 11
+      - 香港 02 11
+      - 香港04-测试 11
   - name: 节点选择
     type: select
     proxies:
       - 自动选择
       - 全球直连
-      - 香港1
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港5
-      - 香港6
-      - 香港7
-      - 香港8
-      - 香港9
-      - 香港10
-      - 香港11
-      - 香港12
-      - 香港13
-      - 香港14
-      - 香港15
-      - 香港16
-      - O7Y0_HK_1_1
-      - O7Y0_HK_1_2
-      - O7Y0_HK_1_3
-      - O7Y0_HK_1_4
-      - O7Y0_HK_1_5
-      - O7Y0_HK_1_6
-      - O7Y0_HK_2_1
-      - O7Y0_HK_2_2
-      - O7Y0_HK_2_3
-      - O7Y0_HK_2_4
-      - O7Y0_HK_3_1
-      - O7Y0_HK_3_2
-      - O7Y0_HK_3_3
-      - O7Y0_HK_3_4
-      - O7Y0_HK_4_1
-      - O7Y0_HK_4_2
-      - O7Y0_HK_4_3
-      - O7Y0_HK_4_4
-      - 香港游戏
+      - 香港1_1
+      - 香港1_2
+      - 香港1_3
+      - 香港1_4
+      - 香港1_5
+      - 香港1_6
+      - 香港2_1
+      - 香港2_2
+      - 香港2_3
+      - 香港2_4
+      - 香港3_1
+      - 香港3_2
+      - 香港3_3
+      - 香港3_4
+      - 香港4_1
+      - 香港4_2
+      - 香港4_3
+      - 香港4_4
+      - 台湾 01
+      - 香港 01
+      - 香港 02
+      - 香港04-测试
+      - 台湾 01 2
+      - 香港 01 2
+      - 香港 02 2
+      - 香港04-测试 2
+      - 台湾 01 3
+      - 香港 01 3
+      - 香港 02 3
+      - 香港04-测试 3
+      - 台湾 01 4
+      - 香港 01 4
+      - 香港 02 4
+      - 香港04-测试 4
+      - 台湾 01 5
+      - 香港 01 5
+      - 香港 02 5
+      - 香港04-测试 5
+      - 台湾 01 6
+      - 香港 01 6
+      - 香港 02 6
+      - 香港04-测试 6
+      - 台湾 01 7
+      - 香港 01 7
+      - 香港 02 7
+      - 香港04-测试 7
+      - 台湾 01 8
+      - 香港 01 8
+      - 香港 02 8
+      - 香港04-测试 8
+      - 台湾 01 9
+      - 香港 01 9
+      - 香港 02 9
+      - 香港04-测试 9
+      - 台湾 01 10
+      - 香港 01 10
+      - 香港 02 10
+      - 香港04-测试 10
+      - 台湾 01 11
+      - 香港 01 11
+      - 香港 02 11
+      - 香港04-测试 11
   - name: 国外媒体
     type: select
     proxies:
