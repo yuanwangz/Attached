@@ -94,6 +94,34 @@ proxies:
   - {name: HK86, server: dg-hk-node01.linkthink.app, port: 10942, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149861:YOpodiGlau, obfs-param: ajax.microsoft.com}
   - {name: HK87, server: dg-hk-node02.linkthink.app, port: 12683, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 149861:YOpodiGlau, obfs-param: ajax.microsoft.com}
   - {name: HK88, server: 42.157.196.104, port: 20856, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 149861:YOpodiGlau, obfs-param: ajax.microsoft.com}
+  - {name: HK89, server: hkt.mooncloud.top, port: 10038, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hkt.mooncloud.top}, udp: true}
+  - {name: HK90, server: aga.ddns.cdntip.top, port: 24101, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: aga.ddns.cdntip.top}, udp: true}
+  - {name: HK91, server: jmyd.catcdn.tech, port: 20204, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jmyd.catcdn.tech}, udp: true}
+  - {name: HK92, server: 65.52.189.85, port: 80, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 65.52.189.85}, udp: true}
+  - {name: HK93, server: 183.236.97.190, port: 10115, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 183.236.97.190}, udp: true}
+  - {name: HK94, server: 183.236.97.190, port: 10152, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 183.236.97.190}, udp: true}
+  - {name: HK95, server: 23.97.76.227, port: 40003, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 23.97.76.227}, udp: true}
+  - {name: HK96, server: 40.83.122.237, port: 10000, type: trojan, password: bb7fbc2f-bc62-4845-b874-db45d05ddd56, sni: hk1.xxl123.fun, skip-cert-verify: true, udp: true}
+  - {name: HK97, server: 40.83.122.237, port: 10001, type: vmess, uuid: bb7fbc2f-bc62-4845-b874-db45d05ddd56, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: hk2.xxl123.fun}, udp: true}
+  - {name: HK98, server: hk3.xxl123.fun, port: 80, type: vmess, uuid: bb7fbc2f-bc62-4845-b874-db45d05ddd56, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: hk3.xxl123.fun}, udp: true}
+  - {name: HK99, server: 40.83.122.237, port: 10005, type: trojan, password: bb7fbc2f-bc62-4845-b874-db45d05ddd56, sni: hk4.xxl123.fun, skip-cert-verify: true, udp: true}
+  - {name: HK100, server: 207.46.154.93, port: 39003, type: vmess, uuid: f6f7afcd-424f-3bff-a985-cafc72407f16, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 207.46.154.93}, udp: true}
+  - {name: HK101, server: 23.97.66.222, port: 25001, type: vmess, uuid: f6f7afcd-424f-3bff-a985-cafc72407f16, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny, ws-headers: {Host: 23.97.66.222}, udp: true}
+  - {name: HK102, server: 13.248.165.181, port: 39004, type: vmess, uuid: f6f7afcd-424f-3bff-a985-cafc72407f16, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.248.165.181}, udp: true}
+  - {name: HK103, server: 40.83.117.159, port: 25001, type: vmess, uuid: f6f7afcd-424f-3bff-a985-cafc72407f16, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny, ws-headers: {Host: 40.83.117.159}, udp: true}
+  - {name: HK104, server: 13.248.189.78, port: 39004, type: vmess, uuid: f6f7afcd-424f-3bff-a985-cafc72407f16, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.248.189.78}, udp: true}
+  - {name: HK105, server: 40.83.101.225, port: 25001, type: vmess, uuid: f6f7afcd-424f-3bff-a985-cafc72407f16, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny, ws-headers: {Host: 149.129.56.249}, udp: true}
+  - {name: HK106, server: 40.83.101.225, port: 25002, type: vmess, uuid: f6f7afcd-424f-3bff-a985-cafc72407f16, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny, ws-headers: {Host: 40.83.101.225}, udp: true}
+  - {name: HK107, server: 40.83.101.225, port: 25003, type: vmess, uuid: f6f7afcd-424f-3bff-a985-cafc72407f16, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny, ws-headers: {Host: 40.83.101.225}, udp: true}
+  - {name: HK108, server: klrelaync.chbjpw.mobi, port: 10005, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
+  - {name: HK109, server: klrelaynb.chbjpw.mobi, port: 10004, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
+  - {name: HK110, server: klrelaynb.chbjpw.mobi, port: 50000, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
+  - {name: HK111, server: klrelaynb.chbjpw.mobi, port: 20069, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
+  - {name: HK112, server: klrelaynb.chbjpw.mobi, port: 50000, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
+  - {name: HK113, server: klrelaynb.chbjpw.mobi, port: 10004, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
+  - {name: HK114, server: klrelaynb.chbjpw.mobi, port: 20068, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
+  - {name: HK115, server: klrelaynb.chbjpw.mobi, port: 20069, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
+  - {name: HK116, server: klrelaynb.chbjpw.mobi, port: 20068, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
 proxy-groups:
   - name: 自动选择
     type: url-test
@@ -188,6 +216,34 @@ proxy-groups:
       - HK86
       - HK87
       - HK88
+      - HK89
+      - HK90
+      - HK91
+      - HK92
+      - HK93
+      - HK94
+      - HK95
+      - HK96
+      - HK97
+      - HK98
+      - HK99
+      - HK100
+      - HK101
+      - HK102
+      - HK103
+      - HK104
+      - HK105
+      - HK106
+      - HK107
+      - HK108
+      - HK109
+      - HK110
+      - HK111
+      - HK112
+      - HK113
+      - HK114
+      - HK115
+      - HK116
   - name: 节点选择
     type: select
     proxies:
@@ -281,6 +337,34 @@ proxy-groups:
       - HK86
       - HK87
       - HK88
+      - HK89
+      - HK90
+      - HK91
+      - HK92
+      - HK93
+      - HK94
+      - HK95
+      - HK96
+      - HK97
+      - HK98
+      - HK99
+      - HK100
+      - HK101
+      - HK102
+      - HK103
+      - HK104
+      - HK105
+      - HK106
+      - HK107
+      - HK108
+      - HK109
+      - HK110
+      - HK111
+      - HK112
+      - HK113
+      - HK114
+      - HK115
+      - HK116
   - name: 国外媒体
     type: select
     proxies:
