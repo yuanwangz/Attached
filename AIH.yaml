@@ -5,6 +5,30 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: "SKRHK, New Territories", server: 3.35.131.141, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, Kowloon 2", server: 13.212.137.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, Kowloon", server: 13.231.156.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, Kowloon 2 2", server: 54.251.198.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, Kowloon 3", server: 54.202.63.138, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, New Territories 2", server: 52.199.210.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, Kowloon 2 3", server: 34.217.10.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, New Territories 3", server: 34.215.16.101, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, Kowloon 2 4", server: 54.244.175.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, New Territories 4", server: 3.36.91.36, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, Kowloon 4", server: 52.13.125.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, Kowloon 2 5", server: 46.137.193.87, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, Kowloon 5", server: 13.212.234.177, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, New Territories 5", server: 13.212.191.85, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, Kowloon 2 6", server: 52.32.224.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, New Territories 6", server: 46.137.228.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, Kowloon 6", server: 52.196.102.69, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, New Territories 7", server: 52.78.220.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, Kowloon 2 7", server: 3.36.105.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, New Territories 8", server: 15.165.235.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, Kowloon 7", server: 52.32.224.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, Kowloon 2 8", server: 13.125.162.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, Kowloon 8", server: 52.27.186.38, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "SKRHK, Kowloon 2 9", server: 52.192.209.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 香港GCP1, server: gcplink.cf, port: 80, type: vmess, uuid: 629d62f3-e2de-4348-bd33-1b072f905195, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
   - {name: 香港GCP2, server: 34.92.240.203, port: 80, type: vmess, uuid: 84073124-a6e7-4595-9b3e-14581dbf5946, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 34.92.240.203}}
   - {name: 香港GCP3, server: gcplink.tk, port: 80, type: vmess, uuid: eed7d373-4de8-4707-b5a4-ba4fa78a94d7, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
@@ -77,6 +101,30 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - SKRHK, New Territories
+      - SKRHK, Kowloon 2
+      - SKRHK, Kowloon
+      - SKRHK, Kowloon 2 2
+      - SKRHK, Kowloon 3
+      - SKRHK, New Territories 2
+      - SKRHK, Kowloon 2 3
+      - SKRHK, New Territories 3
+      - SKRHK, Kowloon 2 4
+      - SKRHK, New Territories 4
+      - SKRHK, Kowloon 4
+      - SKRHK, Kowloon 2 5
+      - SKRHK, Kowloon 5
+      - SKRHK, New Territories 5
+      - SKRHK, Kowloon 2 6
+      - SKRHK, New Territories 6
+      - SKRHK, Kowloon 6
+      - SKRHK, New Territories 7
+      - SKRHK, Kowloon 2 7
+      - SKRHK, New Territories 8
+      - SKRHK, Kowloon 7
+      - SKRHK, Kowloon 2 8
+      - SKRHK, Kowloon 8
+      - SKRHK, Kowloon 2 9
       - 香港GCP1
       - 香港GCP2
       - 香港GCP3
@@ -148,6 +196,30 @@ proxy-groups:
     proxies:
       - 自动选择
       - 全球直连
+      - SKRHK, New Territories
+      - SKRHK, Kowloon 2
+      - SKRHK, Kowloon
+      - SKRHK, Kowloon 2 2
+      - SKRHK, Kowloon 3
+      - SKRHK, New Territories 2
+      - SKRHK, Kowloon 2 3
+      - SKRHK, New Territories 3
+      - SKRHK, Kowloon 2 4
+      - SKRHK, New Territories 4
+      - SKRHK, Kowloon 4
+      - SKRHK, Kowloon 2 5
+      - SKRHK, Kowloon 5
+      - SKRHK, New Territories 5
+      - SKRHK, Kowloon 2 6
+      - SKRHK, New Territories 6
+      - SKRHK, Kowloon 6
+      - SKRHK, New Territories 7
+      - SKRHK, Kowloon 2 7
+      - SKRHK, New Territories 8
+      - SKRHK, Kowloon 7
+      - SKRHK, Kowloon 2 8
+      - SKRHK, Kowloon 8
+      - SKRHK, Kowloon 2 9
       - 香港GCP1
       - 香港GCP2
       - 香港GCP3
