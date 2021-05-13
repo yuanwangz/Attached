@@ -6,6 +6,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: TW0, server: 207.46.154.93, port: 39005, type: vmess, uuid: f6f7afcd-424f-3bff-a985-cafc72407f16, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 207.46.154.93}, udp: true}
   - {name: TW1, server: cn1.relay.iplc.pro, port: 52004, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: TW2, server: cn2.relay.iplc.pro, port: 52004, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: TW3, server: tw1.direct.iplc.pro, port: 52000, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
@@ -20,6 +21,10 @@ proxies:
   - {name: TW12, server: 13.209.18.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: TW13, server: gcplink.gq, port: 80, type: vmess, uuid: 8d977a00-2f89-43ae-81bb-52dae17ce588, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
   - {name: TW14, server: gcplink.ga, port: 80, type: vmess, uuid: ce666265-dd12-4eb6-9dd7-7b1ddfab651b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: TW15, server: klrelaync.chbjpw.mobi, port: 10018, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
+  - {name: TW16, server: klrelaync.chbjpw.mobi, port: 10017, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
+  - {name: TW17, server: klrelaync.chbjpw.mobi, port: 10018, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
+  - {name: TW18, server: klrelaync.chbjpw.mobi, port: 10017, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
   - {name: 台湾131764, server: 217.148.143.211, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
   - {name: 台湾132558, server: 194.39.127.173, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
   - {name: 台湾133148, server: 45.129.32.36, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
@@ -176,6 +181,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - TW0
       - TW1
       - TW2
       - TW3
@@ -190,6 +196,10 @@ proxy-groups:
       - TW12
       - TW13
       - TW14
+      - TW15
+      - TW16
+      - TW17
+      - TW18
       - 台湾131764
       - 台湾132558
       - 台湾133148
@@ -345,6 +355,7 @@ proxy-groups:
     proxies:
       - 自动选择
       - 全球直连
+      - TW0
       - TW1
       - TW2
       - TW3
@@ -359,6 +370,10 @@ proxy-groups:
       - TW12
       - TW13
       - TW14
+      - TW15
+      - TW16
+      - TW17
+      - TW18
       - 台湾131764
       - 台湾132558
       - 台湾133148
