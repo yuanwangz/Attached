@@ -6,8 +6,20 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 台湾GCP1, server: gcplink.gq, port: 80, type: vmess, uuid: 8d977a00-2f89-43ae-81bb-52dae17ce588, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 台湾GCP2, server: gcplink.ga, port: 80, type: vmess, uuid: ce666265-dd12-4eb6-9dd7-7b1ddfab651b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: TW1, server: cn1.relay.iplc.pro, port: 52004, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: TW2, server: cn2.relay.iplc.pro, port: 52004, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: TW3, server: tw1.direct.iplc.pro, port: 52000, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: TW4, server: 34.217.62.131, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: TW5, server: 54.245.154.142, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: TW6, server: 54.190.28.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: TW7, server: 18.237.107.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: TW8, server: 18.236.177.36, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: TW9, server: 52.79.223.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: TW10, server: 54.238.95.126, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: TW11, server: 13.212.221.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: TW12, server: 13.209.18.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: TW13, server: gcplink.gq, port: 80, type: vmess, uuid: 8d977a00-2f89-43ae-81bb-52dae17ce588, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: TW14, server: gcplink.ga, port: 80, type: vmess, uuid: ce666265-dd12-4eb6-9dd7-7b1ddfab651b, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
   - {name: 台湾131764, server: 217.148.143.211, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
   - {name: 台湾132558, server: 194.39.127.173, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
   - {name: 台湾133148, server: 45.129.32.36, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
@@ -164,8 +176,20 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 台湾GCP1
-      - 台湾GCP2
+      - TW1
+      - TW2
+      - TW3
+      - TW4
+      - TW5
+      - TW6
+      - TW7
+      - TW8
+      - TW9
+      - TW10
+      - TW11
+      - TW12
+      - TW13
+      - TW14
       - 台湾131764
       - 台湾132558
       - 台湾133148
@@ -321,8 +345,20 @@ proxy-groups:
     proxies:
       - 自动选择
       - 全球直连
-      - 台湾GCP1
-      - 台湾GCP2
+      - TW1
+      - TW2
+      - TW3
+      - TW4
+      - TW5
+      - TW6
+      - TW7
+      - TW8
+      - TW9
+      - TW10
+      - TW11
+      - TW12
+      - TW13
+      - TW14
       - 台湾131764
       - 台湾132558
       - 台湾133148
