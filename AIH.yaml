@@ -5,6 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 香港GCP1, server: gcplink.cf, port: 80, type: vmess, uuid: 629d62f3-e2de-4348-bd33-1b072f905195, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 香港GCP2, server: 34.92.240.203, port: 80, type: vmess, uuid: 84073124-a6e7-4595-9b3e-14581dbf5946, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 34.92.240.203}}
+  - {name: 香港GCP3, server: gcplink.tk, port: 80, type: vmess, uuid: eed7d373-4de8-4707-b5a4-ba4fa78a94d7, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 香港GCP4, server: gcplink.ml, port: 80, type: vmess, uuid: 9a5873c8-942d-4c26-bb01-2dd9ee6a166c, alterId: 0, cipher: auto, tls: false}
   - {name: 香港1_1, server: dg-hk-node01.linkthink.app, port: 10425, type: ssr, cipher: aes-256-cfb, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 111579:DOvpnHy4Fg, obfs-param: ajax.microsoft.com}
   - {name: 香港1_2, server: dg-hk-node02.linkthink.app, port: 12565, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 111579:DOvpnHy4Fg, obfs-param: ajax.microsoft.com}
   - {name: 香港1_3, server: 42.157.196.104, port: 20072, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 111579:DOvpnHy4Fg, obfs-param: ajax.microsoft.com}
@@ -73,6 +77,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 香港GCP1
+      - 香港GCP2
+      - 香港GCP3
+      - 香港GCP4
       - 香港1_1
       - 香港1_2
       - 香港1_3
@@ -140,6 +148,10 @@ proxy-groups:
     proxies:
       - 自动选择
       - 全球直连
+      - 香港GCP1
+      - 香港GCP2
+      - 香港GCP3
+      - 香港GCP4
       - 香港1_1
       - 香港1_2
       - 香港1_3
