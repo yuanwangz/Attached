@@ -5,6 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 韩国GCP1, server: 193.123.254.32, port: 46891, type: vmess, uuid: d9f367c1-7a6e-4c23-a0fd-bc55161ef992, alterId: 0, cipher: auto, tls: false}
+  - {name: 韩国GCP2, server: 193.122.108.245, port: 55170, type: vmess, uuid: f4a31ee6-b41c-45ef-b2e7-450550c9f1d2, alterId: 0, cipher: auto, tls: false}
   - {name: 美国1, server: 74.207.242.239, port: 443, type: trojan, password: aEuBQJoDvjfKEIEX, sni: usla1.bingbinghouse.com}
   - {name: 美国2, server: 45.79.99.33, port: 443, type: trojan, password: fGR7ArMSsvzMjOFJ, sni: usla2.bingbinghouse.com}
   - {name: 美国3, server: 50.116.13.90, port: 443, type: trojan, password: DwzQsEipJlagK9Ow, sni: usla3.bingbinghouse.com}
@@ -27,6 +29,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 韩国GCP1
+      - 韩国GCP2
       - 美国1
       - 美国2
       - 美国3
@@ -47,6 +51,8 @@ proxy-groups:
     type: select
     proxies:
       - 全球直连
+      - 韩国GCP1
+      - 韩国GCP2
       - 美国1
       - 美国2
       - 美国3
