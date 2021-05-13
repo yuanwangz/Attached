@@ -5,6 +5,70 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇰🇷 韩国01|, server: 40.83.122.237, port: 10003, type: vmess, uuid: bb7fbc2f-bc62-4845-b874-db45d05ddd56, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: kr1.xxl123.fun}, udp: true}
+  - {name: 🇯🇵 日本01|中转AZ, server: 40.83.122.237, port: 10002, type: trojan, password: bb7fbc2f-bc62-4845-b874-db45d05ddd56, sni: jp.xxl123.fun, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国03|Netflix, server: us3.xxl123.fun, port: 16666, type: vmess, uuid: bb7fbc2f-bc62-4845-b874-db45d05ddd56, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: us3.xxl123.fun}, udp: true}
+  - {name: 🇺🇸 美国04|Netflix, server: us4.xxl123.fun, port: 9999, type: vmess, uuid: bb7fbc2f-bc62-4845-b874-db45d05ddd56, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: us4.xxl123.fun}, udp: true}
+  - {name: 🇺🇸 美国05|流媒体  x0.5, server: us5.xxl123.fun, port: 8899, type: vmess, uuid: bb7fbc2f-bc62-4845-b874-db45d05ddd56, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: us5.xxl123.fun}, udp: true}
+  - {name: 🇺🇸 美国06 x0.5, server: us6.xxl123.fun, port: 1999, type: vmess, uuid: bb7fbc2f-bc62-4845-b874-db45d05ddd56, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: us6.xxl123.fun}, udp: true}
+  - {name: 🇺🇸 美国07|流媒体 x0.5, server: us7.xxl123.fun, port: 1888, type: vmess, uuid: bb7fbc2f-bc62-4845-b874-db45d05ddd56, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: us7.xxl123.fun}, udp: true}
+  - {name: 🇺🇸 美国04|中转AZ|Netflix, server: 40.83.122.237, port: 10004, type: vmess, uuid: bb7fbc2f-bc62-4845-b874-db45d05ddd56, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: us4.xxl123.fun}, udp: true}
+  - {name: 🇺🇸 美国06|, server: 40.83.122.237, port: 10088, type: vmess, uuid: bb7fbc2f-bc62-4845-b874-db45d05ddd56, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: us6.xxl123.fun}, udp: true}
+  - {name: 🇯🇵 日本00 三网优化, server: 207.46.154.93, port: 39002, type: vmess, uuid: f6f7afcd-424f-3bff-a985-cafc72407f16, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny, ws-headers: {Host: 35.243.81.244}, udp: true}
+  - {name: 🇺🇸 美国洛杉矶 电信加速线路 移动请换三网优化, server: 207.46.154.93, port: 39004, type: vmess, uuid: f6f7afcd-424f-3bff-a985-cafc72407f16, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 207.46.154.93}, udp: true}
+  - {name: "🇯🇵 [通用]日本01[x1.0|NF[DNS]|Vmess]", server: klrelayna.chbjpw.mobi, port: 21360, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelayna.chbjpw.mobi}}
+  - {name: "🇺🇸 [B组]美国01[x1.0|Vmess]", server: klrelaync.chbjpw.mobi, port: 20062, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
+  - {name: "🇷🇺 俄罗斯01[x0.5|Vmess] Supported by Miku-Miku", server: ru01.kelecloud.xyz, port: 20086, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: ru01.kelecloud.xyz}}
+  - {name: "🇹🇭 泰国01[x0.5|Vmess]", server: klrelaynb.chbjpw.mobi, port: 21375, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
+  - {name: "🇺🇸 [通用]美国03[x1.0|NF|Vmess]", server: klrelaync.chbjpw.mobi, port: 20066, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
+  - {name: "🇯🇵 日本AGA公益[x0.5|Vmess]", server: a7b4ffa8596d5dd24.awsglobalaccelerator.com, port: 20086, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: a7b4ffa8596d5dd24.awsglobalaccelerator.com}}
+  - {name: "🇯🇵 [通用]日本02[x1.0|NF[DNS]|Vmess]", server: klrelaync.chbjpw.mobi, port: 21362, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
+  - {name: "🇺🇸 [通用]美国02[x1.0|NF|Vmess]", server: klrelaynb.chbjpw.mobi, port: 20060, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
+  - {name: "🇸🇬 新加坡AGA公益[x0.5|Vmess] Supported By Daolis", server: a5009ddcec736d4bf.awsglobalaccelerator.com, port: 20086, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /Pinmk4Nk, ws-headers: {Host: baidu.com}}
+  - {name: "🇹🇭 泰国01[x0.5|Vmess] 2", server: klrelaynb.chbjpw.mobi, port: 21375, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
+  - {name: "🇸🇬 新加坡01[x0.5|NF[DNS]|Vmess]", server: klrelaynb.chbjpw.mobi, port: 21365, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
+  - {name: "🇷🇺 俄罗斯01[x0.5|Vmess] Supported by Miku-Miku 2", server: ru01.kelecloud.xyz, port: 20086, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: ru01.kelecloud.xyz}}
+  - {name: "🇸🇬 新加坡AGA公益[x0.5|Vmess] Supported By Daolis 2", server: a5009ddcec736d4bf.awsglobalaccelerator.com, port: 20086, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /Pinmk4Nk, ws-headers: {Host: baidu.com}}
+  - {name: "🇺🇸 [通用]美国02[x1.0|NF|Vmess] 2", server: klrelaynb.chbjpw.mobi, port: 20060, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
+  - {name: "🇯🇵 [通用]日本01[x1.0|NF[DNS]|Vmess] 2", server: klrelayna.chbjpw.mobi, port: 21360, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelayna.chbjpw.mobi}}
+  - {name: "🇯🇵 日本AGA公益[x0.5|Vmess] 2", server: a7b4ffa8596d5dd24.awsglobalaccelerator.com, port: 20086, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: a7b4ffa8596d5dd24.awsglobalaccelerator.com}}
+  - {name: "[Lite] United State 06", server: 154.23.241.179, port: 18181, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, udp: true}
+  - {name: "[Lite] United State 06 *AGA测试", server: aga.ddns.cdntip.top, port: 35947, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, udp: true}
+  - {name: "[Lite] Norway 01", server: 51.13.83.212, port: 18191, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, udp: true}
+  - {name: Group, server: 51.13.83.212, port: 18191, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 51.13.83.212}, udp: true}
+  - {name: "🇺🇲 [Lite] United States 01", server: 3.35.10.176, port: 10101, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, udp: true}
+  - {name: "🇺🇲 [Lite] United States 02", server: aga.ddns.cdntip.top, port: 30187, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, udp: true}
+  - {name: "🇰🇷 [Lite] Korea 05", server: 13.125.242.215, port: 10182, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, udp: true}
+  - {name: "🇺🇲 [Lite] United States 03", server: 206.217.221.69, port: 31278, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, udp: true}
+  - {name: "🇰🇷 [Pro] Korea 01", server: jm.mfjlb.top, port: 20064, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jm.mfjlb.top}, udp: true}
+  - {name: "🇰🇷 [Pro] Korea 02", server: 183.236.97.190, port: 10116, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 183.236.97.190}, udp: true}
+  - {name: "🇰🇷 [Pro] Korea 03", server: 120.240.86.78, port: 20047, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.240.86.78}, udp: true}
+  - {name: "🇰🇷 [Pro] Korea 04", server: cslt.mfjlb.top, port: 55163, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cslt.mfjlb.top}, udp: true}
+  - {name: "🇬🇧 [Lite] United Kingdom 01", server: 23.97.76.227, port: 40001, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 23.97.76.227}, udp: true}
+  - {name: "🇰🇷 [Lite] Korea 01", server: 120.232.39.21, port: 40502, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.232.39.21}, udp: true}
+  - {name: "🇰🇷 [Lite] Korea 02", server: 23.97.76.227, port: 40002, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 23.97.76.227}, udp: true}
+  - {name: "🇰🇷 [Lite] Korea 03", server: aga-jp.ddns.cdntip.top, port: 23582, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: aga-jp.ddns.cdntip.top}, udp: true}
+  - {name: "🇩🇪 [Lite] Germany 01", server: 23.97.76.227, port: 40004, type: vmess, uuid: 399bba3f-f0ef-4fdd-ba11-4c76bc11a99d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 23.97.76.227}, udp: true}
+  - {name: 🇸🇬 V1-新加坡AWS 01 AGA加速 1.0x, server: v1-aws-sg-01.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-01.tudog.me}, udp: true}
+  - {name: 🇸🇬 V1-新加坡AWS 02 AGA加速 1.0x, server: v1-aws-sg-02.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-02.tudog.me}, udp: true}
+  - {name: 🇸🇬 V1-新加坡AWS 03 AGA加速 1.0x, server: v1-aws-sg-03.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-03.tudog.me}, udp: true}
+  - {name: 🇸🇬 V1-新加坡AWS 04 AGA加速 1.0x, server: v1-aws-sg-04.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-04.tudog.me}, udp: true}
+  - {name: 🇸🇬 V1-新加坡AWS 05 AGA加速 1.0x, server: v1-aws-sg-05.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-05.tudog.me}, udp: true}
+  - {name: 🇸🇬 V1-新加坡AWS 06 AGA加速 1.0x, server: v1-aws-sg-06.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-06.tudog.me}, udp: true}
+  - {name: 🇸🇬 V1-新加坡AWS 07 AGA加速 1.0x, server: v1-aws-sg-07.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-07.tudog.me}, udp: true}
+  - {name: 🇸🇬 V1-新加坡AWS 08 AGA加速 1.0x, server: v1-aws-sg-08.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-08.tudog.me}, udp: true}
+  - {name: 🇸🇬 V1-新加坡AWS 09 AGA加速 1.0x, server: v1-aws-sg-09.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-09.tudog.me}, udp: true}
+  - {name: 🇸🇬 V1-新加坡AWS 10 AGA加速 1.0x, server: v1-aws-sg-10.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-10.tudog.me}, udp: true}
+  - {name: 🇯🇵 V1-日本AWS 01 AGA加速 1.0x, server: v1-aws-jp-01.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-01.tudog.me}, udp: true}
+  - {name: 🇯🇵 V1-日本AWS 02 AGA加速 1.0x, server: v1-aws-jp-02.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-02.tudog.me}, udp: true}
+  - {name: 🇯🇵 V1-日本AWS 03 AGA加速 1.0x, server: v1-aws-jp-03.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-03.tudog.me}, udp: true}
+  - {name: 🇯🇵 V1-日本AWS 04 AGA加速 1.0x, server: v1-aws-jp-04.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-04.tudog.me}, udp: true}
+  - {name: 🇯🇵 V1-日本AWS 05 AGA加速 1.0x, server: v1-aws-jp-05.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-05.tudog.me}, udp: true}
+  - {name: 🇯🇵 V1-日本AWS 06 AGA加速 1.0x, server: v1-aws-jp-06.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-06.tudog.me}, udp: true}
+  - {name: 🇯🇵 V1-日本AWS 07 AGA加速 1.0x, server: v1-aws-jp-07.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-07.tudog.me}, udp: true}
+  - {name: 🇯🇵 V1-日本AWS 08 AGA加速 1.0x, server: v1-aws-jp-08.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-08.tudog.me}, udp: true}
+  - {name: 🇯🇵 V1-日本AWS 09 AGA加速 1.0x, server: v1-aws-jp-09.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-09.tudog.me}, udp: true}
+  - {name: 🇯🇵 V1-日本AWS 10 AGA加速 1.0x, server: v1-aws-jp-10.tudog.me, port: 80, type: vmess, uuid: a7312f57-6aaf-36f3-8f27-e95fcdc87320, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-10.tudog.me}, udp: true}
   - {name: 波兰1, server: 95.214.55.120, port: 13256, type: vmess, uuid: 828aacdf-8c06-4bd9-d501-8f4eb506734c, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 波兰2, server: 95.214.55.118, port: 41505, type: vmess, uuid: ab2a10e8-50a1-4d20-e973-b211ea6457f4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 韩国1, server: 13.125.170.43, port: 52091, type: vmess, uuid: ef9e00dd-2306-4060-c5fd-d32eabf939b4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
@@ -56,7 +120,7 @@ proxies:
   - {name: 美国22, server: 3.101.129.144, port: 53635, type: vmess, uuid: 913b1624-37f0-4cfc-ab62-017aa7d7288c, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 美国23, server: 13.56.181.146, port: 16214, type: vmess, uuid: 20724a74-ccfc-44bd-9d29-322c220dae1b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 美国24, server: 107.150.5.206, port: 34462, type: vmess, uuid: 31aaf7bc-a4be-4577-a82c-2ab2afbf4a7b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "", server: 107.150.5.36, port: 32051, type: vmess, uuid: e0b6ff60-249a-4f2d-82aa-ceeb59cc39ae, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "1", server: 107.150.5.36, port: 32051, type: vmess, uuid: e0b6ff60-249a-4f2d-82aa-ceeb59cc39ae, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: " 2", server: 43.226.26.117, port: 59020, type: vmess, uuid: 0e60d5e6-0418-4209-e3fd-7a19774f08d0, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 全球智选路线⑤, server: bj.keaiyun.xyz, port: 31104, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
   - {name: JP1(IPLC) - 深日国际专线, server: cn1.relay.iplc.pro, port: 52005, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
@@ -160,6 +224,70 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇰🇷 韩国01|
+      - 🇯🇵 日本01|中转AZ
+      - 🇺🇸 美国03|Netflix
+      - 🇺🇸 美国04|Netflix
+      - 🇺🇸 美国05|流媒体  x0.5
+      - 🇺🇸 美国06 x0.5
+      - 🇺🇸 美国07|流媒体 x0.5
+      - 🇺🇸 美国04|中转AZ|Netflix
+      - 🇺🇸 美国06|
+      - 🇯🇵 日本00 三网优化
+      - 🇺🇸 美国洛杉矶 电信加速线路 移动请换三网优化
+      - 🇯🇵 [通用]日本01[x1.0|NF[DNS]|Vmess]
+      - 🇺🇸 [B组]美国01[x1.0|Vmess]
+      - 🇷🇺 俄罗斯01[x0.5|Vmess] Supported by Miku-Miku
+      - 🇹🇭 泰国01[x0.5|Vmess]
+      - 🇺🇸 [通用]美国03[x1.0|NF|Vmess]
+      - 🇯🇵 日本AGA公益[x0.5|Vmess]
+      - 🇯🇵 [通用]日本02[x1.0|NF[DNS]|Vmess]
+      - 🇺🇸 [通用]美国02[x1.0|NF|Vmess]
+      - 🇸🇬 新加坡AGA公益[x0.5|Vmess] Supported By Daolis
+      - 🇹🇭 泰国01[x0.5|Vmess] 2
+      - 🇸🇬 新加坡01[x0.5|NF[DNS]|Vmess]
+      - 🇷🇺 俄罗斯01[x0.5|Vmess] Supported by Miku-Miku 2
+      - 🇸🇬 新加坡AGA公益[x0.5|Vmess] Supported By Daolis 2
+      - 🇺🇸 [通用]美国02[x1.0|NF|Vmess] 2
+      - 🇯🇵 [通用]日本01[x1.0|NF[DNS]|Vmess] 2
+      - 🇯🇵 日本AGA公益[x0.5|Vmess] 2
+      - "[Lite] United State 06"
+      - "[Lite] United State 06 *AGA测试"
+      - "[Lite] Norway 01"
+      - Group
+      - 🇺🇲 [Lite] United States 01
+      - 🇺🇲 [Lite] United States 02
+      - 🇰🇷 [Lite] Korea 05
+      - 🇺🇲 [Lite] United States 03
+      - 🇰🇷 [Pro] Korea 01
+      - 🇰🇷 [Pro] Korea 02
+      - 🇰🇷 [Pro] Korea 03
+      - 🇰🇷 [Pro] Korea 04
+      - 🇬🇧 [Lite] United Kingdom 01
+      - 🇰🇷 [Lite] Korea 01
+      - 🇰🇷 [Lite] Korea 02
+      - 🇰🇷 [Lite] Korea 03
+      - 🇩🇪 [Lite] Germany 01
+      - 🇸🇬 V1-新加坡AWS 01 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 02 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 03 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 04 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 05 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 06 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 07 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 08 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 09 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 10 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 01 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 02 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 03 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 04 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 05 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 06 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 07 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 08 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 09 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 10 AGA加速 1.0x
       - 波兰1
       - 波兰2
       - 韩国1
@@ -211,7 +339,7 @@ proxy-groups:
       - 日本8
       - 日本9
       - 日本10
-      - ""
+      - "1"
       - " 2"
       - 全球智选路线⑤
       - JP1(IPLC) - 深日国际专线
@@ -314,6 +442,70 @@ proxy-groups:
     proxies:
       - 自动选择
       - 全球直连
+      - 🇰🇷 韩国01|
+      - 🇯🇵 日本01|中转AZ
+      - 🇺🇸 美国03|Netflix
+      - 🇺🇸 美国04|Netflix
+      - 🇺🇸 美国05|流媒体  x0.5
+      - 🇺🇸 美国06 x0.5
+      - 🇺🇸 美国07|流媒体 x0.5
+      - 🇺🇸 美国04|中转AZ|Netflix
+      - 🇺🇸 美国06|
+      - 🇯🇵 日本00 三网优化
+      - 🇺🇸 美国洛杉矶 电信加速线路 移动请换三网优化
+      - 🇯🇵 [通用]日本01[x1.0|NF[DNS]|Vmess]
+      - 🇺🇸 [B组]美国01[x1.0|Vmess]
+      - 🇷🇺 俄罗斯01[x0.5|Vmess] Supported by Miku-Miku
+      - 🇹🇭 泰国01[x0.5|Vmess]
+      - 🇺🇸 [通用]美国03[x1.0|NF|Vmess]
+      - 🇯🇵 日本AGA公益[x0.5|Vmess]
+      - 🇯🇵 [通用]日本02[x1.0|NF[DNS]|Vmess]
+      - 🇺🇸 [通用]美国02[x1.0|NF|Vmess]
+      - 🇸🇬 新加坡AGA公益[x0.5|Vmess] Supported By Daolis
+      - 🇹🇭 泰国01[x0.5|Vmess] 2
+      - 🇸🇬 新加坡01[x0.5|NF[DNS]|Vmess]
+      - 🇷🇺 俄罗斯01[x0.5|Vmess] Supported by Miku-Miku 2
+      - 🇸🇬 新加坡AGA公益[x0.5|Vmess] Supported By Daolis 2
+      - 🇺🇸 [通用]美国02[x1.0|NF|Vmess] 2
+      - 🇯🇵 [通用]日本01[x1.0|NF[DNS]|Vmess] 2
+      - 🇯🇵 日本AGA公益[x0.5|Vmess] 2
+      - "[Lite] United State 06"
+      - "[Lite] United State 06 *AGA测试"
+      - "[Lite] Norway 01"
+      - Group
+      - 🇺🇲 [Lite] United States 01
+      - 🇺🇲 [Lite] United States 02
+      - 🇰🇷 [Lite] Korea 05
+      - 🇺🇲 [Lite] United States 03
+      - 🇰🇷 [Pro] Korea 01
+      - 🇰🇷 [Pro] Korea 02
+      - 🇰🇷 [Pro] Korea 03
+      - 🇰🇷 [Pro] Korea 04
+      - 🇬🇧 [Lite] United Kingdom 01
+      - 🇰🇷 [Lite] Korea 01
+      - 🇰🇷 [Lite] Korea 02
+      - 🇰🇷 [Lite] Korea 03
+      - 🇩🇪 [Lite] Germany 01
+      - 🇸🇬 V1-新加坡AWS 01 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 02 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 03 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 04 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 05 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 06 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 07 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 08 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 09 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 10 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 01 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 02 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 03 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 04 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 05 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 06 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 07 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 08 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 09 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 10 AGA加速 1.0x
       - 波兰1
       - 波兰2
       - 韩国1
@@ -365,7 +557,7 @@ proxy-groups:
       - 日本8
       - 日本9
       - 日本10
-      - ""
+      - "1"
       - " 2"
       - 全球智选路线⑤
       - JP1(IPLC) - 深日国际专线
@@ -9675,8 +9867,8 @@ rules:
  - DOMAIN-SUFFIX,t.me,电报信息
  - DOMAIN-SUFFIX,tdesktop.com,电报信息
  - DOMAIN-SUFFIX,telegra.ph,电报信息
- - DOMAIN-SUFFIX,telegram.me,电报信息
- - DOMAIN-SUFFIX,telegram.org,电报信息
+ - DOMAIN-SUFFIX,.me,电报信息
+ - DOMAIN-SUFFIX,.org,电报信息
  - DOMAIN-SUFFIX,telesco.pe,电报信息
  - IP-CIDR,91.108.4.0/22,电报信息,no-resolve
  - IP-CIDR,91.108.8.0/22,电报信息,no-resolve
@@ -9726,7 +9918,7 @@ rules:
  - DOMAIN-SUFFIX,twitter.com,节点选择
  - DOMAIN-SUFFIX,vine.co,节点选择
  - DOMAIN-SUFFIX,telegra.ph,节点选择
- - DOMAIN-SUFFIX,telegram.org,节点选择
+ - DOMAIN-SUFFIX,.org,节点选择
  - IP-CIDR,91.108.4.0/22,节点选择,no-resolve
  - IP-CIDR,91.108.8.0/22,节点选择,no-resolve
  - IP-CIDR,91.108.12.0/22,节点选择,no-resolve
@@ -10166,7 +10358,7 @@ rules:
  - DOMAIN-SUFFIX,ytimg.com,节点选择
  - DOMAIN-SUFFIX,t.me,节点选择
  - DOMAIN-SUFFIX,tdesktop.com,节点选择
- - DOMAIN-SUFFIX,telegram.me,节点选择
+ - DOMAIN-SUFFIX,.me,节点选择
  - DOMAIN-SUFFIX,telesco.pe,节点选择
  - DOMAIN-SUFFIX,facebook.br,节点选择
  - DOMAIN-SUFFIX,facebook.design,节点选择
