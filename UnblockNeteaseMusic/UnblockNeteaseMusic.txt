@@ -2,7 +2,7 @@
 #https://github.com/O7Y0/Profiles/blob/master/O7Y0-Quantumult%20X.conf
 proxies:
   - {name: 🎧 第一项有数值就可用, server: lolico.me, port: 443, type: http, tls: false, skip-cert-verify: false}
-  - {name: 🎧 网易音乐 1, server: lolico.me, port: 443, type: http, tls: false, skip-cert-verify: false}
+  - {name: 🎧 网易音乐 1, server: 34.92.129.82, port: 2021, type: http, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易音乐 2, server: music.lolico.me, port: 39000, type: http, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易音乐 3, server: 223.112.128.66, port: 23334, type: http, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易音乐 4, server: 106.52.127.72, port: 19951, type: http, tls: false, skip-cert-verify: false}
