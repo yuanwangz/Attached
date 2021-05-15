@@ -1,6 +1,6 @@
-# URL:     https://raw.githubusercontent.com/O7Y0/Attached/main/UnblockNeteaseMusic/NeteaseCloudMusic.list
-# Project: https://github.com/O7Y0/Attached/blob/main/UnblockNeteaseMusic
-# W:O7Y0
+# U: https://raw.githubusercontent.com/O7Y0/Attached/main/UnblockNeteaseMusic/NeteaseCloudMusic.list
+# P: https://github.com/O7Y0/Attached/blob/main/UnblockNeteaseMusic
+# W: O7Y0
 
 # REJECT
 HOST,admusicpic.music.126.net,REJECT
