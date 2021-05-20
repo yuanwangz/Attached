@@ -174,6 +174,41 @@ proxies:
   - {name: 日本-B, server: ntemp11.boom.party, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
   - {name: 韩国-A, server: n13.boom.party, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
   - {name: 俄罗斯-A, server: n18.boom.party, port: 38000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: SFMV US-784, server: 107.181.166.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV US-785, server: 199.10.64.117, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV US-715, server: 98.142.220.35, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV US-718, server: 199.10.64.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV US-733, server: 66.115.154.151, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV US-736, server: 192.111.134.80, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV US-854, server: 143.198.69.166, port: 46661, type: ss, cipher: chacha20-ietf-poly1305, password: 2aAUhAmKw587}
+  - {name: SFMV US-666, server: 192.111.134.202, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV US-653, server: 199.10.64.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV US-678, server: 104.200.129.243, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV US-759, server: 199.58.187.18, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV US-753, server: 192.111.134.200, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: SFMV US-262, server: 89.187.182.175, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV US-778, server: 45.43.14.95, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV US-726, server: 199.58.187.20, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV US-770, server: 199.10.64.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV US-748, server: 192.111.134.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV HK-244, server: 84.17.57.148, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV KR-150, server: 45.130.137.10, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV KR-565, server: 45.130.137.10, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV KR-202, server: 45.130.137.34, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV AT-294, server: 89.187.168.41, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV AT-370, server: 37.120.212.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV AT-87, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV CA-843, server: 165.22.234.56, port: 8538, type: ss, cipher: chacha20-ietf-poly1305, password: N8GAkR9JRFSV}
+  - {name: SFMV CA-844, server: 167.99.182.53, port: 60013, type: ss, cipher: chacha20-ietf-poly1305, password: ZGBnUo4nxPck}
+  - {name: SFMV CS-480, server: 185.152.64.151, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV CS-137, server: 185.152.64.151, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: SFMV CS-423, server: 185.152.64.151, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: SFMV ES-171, server: 185.153.150.44, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV ES-347, server: 196.196.150.67, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: SFMV ES-64, server: 196.196.150.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV NL-186, server: 81.19.209.120, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV NL-539, server: 89.187.174.231, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: SFMV NL, server: 188.166.52.156, port: 51138, type: ss, cipher: chacha20-ietf-poly1305, password: 7knUSreula9X}
 proxy-groups:
   - name: 自动选择
     type: url-test
@@ -349,6 +384,41 @@ proxy-groups:
       - 日本-B
       - 韩国-A
       - 俄罗斯-A
+      - SFMV US-784
+      - SFMV US-785
+      - SFMV US-715
+      - SFMV US-718
+      - SFMV US-733
+      - SFMV US-736
+      - SFMV US-854
+      - SFMV US-666
+      - SFMV US-653
+      - SFMV US-678
+      - SFMV US-759
+      - SFMV US-753
+      - SFMV US-262
+      - SFMV US-778
+      - SFMV US-726
+      - SFMV US-770
+      - SFMV US-748
+      - SFMV HK-244
+      - SFMV KR-150
+      - SFMV KR-565
+      - SFMV KR-202
+      - SFMV AT-294
+      - SFMV AT-370
+      - SFMV AT-87
+      - SFMV CA-843
+      - SFMV CA-844
+      - SFMV CS-480
+      - SFMV CS-137
+      - SFMV CS-423
+      - SFMV ES-171
+      - SFMV ES-347
+      - SFMV ES-64
+      - SFMV NL-186
+      - SFMV NL-539
+      - SFMV NL
   - name: 节点选择
     type: select
     proxies:
