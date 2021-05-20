@@ -1,4 +1,3 @@
-#FROME:https://gitee.com/ljc6b/sub/raw/Clash/tw254.yaml
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -6,15 +5,41 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 台湾131572, server: 185.76.9.55, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
   - {name: 台湾131764, server: 217.148.143.211, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 台湾131944, server: 91.245.254.45, port: 48127, type: ss, cipher: aes-256-gcm, password: GbJva6QYc8MRn7Fwp795zstu}
   - {name: 台湾132558, server: 194.39.127.173, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 台湾132843, server: 45.89.173.203, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 台湾133148, server: 45.129.32.36, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 台湾133992, server: 138.199.42.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 台湾133998, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 台湾134687, server: 212.102.46.49, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 台湾134815, server: 176.227.241.35, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 台湾135294, server: 27.131.138.176, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: 台湾137473, server: 27.131.138.176, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 台湾137588, server: 185.124.240.149, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 台湾138033, server: 69.30.249.123, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 台湾138620, server: 27.131.138.176, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 台湾138742, server: 173.237.207.66, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
   - {name: 台湾138747, server: 104.244.210.133, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 台湾139772, server: 45.43.19.82, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
   - {name: 台湾140093, server: 27.131.138.176, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 台湾140220, server: 207.244.65.17, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 台湾144236, server: 84.17.35.103, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 台湾144820, server: 173.237.207.66, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 台湾145329, server: 207.244.65.17, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 台湾149339, server: 84.17.35.103, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
   - {name: 台湾149396, server: 104.244.210.133, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 台湾231572, server: 195.181.171.233, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
   - {name: 台湾231764, server: 138.199.17.132, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 台湾231944, server: 193.29.106.21, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
   - {name: 台湾232558, server: 138.199.17.132, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 台湾232843, server: 103.120.66.227, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 台湾233148, server: 82.102.26.173, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 台湾233992, server: 82.102.26.173, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 台湾233998, server: 195.181.171.233, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 台湾234687, server: 81.92.205.117, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 台湾234815, server: 81.92.205.117, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
   - {name: 台湾235294, server: 61.14.210.237, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: 台湾237473, server: 91.90.123.205, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
   - {name: 台湾237588, server: 61.14.210.237, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
@@ -25,47 +50,214 @@ proxies:
   - {name: 台湾239772, server: 61.14.210.237, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
   - {name: 台湾240093, server: 138.199.16.145, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 台湾240220, server: 61.14.210.237, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 台湾244236, server: 45.133.193.107, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
   - {name: 台湾244820, server: 61.14.210.237, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
   - {name: 台湾245329, server: 61.14.210.237, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
   - {name: 台湾249339, server: 138.199.19.167, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 台湾249396, server: 45.133.193.109, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 台湾31572, server: 103.152.151.19, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 台湾31572 10, server: 2.58.242.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 台湾31572 11, server: 191.96.13.202, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 台湾31572 12, server: 103.152.151.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 台湾31572 2, server: 103.152.151.5, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 台湾31572 3, server: 31.171.155.51, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 台湾31572 4, server: 82.102.26.171, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
   - {name: 台湾31572 5, server: 193.29.107.235, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 台湾31572 6, server: 2.58.242.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 台湾31572 7, server: 212.102.44.98, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
   - {name: 台湾31572 8, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 台湾31572 9, server: 103.156.51.8, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 台湾31764, server: 144.91.123.50, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 台湾31764 10, server: 103.152.151.19, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 台湾31764 11, server: 103.152.151.3, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 台湾31764 12, server: 89.187.163.132, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 台湾31764 2, server: 103.152.151.5, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 台湾31764 3, server: 2.58.242.133, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
   - {name: 台湾31764 4, server: 193.29.107.235, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
   - {name: 台湾31764 5, server: 193.29.107.235, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 台湾31764 6, server: 5.189.202.16, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 台湾31764 7, server: 2.58.242.53, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 台湾31764 8, server: 193.37.255.41, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 台湾31764 9, server: 191.96.13.202, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 台湾31944, server: 2.58.242.133, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 台湾31944 10, server: 2.58.242.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 台湾31944 11, server: 185.153.150.78, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 台湾31944 2, server: 185.108.105.231, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 台湾31944 3, server: 144.91.123.50, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
   - {name: 台湾31944 4, server: 103.148.242.170, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
   - {name: 台湾31944 5, server: 103.148.242.170, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 台湾31944 6, server: 103.152.151.19, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 台湾31944 7, server: 89.187.163.132, port: 48127, type: ss, cipher: aes-256-gcm, password: GbJva6QYc8MRn7Fwp795zstu}
+  - {name: 台湾31944 8, server: 103.152.151.5, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 台湾31944 9, server: 138.199.19.139, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 台湾32558, server: 89.187.163.132, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 台湾32558 2, server: 144.91.123.50, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 台湾32843, server: 62.212.239.69, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 台湾32843 10, server: 103.152.151.3, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 台湾32843 11, server: 103.152.151.19, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 台湾32843 2, server: 2.58.242.53, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 台湾32843 3, server: 144.91.123.50, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 台湾32843 4, server: 185.108.105.231, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 台湾32843 5, server: 199.10.64.181, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 台湾32843 6, server: 45.83.88.69, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 台湾32843 7, server: 89.187.163.132, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
   - {name: 台湾32843 8, server: 81.19.208.78, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 台湾32843 9, server: 2.58.242.133, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 台湾33148, server: 144.91.123.50, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 台湾33148 2, server: 89.187.163.132, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 台湾33184, server: 103.152.151.5, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 台湾33184 10, server: 154.16.171.206, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 台湾33184 2, server: 191.96.15.88, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 台湾33184 3, server: 2.58.242.53, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 台湾33184 4, server: 103.152.151.3, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 台湾33184 5, server: 103.192.80.227, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 台湾33184 6, server: 2.58.242.133, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 台湾33184 7, server: 82.102.26.171, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
   - {name: 台湾33184 8, server: 82.102.26.93, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 台湾33184 9, server: 103.152.151.19, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 台湾33992, server: 103.152.151.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 台湾33992 10, server: 89.187.163.132, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 台湾33992 11, server: 2.58.242.53, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 台湾33992 12, server: 194.110.115.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 台湾33992 2, server: 185.102.217.169, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 台湾33992 3, server: 103.152.151.3, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 台湾33992 4, server: 185.153.150.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 台湾33992 5, server: 144.91.123.50, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 台湾33992 6, server: 104.244.210.157, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 台湾33992 7, server: 180.149.228.181, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 台湾33992 8, server: 103.152.151.19, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 台湾33992 9, server: 2.58.242.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 台湾33998, server: 2.58.242.133, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 台湾33998 10, server: 103.152.151.5, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 台湾33998 11, server: 2.58.242.53, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: 台湾33998 2, server: 191.96.15.88, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 台湾33998 3, server: 193.29.106.45, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 台湾33998 4, server: 89.187.163.132, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
   - {name: 台湾33998 5, server: 173.237.207.58, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 台湾33998 6, server: 45.83.88.69, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 台湾33998 7, server: 5.189.202.14, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 台湾33998 8, server: 103.152.151.19, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: 台湾33998 9, server: 138.199.42.157, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 台湾34687, server: 89.187.163.132, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 台湾34687 2, server: 144.91.123.50, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 台湾34815, server: 89.187.163.132, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 台湾34815 10, server: 66.115.147.89, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 台湾34815 11, server: 2.58.242.133, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 台湾34815 2, server: 2.58.242.53, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 台湾34815 3, server: 81.19.208.78, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
   - {name: 台湾34815 4, server: 194.39.127.171, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 台湾34815 5, server: 103.156.50.101, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 台湾34815 6, server: 144.91.123.50, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 台湾34815 7, server: 103.152.151.3, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 台湾34815 8, server: 103.152.151.5, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 台湾34815 9, server: 212.102.42.196, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 台湾35294, server: 103.152.151.19, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 台湾35294 10, server: 212.102.42.196, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 台湾35294 11, server: 185.102.217.169, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 台湾35294 12, server: 2.58.242.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 台湾35294 2, server: 194.110.115.85, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: 台湾35294 3, server: 91.205.230.166, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 台湾35294 4, server: 2.58.242.133, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: 台湾35294 5, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 台湾35294 6, server: 144.91.123.50, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 台湾35294 7, server: 103.152.151.3, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 台湾35294 8, server: 103.152.151.5, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: 台湾35294 9, server: 62.212.239.45, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: 台湾37473, server: 62.212.239.45, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 台湾37473 10, server: 103.152.151.5, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 台湾37473 11, server: 103.152.151.3, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 台湾37473 12, server: 45.43.14.75, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 台湾37473 2, server: 212.102.42.196, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
   - {name: 台湾37473 3, server: 91.205.230.166, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 台湾37473 4, server: 144.91.123.50, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
   - {name: 台湾37473 5, server: 194.33.40.114, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 台湾37473 6, server: 2.58.242.53, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 台湾37473 7, server: 103.152.151.19, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 台湾37473 8, server: 2.58.242.133, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
   - {name: 台湾37473 9, server: 198.8.92.84, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 台湾37588, server: 2.58.242.133, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 台湾37588 10, server: 103.152.151.5, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 台湾37588 11, server: 103.152.151.19, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 台湾37588 12, server: 62.212.239.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 台湾37588 2, server: 103.152.151.3, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 台湾37588 3, server: 2.58.242.53, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 台湾37588 4, server: 194.39.127.171, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 台湾37588 5, server: 198.8.92.84, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 台湾37588 12, server: 62.212.239.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 台湾37588 6, server: 212.102.42.196, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 台湾37588 7, server: 144.91.123.50, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 台湾37588 8, server: 91.245.254.123, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 台湾37588 9, server: 185.153.151.189, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 台湾38033, server: 89.187.163.132, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 台湾38033 10, server: 212.102.42.196, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 台湾38033 11, server: 37.120.235.205, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 台湾38033 12, server: 185.153.151.189, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 台湾38033 2, server: 103.152.151.3, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 台湾38033 3, server: 2.58.242.133, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 台湾38033 4, server: 103.152.151.5, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 台湾38033 5, server: 45.133.193.117, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 台湾38033 6, server: 42.0.30.158, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 台湾38033 7, server: 103.152.151.19, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 台湾38033 8, server: 176.227.241.35, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 台湾38033 9, server: 2.58.242.53, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
   - {name: 台湾38620, server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 台湾38620 2, server: 81.19.208.109, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
   - {name: 台湾38742, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 台湾38742 2, server: 37.120.235.69, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 台湾38747, server: 103.152.151.3, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 台湾38747 10, server: 212.102.44.98, port: 33998, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
   - {name: 台湾38747 11, server: 82.102.26.93, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 台湾39772 2, server: 62.212.239.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 台湾39772 8, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 台湾38747 2, server: 212.102.42.196, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 台湾38747 3, server: 2.58.242.133, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 台湾38747 4, server: 103.152.151.5, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 台湾38747 5, server: 91.203.69.146, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 台湾38747 6, server: 103.152.151.19, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 台湾38747 7, server: 138.199.22.143, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 台湾38747 8, server: 176.227.241.35, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 台湾38747 9, server: 195.158.249.52, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 台湾39772, server: 91.245.254.123, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 台湾39772 10, server: 194.33.40.114, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 台湾40093 2, server: 138.199.17.132, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 台湾40093 8, server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 台湾40093 9, server: 103.152.151.3, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 台湾39772 11, server: 212.102.42.196, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 台湾39772 12, server: 2.58.242.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 台湾39772 2, server: 62.212.239.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 台湾39772 3, server: 2.58.242.133, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 台湾39772 4, server: 103.152.151.19, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 台湾39772 5, server: 103.152.151.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 台湾39772 6, server: 37.120.235.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 台湾39772 7, server: 195.158.249.52, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 台湾39772 8, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 台湾39772 9, server: 103.152.151.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 台湾40093, server: 193.37.255.41, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 台湾40093 10, server: 62.212.239.45, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 台湾40093 11, server: 103.152.151.5, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 台湾40093 12, server: 138.199.19.139, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 台湾40093 2, server: 138.199.17.132, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 台湾40093 3, server: 103.152.151.19, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 台湾40093 4, server: 2.58.242.133, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 台湾40093 5, server: 81.19.208.109, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 台湾40093 6, server: 2.58.242.53, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 台湾40093 7, server: 66.115.147.89, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 台湾40093 8, server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 台湾40093 9, server: 103.152.151.3, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 台湾40220, server: 45.133.193.117, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 台湾40220 10, server: 103.152.151.5, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 台湾40220 11, server: 103.152.151.3, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 台湾40220 2, server: 2.58.242.133, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 台湾40220 3, server: 103.152.151.19, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
   - {name: 台湾40220 4, server: 62.212.239.45, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
   - {name: 台湾40220 5, server: 89.187.163.132, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 台湾40220 6, server: 188.92.78.147, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 台湾40220 7, server: 212.102.42.196, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 台湾40220 8, server: 193.29.106.45, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 台湾40220 9, server: 45.43.14.75, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 台湾44236, server: 89.187.163.132, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 台湾44236 2, server: 178.239.173.47, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 台湾44820, server: 37.120.235.69, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
   - {name: 台湾44820 2, server: 198.8.92.84, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 台湾45329, server: 188.92.78.147, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 台湾45329 2, server: 89.187.163.132, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
   - {name: 台湾49339, server: 178.239.173.47, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 台湾49339 2, server: 89.187.163.132, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 台湾49396, server: 91.203.69.146, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
   - {name: 台湾49396 2, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
 proxy-groups:
   - name: 自动选择
@@ -73,15 +265,41 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 台湾131572
       - 台湾131764
+      - 台湾131944
       - 台湾132558
+      - 台湾132843
+      - 台湾133148
+      - 台湾133992
       - 台湾133998
+      - 台湾134687
+      - 台湾134815
+      - 台湾135294
       - 台湾137473
+      - 台湾137588
+      - 台湾138033
+      - 台湾138620
+      - 台湾138742
       - 台湾138747
+      - 台湾139772
       - 台湾140093
+      - 台湾140220
+      - 台湾144236
+      - 台湾144820
+      - 台湾145329
+      - 台湾149339
       - 台湾149396
+      - 台湾231572
       - 台湾231764
+      - 台湾231944
       - 台湾232558
+      - 台湾232843
+      - 台湾233148
+      - 台湾233992
+      - 台湾233998
+      - 台湾234687
+      - 台湾234815
       - 台湾235294
       - 台湾237473
       - 台湾237588
@@ -92,59 +310,255 @@ proxy-groups:
       - 台湾239772
       - 台湾240093
       - 台湾240220
+      - 台湾244236
       - 台湾244820
       - 台湾245329
       - 台湾249339
+      - 台湾249396
+      - 台湾31572
+      - 台湾31572 10
+      - 台湾31572 11
+      - 台湾31572 12
+      - 台湾31572 2
+      - 台湾31572 3
+      - 台湾31572 4
       - 台湾31572 5
+      - 台湾31572 6
+      - 台湾31572 7
       - 台湾31572 8
+      - 台湾31572 9
+      - 台湾31764
+      - 台湾31764 10
+      - 台湾31764 11
+      - 台湾31764 12
+      - 台湾31764 2
+      - 台湾31764 3
       - 台湾31764 4
       - 台湾31764 5
+      - 台湾31764 6
+      - 台湾31764 7
+      - 台湾31764 8
+      - 台湾31764 9
+      - 台湾31944
+      - 台湾31944 10
+      - 台湾31944 11
+      - 台湾31944 2
+      - 台湾31944 3
       - 台湾31944 4
       - 台湾31944 5
+      - 台湾31944 6
+      - 台湾31944 7
+      - 台湾31944 8
+      - 台湾31944 9
+      - 台湾32558
+      - 台湾32558 2
+      - 台湾32843
+      - 台湾32843 10
+      - 台湾32843 11
+      - 台湾32843 2
+      - 台湾32843 3
+      - 台湾32843 4
+      - 台湾32843 5
+      - 台湾32843 6
+      - 台湾32843 7
       - 台湾32843 8
+      - 台湾32843 9
+      - 台湾33148
+      - 台湾33148 2
+      - 台湾33184
+      - 台湾33184 10
+      - 台湾33184 2
+      - 台湾33184 3
+      - 台湾33184 4
+      - 台湾33184 5
+      - 台湾33184 6
+      - 台湾33184 7
       - 台湾33184 8
+      - 台湾33184 9
+      - 台湾33992
+      - 台湾33992 10
+      - 台湾33992 11
+      - 台湾33992 12
+      - 台湾33992 2
+      - 台湾33992 3
+      - 台湾33992 4
+      - 台湾33992 5
       - 台湾33992 6
+      - 台湾33992 7
+      - 台湾33992 8
+      - 台湾33992 9
+      - 台湾33998
+      - 台湾33998 10
+      - 台湾33998 11
       - 台湾33998 2
+      - 台湾33998 3
+      - 台湾33998 4
       - 台湾33998 5
+      - 台湾33998 6
+      - 台湾33998 7
+      - 台湾33998 8
       - 台湾33998 9
+      - 台湾34687
+      - 台湾34687 2
+      - 台湾34815
+      - 台湾34815 10
+      - 台湾34815 11
+      - 台湾34815 2
+      - 台湾34815 3
       - 台湾34815 4
+      - 台湾34815 5
+      - 台湾34815 6
+      - 台湾34815 7
+      - 台湾34815 8
+      - 台湾34815 9
+      - 台湾35294
+      - 台湾35294 10
+      - 台湾35294 11
+      - 台湾35294 12
+      - 台湾35294 2
       - 台湾35294 3
+      - 台湾35294 4
       - 台湾35294 5
+      - 台湾35294 6
+      - 台湾35294 7
+      - 台湾35294 8
       - 台湾35294 9
       - 台湾37473
+      - 台湾37473 10
+      - 台湾37473 11
+      - 台湾37473 12
+      - 台湾37473 2
       - 台湾37473 3
+      - 台湾37473 4
       - 台湾37473 5
+      - 台湾37473 6
+      - 台湾37473 7
+      - 台湾37473 8
       - 台湾37473 9
+      - 台湾37588
+      - 台湾37588 10
+      - 台湾37588 11
+      - 台湾37588 12
+      - 台湾37588 2
+      - 台湾37588 3
       - 台湾37588 4
       - 台湾37588 5
-      - 台湾37588 12
+      - 台湾37588 6
+      - 台湾37588 7
+      - 台湾37588 8
+      - 台湾37588 9
+      - 台湾38033
+      - 台湾38033 10
+      - 台湾38033 11
+      - 台湾38033 12
+      - 台湾38033 2
+      - 台湾38033 3
+      - 台湾38033 4
+      - 台湾38033 5
+      - 台湾38033 6
+      - 台湾38033 7
+      - 台湾38033 8
+      - 台湾38033 9
       - 台湾38620
+      - 台湾38620 2
       - 台湾38742
+      - 台湾38742 2
+      - 台湾38747
+      - 台湾38747 10
       - 台湾38747 11
-      - 台湾39772 2
-      - 台湾39772 8
+      - 台湾38747 2
+      - 台湾38747 3
+      - 台湾38747 4
+      - 台湾38747 5
+      - 台湾38747 6
+      - 台湾38747 7
+      - 台湾38747 8
+      - 台湾38747 9
+      - 台湾39772
       - 台湾39772 10
-      - 台湾40093 2
-      - 台湾40093 8
+      - 台湾39772 11
+      - 台湾39772 12
+      - 台湾39772 2
+      - 台湾39772 3
+      - 台湾39772 4
+      - 台湾39772 5
+      - 台湾39772 6
+      - 台湾39772 7
+      - 台湾39772 8
+      - 台湾39772 9
+      - 台湾40093
       - 台湾40093 10
+      - 台湾40093 11
+      - 台湾40093 12
+      - 台湾40093 2
+      - 台湾40093 3
+      - 台湾40093 4
+      - 台湾40093 5
+      - 台湾40093 6
+      - 台湾40093 7
+      - 台湾40093 8
+      - 台湾40093 9
+      - 台湾40220
+      - 台湾40220 10
+      - 台湾40220 11
+      - 台湾40220 2
+      - 台湾40220 3
       - 台湾40220 4
+      - 台湾40220 5
+      - 台湾40220 6
+      - 台湾40220 7
+      - 台湾40220 8
+      - 台湾40220 9
+      - 台湾44236
+      - 台湾44236 2
+      - 台湾44820
       - 台湾44820 2
+      - 台湾45329
+      - 台湾45329 2
       - 台湾49339
+      - 台湾49339 2
+      - 台湾49396
       - 台湾49396 2
   - name: 节点选择
     type: select
     proxies:
       - 自动选择
       - 全球直连
+      - 台湾131572
       - 台湾131764
+      - 台湾131944
       - 台湾132558
+      - 台湾132843
+      - 台湾133148
+      - 台湾133992
       - 台湾133998
+      - 台湾134687
+      - 台湾134815
+      - 台湾135294
       - 台湾137473
+      - 台湾137588
+      - 台湾138033
+      - 台湾138620
+      - 台湾138742
       - 台湾138747
+      - 台湾139772
       - 台湾140093
+      - 台湾140220
+      - 台湾144236
+      - 台湾144820
+      - 台湾145329
+      - 台湾149339
       - 台湾149396
+      - 台湾231572
       - 台湾231764
+      - 台湾231944
       - 台湾232558
+      - 台湾232843
+      - 台湾233148
+      - 台湾233992
+      - 台湾233998
+      - 台湾234687
+      - 台湾234815
       - 台湾235294
       - 台湾237473
       - 台湾237588
@@ -155,44 +569,214 @@ proxy-groups:
       - 台湾239772
       - 台湾240093
       - 台湾240220
+      - 台湾244236
       - 台湾244820
       - 台湾245329
       - 台湾249339
+      - 台湾249396
+      - 台湾31572
+      - 台湾31572 10
+      - 台湾31572 11
+      - 台湾31572 12
+      - 台湾31572 2
+      - 台湾31572 3
+      - 台湾31572 4
       - 台湾31572 5
+      - 台湾31572 6
+      - 台湾31572 7
       - 台湾31572 8
+      - 台湾31572 9
+      - 台湾31764
+      - 台湾31764 10
+      - 台湾31764 11
+      - 台湾31764 12
+      - 台湾31764 2
+      - 台湾31764 3
       - 台湾31764 4
       - 台湾31764 5
+      - 台湾31764 6
+      - 台湾31764 7
+      - 台湾31764 8
+      - 台湾31764 9
+      - 台湾31944
+      - 台湾31944 10
+      - 台湾31944 11
+      - 台湾31944 2
+      - 台湾31944 3
       - 台湾31944 4
       - 台湾31944 5
+      - 台湾31944 6
+      - 台湾31944 7
+      - 台湾31944 8
+      - 台湾31944 9
+      - 台湾32558
+      - 台湾32558 2
+      - 台湾32843
+      - 台湾32843 10
+      - 台湾32843 11
+      - 台湾32843 2
+      - 台湾32843 3
+      - 台湾32843 4
+      - 台湾32843 5
+      - 台湾32843 6
+      - 台湾32843 7
       - 台湾32843 8
+      - 台湾32843 9
+      - 台湾33148
+      - 台湾33148 2
+      - 台湾33184
+      - 台湾33184 10
+      - 台湾33184 2
+      - 台湾33184 3
+      - 台湾33184 4
+      - 台湾33184 5
+      - 台湾33184 6
+      - 台湾33184 7
       - 台湾33184 8
+      - 台湾33184 9
+      - 台湾33992
+      - 台湾33992 10
+      - 台湾33992 11
+      - 台湾33992 12
+      - 台湾33992 2
+      - 台湾33992 3
+      - 台湾33992 4
+      - 台湾33992 5
       - 台湾33992 6
+      - 台湾33992 7
+      - 台湾33992 8
+      - 台湾33992 9
+      - 台湾33998
+      - 台湾33998 10
+      - 台湾33998 11
       - 台湾33998 2
+      - 台湾33998 3
+      - 台湾33998 4
       - 台湾33998 5
+      - 台湾33998 6
+      - 台湾33998 7
+      - 台湾33998 8
       - 台湾33998 9
+      - 台湾34687
+      - 台湾34687 2
+      - 台湾34815
+      - 台湾34815 10
+      - 台湾34815 11
+      - 台湾34815 2
+      - 台湾34815 3
       - 台湾34815 4
+      - 台湾34815 5
+      - 台湾34815 6
+      - 台湾34815 7
+      - 台湾34815 8
+      - 台湾34815 9
+      - 台湾35294
+      - 台湾35294 10
+      - 台湾35294 11
+      - 台湾35294 12
+      - 台湾35294 2
       - 台湾35294 3
+      - 台湾35294 4
       - 台湾35294 5
+      - 台湾35294 6
+      - 台湾35294 7
+      - 台湾35294 8
       - 台湾35294 9
       - 台湾37473
+      - 台湾37473 10
+      - 台湾37473 11
+      - 台湾37473 12
+      - 台湾37473 2
       - 台湾37473 3
+      - 台湾37473 4
       - 台湾37473 5
+      - 台湾37473 6
+      - 台湾37473 7
+      - 台湾37473 8
       - 台湾37473 9
+      - 台湾37588
+      - 台湾37588 10
+      - 台湾37588 11
+      - 台湾37588 12
+      - 台湾37588 2
+      - 台湾37588 3
       - 台湾37588 4
       - 台湾37588 5
-      - 台湾37588 12
+      - 台湾37588 6
+      - 台湾37588 7
+      - 台湾37588 8
+      - 台湾37588 9
+      - 台湾38033
+      - 台湾38033 10
+      - 台湾38033 11
+      - 台湾38033 12
+      - 台湾38033 2
+      - 台湾38033 3
+      - 台湾38033 4
+      - 台湾38033 5
+      - 台湾38033 6
+      - 台湾38033 7
+      - 台湾38033 8
+      - 台湾38033 9
       - 台湾38620
+      - 台湾38620 2
       - 台湾38742
+      - 台湾38742 2
+      - 台湾38747
+      - 台湾38747 10
       - 台湾38747 11
-      - 台湾39772 2
-      - 台湾39772 8
+      - 台湾38747 2
+      - 台湾38747 3
+      - 台湾38747 4
+      - 台湾38747 5
+      - 台湾38747 6
+      - 台湾38747 7
+      - 台湾38747 8
+      - 台湾38747 9
+      - 台湾39772
       - 台湾39772 10
-      - 台湾40093 2
-      - 台湾40093 8
+      - 台湾39772 11
+      - 台湾39772 12
+      - 台湾39772 2
+      - 台湾39772 3
+      - 台湾39772 4
+      - 台湾39772 5
+      - 台湾39772 6
+      - 台湾39772 7
+      - 台湾39772 8
+      - 台湾39772 9
+      - 台湾40093
       - 台湾40093 10
+      - 台湾40093 11
+      - 台湾40093 12
+      - 台湾40093 2
+      - 台湾40093 3
+      - 台湾40093 4
+      - 台湾40093 5
+      - 台湾40093 6
+      - 台湾40093 7
+      - 台湾40093 8
+      - 台湾40093 9
+      - 台湾40220
+      - 台湾40220 10
+      - 台湾40220 11
+      - 台湾40220 2
+      - 台湾40220 3
       - 台湾40220 4
+      - 台湾40220 5
+      - 台湾40220 6
+      - 台湾40220 7
+      - 台湾40220 8
+      - 台湾40220 9
+      - 台湾44236
+      - 台湾44236 2
+      - 台湾44820
       - 台湾44820 2
+      - 台湾45329
+      - 台湾45329 2
       - 台湾49339
+      - 台湾49339 2
+      - 台湾49396
       - 台湾49396 2
   - name: 国外媒体
     type: select
