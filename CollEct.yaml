@@ -5,44 +5,100 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本直连/解锁NETFLIX, server: 109.166.38.103, port: 29855, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 109.166.38.103}}
-  - {name: AWS香港直连, server: 18.167.37.144, port: 29855, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 18.167.37.144}}
-  - {name: 莫斯科直连, server: 185.195.26.193, port: 22526, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 北京-首尔/超级专线, server: cjzz.lygvpn.xyz, port: 31080, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 北京-纽约/解锁流媒体, server: 52.80.138.63, port: 49855, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.80.138.63}}
-  - {name: 新加坡流媒体解锁①, server: az1.keaiyun.xyz, port: 31102, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 香港流媒体解锁①, server: az1.keaiyun.xyz, port: 31101, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 日本①, server: bj.keaiyun.xyz, port: 31100, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 香港AZ①, server: az1.keaiyun.xyz, port: 31100, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 日本长期稳定节点③, server: bj.keaiyun.xyz, port: 31105, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 香港AZ2①, server: az1.keaiyun.xyz, port: 31100, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 美国稳定节点, server: 205.185.115.178, port: 31100, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 全球智选路线①, server: az1.keaiyun.xyz, port: 31104, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 全球智选路线②, server: az1.keaiyun.xyz, port: 31104, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 全球智选路线③, server: az1.keaiyun.xyz, port: 31104, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: "CA, Vancouver", server: 54.245.159.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "US, California", server: 97.64.28.52, port: 501, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
-  - {name: 高速新加坡, server: baga.shenti.xyz, port: 443, type: vmess, uuid: 658f3dcc-0b98-4dae-a072-f2fe4b2ec90d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: baga.shenti.xyz}}
-  - {name: 香港 07|AWS|广移中继|N/A|1000M|1.0x倍率, server: pologzcm.3sx.xyz, port: 20007, type: vmess, uuid: 98219e6e-62a7-4c36-9d10-7f285e42f35a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: microsoft.com}}
-  - {name: 香港A/IEPL专线/YOUTUBE4K秒开/极低延迟/, server: gy.nkeo.top, port: 54035, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gy.nkeo.top}}
-  - {name: 3.112.68.86:443, server: 3.112.68.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: Relay_🇯🇵JP-🇯🇵JP_2092, server: v1-aws-jp-05.tudog.me, port: 80, type: vmess, uuid: 81337f1c-d27b-39c7-8605-3909cf13b5e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-05.tudog.me}}
+  - {name: (@proSSH)Germany-1, server: 136.243.191.86, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: (@proSSH)Germany-2, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: (@proSSH)Germany-3, server: 136.243.191.84, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: (@proSSH)Germany-4, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: (@proSSH)UnitedKingdom-1, server: 88.150.137.193, port: 1021, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: (@proSSH)UnitedKingdom-2, server: 88.150.137.192, port: 1021, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: (@proSSH)UnitedKingdom-3, server: 88.150.137.201, port: 1021, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: (@proSSH)UnitedKingdom-4, server: 88.150.137.191, port: 1021, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 13.231.214.6:443, server: 13.231.214.6, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 3.112.68.86:443, server: 3.112.68.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: AWS香港直连, server: 18.167.37.144, port: 29855, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 18.167.37.144}}
+  - {name: "CA, Vancouver", server: 54.245.159.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: HK1(Direct) - 香港直连专线, server: hk1.direct.iplc.pro, port: 52000, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: HK1(IPLC) - 沪港国际专线, server: cn2.relay.iplc.pro, port: 52000, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: HK1(IPLC) - 深港国际专线, server: cn1.relay.iplc.pro, port: 52000, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: HK2(IPLC) - 沪港国际专线, server: cn2.relay.iplc.pro, port: 52001, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: HK4(IPLC) - 深港国际专线, server: cn1.relay.iplc.pro, port: 52003, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: HK5(Direct) - 香港直连专线, server: hk5.direct.iplc.pro, port: 52000, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: HK5(IPLC) - 深港国际专线, server: cn1.relay.iplc.pro, port: 52012, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: JP1(Direct) - 日本直连专线, server: jp1.direct.iplc.pro, port: 52000, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: JP1(IPLC) - 沪日国际专线, server: cn2.relay.iplc.pro, port: 52005, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: JP1(IPLC) - 深日国际专线, server: cn1.relay.iplc.pro, port: 52005, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: JP2(Direct) - 日本直连专线, server: jp2.direct.iplc.pro, port: 52000, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: JP2(IPLC) - 沪日国际专线, server: cn2.relay.iplc.pro, port: 52006, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: JP2(IPLC) - 深日国际专线, server: cn1.relay.iplc.pro, port: 52006, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: KR1(Direct) - 韩国直连专线, server: kr1.direct.iplc.pro, port: 52000, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: KR1(IPLC) - 沪韩国际专线, server: cn2.relay.iplc.pro, port: 52009, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: KR1(IPLC) - 深韩国际专线, server: cn1.relay.iplc.pro, port: 52009, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: RU1(Direct) - 俄罗斯直连专线, server: ru1.direct.iplc.pro, port: 52000, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: RU1(IPLC) - 沪俄国际专线, server: cn2.relay.iplc.pro, port: 52010, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: RU1(IPLC) - 深俄国际专线, server: cn1.relay.iplc.pro, port: 52010, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: Relay_🇭🇰HK-🇯🇵JP_1690, server: jp07-n30.xiaoxiaofeng.xyz, port: 20730, type: vmess, uuid: 5e01da15-f6bf-355a-8005-e5d2ebfabe28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: _0.海绵, server: fzusrs.xyz, port: 443, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "_1", server: fzusrs.xyz, port: 443, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "_2", server: fzusrs.xyz, port: 443, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 新加坡极速①, server: 18.167.90.167, port: 10006, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: 日本极速(移动优化)③, server: 111.6.78.248, port: 11401, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: 日本极速①, server: 18.167.90.167, port: 10001, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: "日本极速②", server: 18.179.202.11, port: 80, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jp, ws-headers: {Host: apple.com}}
-  - {name: 欧洲(德国)急速①, server: 18.167.90.167, port: 10002, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: 美国极速①, server: 18.167.90.167, port: 10004, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: 韩国极速①, server: 18.167.90.167, port: 10005, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: 香港极速(移动优化)③, server: 111.6.78.248, port: 11402, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: 香港极速①, server: 18.167.90.167, port: 10003, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
-  - {name: "香港极速②", server: 18.167.12.130, port: 80, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_2092, server: v1-aws-jp-05.tudog.me, port: 80, type: vmess, uuid: 81337f1c-d27b-39c7-8605-3909cf13b5e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-05.tudog.me}}
+  - {name: SFMV AT-294, server: 89.187.168.41, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV AT-370, server: 37.120.212.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV AT-87, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV CA-843, server: 165.22.234.56, port: 8538, type: ss, cipher: chacha20-ietf-poly1305, password: N8GAkR9JRFSV}
+  - {name: SFMV CA-844, server: 167.99.182.53, port: 60013, type: ss, cipher: chacha20-ietf-poly1305, password: ZGBnUo4nxPck}
+  - {name: SFMV CS-137, server: 185.152.64.151, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: SFMV CS-423, server: 185.152.64.151, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: SFMV CS-480, server: 185.152.64.151, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV ES-171, server: 185.153.150.44, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV ES-347, server: 196.196.150.67, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: SFMV ES-64, server: 196.196.150.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV HK-244, server: 84.17.57.148, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV KR-150, server: 45.130.137.10, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV KR-202, server: 45.130.137.34, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV KR-565, server: 45.130.137.10, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV NL, server: 188.166.52.156, port: 51138, type: ss, cipher: chacha20-ietf-poly1305, password: 7knUSreula9X}
+  - {name: SFMV NL-186, server: 81.19.209.120, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV NL-539, server: 89.187.174.231, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: SFMV US-262, server: 89.187.182.175, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV US-653, server: 199.10.64.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV US-666, server: 192.111.134.202, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV US-678, server: 104.200.129.243, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV US-715, server: 98.142.220.35, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV US-718, server: 199.10.64.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV US-726, server: 199.58.187.20, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV US-733, server: 66.115.154.151, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV US-736, server: 192.111.134.80, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV US-748, server: 192.111.134.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV US-753, server: 192.111.134.200, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: SFMV US-759, server: 199.58.187.18, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV US-770, server: 199.10.64.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: SFMV US-778, server: 45.43.14.95, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV US-784, server: 107.181.166.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV US-785, server: 199.10.64.117, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: SFMV US-854, server: 143.198.69.166, port: 46661, type: ss, cipher: chacha20-ietf-poly1305, password: 2aAUhAmKw587}
+  - {name: SG1(Direct) - 新加坡直连专线, server: sg1.direct.iplc.pro, port: 52000, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: SG1(IPLC) - 沪新国际专线, server: cn2.relay.iplc.pro, port: 52011, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: SG1(IPLC) - 深新国际专线, server: cn1.relay.iplc.pro, port: 52011, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: TW1(Direct) - 台湾直连专线, server: tw1.direct.iplc.pro, port: 52000, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: TW1(IPLC) - 沪台国际专线, server: cn2.relay.iplc.pro, port: 52004, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: TW1(IPLC) - 深台国际专线, server: cn1.relay.iplc.pro, port: 52004, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "US, California", server: 97.64.28.52, port: 501, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: US1(Direct) - 美国直连专线, server: us1.direct.iplc.pro, port: 52000, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: US1(IPLC) - 沪美国际专线, server: cn2.relay.iplc.pro, port: 52007, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: US1(IPLC) - 深美国际专线, server: cn1.relay.iplc.pro, port: 52007, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: US2(IPLC) - 沪美国际专线, server: cn2.relay.iplc.pro, port: 52008, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: US2(IPLC) - 深美国际专线, server: cn1.relay.iplc.pro, port: 52008, type: vmess, uuid: c98fa9b0-2bb4-483d-ab65-94a8f7a1b988, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: UfoVPN-Canada-Montreal, server: 142.44.135.104, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Canada-Toronto, server: 196.247.59.156, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-France-Paris1, server: 163.172.110.147, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-France-Paris2, server: 163.172.110.53, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-France-Paris3, server: 51.159.22.235, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-France-Paris4, server: 95.85.90.181, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-France-Paris5, server: 51.159.30.61, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-France-Roubaix1, server: 135.125.214.16, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-France-Roubaix2, server: 178.33.195.2, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Germany-Berlin, server: 37.120.217.118, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Germany-Düsseldorf1, server: 93.186.201.93, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Germany-Düsseldorf2, server: 93.186.201.69, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-Germany-FrankfurtamMain1, server: 18.185.63.41, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Germany-FrankfurtamMain10, server: 196.244.72.5, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-Germany-FrankfurtamMain2, server: 18.185.94.137, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-Germany-FrankfurtamMain3, server: 89.43.107.130, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-Germany-FrankfurtamMain4, server: 185.104.184.78, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
@@ -51,20 +107,26 @@ proxies:
   - {name: UfoVPN-Germany-FrankfurtamMain7, server: 193.108.116.119, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-Germany-FrankfurtamMain8, server: 193.108.116.70, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-Germany-FrankfurtamMain9, server: 135.125.227.218, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Germany-FrankfurtamMain10, server: 196.244.72.5, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Germany-Berlin, server: 37.120.217.118, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Germany-Düsseldorf1, server: 93.186.201.93, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Germany-Düsseldorf2, server: 93.186.201.69, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-France-Roubaix1, server: 135.125.214.16, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-France-Roubaix2, server: 178.33.195.2, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-France-Paris1, server: 163.172.110.147, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-France-Paris2, server: 163.172.110.53, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-France-Paris3, server: 51.159.22.235, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-France-Paris4, server: 95.85.90.181, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-France-Paris5, server: 51.159.30.61, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Switzerland-Zurich, server: 45.12.206.152, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Switzerland-Zurich 2, server: 188.241.120.16, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Sweden-Stockholm, server: 196.196.156.106, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-India-Bengaluru, server: 134.209.155.247, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-India-Mumbai1, server: 13.127.197.3, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-India-Mumbai2, server: 15.206.67.95, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Ireland-Dublin, server: 34.244.63.147, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Italy-Milan1, server: 158.58.173.54, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Italy-Milan2, server: 92.223.93.225, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Italy-Milan3, server: 92.223.79.31, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Japan-Tokyo, server: 45.66.134.215, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Japan-Tokyo 2, server: 45.66.134.210, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Japan-Tokyo 3, server: 45.85.3.162, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Japan-Tokyo 4, server: 185.160.26.170, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Japan-Tokyo 5, server: 45.85.3.142, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Japan-Tokyo 6, server: 185.172.113.113, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Netherlands-Amsterdam, server: 178.132.3.124, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Netherlands-Amsterdam 2, server: 37.120.192.158, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Norway-Oslo1, server: 217.170.206.215, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Norway-Oslo2, server: 217.170.196.189, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Philippines-MakatiCity, server: 116.93.119.156, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Poland-Warsaw, server: 146.59.0.168, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Russia-Moscow, server: 92.38.139.60, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-Singapore-QueenstownEstate, server: 81.90.189.152, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-Singapore-QueenstownEstate 2, server: 81.90.189.29, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-Singapore-Singapore, server: 51.79.177.107, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
@@ -74,66 +136,153 @@ proxies:
   - {name: UfoVPN-Singapore-Singapore 5, server: 196.240.126.66, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-Singapore-Singapore 6, server: 51.79.228.139, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-Singapore-Singapore 7, server: 51.79.228.135, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Poland-Warsaw, server: 146.59.0.168, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Netherlands-Amsterdam, server: 178.132.3.124, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Netherlands-Amsterdam 2, server: 37.120.192.158, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Japan-Tokyo, server: 45.66.134.215, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Japan-Tokyo 2, server: 45.66.134.210, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Japan-Tokyo 3, server: 45.85.3.162, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Japan-Tokyo 4, server: 185.160.26.170, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Japan-Tokyo 5, server: 45.85.3.142, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Japan-Tokyo 6, server: 185.172.113.113, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Canada-Toronto, server: 196.247.59.156, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Canada-Montreal, server: 142.44.135.104, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Turkey-Bursa, server: 45.123.119.51, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Sweden-Stockholm, server: 196.196.156.106, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Switzerland-Zurich, server: 45.12.206.152, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Switzerland-Zurich 2, server: 188.241.120.16, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-Taiwan-Chang-hua, server: 114.42.178.79, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Russia-Moscow, server: 92.38.139.60, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Philippines-MakatiCity, server: 116.93.119.156, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Norway-Oslo1, server: 217.170.206.215, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Norway-Oslo2, server: 217.170.196.189, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Italy-Milan1, server: 158.58.173.54, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Italy-Milan2, server: 92.223.93.225, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Italy-Milan3, server: 92.223.79.31, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-Ireland-Dublin, server: 34.244.63.147, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-India-Mumbai1, server: 13.127.197.3, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-India-Mumbai2, server: 15.206.67.95, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-India-Bengaluru, server: 134.209.155.247, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-Turkey-Bursa, server: 45.123.119.51, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-UnitedArabEmirates-Sharjah, server: 109.169.72.239, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-UnitedKingdom-Basingstoke, server: 78.129.253.9, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-UnitedKingdom-London1, server: 178.239.172.30, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-UnitedKingdom-London2, server: 89.34.96.61, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-UnitedKingdom-London3, server: 217.138.195.138, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-UnitedKingdom-London4, server: 84.252.94.98, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-UnitedKingdom-Basingstoke, server: 78.129.253.9, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-UnitedStates-Seattle, server: 38.143.66.125, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-UnitedStates-SantaClara, server: 167.88.61.236, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-UnitedStates-LosAngeles, server: 185.153.180.234, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: UfoVPN-UnitedStates-Dallas, server: 38.68.134.135, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-UnitedStates-Chicago, server: 162.251.61.200, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-UnitedStates-Dallas, server: 38.68.134.135, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-UnitedStates-LosAngeles, server: 185.153.180.234, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-UnitedStates-SantaClara, server: 167.88.61.236, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: UfoVPN-UnitedStates-Seattle, server: 38.143.66.125, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: UfoVPN-UnitedStates-Seattle 2, server: 38.143.66.12, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: _0.海绵, server: fzusrs.xyz, port: 443, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: _1, server: fzusrs.xyz, port: 443, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: _2, server: fzusrs.xyz, port: 443, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 俄罗斯-A, server: n18.boom.party, port: 38000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 全球智选路线①, server: az1.keaiyun.xyz, port: 31104, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 全球智选路线②, server: az1.keaiyun.xyz, port: 31104, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 全球智选路线③, server: az1.keaiyun.xyz, port: 31104, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 全球智选路线⑤, server: bj.keaiyun.xyz, port: 31104, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 加拿大1, server: 52.192.209.178, port: 447, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 加拿大10, server: 3.1.218.31, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 加拿大2, server: 13.125.209.26, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 加拿大3, server: 13.230.18.59, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 加拿大4, server: 18.141.58.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 加拿大5, server: 52.194.247.205, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 加拿大6, server: 52.194.225.48, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 加拿大7, server: 13.114.255.203, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 加拿大8, server: 13.125.23.72, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 加拿大9, server: 54.251.179.145, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 北京-纽约/解锁流媒体, server: 52.80.138.63, port: 49855, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.80.138.63}}
+  - {name: 北京-首尔/超级专线, server: cjzz.lygvpn.xyz, port: 31080, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 台湾1, server: 54.179.249.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 台湾10, server: 54.199.240.235, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 台湾11, server: 18.183.194.107, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 台湾12, server: 3.112.204.193, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 台湾13, server: 54.249.169.150, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 台湾14, server: 52.27.186.38, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 台湾2, server: 52.68.174.122, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 台湾3, server: 3.35.18.252, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 台湾4, server: 52.194.251.82, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 台湾5, server: 3.113.26.234, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 台湾6, server: 122.248.227.101, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 台湾7, server: 47.240.46.71, port: 444, type: ss, cipher: aes-256-cfb, password: aliskrskr}
+  - {name: 台湾8, server: 52.41.0.94, port: 447, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 台湾9, server: 18.139.111.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 新加坡-A, server: ntemp15.boom.party, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 新加坡-B, server: n47.boom.party, port: 31100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 新加坡-C, server: n05.boom.party, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 新加坡-D, server: n17.boom.party, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 新加坡-E, server: n96.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 新加坡-F, server: n11.boom.party, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 新加坡-H, server: nk8.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 新加坡-I, server: nk9.boom.party, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 新加坡-J, server: nkb.boom.party, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 新加坡-K, server: nkc.boom.party, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 新加坡-L, server: nkd.boom.party, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 新加坡-M, server: nke.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 新加坡1, server: 34.215.16.101, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 新加坡10, server: 54.245.37.67, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 新加坡2, server: 54.238.95.126, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 新加坡3, server: 52.79.223.213, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 新加坡4, server: 13.124.252.216, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 新加坡5, server: 18.140.69.169, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 新加坡6, server: 15.164.245.65, port: 447, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 新加坡7, server: 34.216.172.191, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 新加坡8, server: 34.221.201.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 新加坡9, server: 3.36.114.75, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 新加坡B01, server: 183.236.97.99, port: 52515, type: vmess, uuid: 8c1b6f14-15f4-37b6-b7a8-a5c5503c9153, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.236.97.99}}
+  - {name: 新加坡极速①, server: 18.167.90.167, port: 10006, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: 新加坡流媒体解锁①, server: az1.keaiyun.xyz, port: 31102, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 日本-A, server: n73.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 日本-B, server: ntemp11.boom.party, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 日本1, server: 52.69.99.163, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本10, server: 52.198.178.100, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本11, server: 3.35.236.182, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本12, server: 3.36.105.159, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本13, server: 13.229.60.136, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本14, server: 34.222.46.202, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本15, server: 3.34.182.1, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本16, server: 3.36.56.133, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本17, server: 18.140.61.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本18, server: 3.36.99.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本2, server: 52.79.57.106, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本3, server: 13.250.65.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本4, server: 54.169.166.68, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本5, server: 54.199.250.211, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本6, server: 13.212.234.204, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本7, server: 3.35.140.71, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本8, server: 54.255.236.174, port: 448, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本9, server: 46.137.193.87, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本C01, server: 183.236.97.99, port: 52565, type: vmess, uuid: 8c1b6f14-15f4-37b6-b7a8-a5c5503c9153, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 日本C02, server: 183.236.97.99, port: 52575, type: vmess, uuid: 8c1b6f14-15f4-37b6-b7a8-a5c5503c9153, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.236.97.99}}
+  - {name: 日本C03, server: 183.236.97.99, port: 52595, type: vmess, uuid: 8c1b6f14-15f4-37b6-b7a8-a5c5503c9153, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.236.97.99}}
+  - {name: 日本①, server: bj.keaiyun.xyz, port: 31100, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 日本极速(移动优化)③, server: 111.6.78.248, port: 11401, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: 日本极速①, server: 18.167.90.167, port: 10001, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: 日本极速②, server: 18.179.202.11, port: 80, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jp, ws-headers: {Host: apple.com}}
+  - {name: 日本直连/解锁NETFLIX, server: 109.166.38.103, port: 29855, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 109.166.38.103}}
+  - {name: 日本长期稳定节点③, server: bj.keaiyun.xyz, port: 31105, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 欧洲(德国)急速①, server: 18.167.90.167, port: 10002, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: 美国1, server: 172.96.214.140, port: 490, type: ss, cipher: aes-256-cfb, password: bwhskrskr05}
+  - {name: 美国10, server: 172.96.194.49, port: 504, type: ss, cipher: aes-256-cfb, password: bwhskrskr05}
+  - {name: 美国11, server: 172.96.204.193, port: 448, type: ss, cipher: aes-256-cfb, password: bwhskrskr05}
+  - {name: 美国12, server: 97.64.26.63, port: 446, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: 美国13, server: 107.182.24.238, port: 504, type: ss, cipher: aes-256-cfb, password: bwhskrskr05}
+  - {name: 美国14, server: 97.64.21.214, port: 449, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: 美国15, server: 104.243.26.79, port: 501, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: 美国16, server: 54.169.169.250, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 美国17, server: 172.96.210.12, port: 503, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: 美国18, server: 54.202.63.138, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 美国19, server: 107.182.177.136, port: 504, type: ss, cipher: aes-256-cfb, password: bwhskrskr05}
+  - {name: 美国2, server: 104.243.30.128, port: 504, type: ss, cipher: aes-256-cfb, password: bwhskrskr05}
+  - {name: 美国3, server: 107.182.21.144, port: 458, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: 美国4, server: 65.49.218.160, port: 452, type: ss, cipher: aes-256-cfb, password: bwhskrskr01}
+  - {name: 美国5, server: 13.212.234.177, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 美国6, server: 104.243.25.81, port: 501, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: 美国7, server: 107.182.25.114, port: 501, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: 美国8, server: 104.243.26.229, port: 502, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: 美国9, server: 107.182.16.238, port: 502, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
+  - {name: 美国极速①, server: 18.167.90.167, port: 10004, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: 美国稳定节点, server: 205.185.115.178, port: 31100, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 莫斯科直连, server: 185.195.26.193, port: 22526, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 韩国 A01, server: 183.236.97.99, port: 62525, type: vmess, uuid: 8c1b6f14-15f4-37b6-b7a8-a5c5503c9153, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.236.97.99}}
+  - {name: 韩国 A02, server: 183.236.97.99, port: 62535, type: vmess, uuid: 8c1b6f14-15f4-37b6-b7a8-a5c5503c9153, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.236.97.99}}
+  - {name: 韩国 A03, server: 183.236.97.99, port: 62545, type: vmess, uuid: 8c1b6f14-15f4-37b6-b7a8-a5c5503c9153, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.236.97.99}}
+  - {name: 韩国-A, server: n13.boom.party, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 韩国1, server: 3.36.124.178, port: 448, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 韩国10, server: 54.190.30.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 韩国11, server: 52.192.81.60, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 韩国12, server: 54.255.196.97, port: 447, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 韩国2, server: 3.35.140.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 韩国3, server: 52.221.236.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 韩国4, server: 35.166.253.190, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 韩国5, server: 52.192.241.79, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 韩国6, server: 3.36.124.178, port: 448, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 韩国7, server: 54.254.20.73, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 韩国8, server: 54.255.160.20, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 韩国9, server: 13.115.106.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 韩国极速①, server: 18.167.90.167, port: 10005, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: 香港 07|AWS|广移中继|N/A|1000M|1.0x倍率, server: pologzcm.3sx.xyz, port: 20007, type: vmess, uuid: 98219e6e-62a7-4c36-9d10-7f285e42f35a, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: microsoft.com}}
   - {name: 香港-A, server: s1g3.boom.party, port: 42000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-B, server: n21.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-C, server: ntemp16.boom.party, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-D, server: ntemp17.boom.party, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-E, server: ntemp18.boom.party, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-F, server: ntemp20.boom.party, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-G, server: n43.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-H, server: n62.boom.party, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-I, server: ntemp05.boom.party, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-J, server: ntemp08.boom.party, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-K, server: n37.boom.party, port: 33300, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港L, server: n22.boom.party, port: 32200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-O, server: nf2.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-P, server: nf11.boom.party, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-Q, server: nj3.boom.party, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-R, server: nj6.boom.party, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-S, server: nj7.boom.party, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-T, server: nj8.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-U, server: nj9.boom.party, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-V, server: njc.boom.party, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-W, server: njd.boom.party, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-X, server: nje.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-Y, server: n61.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 香港-Z, server: n67.boom.party, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
   - {name: 香港-AA, server: nm3.boom.party, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
   - {name: 香港-AB, server: nm4.boom.party, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
   - {name: 香港-AC, server: nm5.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
@@ -155,313 +304,156 @@ proxies:
   - {name: 香港-AR, server: opt17.boom.party, port: 27000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
   - {name: 香港-AS, server: opt18.boom.party, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
   - {name: 香港-AT, server: opt19.boom.party, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 新加坡-A, server: ntemp15.boom.party, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 新加坡-B, server: n47.boom.party, port: 31100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 新加坡-C, server: n05.boom.party, port: 30000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 新加坡-D, server: n17.boom.party, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 新加坡-E, server: n96.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 新加坡-F, server: n11.boom.party, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-B, server: n21.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-C, server: ntemp16.boom.party, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-D, server: ntemp17.boom.party, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-E, server: ntemp18.boom.party, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-F, server: ntemp20.boom.party, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-G, server: n43.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-H, server: n62.boom.party, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-I, server: ntemp05.boom.party, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-J, server: ntemp08.boom.party, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-K, server: n37.boom.party, port: 33300, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
   - {name: 香港-L, server: n22.boom.party, port: 32200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
   - {name: 香港-M, server: n09.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
   - {name: 香港-N, server: ntemp25.boom.party, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 新加坡-H, server: nk8.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 新加坡-I, server: nk9.boom.party, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 新加坡-J, server: nkb.boom.party, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 新加坡-K, server: nkc.boom.party, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 新加坡-L, server: nkd.boom.party, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 新加坡-M, server: nke.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 日本-A, server: n73.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 日本-B, server: ntemp11.boom.party, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 韩国-A, server: n13.boom.party, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: 俄罗斯-A, server: n18.boom.party, port: 38000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
-  - {name: SFMV US-784, server: 107.181.166.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: SFMV US-785, server: 199.10.64.117, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: SFMV US-715, server: 98.142.220.35, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: SFMV US-718, server: 199.10.64.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: SFMV US-733, server: 66.115.154.151, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: SFMV US-736, server: 192.111.134.80, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: SFMV US-854, server: 143.198.69.166, port: 46661, type: ss, cipher: chacha20-ietf-poly1305, password: 2aAUhAmKw587}
-  - {name: SFMV US-666, server: 192.111.134.202, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: SFMV US-653, server: 199.10.64.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: SFMV US-678, server: 104.200.129.243, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: SFMV US-759, server: 199.58.187.18, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: SFMV US-753, server: 192.111.134.200, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: SFMV US-262, server: 89.187.182.175, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: SFMV US-778, server: 45.43.14.95, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: SFMV US-726, server: 199.58.187.20, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: SFMV US-770, server: 199.10.64.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: SFMV US-748, server: 192.111.134.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: SFMV HK-244, server: 84.17.57.148, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: SFMV KR-150, server: 45.130.137.10, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: SFMV KR-565, server: 45.130.137.10, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: SFMV KR-202, server: 45.130.137.34, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: SFMV AT-294, server: 89.187.168.41, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: SFMV AT-370, server: 37.120.212.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: SFMV AT-87, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: SFMV CA-843, server: 165.22.234.56, port: 8538, type: ss, cipher: chacha20-ietf-poly1305, password: N8GAkR9JRFSV}
-  - {name: SFMV CA-844, server: 167.99.182.53, port: 60013, type: ss, cipher: chacha20-ietf-poly1305, password: ZGBnUo4nxPck}
-  - {name: SFMV CS-480, server: 185.152.64.151, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: SFMV CS-137, server: 185.152.64.151, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: SFMV CS-423, server: 185.152.64.151, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: SFMV ES-171, server: 185.153.150.44, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: SFMV ES-347, server: 196.196.150.67, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: SFMV ES-64, server: 196.196.150.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: SFMV NL-186, server: 81.19.209.120, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: SFMV NL-539, server: 89.187.174.231, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: SFMV NL, server: 188.166.52.156, port: 51138, type: ss, cipher: chacha20-ietf-poly1305, password: 7knUSreula9X}
+  - {name: 香港-O, server: nf2.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-P, server: nf11.boom.party, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-Q, server: nj3.boom.party, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-R, server: nj6.boom.party, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-S, server: nj7.boom.party, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-T, server: nj8.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-U, server: nj9.boom.party, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-V, server: njc.boom.party, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-W, server: njd.boom.party, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-X, server: nje.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-Y, server: n61.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港-Z, server: n67.boom.party, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港1, server: 52.199.0.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 香港10, server: 46.137.228.17, port: 447, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 香港11, server: 34.211.119.68, port: 447, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 香港12, server: 13.125.243.119, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 香港13, server: 3.34.127.100, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 香港14, server: 13.212.191.85, port: 447, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 香港15, server: 3.35.176.163, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 香港16, server: 3.35.133.43, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 香港2, server: 13.125.181.31, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 香港3, server: 13.114.92.168, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 香港4, server: 3.36.78.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 香港5, server: 54.202.67.183, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 香港6, server: 13.250.55.208, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 香港7, server: 54.248.38.16, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 香港8, server: 54.95.209.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 香港9, server: 18.141.173.199, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 香港A/IEPL专线/YOUTUBE4K秒开/极低延迟/, server: gy.nkeo.top, port: 54035, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gy.nkeo.top}}
+  - {name: 香港AZ2①, server: az1.keaiyun.xyz, port: 31100, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 香港AZ①, server: az1.keaiyun.xyz, port: 31100, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 香港L, server: n22.boom.party, port: 32200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: 香港极速(移动优化)③, server: 111.6.78.248, port: 11402, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: 香港极速①, server: 18.167.90.167, port: 10003, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
+  - {name: 香港极速②, server: 18.167.12.130, port: 80, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hk, ws-headers: {Host: apple.com}}
+  - {name: 香港流媒体解锁①, server: az1.keaiyun.xyz, port: 31101, type: vmess, uuid: e52a7a12-7e93-34f3-8740-b87e80eb7b9a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 高速新加坡, server: baga.shenti.xyz, port: 443, type: vmess, uuid: 658f3dcc-0b98-4dae-a072-f2fe4b2ec90d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: baga.shenti.xyz}}
 proxy-groups:
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本直连/解锁NETFLIX
-      - AWS香港直连
-      - 莫斯科直连
-      - 北京-首尔/超级专线
-      - 北京-纽约/解锁流媒体
-      - 新加坡流媒体解锁①
-      - 香港流媒体解锁①
-      - 日本①
-      - 香港AZ①
-      - 日本长期稳定节点③
-      - 香港AZ2①
-      - 美国稳定节点
-      - 全球智选路线①
-      - 全球智选路线②
-      - 全球智选路线③
-      - CA, Vancouver
-      - US, California
-      - 高速新加坡
-      - 香港 07|AWS|广移中继|N/A|1000M|1.0x倍率
-      - 香港A/IEPL专线/YOUTUBE4K秒开/极低延迟/
-      - 3.112.68.86:443
-      - Relay_🇯🇵JP-🇯🇵JP_2092
+      - (@proSSH)Germany-1
+      - (@proSSH)Germany-2
+      - (@proSSH)Germany-3
+      - (@proSSH)Germany-4
+      - (@proSSH)UnitedKingdom-1
+      - (@proSSH)UnitedKingdom-2
+      - (@proSSH)UnitedKingdom-3
+      - (@proSSH)UnitedKingdom-4
       - 13.231.214.6:443
+      - 3.112.68.86:443
+      - AWS香港直连
+      - CA, Vancouver
+      - HK1(Direct) - 香港直连专线
+      - HK1(IPLC) - 沪港国际专线
+      - HK1(IPLC) - 深港国际专线
+      - HK2(IPLC) - 沪港国际专线
+      - HK4(IPLC) - 深港国际专线
+      - HK5(Direct) - 香港直连专线
+      - HK5(IPLC) - 深港国际专线
+      - JP1(Direct) - 日本直连专线
+      - JP1(IPLC) - 沪日国际专线
+      - JP1(IPLC) - 深日国际专线
+      - JP2(Direct) - 日本直连专线
+      - JP2(IPLC) - 沪日国际专线
+      - JP2(IPLC) - 深日国际专线
+      - KR1(Direct) - 韩国直连专线
+      - KR1(IPLC) - 沪韩国际专线
+      - KR1(IPLC) - 深韩国际专线
+      - RU1(Direct) - 俄罗斯直连专线
+      - RU1(IPLC) - 沪俄国际专线
+      - RU1(IPLC) - 深俄国际专线
       - Relay_🇭🇰HK-🇯🇵JP_1690
-      - _0.海绵
-      - _1
-      - _2
-      - 新加坡极速①
-      - 日本极速(移动优化)③
-      - 日本极速①
-      - 日本极速②
-      - 欧洲(德国)急速①
-      - 美国极速①
-      - 韩国极速①
-      - 香港极速(移动优化)③
-      - 香港极速①
-      - 香港极速②
-      - UfoVPN-Germany-FrankfurtamMain1
-      - UfoVPN-Germany-FrankfurtamMain2
-      - UfoVPN-Germany-FrankfurtamMain3
-      - UfoVPN-Germany-FrankfurtamMain4
-      - UfoVPN-Germany-FrankfurtamMain5
-      - UfoVPN-Germany-FrankfurtamMain6
-      - UfoVPN-Germany-FrankfurtamMain7
-      - UfoVPN-Germany-FrankfurtamMain8
-      - UfoVPN-Germany-FrankfurtamMain9
-      - UfoVPN-Germany-FrankfurtamMain10
-      - UfoVPN-Germany-Berlin
-      - UfoVPN-Germany-Düsseldorf1
-      - UfoVPN-Germany-Düsseldorf2
-      - UfoVPN-France-Roubaix1
-      - UfoVPN-France-Roubaix2
-      - UfoVPN-France-Paris1
-      - UfoVPN-France-Paris2
-      - UfoVPN-France-Paris3
-      - UfoVPN-France-Paris4
-      - UfoVPN-France-Paris5
-      - UfoVPN-Switzerland-Zurich
-      - UfoVPN-Switzerland-Zurich 2
-      - UfoVPN-Sweden-Stockholm
-      - UfoVPN-Singapore-QueenstownEstate
-      - UfoVPN-Singapore-QueenstownEstate 2
-      - UfoVPN-Singapore-Singapore
-      - UfoVPN-Singapore-Singapore 2
-      - UfoVPN-Singapore-Singapore 3
-      - UfoVPN-Singapore-Singapore 4
-      - UfoVPN-Singapore-Singapore 5
-      - UfoVPN-Singapore-Singapore 6
-      - UfoVPN-Singapore-Singapore 7
-      - UfoVPN-Poland-Warsaw
-      - UfoVPN-Netherlands-Amsterdam
-      - UfoVPN-Netherlands-Amsterdam 2
-      - UfoVPN-Japan-Tokyo
-      - UfoVPN-Japan-Tokyo 2
-      - UfoVPN-Japan-Tokyo 3
-      - UfoVPN-Japan-Tokyo 4
-      - UfoVPN-Japan-Tokyo 5
-      - UfoVPN-Japan-Tokyo 6
-      - UfoVPN-Canada-Toronto
-      - UfoVPN-Canada-Montreal
-      - UfoVPN-Turkey-Bursa
-      - UfoVPN-Taiwan-Chang-hua
-      - UfoVPN-Russia-Moscow
-      - UfoVPN-Philippines-MakatiCity
-      - UfoVPN-Norway-Oslo1
-      - UfoVPN-Norway-Oslo2
-      - UfoVPN-Italy-Milan1
-      - UfoVPN-Italy-Milan2
-      - UfoVPN-Italy-Milan3
-      - UfoVPN-Ireland-Dublin
-      - UfoVPN-India-Mumbai1
-      - UfoVPN-India-Mumbai2
-      - UfoVPN-India-Bengaluru
-      - UfoVPN-UnitedArabEmirates-Sharjah
-      - UfoVPN-UnitedKingdom-London1
-      - UfoVPN-UnitedKingdom-London2
-      - UfoVPN-UnitedKingdom-London3
-      - UfoVPN-UnitedKingdom-London4
-      - UfoVPN-UnitedKingdom-Basingstoke
-      - UfoVPN-UnitedStates-Seattle
-      - UfoVPN-UnitedStates-SantaClara
-      - UfoVPN-UnitedStates-LosAngeles
-      - UfoVPN-UnitedStates-Dallas
-      - UfoVPN-UnitedStates-Chicago
-      - UfoVPN-UnitedStates-Seattle 2
-      - 香港-A
-      - 香港-B
-      - 香港-C
-      - 香港-D
-      - 香港-E
-      - 香港-F
-      - 香港-G
-      - 香港-H
-      - 香港-I
-      - 香港-J
-      - 香港-K
-      - 香港L
-      - 香港-O
-      - 香港-P
-      - 香港-Q
-      - 香港-R
-      - 香港-S
-      - 香港-T
-      - 香港-U
-      - 香港-V
-      - 香港-W
-      - 香港-X
-      - 香港-Y
-      - 香港-Z
-      - 香港-AA
-      - 香港-AB
-      - 香港-AC
-      - 香港-AD
-      - 香港-AE
-      - 香港-AF
-      - 香港-AG
-      - 香港-AH
-      - 香港-AI
-      - 香港-AJ
-      - 香港-AK
-      - 香港-AL
-      - 香港-AM
-      - 香港-AN
-      - 香港-AN 2
-      - 香港-AO
-      - 香港-AP
-      - 香港-AQ
-      - 香港-AR
-      - 香港-AS
-      - 香港-AT
-      - 新加坡-A
-      - 新加坡-B
-      - 新加坡-C
-      - 新加坡-D
-      - 新加坡-E
-      - 新加坡-F
-      - 香港-L
-      - 香港-M
-      - 香港-N
-      - 新加坡-H
-      - 新加坡-I
-      - 新加坡-J
-      - 新加坡-K
-      - 新加坡-L
-      - 新加坡-M
-      - 日本-A
-      - 日本-B
-      - 韩国-A
-      - 俄罗斯-A
-      - SFMV US-784
-      - SFMV US-785
-      - SFMV US-715
-      - SFMV US-718
-      - SFMV US-733
-      - SFMV US-736
-      - SFMV US-854
-      - SFMV US-666
-      - SFMV US-653
-      - SFMV US-678
-      - SFMV US-759
-      - SFMV US-753
-      - SFMV US-262
-      - SFMV US-778
-      - SFMV US-726
-      - SFMV US-770
-      - SFMV US-748
-      - SFMV HK-244
-      - SFMV KR-150
-      - SFMV KR-565
-      - SFMV KR-202
+      - Relay_🇯🇵JP-🇯🇵JP_2092
       - SFMV AT-294
       - SFMV AT-370
       - SFMV AT-87
       - SFMV CA-843
       - SFMV CA-844
-      - SFMV CS-480
       - SFMV CS-137
       - SFMV CS-423
+      - SFMV CS-480
       - SFMV ES-171
       - SFMV ES-347
       - SFMV ES-64
+      - SFMV HK-244
+      - SFMV KR-150
+      - SFMV KR-202
+      - SFMV KR-565
+      - SFMV NL
       - SFMV NL-186
       - SFMV NL-539
-      - SFMV NL
-  - name: 节点选择
-    type: select
-    proxies:
-      - 自动选择
-      - 全球直连
-      - 日本直连/解锁NETFLIX
-      - AWS香港直连
-      - 莫斯科直连
-      - 北京-首尔/超级专线
-      - 北京-纽约/解锁流媒体
-      - 新加坡流媒体解锁①
-      - 香港流媒体解锁①
-      - 日本①
-      - 香港AZ①
-      - 日本长期稳定节点③
-      - 香港AZ2①
-      - 美国稳定节点
-      - 全球智选路线①
-      - 全球智选路线②
-      - 全球智选路线③
-      - CA, Vancouver
+      - SFMV US-262
+      - SFMV US-653
+      - SFMV US-666
+      - SFMV US-678
+      - SFMV US-715
+      - SFMV US-718
+      - SFMV US-726
+      - SFMV US-733
+      - SFMV US-736
+      - SFMV US-748
+      - SFMV US-753
+      - SFMV US-759
+      - SFMV US-770
+      - SFMV US-778
+      - SFMV US-784
+      - SFMV US-785
+      - SFMV US-854
+      - SG1(Direct) - 新加坡直连专线
+      - SG1(IPLC) - 沪新国际专线
+      - SG1(IPLC) - 深新国际专线
+      - TW1(Direct) - 台湾直连专线
+      - TW1(IPLC) - 沪台国际专线
+      - TW1(IPLC) - 深台国际专线
       - US, California
-      - 高速新加坡
-      - 香港 07|AWS|广移中继|N/A|1000M|1.0x倍率
-      - 香港A/IEPL专线/YOUTUBE4K秒开/极低延迟/
-      - 3.112.68.86:443
-      - Relay_🇯🇵JP-🇯🇵JP_2092
-      - 13.231.214.6:443
-      - Relay_🇭🇰HK-🇯🇵JP_1690
-      - _0.海绵
-      - _1
-      - _2
-      - 新加坡极速①
-      - 日本极速(移动优化)③
-      - 日本极速①
-      - 日本极速②
-      - 欧洲(德国)急速①
-      - 美国极速①
-      - 韩国极速①
-      - 香港极速(移动优化)③
-      - 香港极速①
-      - 香港极速②
+      - US1(Direct) - 美国直连专线
+      - US1(IPLC) - 沪美国际专线
+      - US1(IPLC) - 深美国际专线
+      - US2(IPLC) - 沪美国际专线
+      - US2(IPLC) - 深美国际专线
+      - UfoVPN-Canada-Montreal
+      - UfoVPN-Canada-Toronto
+      - UfoVPN-France-Paris1
+      - UfoVPN-France-Paris2
+      - UfoVPN-France-Paris3
+      - UfoVPN-France-Paris4
+      - UfoVPN-France-Paris5
+      - UfoVPN-France-Roubaix1
+      - UfoVPN-France-Roubaix2
+      - UfoVPN-Germany-Berlin
+      - UfoVPN-Germany-Düsseldorf1
+      - UfoVPN-Germany-Düsseldorf2
       - UfoVPN-Germany-FrankfurtamMain1
+      - UfoVPN-Germany-FrankfurtamMain10
       - UfoVPN-Germany-FrankfurtamMain2
       - UfoVPN-Germany-FrankfurtamMain3
       - UfoVPN-Germany-FrankfurtamMain4
@@ -470,20 +462,26 @@ proxy-groups:
       - UfoVPN-Germany-FrankfurtamMain7
       - UfoVPN-Germany-FrankfurtamMain8
       - UfoVPN-Germany-FrankfurtamMain9
-      - UfoVPN-Germany-FrankfurtamMain10
-      - UfoVPN-Germany-Berlin
-      - UfoVPN-Germany-Düsseldorf1
-      - UfoVPN-Germany-Düsseldorf2
-      - UfoVPN-France-Roubaix1
-      - UfoVPN-France-Roubaix2
-      - UfoVPN-France-Paris1
-      - UfoVPN-France-Paris2
-      - UfoVPN-France-Paris3
-      - UfoVPN-France-Paris4
-      - UfoVPN-France-Paris5
-      - UfoVPN-Switzerland-Zurich
-      - UfoVPN-Switzerland-Zurich 2
-      - UfoVPN-Sweden-Stockholm
+      - UfoVPN-India-Bengaluru
+      - UfoVPN-India-Mumbai1
+      - UfoVPN-India-Mumbai2
+      - UfoVPN-Ireland-Dublin
+      - UfoVPN-Italy-Milan1
+      - UfoVPN-Italy-Milan2
+      - UfoVPN-Italy-Milan3
+      - UfoVPN-Japan-Tokyo
+      - UfoVPN-Japan-Tokyo 2
+      - UfoVPN-Japan-Tokyo 3
+      - UfoVPN-Japan-Tokyo 4
+      - UfoVPN-Japan-Tokyo 5
+      - UfoVPN-Japan-Tokyo 6
+      - UfoVPN-Netherlands-Amsterdam
+      - UfoVPN-Netherlands-Amsterdam 2
+      - UfoVPN-Norway-Oslo1
+      - UfoVPN-Norway-Oslo2
+      - UfoVPN-Philippines-MakatiCity
+      - UfoVPN-Poland-Warsaw
+      - UfoVPN-Russia-Moscow
       - UfoVPN-Singapore-QueenstownEstate
       - UfoVPN-Singapore-QueenstownEstate 2
       - UfoVPN-Singapore-Singapore
@@ -493,66 +491,153 @@ proxy-groups:
       - UfoVPN-Singapore-Singapore 5
       - UfoVPN-Singapore-Singapore 6
       - UfoVPN-Singapore-Singapore 7
-      - UfoVPN-Poland-Warsaw
-      - UfoVPN-Netherlands-Amsterdam
-      - UfoVPN-Netherlands-Amsterdam 2
-      - UfoVPN-Japan-Tokyo
-      - UfoVPN-Japan-Tokyo 2
-      - UfoVPN-Japan-Tokyo 3
-      - UfoVPN-Japan-Tokyo 4
-      - UfoVPN-Japan-Tokyo 5
-      - UfoVPN-Japan-Tokyo 6
-      - UfoVPN-Canada-Toronto
-      - UfoVPN-Canada-Montreal
-      - UfoVPN-Turkey-Bursa
+      - UfoVPN-Sweden-Stockholm
+      - UfoVPN-Switzerland-Zurich
+      - UfoVPN-Switzerland-Zurich 2
       - UfoVPN-Taiwan-Chang-hua
-      - UfoVPN-Russia-Moscow
-      - UfoVPN-Philippines-MakatiCity
-      - UfoVPN-Norway-Oslo1
-      - UfoVPN-Norway-Oslo2
-      - UfoVPN-Italy-Milan1
-      - UfoVPN-Italy-Milan2
-      - UfoVPN-Italy-Milan3
-      - UfoVPN-Ireland-Dublin
-      - UfoVPN-India-Mumbai1
-      - UfoVPN-India-Mumbai2
-      - UfoVPN-India-Bengaluru
+      - UfoVPN-Turkey-Bursa
       - UfoVPN-UnitedArabEmirates-Sharjah
+      - UfoVPN-UnitedKingdom-Basingstoke
       - UfoVPN-UnitedKingdom-London1
       - UfoVPN-UnitedKingdom-London2
       - UfoVPN-UnitedKingdom-London3
       - UfoVPN-UnitedKingdom-London4
-      - UfoVPN-UnitedKingdom-Basingstoke
-      - UfoVPN-UnitedStates-Seattle
-      - UfoVPN-UnitedStates-SantaClara
-      - UfoVPN-UnitedStates-LosAngeles
-      - UfoVPN-UnitedStates-Dallas
       - UfoVPN-UnitedStates-Chicago
+      - UfoVPN-UnitedStates-Dallas
+      - UfoVPN-UnitedStates-LosAngeles
+      - UfoVPN-UnitedStates-SantaClara
+      - UfoVPN-UnitedStates-Seattle
       - UfoVPN-UnitedStates-Seattle 2
+      - _0.海绵
+      - _1
+      - _2
+      - 俄罗斯-A
+      - 全球智选路线①
+      - 全球智选路线②
+      - 全球智选路线③
+      - 全球智选路线⑤
+      - 加拿大1
+      - 加拿大10
+      - 加拿大2
+      - 加拿大3
+      - 加拿大4
+      - 加拿大5
+      - 加拿大6
+      - 加拿大7
+      - 加拿大8
+      - 加拿大9
+      - 北京-纽约/解锁流媒体
+      - 北京-首尔/超级专线
+      - 台湾1
+      - 台湾10
+      - 台湾11
+      - 台湾12
+      - 台湾13
+      - 台湾14
+      - 台湾2
+      - 台湾3
+      - 台湾4
+      - 台湾5
+      - 台湾6
+      - 台湾7
+      - 台湾8
+      - 台湾9
+      - 新加坡-A
+      - 新加坡-B
+      - 新加坡-C
+      - 新加坡-D
+      - 新加坡-E
+      - 新加坡-F
+      - 新加坡-H
+      - 新加坡-I
+      - 新加坡-J
+      - 新加坡-K
+      - 新加坡-L
+      - 新加坡-M
+      - 新加坡1
+      - 新加坡10
+      - 新加坡2
+      - 新加坡3
+      - 新加坡4
+      - 新加坡5
+      - 新加坡6
+      - 新加坡7
+      - 新加坡8
+      - 新加坡9
+      - 新加坡B01
+      - 新加坡极速①
+      - 新加坡流媒体解锁①
+      - 日本-A
+      - 日本-B
+      - 日本1
+      - 日本10
+      - 日本11
+      - 日本12
+      - 日本13
+      - 日本14
+      - 日本15
+      - 日本16
+      - 日本17
+      - 日本18
+      - 日本2
+      - 日本3
+      - 日本4
+      - 日本5
+      - 日本6
+      - 日本7
+      - 日本8
+      - 日本9
+      - 日本C01
+      - 日本C02
+      - 日本C03
+      - 日本①
+      - 日本极速(移动优化)③
+      - 日本极速①
+      - 日本极速②
+      - 日本直连/解锁NETFLIX
+      - 日本长期稳定节点③
+      - 欧洲(德国)急速①
+      - 美国1
+      - 美国10
+      - 美国11
+      - 美国12
+      - 美国13
+      - 美国14
+      - 美国15
+      - 美国16
+      - 美国17
+      - 美国18
+      - 美国19
+      - 美国2
+      - 美国3
+      - 美国4
+      - 美国5
+      - 美国6
+      - 美国7
+      - 美国8
+      - 美国9
+      - 美国极速①
+      - 美国稳定节点
+      - 莫斯科直连
+      - 韩国 A01
+      - 韩国 A02
+      - 韩国 A03
+      - 韩国-A
+      - 韩国1
+      - 韩国10
+      - 韩国11
+      - 韩国12
+      - 韩国2
+      - 韩国3
+      - 韩国4
+      - 韩国5
+      - 韩国6
+      - 韩国7
+      - 韩国8
+      - 韩国9
+      - 韩国极速①
+      - 香港 07|AWS|广移中继|N/A|1000M|1.0x倍率
       - 香港-A
-      - 香港-B
-      - 香港-C
-      - 香港-D
-      - 香港-E
-      - 香港-F
-      - 香港-G
-      - 香港-H
-      - 香港-I
-      - 香港-J
-      - 香港-K
-      - 香港L
-      - 香港-O
-      - 香港-P
-      - 香港-Q
-      - 香港-R
-      - 香港-S
-      - 香港-T
-      - 香港-U
-      - 香港-V
-      - 香港-W
-      - 香港-X
-      - 香港-Y
-      - 香港-Z
       - 香港-AA
       - 香港-AB
       - 香港-AC
@@ -574,25 +659,410 @@ proxy-groups:
       - 香港-AR
       - 香港-AS
       - 香港-AT
+      - 香港-B
+      - 香港-C
+      - 香港-D
+      - 香港-E
+      - 香港-F
+      - 香港-G
+      - 香港-H
+      - 香港-I
+      - 香港-J
+      - 香港-K
+      - 香港-L
+      - 香港-M
+      - 香港-N
+      - 香港-O
+      - 香港-P
+      - 香港-Q
+      - 香港-R
+      - 香港-S
+      - 香港-T
+      - 香港-U
+      - 香港-V
+      - 香港-W
+      - 香港-X
+      - 香港-Y
+      - 香港-Z
+      - 香港1
+      - 香港10
+      - 香港11
+      - 香港12
+      - 香港13
+      - 香港14
+      - 香港15
+      - 香港16
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港A/IEPL专线/YOUTUBE4K秒开/极低延迟/
+      - 香港AZ2①
+      - 香港AZ①
+      - 香港L
+      - 香港极速(移动优化)③
+      - 香港极速①
+      - 香港极速②
+      - 香港流媒体解锁①
+      - 高速新加坡
+  - name: 节点选择
+    type: select
+    proxies:
+      - 自动选择
+      - 全球直连
+      - (@proSSH)Germany-1
+      - (@proSSH)Germany-2
+      - (@proSSH)Germany-3
+      - (@proSSH)Germany-4
+      - (@proSSH)UnitedKingdom-1
+      - (@proSSH)UnitedKingdom-2
+      - (@proSSH)UnitedKingdom-3
+      - (@proSSH)UnitedKingdom-4
+      - 13.231.214.6:443
+      - 3.112.68.86:443
+      - AWS香港直连
+      - CA, Vancouver
+      - HK1(Direct) - 香港直连专线
+      - HK1(IPLC) - 沪港国际专线
+      - HK1(IPLC) - 深港国际专线
+      - HK2(IPLC) - 沪港国际专线
+      - HK4(IPLC) - 深港国际专线
+      - HK5(Direct) - 香港直连专线
+      - HK5(IPLC) - 深港国际专线
+      - JP1(Direct) - 日本直连专线
+      - JP1(IPLC) - 沪日国际专线
+      - JP1(IPLC) - 深日国际专线
+      - JP2(Direct) - 日本直连专线
+      - JP2(IPLC) - 沪日国际专线
+      - JP2(IPLC) - 深日国际专线
+      - KR1(Direct) - 韩国直连专线
+      - KR1(IPLC) - 沪韩国际专线
+      - KR1(IPLC) - 深韩国际专线
+      - RU1(Direct) - 俄罗斯直连专线
+      - RU1(IPLC) - 沪俄国际专线
+      - RU1(IPLC) - 深俄国际专线
+      - Relay_🇭🇰HK-🇯🇵JP_1690
+      - Relay_🇯🇵JP-🇯🇵JP_2092
+      - SFMV AT-294
+      - SFMV AT-370
+      - SFMV AT-87
+      - SFMV CA-843
+      - SFMV CA-844
+      - SFMV CS-137
+      - SFMV CS-423
+      - SFMV CS-480
+      - SFMV ES-171
+      - SFMV ES-347
+      - SFMV ES-64
+      - SFMV HK-244
+      - SFMV KR-150
+      - SFMV KR-202
+      - SFMV KR-565
+      - SFMV NL
+      - SFMV NL-186
+      - SFMV NL-539
+      - SFMV US-262
+      - SFMV US-653
+      - SFMV US-666
+      - SFMV US-678
+      - SFMV US-715
+      - SFMV US-718
+      - SFMV US-726
+      - SFMV US-733
+      - SFMV US-736
+      - SFMV US-748
+      - SFMV US-753
+      - SFMV US-759
+      - SFMV US-770
+      - SFMV US-778
+      - SFMV US-784
+      - SFMV US-785
+      - SFMV US-854
+      - SG1(Direct) - 新加坡直连专线
+      - SG1(IPLC) - 沪新国际专线
+      - SG1(IPLC) - 深新国际专线
+      - TW1(Direct) - 台湾直连专线
+      - TW1(IPLC) - 沪台国际专线
+      - TW1(IPLC) - 深台国际专线
+      - US, California
+      - US1(Direct) - 美国直连专线
+      - US1(IPLC) - 沪美国际专线
+      - US1(IPLC) - 深美国际专线
+      - US2(IPLC) - 沪美国际专线
+      - US2(IPLC) - 深美国际专线
+      - UfoVPN-Canada-Montreal
+      - UfoVPN-Canada-Toronto
+      - UfoVPN-France-Paris1
+      - UfoVPN-France-Paris2
+      - UfoVPN-France-Paris3
+      - UfoVPN-France-Paris4
+      - UfoVPN-France-Paris5
+      - UfoVPN-France-Roubaix1
+      - UfoVPN-France-Roubaix2
+      - UfoVPN-Germany-Berlin
+      - UfoVPN-Germany-Düsseldorf1
+      - UfoVPN-Germany-Düsseldorf2
+      - UfoVPN-Germany-FrankfurtamMain1
+      - UfoVPN-Germany-FrankfurtamMain10
+      - UfoVPN-Germany-FrankfurtamMain2
+      - UfoVPN-Germany-FrankfurtamMain3
+      - UfoVPN-Germany-FrankfurtamMain4
+      - UfoVPN-Germany-FrankfurtamMain5
+      - UfoVPN-Germany-FrankfurtamMain6
+      - UfoVPN-Germany-FrankfurtamMain7
+      - UfoVPN-Germany-FrankfurtamMain8
+      - UfoVPN-Germany-FrankfurtamMain9
+      - UfoVPN-India-Bengaluru
+      - UfoVPN-India-Mumbai1
+      - UfoVPN-India-Mumbai2
+      - UfoVPN-Ireland-Dublin
+      - UfoVPN-Italy-Milan1
+      - UfoVPN-Italy-Milan2
+      - UfoVPN-Italy-Milan3
+      - UfoVPN-Japan-Tokyo
+      - UfoVPN-Japan-Tokyo 2
+      - UfoVPN-Japan-Tokyo 3
+      - UfoVPN-Japan-Tokyo 4
+      - UfoVPN-Japan-Tokyo 5
+      - UfoVPN-Japan-Tokyo 6
+      - UfoVPN-Netherlands-Amsterdam
+      - UfoVPN-Netherlands-Amsterdam 2
+      - UfoVPN-Norway-Oslo1
+      - UfoVPN-Norway-Oslo2
+      - UfoVPN-Philippines-MakatiCity
+      - UfoVPN-Poland-Warsaw
+      - UfoVPN-Russia-Moscow
+      - UfoVPN-Singapore-QueenstownEstate
+      - UfoVPN-Singapore-QueenstownEstate 2
+      - UfoVPN-Singapore-Singapore
+      - UfoVPN-Singapore-Singapore 2
+      - UfoVPN-Singapore-Singapore 3
+      - UfoVPN-Singapore-Singapore 4
+      - UfoVPN-Singapore-Singapore 5
+      - UfoVPN-Singapore-Singapore 6
+      - UfoVPN-Singapore-Singapore 7
+      - UfoVPN-Sweden-Stockholm
+      - UfoVPN-Switzerland-Zurich
+      - UfoVPN-Switzerland-Zurich 2
+      - UfoVPN-Taiwan-Chang-hua
+      - UfoVPN-Turkey-Bursa
+      - UfoVPN-UnitedArabEmirates-Sharjah
+      - UfoVPN-UnitedKingdom-Basingstoke
+      - UfoVPN-UnitedKingdom-London1
+      - UfoVPN-UnitedKingdom-London2
+      - UfoVPN-UnitedKingdom-London3
+      - UfoVPN-UnitedKingdom-London4
+      - UfoVPN-UnitedStates-Chicago
+      - UfoVPN-UnitedStates-Dallas
+      - UfoVPN-UnitedStates-LosAngeles
+      - UfoVPN-UnitedStates-SantaClara
+      - UfoVPN-UnitedStates-Seattle
+      - UfoVPN-UnitedStates-Seattle 2
+      - _0.海绵
+      - _1
+      - _2
+      - 俄罗斯-A
+      - 全球智选路线①
+      - 全球智选路线②
+      - 全球智选路线③
+      - 全球智选路线⑤
+      - 加拿大1
+      - 加拿大10
+      - 加拿大2
+      - 加拿大3
+      - 加拿大4
+      - 加拿大5
+      - 加拿大6
+      - 加拿大7
+      - 加拿大8
+      - 加拿大9
+      - 北京-纽约/解锁流媒体
+      - 北京-首尔/超级专线
+      - 台湾1
+      - 台湾10
+      - 台湾11
+      - 台湾12
+      - 台湾13
+      - 台湾14
+      - 台湾2
+      - 台湾3
+      - 台湾4
+      - 台湾5
+      - 台湾6
+      - 台湾7
+      - 台湾8
+      - 台湾9
       - 新加坡-A
       - 新加坡-B
       - 新加坡-C
       - 新加坡-D
       - 新加坡-E
       - 新加坡-F
-      - 香港-L
-      - 香港-M
-      - 香港-N
       - 新加坡-H
       - 新加坡-I
       - 新加坡-J
       - 新加坡-K
       - 新加坡-L
       - 新加坡-M
+      - 新加坡1
+      - 新加坡10
+      - 新加坡2
+      - 新加坡3
+      - 新加坡4
+      - 新加坡5
+      - 新加坡6
+      - 新加坡7
+      - 新加坡8
+      - 新加坡9
+      - 新加坡B01
+      - 新加坡极速①
+      - 新加坡流媒体解锁①
       - 日本-A
       - 日本-B
+      - 日本1
+      - 日本10
+      - 日本11
+      - 日本12
+      - 日本13
+      - 日本14
+      - 日本15
+      - 日本16
+      - 日本17
+      - 日本18
+      - 日本2
+      - 日本3
+      - 日本4
+      - 日本5
+      - 日本6
+      - 日本7
+      - 日本8
+      - 日本9
+      - 日本C01
+      - 日本C02
+      - 日本C03
+      - 日本①
+      - 日本极速(移动优化)③
+      - 日本极速①
+      - 日本极速②
+      - 日本直连/解锁NETFLIX
+      - 日本长期稳定节点③
+      - 欧洲(德国)急速①
+      - 美国1
+      - 美国10
+      - 美国11
+      - 美国12
+      - 美国13
+      - 美国14
+      - 美国15
+      - 美国16
+      - 美国17
+      - 美国18
+      - 美国19
+      - 美国2
+      - 美国3
+      - 美国4
+      - 美国5
+      - 美国6
+      - 美国7
+      - 美国8
+      - 美国9
+      - 美国极速①
+      - 美国稳定节点
+      - 莫斯科直连
+      - 韩国 A01
+      - 韩国 A02
+      - 韩国 A03
       - 韩国-A
-      - 俄罗斯-A
+      - 韩国1
+      - 韩国10
+      - 韩国11
+      - 韩国12
+      - 韩国2
+      - 韩国3
+      - 韩国4
+      - 韩国5
+      - 韩国6
+      - 韩国7
+      - 韩国8
+      - 韩国9
+      - 韩国极速①
+      - 香港 07|AWS|广移中继|N/A|1000M|1.0x倍率
+      - 香港-A
+      - 香港-AA
+      - 香港-AB
+      - 香港-AC
+      - 香港-AD
+      - 香港-AE
+      - 香港-AF
+      - 香港-AG
+      - 香港-AH
+      - 香港-AI
+      - 香港-AJ
+      - 香港-AK
+      - 香港-AL
+      - 香港-AM
+      - 香港-AN
+      - 香港-AN 2
+      - 香港-AO
+      - 香港-AP
+      - 香港-AQ
+      - 香港-AR
+      - 香港-AS
+      - 香港-AT
+      - 香港-B
+      - 香港-C
+      - 香港-D
+      - 香港-E
+      - 香港-F
+      - 香港-G
+      - 香港-H
+      - 香港-I
+      - 香港-J
+      - 香港-K
+      - 香港-L
+      - 香港-M
+      - 香港-N
+      - 香港-O
+      - 香港-P
+      - 香港-Q
+      - 香港-R
+      - 香港-S
+      - 香港-T
+      - 香港-U
+      - 香港-V
+      - 香港-W
+      - 香港-X
+      - 香港-Y
+      - 香港-Z
+      - 香港1
+      - 香港10
+      - 香港11
+      - 香港12
+      - 香港13
+      - 香港14
+      - 香港15
+      - 香港16
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6
+      - 香港7
+      - 香港8
+      - 香港9
+      - 香港A/IEPL专线/YOUTUBE4K秒开/极低延迟/
+      - 香港AZ2①
+      - 香港AZ①
+      - 香港L
+      - 香港极速(移动优化)③
+      - 香港极速①
+      - 香港极速②
+      - 香港流媒体解锁①
+      - 高速新加坡
   - name: 国外媒体
     type: select
     proxies:
