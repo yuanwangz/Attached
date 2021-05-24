@@ -13,33 +13,11 @@ USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90,网易音乐
 USER-AGENT,NeteaseMusic*,网易音乐
 
 # Netease Music
-HOST-SUFFIX,163yun.com,网易音乐
-HOST-SUFFIX,music.163.com,网易音乐
-HOST-SUFFIX,music.126.net,网易音乐
-HOST-SUFFIX,api.iplay.163.com,网易音乐
+HOST-SUFFIX,music.163.com,网易
 HOST-SUFFIX,apm.music.163.com,网易音乐
 HOST-SUFFIX,apm3.music.163.com,网易音乐
 HOST-SUFFIX,interface.music.163.com,网易音乐
 HOST-SUFFIX,interface3.music.163.com,网易音乐
-HOST-SUFFIX,mam.netease.com,网易音乐
-HOST-SUFFIX,hz.netease.com,网易音乐
-HOST-SUFFIX,p4.music.126.net,网易音乐
-HOST-SUFFIX,p3.music.126.net,网易音乐
-HOST-SUFFIX,d4.music.126.net,网易音乐
-HOST-SUFFIX,d3.music.126.net,网易音乐
-HOST-SUFFIX,m8.music.126.net,网易音乐
-HOST-SUFFIX,apm3.music.163.com,网易音乐
-HOST,p1.music.126.net,网易音乐
-HOST,p2.music.126.net,网易音乐
-HOST,p3.music.126.net,网易音乐
-HOST,p4.music.126.net,网易音乐
-HOST,p5.music.126.net,网易音乐
-HOST,p6.music.126.net,网易音乐
-HOST,p7.music.126.net,网易音乐
-HOST,p8.music.126.net,网易音乐
-HOST,p9.music.126.net,网易音乐
-HOST,p10.music.126.net,网易音乐
-HOST-KEYWORD,netease,网易音乐
 
 #IP-CIDR
 IP-CIDR,39.105.63.80/32,网易音乐
