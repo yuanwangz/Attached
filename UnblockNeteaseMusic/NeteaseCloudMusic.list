@@ -2,12 +2,6 @@
 # P: https://github.com/O7Y0/Attached/blob/main/UnblockNeteaseMusic
 # W: O7Y0
 
-# REJECT
-HOST,admusicpic.music.126.net,REJECT
-HOST,iadmat.nosdn.127.net,REJECT
-HOST,iadmusicmat.music.126.net,REJECT
-HOST,iadmusicmatvideo.music.126.net,REJECT
-
 # Netease Music USER-AGENT
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90,网易音乐
 USER-AGENT,NeteaseMusic*,网易音乐
