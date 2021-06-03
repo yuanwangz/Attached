@@ -1,808 +1,100 @@
-port: 7890
+proxies:port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 台湾131572, server: 185.76.9.55, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾131764, server: 217.148.143.211, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 台湾131944, server: 91.245.254.45, port: 48127, type: ss, cipher: aes-256-gcm, password: GbJva6QYc8MRn7Fwp795zstu}
-  - {name: 台湾132558, server: 194.39.127.173, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 台湾132843, server: 45.89.173.203, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 台湾133148, server: 45.129.32.36, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 台湾133992, server: 138.199.42.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 台湾133998, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾134687, server: 212.102.46.49, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 台湾134815, server: 176.227.241.35, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 台湾135294, server: 27.131.138.176, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 台湾137473, server: 27.131.138.176, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 台湾137588, server: 185.124.240.149, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 台湾138033, server: 69.30.249.123, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 台湾138620, server: 27.131.138.176, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 台湾138742, server: 173.237.207.66, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 台湾138747, server: 104.244.210.133, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 台湾139772, server: 45.43.19.82, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 台湾140093, server: 27.131.138.176, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 台湾140220, server: 207.244.65.17, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 台湾144236, server: 84.17.35.103, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 台湾144820, server: 173.237.207.66, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 台湾145329, server: 207.244.65.17, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 台湾149339, server: 84.17.35.103, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 台湾149396, server: 104.244.210.133, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 台湾231572, server: 195.181.171.233, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾231764, server: 138.199.17.132, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 台湾231944, server: 193.29.106.21, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 台湾232558, server: 138.199.17.132, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 台湾232843, server: 103.120.66.227, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 台湾233148, server: 82.102.26.173, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 台湾233992, server: 82.102.26.173, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 台湾233998, server: 195.181.171.233, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾234687, server: 81.92.205.117, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 台湾234815, server: 81.92.205.117, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 台湾235294, server: 61.14.210.237, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 台湾237473, server: 91.90.123.205, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 台湾237588, server: 61.14.210.237, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 台湾238033, server: 61.14.210.237, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 台湾238620, server: 138.199.16.145, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 台湾238742, server: 61.14.210.237, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 台湾238747, server: 61.14.210.237, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 台湾239772, server: 61.14.210.237, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 台湾240093, server: 138.199.16.145, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 台湾240220, server: 61.14.210.237, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 台湾244236, server: 45.133.193.107, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 台湾244820, server: 61.14.210.237, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 台湾245329, server: 61.14.210.237, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 台湾249339, server: 138.199.19.167, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 台湾249396, server: 45.133.193.109, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 台湾31572, server: 103.152.151.19, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 台湾31572 10, server: 2.58.242.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 台湾31572 11, server: 191.96.13.202, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾31572 12, server: 103.152.151.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 台湾31572 2, server: 103.152.151.5, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 台湾31572 3, server: 31.171.155.51, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾31572 4, server: 82.102.26.171, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾31572 5, server: 193.29.107.235, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾31572 6, server: 2.58.242.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 台湾31572 7, server: 212.102.44.98, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾31572 8, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾31572 9, server: 103.156.51.8, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾31764, server: 144.91.123.50, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 台湾31764 10, server: 103.152.151.19, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 台湾31764 11, server: 103.152.151.3, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 台湾31764 12, server: 89.187.163.132, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 台湾31764 2, server: 103.152.151.5, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 台湾31764 3, server: 2.58.242.133, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 台湾31764 4, server: 193.29.107.235, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 台湾31764 5, server: 193.29.107.235, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 台湾31764 6, server: 5.189.202.16, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 台湾31764 7, server: 2.58.242.53, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 台湾31764 8, server: 193.37.255.41, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 台湾31764 9, server: 191.96.13.202, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 台湾31944, server: 2.58.242.133, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 台湾31944 10, server: 2.58.242.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 台湾31944 11, server: 185.153.150.78, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 台湾31944 2, server: 185.108.105.231, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 台湾31944 3, server: 144.91.123.50, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 台湾31944 4, server: 103.148.242.170, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 台湾31944 5, server: 103.148.242.170, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 台湾31944 6, server: 103.152.151.19, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 台湾31944 7, server: 89.187.163.132, port: 48127, type: ss, cipher: aes-256-gcm, password: GbJva6QYc8MRn7Fwp795zstu}
-  - {name: 台湾31944 8, server: 103.152.151.5, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 台湾31944 9, server: 138.199.19.139, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 台湾32558, server: 89.187.163.132, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 台湾32558 2, server: 144.91.123.50, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 台湾32843, server: 62.212.239.69, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 台湾32843 10, server: 103.152.151.3, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 台湾32843 11, server: 103.152.151.19, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 台湾32843 2, server: 2.58.242.53, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 台湾32843 3, server: 144.91.123.50, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 台湾32843 4, server: 185.108.105.231, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 台湾32843 5, server: 199.10.64.181, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 台湾32843 6, server: 45.83.88.69, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 台湾32843 7, server: 89.187.163.132, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 台湾32843 8, server: 81.19.208.78, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 台湾32843 9, server: 2.58.242.133, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
-  - {name: 台湾33148, server: 144.91.123.50, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 台湾33148 2, server: 89.187.163.132, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾33184, server: 103.152.151.5, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 台湾33184 10, server: 154.16.171.206, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 台湾33184 2, server: 191.96.15.88, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 台湾33184 3, server: 2.58.242.53, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 台湾33184 4, server: 103.152.151.3, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 台湾33184 5, server: 103.192.80.227, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 台湾33184 6, server: 2.58.242.133, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 台湾33184 7, server: 82.102.26.171, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 台湾33184 8, server: 82.102.26.93, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 台湾33184 9, server: 103.152.151.19, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 台湾33992, server: 103.152.151.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 台湾33992 10, server: 89.187.163.132, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 台湾33992 11, server: 2.58.242.53, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 台湾33992 12, server: 194.110.115.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 台湾33992 2, server: 185.102.217.169, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 台湾33992 3, server: 103.152.151.3, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 台湾33992 4, server: 185.153.150.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 台湾33992 5, server: 144.91.123.50, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 台湾33992 6, server: 104.244.210.157, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 台湾33992 7, server: 180.149.228.181, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 台湾33992 8, server: 103.152.151.19, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 台湾33992 9, server: 2.58.242.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 台湾33998, server: 2.58.242.133, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 台湾33998 10, server: 103.152.151.5, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 台湾33998 11, server: 2.58.242.53, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 台湾33998 2, server: 191.96.15.88, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾33998 3, server: 193.29.106.45, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾33998 4, server: 89.187.163.132, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾33998 5, server: 173.237.207.58, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾33998 6, server: 45.83.88.69, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾33998 7, server: 5.189.202.14, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾33998 8, server: 103.152.151.19, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 台湾33998 9, server: 138.199.42.157, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 台湾34687, server: 89.187.163.132, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 台湾34687 2, server: 144.91.123.50, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 台湾34815, server: 89.187.163.132, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 台湾34815 10, server: 66.115.147.89, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 台湾34815 11, server: 2.58.242.133, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 台湾34815 2, server: 2.58.242.53, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 台湾34815 3, server: 81.19.208.78, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 台湾34815 4, server: 194.39.127.171, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 台湾34815 5, server: 103.156.50.101, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 台湾34815 6, server: 144.91.123.50, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 台湾34815 7, server: 103.152.151.3, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 台湾34815 8, server: 103.152.151.5, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 台湾34815 9, server: 212.102.42.196, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 台湾35294, server: 103.152.151.19, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 台湾35294 10, server: 212.102.42.196, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 台湾35294 11, server: 185.102.217.169, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 台湾35294 12, server: 2.58.242.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 台湾35294 2, server: 194.110.115.85, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 台湾35294 3, server: 91.205.230.166, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 台湾35294 4, server: 2.58.242.133, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 台湾35294 5, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 台湾35294 6, server: 144.91.123.50, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 台湾35294 7, server: 103.152.151.3, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 台湾35294 8, server: 103.152.151.5, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 台湾35294 9, server: 62.212.239.45, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 台湾37473, server: 62.212.239.45, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 台湾37473 10, server: 103.152.151.5, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 台湾37473 11, server: 103.152.151.3, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 台湾37473 12, server: 45.43.14.75, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 台湾37473 2, server: 212.102.42.196, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 台湾37473 3, server: 91.205.230.166, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 台湾37473 4, server: 144.91.123.50, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 台湾37473 5, server: 194.33.40.114, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 台湾37473 6, server: 2.58.242.53, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 台湾37473 7, server: 103.152.151.19, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 台湾37473 8, server: 2.58.242.133, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 台湾37473 9, server: 198.8.92.84, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 台湾37588, server: 2.58.242.133, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 台湾37588 10, server: 103.152.151.5, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 台湾37588 11, server: 103.152.151.19, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 台湾37588 12, server: 62.212.239.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 台湾37588 2, server: 103.152.151.3, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 台湾37588 3, server: 2.58.242.53, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 台湾37588 4, server: 194.39.127.171, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 台湾37588 5, server: 198.8.92.84, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 台湾37588 6, server: 212.102.42.196, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 台湾37588 7, server: 144.91.123.50, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 台湾37588 8, server: 91.245.254.123, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 台湾37588 9, server: 185.153.151.189, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 台湾38033, server: 89.187.163.132, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 台湾38033 10, server: 212.102.42.196, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 台湾38033 11, server: 37.120.235.205, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 台湾38033 12, server: 185.153.151.189, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 台湾38033 2, server: 103.152.151.3, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 台湾38033 3, server: 2.58.242.133, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 台湾38033 4, server: 103.152.151.5, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 台湾38033 5, server: 45.133.193.117, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 台湾38033 6, server: 42.0.30.158, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 台湾38033 7, server: 103.152.151.19, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 台湾38033 8, server: 176.227.241.35, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 台湾38033 9, server: 2.58.242.53, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 台湾38620, server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 台湾38620 2, server: 81.19.208.109, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 台湾38742, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 台湾38742 2, server: 37.120.235.69, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 台湾38747, server: 103.152.151.3, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 台湾38747 10, server: 212.102.44.98, port: 33998, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 台湾38747 11, server: 82.102.26.93, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 台湾38747 2, server: 212.102.42.196, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 台湾38747 3, server: 2.58.242.133, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 台湾38747 4, server: 103.152.151.5, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 台湾38747 5, server: 91.203.69.146, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 台湾38747 6, server: 103.152.151.19, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 台湾38747 7, server: 138.199.22.143, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 台湾38747 8, server: 176.227.241.35, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 台湾38747 9, server: 195.158.249.52, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: 台湾39772, server: 91.245.254.123, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 台湾39772 10, server: 194.33.40.114, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 台湾39772 11, server: 212.102.42.196, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 台湾39772 12, server: 2.58.242.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 台湾39772 2, server: 62.212.239.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 台湾39772 3, server: 2.58.242.133, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 台湾39772 4, server: 103.152.151.19, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 台湾39772 5, server: 103.152.151.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 台湾39772 6, server: 37.120.235.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 台湾39772 7, server: 195.158.249.52, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 台湾39772 8, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 台湾39772 9, server: 103.152.151.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 台湾40093, server: 193.37.255.41, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 台湾40093 10, server: 62.212.239.45, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 台湾40093 11, server: 103.152.151.5, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 台湾40093 12, server: 138.199.19.139, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 台湾40093 2, server: 138.199.17.132, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 台湾40093 3, server: 103.152.151.19, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 台湾40093 4, server: 2.58.242.133, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 台湾40093 5, server: 81.19.208.109, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 台湾40093 6, server: 2.58.242.53, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 台湾40093 7, server: 66.115.147.89, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 台湾40093 8, server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 台湾40093 9, server: 103.152.151.3, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 台湾40220, server: 45.133.193.117, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 台湾40220 10, server: 103.152.151.5, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 台湾40220 11, server: 103.152.151.3, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 台湾40220 2, server: 2.58.242.133, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 台湾40220 3, server: 103.152.151.19, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 台湾40220 4, server: 62.212.239.45, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 台湾40220 5, server: 89.187.163.132, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 台湾40220 6, server: 188.92.78.147, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 台湾40220 7, server: 212.102.42.196, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 台湾40220 8, server: 193.29.106.45, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 台湾40220 9, server: 45.43.14.75, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 台湾44236, server: 89.187.163.132, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 台湾44236 2, server: 178.239.173.47, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 台湾44820, server: 37.120.235.69, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 台湾44820 2, server: 198.8.92.84, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 台湾45329, server: 188.92.78.147, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 台湾45329 2, server: 89.187.163.132, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 台湾49339, server: 178.239.173.47, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 台湾49339 2, server: 89.187.163.132, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 台湾49396, server: 91.203.69.146, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 台湾49396 2, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 台湾Q_0, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 台湾Q_1, server: 138.199.16.145, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 台湾Q_2, server: 81.92.205.117, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 台湾Q_3, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 台湾Q_4, server: 91.203.69.146, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 台湾Q_5, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 台湾Q_6, server: 37.120.235.69, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 台湾Q_7, server: 198.8.92.84, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 台湾Q_8, server: 45.133.193.117, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 台湾Q_9, server: 193.37.255.41, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 台湾W_0, server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 台湾W_1, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 台湾W_2, server: 91.203.69.146, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: 台湾W_3, server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 台湾W_4, server: 45.133.193.117, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 台湾W_5, server: 198.8.92.84, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 台湾W_6, server: 91.205.230.166, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 台湾W_7, server: 91.205.230.166, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 台湾W_8, server: 194.39.127.171, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 台湾W_9, server: 89.187.163.132, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 台湾E_0, server: 144.91.123.50, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 台湾E_1, server: 138.199.42.157, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 台湾E_2, server: 173.237.207.58, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 台湾E_3, server: 191.96.15.88, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 台湾E_4, server: 104.244.210.157, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 台湾E_5, server: 144.91.123.50, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 台湾E_6, server: 82.102.26.171, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 台湾E_7, server: 191.96.15.88, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 台湾E_8, server: 62.212.239.69, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
+  - {name: 台湾E_9, server: 103.148.242.170, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 台湾R_0, server: 103.148.242.170, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 台湾R_1, server: 191.96.13.202, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
 proxy-groups:
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 台湾131572
-      - 台湾131764
-      - 台湾131944
-      - 台湾132558
-      - 台湾132843
-      - 台湾133148
-      - 台湾133992
-      - 台湾133998
-      - 台湾134687
-      - 台湾134815
-      - 台湾135294
-      - 台湾137473
-      - 台湾137588
-      - 台湾138033
-      - 台湾138620
-      - 台湾138742
-      - 台湾138747
-      - 台湾139772
-      - 台湾140093
-      - 台湾140220
-      - 台湾144236
-      - 台湾144820
-      - 台湾145329
-      - 台湾149339
-      - 台湾149396
-      - 台湾231572
-      - 台湾231764
-      - 台湾231944
-      - 台湾232558
-      - 台湾232843
-      - 台湾233148
-      - 台湾233992
-      - 台湾233998
-      - 台湾234687
-      - 台湾234815
-      - 台湾235294
-      - 台湾237473
-      - 台湾237588
-      - 台湾238033
-      - 台湾238620
-      - 台湾238742
-      - 台湾238747
-      - 台湾239772
-      - 台湾240093
-      - 台湾240220
-      - 台湾244236
-      - 台湾244820
-      - 台湾245329
-      - 台湾249339
-      - 台湾249396
-      - 台湾31572
-      - 台湾31572 10
-      - 台湾31572 11
-      - 台湾31572 12
-      - 台湾31572 2
-      - 台湾31572 3
-      - 台湾31572 4
-      - 台湾31572 5
-      - 台湾31572 6
-      - 台湾31572 7
-      - 台湾31572 8
-      - 台湾31572 9
-      - 台湾31764
-      - 台湾31764 10
-      - 台湾31764 11
-      - 台湾31764 12
-      - 台湾31764 2
-      - 台湾31764 3
-      - 台湾31764 4
-      - 台湾31764 5
-      - 台湾31764 6
-      - 台湾31764 7
-      - 台湾31764 8
-      - 台湾31764 9
-      - 台湾31944
-      - 台湾31944 10
-      - 台湾31944 11
-      - 台湾31944 2
-      - 台湾31944 3
-      - 台湾31944 4
-      - 台湾31944 5
-      - 台湾31944 6
-      - 台湾31944 7
-      - 台湾31944 8
-      - 台湾31944 9
-      - 台湾32558
-      - 台湾32558 2
-      - 台湾32843
-      - 台湾32843 10
-      - 台湾32843 11
-      - 台湾32843 2
-      - 台湾32843 3
-      - 台湾32843 4
-      - 台湾32843 5
-      - 台湾32843 6
-      - 台湾32843 7
-      - 台湾32843 8
-      - 台湾32843 9
-      - 台湾33148
-      - 台湾33148 2
-      - 台湾33184
-      - 台湾33184 10
-      - 台湾33184 2
-      - 台湾33184 3
-      - 台湾33184 4
-      - 台湾33184 5
-      - 台湾33184 6
-      - 台湾33184 7
-      - 台湾33184 8
-      - 台湾33184 9
-      - 台湾33992
-      - 台湾33992 10
-      - 台湾33992 11
-      - 台湾33992 12
-      - 台湾33992 2
-      - 台湾33992 3
-      - 台湾33992 4
-      - 台湾33992 5
-      - 台湾33992 6
-      - 台湾33992 7
-      - 台湾33992 8
-      - 台湾33992 9
-      - 台湾33998
-      - 台湾33998 10
-      - 台湾33998 11
-      - 台湾33998 2
-      - 台湾33998 3
-      - 台湾33998 4
-      - 台湾33998 5
-      - 台湾33998 6
-      - 台湾33998 7
-      - 台湾33998 8
-      - 台湾33998 9
-      - 台湾34687
-      - 台湾34687 2
-      - 台湾34815
-      - 台湾34815 10
-      - 台湾34815 11
-      - 台湾34815 2
-      - 台湾34815 3
-      - 台湾34815 4
-      - 台湾34815 5
-      - 台湾34815 6
-      - 台湾34815 7
-      - 台湾34815 8
-      - 台湾34815 9
-      - 台湾35294
-      - 台湾35294 10
-      - 台湾35294 11
-      - 台湾35294 12
-      - 台湾35294 2
-      - 台湾35294 3
-      - 台湾35294 4
-      - 台湾35294 5
-      - 台湾35294 6
-      - 台湾35294 7
-      - 台湾35294 8
-      - 台湾35294 9
-      - 台湾37473
-      - 台湾37473 10
-      - 台湾37473 11
-      - 台湾37473 12
-      - 台湾37473 2
-      - 台湾37473 3
-      - 台湾37473 4
-      - 台湾37473 5
-      - 台湾37473 6
-      - 台湾37473 7
-      - 台湾37473 8
-      - 台湾37473 9
-      - 台湾37588
-      - 台湾37588 10
-      - 台湾37588 11
-      - 台湾37588 12
-      - 台湾37588 2
-      - 台湾37588 3
-      - 台湾37588 4
-      - 台湾37588 5
-      - 台湾37588 6
-      - 台湾37588 7
-      - 台湾37588 8
-      - 台湾37588 9
-      - 台湾38033
-      - 台湾38033 10
-      - 台湾38033 11
-      - 台湾38033 12
-      - 台湾38033 2
-      - 台湾38033 3
-      - 台湾38033 4
-      - 台湾38033 5
-      - 台湾38033 6
-      - 台湾38033 7
-      - 台湾38033 8
-      - 台湾38033 9
-      - 台湾38620
-      - 台湾38620 2
-      - 台湾38742
-      - 台湾38742 2
-      - 台湾38747
-      - 台湾38747 10
-      - 台湾38747 11
-      - 台湾38747 2
-      - 台湾38747 3
-      - 台湾38747 4
-      - 台湾38747 5
-      - 台湾38747 6
-      - 台湾38747 7
-      - 台湾38747 8
-      - 台湾38747 9
-      - 台湾39772
-      - 台湾39772 10
-      - 台湾39772 11
-      - 台湾39772 12
-      - 台湾39772 2
-      - 台湾39772 3
-      - 台湾39772 4
-      - 台湾39772 5
-      - 台湾39772 6
-      - 台湾39772 7
-      - 台湾39772 8
-      - 台湾39772 9
-      - 台湾40093
-      - 台湾40093 10
-      - 台湾40093 11
-      - 台湾40093 12
-      - 台湾40093 2
-      - 台湾40093 3
-      - 台湾40093 4
-      - 台湾40093 5
-      - 台湾40093 6
-      - 台湾40093 7
-      - 台湾40093 8
-      - 台湾40093 9
-      - 台湾40220
-      - 台湾40220 10
-      - 台湾40220 11
-      - 台湾40220 2
-      - 台湾40220 3
-      - 台湾40220 4
-      - 台湾40220 5
-      - 台湾40220 6
-      - 台湾40220 7
-      - 台湾40220 8
-      - 台湾40220 9
-      - 台湾44236
-      - 台湾44236 2
-      - 台湾44820
-      - 台湾44820 2
-      - 台湾45329
-      - 台湾45329 2
-      - 台湾49339
-      - 台湾49339 2
-      - 台湾49396
-      - 台湾49396 2
-  - name: 节点选择
-    type: select
-    proxies:
-      - 自动选择
-      - 全球直连
-      - 台湾131572
-      - 台湾131764
-      - 台湾131944
-      - 台湾132558
-      - 台湾132843
-      - 台湾133148
-      - 台湾133992
-      - 台湾133998
-      - 台湾134687
-      - 台湾134815
-      - 台湾135294
-      - 台湾137473
-      - 台湾137588
-      - 台湾138033
-      - 台湾138620
-      - 台湾138742
-      - 台湾138747
-      - 台湾139772
-      - 台湾140093
-      - 台湾140220
-      - 台湾144236
-      - 台湾144820
-      - 台湾145329
-      - 台湾149339
-      - 台湾149396
-      - 台湾231572
-      - 台湾231764
-      - 台湾231944
-      - 台湾232558
-      - 台湾232843
-      - 台湾233148
-      - 台湾233992
-      - 台湾233998
-      - 台湾234687
-      - 台湾234815
-      - 台湾235294
-      - 台湾237473
-      - 台湾237588
-      - 台湾238033
-      - 台湾238620
-      - 台湾238742
-      - 台湾238747
-      - 台湾239772
-      - 台湾240093
-      - 台湾240220
-      - 台湾244236
-      - 台湾244820
-      - 台湾245329
-      - 台湾249339
-      - 台湾249396
-      - 台湾31572
-      - 台湾31572 10
-      - 台湾31572 11
-      - 台湾31572 12
-      - 台湾31572 2
-      - 台湾31572 3
-      - 台湾31572 4
-      - 台湾31572 5
-      - 台湾31572 6
-      - 台湾31572 7
-      - 台湾31572 8
-      - 台湾31572 9
-      - 台湾31764
-      - 台湾31764 10
-      - 台湾31764 11
-      - 台湾31764 12
-      - 台湾31764 2
-      - 台湾31764 3
-      - 台湾31764 4
-      - 台湾31764 5
-      - 台湾31764 6
-      - 台湾31764 7
-      - 台湾31764 8
-      - 台湾31764 9
-      - 台湾31944
-      - 台湾31944 10
-      - 台湾31944 11
-      - 台湾31944 2
-      - 台湾31944 3
-      - 台湾31944 4
-      - 台湾31944 5
-      - 台湾31944 6
-      - 台湾31944 7
-      - 台湾31944 8
-      - 台湾31944 9
-      - 台湾32558
-      - 台湾32558 2
-      - 台湾32843
-      - 台湾32843 10
-      - 台湾32843 11
-      - 台湾32843 2
-      - 台湾32843 3
-      - 台湾32843 4
-      - 台湾32843 5
-      - 台湾32843 6
-      - 台湾32843 7
-      - 台湾32843 8
-      - 台湾32843 9
-      - 台湾33148
-      - 台湾33148 2
-      - 台湾33184
-      - 台湾33184 10
-      - 台湾33184 2
-      - 台湾33184 3
-      - 台湾33184 4
-      - 台湾33184 5
-      - 台湾33184 6
-      - 台湾33184 7
-      - 台湾33184 8
-      - 台湾33184 9
-      - 台湾33992
-      - 台湾33992 10
-      - 台湾33992 11
-      - 台湾33992 12
-      - 台湾33992 2
-      - 台湾33992 3
-      - 台湾33992 4
-      - 台湾33992 5
-      - 台湾33992 6
-      - 台湾33992 7
-      - 台湾33992 8
-      - 台湾33992 9
-      - 台湾33998
-      - 台湾33998 10
-      - 台湾33998 11
-      - 台湾33998 2
-      - 台湾33998 3
-      - 台湾33998 4
-      - 台湾33998 5
-      - 台湾33998 6
-      - 台湾33998 7
-      - 台湾33998 8
-      - 台湾33998 9
-      - 台湾34687
-      - 台湾34687 2
-      - 台湾34815
-      - 台湾34815 10
-      - 台湾34815 11
-      - 台湾34815 2
-      - 台湾34815 3
-      - 台湾34815 4
-      - 台湾34815 5
-      - 台湾34815 6
-      - 台湾34815 7
-      - 台湾34815 8
-      - 台湾34815 9
-      - 台湾35294
-      - 台湾35294 10
-      - 台湾35294 11
-      - 台湾35294 12
-      - 台湾35294 2
-      - 台湾35294 3
-      - 台湾35294 4
-      - 台湾35294 5
-      - 台湾35294 6
-      - 台湾35294 7
-      - 台湾35294 8
-      - 台湾35294 9
-      - 台湾37473
-      - 台湾37473 10
-      - 台湾37473 11
-      - 台湾37473 12
-      - 台湾37473 2
-      - 台湾37473 3
-      - 台湾37473 4
-      - 台湾37473 5
-      - 台湾37473 6
-      - 台湾37473 7
-      - 台湾37473 8
-      - 台湾37473 9
-      - 台湾37588
-      - 台湾37588 10
-      - 台湾37588 11
-      - 台湾37588 12
-      - 台湾37588 2
-      - 台湾37588 3
-      - 台湾37588 4
-      - 台湾37588 5
-      - 台湾37588 6
-      - 台湾37588 7
-      - 台湾37588 8
-      - 台湾37588 9
-      - 台湾38033
-      - 台湾38033 10
-      - 台湾38033 11
-      - 台湾38033 12
-      - 台湾38033 2
-      - 台湾38033 3
-      - 台湾38033 4
-      - 台湾38033 5
-      - 台湾38033 6
-      - 台湾38033 7
-      - 台湾38033 8
-      - 台湾38033 9
-      - 台湾38620
-      - 台湾38620 2
-      - 台湾38742
-      - 台湾38742 2
-      - 台湾38747
-      - 台湾38747 10
-      - 台湾38747 11
-      - 台湾38747 2
-      - 台湾38747 3
-      - 台湾38747 4
-      - 台湾38747 5
-      - 台湾38747 6
-      - 台湾38747 7
-      - 台湾38747 8
-      - 台湾38747 9
-      - 台湾39772
-      - 台湾39772 10
-      - 台湾39772 11
-      - 台湾39772 12
-      - 台湾39772 2
-      - 台湾39772 3
-      - 台湾39772 4
-      - 台湾39772 5
-      - 台湾39772 6
-      - 台湾39772 7
-      - 台湾39772 8
-      - 台湾39772 9
-      - 台湾40093
-      - 台湾40093 10
-      - 台湾40093 11
-      - 台湾40093 12
-      - 台湾40093 2
-      - 台湾40093 3
-      - 台湾40093 4
-      - 台湾40093 5
-      - 台湾40093 6
-      - 台湾40093 7
-      - 台湾40093 8
-      - 台湾40093 9
-      - 台湾40220
-      - 台湾40220 10
-      - 台湾40220 11
-      - 台湾40220 2
-      - 台湾40220 3
-      - 台湾40220 4
-      - 台湾40220 5
-      - 台湾40220 6
-      - 台湾40220 7
-      - 台湾40220 8
-      - 台湾40220 9
-      - 台湾44236
-      - 台湾44236 2
-      - 台湾44820
-      - 台湾44820 2
-      - 台湾45329
-      - 台湾45329 2
-      - 台湾49339
-      - 台湾49339 2
-      - 台湾49396
-      - 台湾49396 2
+      - 台湾Q_0
+      - 台湾Q_1
+      - 台湾Q_2
+      - 台湾Q_3
+      - 台湾Q_4
+      - 台湾Q_5
+      - 台湾Q_6
+      - 台湾Q_7
+      - 台湾Q_8
+      - 台湾Q_9
+      - 台湾W_0
+      - 台湾W_1
+      - 台湾W_2
+      - 台湾W_3
+      - 台湾W_4
+      - 台湾W_5
+      - 台湾W_6
+      - 台湾W_7
+      - 台湾W_8
+      - 台湾W_9
+      - 台湾E_0
+      - 台湾E_1
+      - 台湾E_2
+      - 台湾E_3
+      - 台湾E_4
+      - 台湾E_5
+      - 台湾E_6
+      - 台湾E_7
+      - 台湾E_8
+      - 台湾E_9
+      - 台湾R_0
+      - 台湾R_1
   - name: 国外媒体
     type: select
     proxies:
-      - 节点选择
       - 自动选择
       - 全球直连
   - name: 国内媒体
     type: select
     proxies:
       - 全球直连
-      - 节点选择
   - name: 微软服务
     type: select
     proxies:
       - 全球直连
-      - 节点选择
   - name: 电报信息
     type: select
     proxies:
-      - 节点选择
       - 全球直连
   - name: 苹果服务
     type: select
     proxies:
-      - 节点选择
       - 全球直连
       - 自动选择
   - name: 全球直连
@@ -817,7 +109,6 @@ proxy-groups:
   - name: 漏网之鱼
     type: select
     proxies:
-      - 节点选择
       - 全球直连
       - 自动选择
 rules:
@@ -10001,519 +9292,519 @@ rules:
  - IP-CIDR6,2001:b28:f23d::/48,电报信息,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,电报信息,no-resolve
  - IP-CIDR6,2001:67c:4e8::/48,电报信息,no-resolve
- - DOMAIN,testflight.apple.com,节点选择
- - DOMAIN-SUFFIX,appspot.com,节点选择
- - DOMAIN-SUFFIX,blogger.com,节点选择
- - DOMAIN-SUFFIX,getoutline.org,节点选择
- - DOMAIN-SUFFIX,gvt0.com,节点选择
- - DOMAIN-SUFFIX,gvt1.com,节点选择
- - DOMAIN-SUFFIX,gvt3.com,节点选择
- - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
- - DOMAIN-KEYWORD,google,节点选择
- - DOMAIN-KEYWORD,blogspot,节点选择
- - DOMAIN-SUFFIX,onedrive.live.com,节点选择
- - DOMAIN,az416426.vo.msecnd.net,节点选择
- - DOMAIN,az668014.vo.msecnd.net,节点选择
- - DOMAIN-SUFFIX,cdninstagram.com,节点选择
- - DOMAIN-SUFFIX,facebook.com,节点选择
- - DOMAIN-SUFFIX,facebook.net,节点选择
- - DOMAIN-SUFFIX,fb.com,节点选择
- - DOMAIN-SUFFIX,fb.me,节点选择
- - DOMAIN-SUFFIX,fbaddins.com,节点选择
- - DOMAIN-SUFFIX,fbcdn.net,节点选择
- - DOMAIN-SUFFIX,fbsbx.com,节点选择
- - DOMAIN-SUFFIX,fbworkmail.com,节点选择
- - DOMAIN-SUFFIX,instagram.com,节点选择
- - DOMAIN-SUFFIX,m.me,节点选择
- - DOMAIN-SUFFIX,messenger.com,节点选择
- - DOMAIN-SUFFIX,oculus.com,节点选择
- - DOMAIN-SUFFIX,oculuscdn.com,节点选择
- - DOMAIN-SUFFIX,rocksdb.org,节点选择
- - DOMAIN-SUFFIX,whatsapp.com,节点选择
- - DOMAIN-SUFFIX,whatsapp.net,节点选择
- - DOMAIN-SUFFIX,pscp.tv,节点选择
- - DOMAIN-SUFFIX,periscope.tv,节点选择
- - DOMAIN-SUFFIX,t.co,节点选择
- - DOMAIN-SUFFIX,twimg.co,节点选择
- - DOMAIN-SUFFIX,twimg.com,节点选择
- - DOMAIN-SUFFIX,twitpic.com,节点选择
- - DOMAIN-SUFFIX,twitter.com,节点选择
- - DOMAIN-SUFFIX,vine.co,节点选择
- - DOMAIN-SUFFIX,telegra.ph,节点选择
- - DOMAIN-SUFFIX,telegram.org,节点选择
- - IP-CIDR,91.108.4.0/22,节点选择,no-resolve
- - IP-CIDR,91.108.8.0/22,节点选择,no-resolve
- - IP-CIDR,91.108.12.0/22,节点选择,no-resolve
- - IP-CIDR,91.108.16.0/22,节点选择,no-resolve
- - IP-CIDR,91.108.56.0/22,节点选择,no-resolve
- - IP-CIDR,149.154.160.0/20,节点选择,no-resolve
- - IP-CIDR6,2001:b28:f23d::/48,节点选择,no-resolve
- - IP-CIDR6,2001:b28:f23f::/48,节点选择,no-resolve
- - IP-CIDR6,2001:67c:4e8::/48,节点选择,no-resolve
- - DOMAIN-SUFFIX,line.me,节点选择
- - DOMAIN-SUFFIX,line-apps.com,节点选择
- - DOMAIN-SUFFIX,line-scdn.net,节点选择
- - DOMAIN-SUFFIX,naver.jp,节点选择
- - IP-CIDR,103.2.30.0/23,节点选择,no-resolve
- - IP-CIDR,125.209.208.0/20,节点选择,no-resolve
- - IP-CIDR,147.92.128.0/17,节点选择,no-resolve
- - IP-CIDR,203.104.144.0/21,节点选择,no-resolve
- - DOMAIN,a248.e.akamai.net,节点选择
- - DOMAIN,a771.dscq.akamai.net,节点选择
- - DOMAIN,d3c33hcgiwev3.cloudfront.net,节点选择
- - DOMAIN-SUFFIX,4shared.com,节点选择
- - DOMAIN-SUFFIX,9cache.com,节点选择
- - DOMAIN-SUFFIX,9gag.com,节点选择
- - DOMAIN-SUFFIX,abc.com,节点选择
- - DOMAIN-SUFFIX,abc.net.au,节点选择
- - DOMAIN-SUFFIX,abebooks.com,节点选择
- - DOMAIN-SUFFIX,amazon.co.jp,节点选择
- - DOMAIN-SUFFIX,ao3.org,节点选择
- - DOMAIN-SUFFIX,apigee.com,节点选择
- - DOMAIN-SUFFIX,apkcombo.com,节点选择
- - DOMAIN-SUFFIX,apk-dl.com,节点选择
- - DOMAIN-SUFFIX,apkfind.com,节点选择
- - DOMAIN-SUFFIX,apkmirror.com,节点选择
- - DOMAIN-SUFFIX,apkmonk.com,节点选择
- - DOMAIN-SUFFIX,apkpure.com,节点选择
- - DOMAIN-SUFFIX,aptoide.com,节点选择
- - DOMAIN-SUFFIX,archive.is,节点选择
- - DOMAIN-SUFFIX,archive.org,节点选择
- - DOMAIN-SUFFIX,archiveofourown.com,节点选择
- - DOMAIN-SUFFIX,archiveofourown.org,节点选择
- - DOMAIN-SUFFIX,arte.tv,节点选择
- - DOMAIN-SUFFIX,artstation.com,节点选择
- - DOMAIN-SUFFIX,arukas.io,节点选择
- - DOMAIN-SUFFIX,ask.com,节点选择
- - DOMAIN-SUFFIX,avg.com,节点选择
- - DOMAIN-SUFFIX,avgle.com,节点选择
- - DOMAIN-SUFFIX,badoo.com,节点选择
- - DOMAIN-SUFFIX,bandwagonhost.com,节点选择
- - DOMAIN-SUFFIX,bangkokpost.com,节点选择
- - DOMAIN-SUFFIX,bbc.com,节点选择
- - DOMAIN-SUFFIX,behance.net,节点选择
- - DOMAIN-SUFFIX,bibox.com,节点选择
- - DOMAIN-SUFFIX,biggo.com.tw,节点选择
- - DOMAIN-SUFFIX,binance.com,节点选择
- - DOMAIN-SUFFIX,bit.ly,节点选择
- - DOMAIN-SUFFIX,bitcointalk.org,节点选择
- - DOMAIN-SUFFIX,bitfinex.com,节点选择
- - DOMAIN-SUFFIX,bitmex.com,节点选择
- - DOMAIN-SUFFIX,bit-z.com,节点选择
- - DOMAIN-SUFFIX,bloglovin.com,节点选择
- - DOMAIN-SUFFIX,bloomberg.cn,节点选择
- - DOMAIN-SUFFIX,bloomberg.com,节点选择
- - DOMAIN-SUFFIX,blubrry.com,节点选择
- - DOMAIN-SUFFIX,book.com.tw,节点选择
- - DOMAIN-SUFFIX,booklive.jp,节点选择
- - DOMAIN-SUFFIX,books.com.tw,节点选择
- - DOMAIN-SUFFIX,boslife.net,节点选择
- - DOMAIN-SUFFIX,box.com,节点选择
- - DOMAIN-SUFFIX,brave.com,节点选择
- - DOMAIN-SUFFIX,businessinsider.com,节点选择
- - DOMAIN-SUFFIX,buzzfeed.com,节点选择
- - DOMAIN-SUFFIX,bwh1.net,节点选择
- - DOMAIN-SUFFIX,castbox.fm,节点选择
- - DOMAIN-SUFFIX,cbc.ca,节点选择
- - DOMAIN-SUFFIX,cdw.com,节点选择
- - DOMAIN-SUFFIX,change.org,节点选择
- - DOMAIN-SUFFIX,channelnewsasia.com,节点选择
- - DOMAIN-SUFFIX,ck101.com,节点选择
- - DOMAIN-SUFFIX,clarionproject.org,节点选择
- - DOMAIN-SUFFIX,cloudcone.com,节点选择
- - DOMAIN-SUFFIX,clyp.it,节点选择
- - DOMAIN-SUFFIX,cna.com.tw,节点选择
- - DOMAIN-SUFFIX,comparitech.com,节点选择
- - DOMAIN-SUFFIX,conoha.jp,节点选择
- - DOMAIN-SUFFIX,crucial.com,节点选择
- - DOMAIN-SUFFIX,cts.com.tw,节点选择
- - DOMAIN-SUFFIX,cw.com.tw,节点选择
- - DOMAIN-SUFFIX,cyberctm.com,节点选择
- - DOMAIN-SUFFIX,dailymotion.com,节点选择
- - DOMAIN-SUFFIX,dailyview.tw,节点选择
- - DOMAIN-SUFFIX,daum.net,节点选择
- - DOMAIN-SUFFIX,daumcdn.net,节点选择
- - DOMAIN-SUFFIX,dcard.tw,节点选择
- - DOMAIN-SUFFIX,deadline.com,节点选择
- - DOMAIN-SUFFIX,deepdiscount.com,节点选择
- - DOMAIN-SUFFIX,depositphotos.com,节点选择
- - DOMAIN-SUFFIX,deviantart.com,节点选择
- - DOMAIN-SUFFIX,disconnect.me,节点选择
- - DOMAIN-SUFFIX,discordapp.com,节点选择
- - DOMAIN-SUFFIX,discordapp.net,节点选择
- - DOMAIN-SUFFIX,disqus.com,节点选择
- - DOMAIN-SUFFIX,dlercloud.com,节点选择
- - DOMAIN-SUFFIX,dmhy.org,节点选择
- - DOMAIN-SUFFIX,dns2go.com,节点选择
- - DOMAIN-SUFFIX,dowjones.com,节点选择
- - DOMAIN-SUFFIX,dropbox.com,节点选择
- - DOMAIN-SUFFIX,dropboxapi.com,节点选择
- - DOMAIN-SUFFIX,dropboxusercontent.com,节点选择
- - DOMAIN-SUFFIX,duckduckgo.com,节点选择
- - DOMAIN-SUFFIX,duyaoss.com,节点选择
- - DOMAIN-SUFFIX,dw.com,节点选择
- - DOMAIN-SUFFIX,dynu.com,节点选择
- - DOMAIN-SUFFIX,earthcam.com,节点选择
- - DOMAIN-SUFFIX,ebookservice.tw,节点选择
- - DOMAIN-SUFFIX,economist.com,节点选择
- - DOMAIN-SUFFIX,edgecastcdn.net,节点选择
- - DOMAIN-SUFFIX,edu,节点选择
- - DOMAIN-SUFFIX,edx-cdn.org,节点选择
- - DOMAIN-SUFFIX,elpais.com,节点选择
- - DOMAIN-SUFFIX,enanyang.my,节点选择
- - DOMAIN-SUFFIX,encyclopedia.com,节点选择
- - DOMAIN-SUFFIX,esoir.be,节点选择
- - DOMAIN-SUFFIX,etherscan.io,节点选择
- - DOMAIN-SUFFIX,euronews.com,节点选择
- - DOMAIN-SUFFIX,evozi.com,节点选择
- - DOMAIN-SUFFIX,exblog.jp,节点选择
- - DOMAIN-SUFFIX,feeder.co,节点选择
- - DOMAIN-SUFFIX,feedly.com,节点选择
- - DOMAIN-SUFFIX,feedx.net,节点选择
- - DOMAIN-SUFFIX,firech.at,节点选择
- - DOMAIN-SUFFIX,flickr.com,节点选择
- - DOMAIN-SUFFIX,flipboard.com,节点选择
- - DOMAIN-SUFFIX,flitto.com,节点选择
- - DOMAIN-SUFFIX,foreignpolicy.com,节点选择
- - DOMAIN-SUFFIX,fortawesome.com,节点选择
- - DOMAIN-SUFFIX,freetls.fastly.net,节点选择
- - DOMAIN-SUFFIX,friday.tw,节点选择
- - DOMAIN-SUFFIX,ft.com,节点选择
- - DOMAIN-SUFFIX,ftchinese.com,节点选择
- - DOMAIN-SUFFIX,ftimg.net,节点选择
- - DOMAIN-SUFFIX,gate.io,节点选择
- - DOMAIN-SUFFIX,getlantern.org,节点选择
- - DOMAIN-SUFFIX,getsync.com,节点选择
- - DOMAIN-SUFFIX,github.com,节点选择
- - DOMAIN-SUFFIX,github.io,节点选择
- - DOMAIN-SUFFIX,githubusercontent.com,节点选择
- - DOMAIN-SUFFIX,globalvoices.org,节点选择
- - DOMAIN-SUFFIX,goo.ne.jp,节点选择
- - DOMAIN-SUFFIX,goodreads.com,节点选择
- - DOMAIN-SUFFIX,gov,节点选择
- - DOMAIN-SUFFIX,gov.tw,节点选择
- - DOMAIN-SUFFIX,greatfire.org,节点选择
- - DOMAIN-SUFFIX,gumroad.com,节点选择
- - DOMAIN-SUFFIX,hbg.com,节点选择
- - DOMAIN-SUFFIX,heroku.com,节点选择
- - DOMAIN-SUFFIX,hightail.com,节点选择
- - DOMAIN-SUFFIX,hk01.com,节点选择
- - DOMAIN-SUFFIX,hkbf.org,节点选择
- - DOMAIN-SUFFIX,hkbookcity.com,节点选择
- - DOMAIN-SUFFIX,hkej.com,节点选择
- - DOMAIN-SUFFIX,hket.com,节点选择
- - DOMAIN-SUFFIX,hootsuite.com,节点选择
- - DOMAIN-SUFFIX,hudson.org,节点选择
- - DOMAIN-SUFFIX,huffpost.com,节点选择
- - DOMAIN-SUFFIX,hyread.com.tw,节点选择
- - DOMAIN-SUFFIX,ibtimes.com,节点选择
- - DOMAIN-SUFFIX,i-cable.com,节点选择
- - DOMAIN-SUFFIX,icij.org,节点选择
- - DOMAIN-SUFFIX,icoco.com,节点选择
- - DOMAIN-SUFFIX,imgur.com,节点选择
- - DOMAIN-SUFFIX,independent.co.uk,节点选择
- - DOMAIN-SUFFIX,initiummall.com,节点选择
- - DOMAIN-SUFFIX,inoreader.com,节点选择
- - DOMAIN-SUFFIX,insecam.org,节点选择
- - DOMAIN-SUFFIX,ipfs.io,节点选择
- - DOMAIN-SUFFIX,issuu.com,节点选择
- - DOMAIN-SUFFIX,istockphoto.com,节点选择
- - DOMAIN-SUFFIX,japantimes.co.jp,节点选择
- - DOMAIN-SUFFIX,jiji.com,节点选择
- - DOMAIN-SUFFIX,jinx.com,节点选择
- - DOMAIN-SUFFIX,jkforum.net,节点选择
- - DOMAIN-SUFFIX,joinmastodon.org,节点选择
- - DOMAIN-SUFFIX,justmysocks.net,节点选择
- - DOMAIN-SUFFIX,justpaste.it,节点选择
- - DOMAIN-SUFFIX,kadokawa.co.jp,节点选择
- - DOMAIN-SUFFIX,kakao.com,节点选择
- - DOMAIN-SUFFIX,kakaocorp.com,节点选择
- - DOMAIN-SUFFIX,kik.com,节点选择
- - DOMAIN-SUFFIX,kingkong.com.tw,节点选择
- - DOMAIN-SUFFIX,knowyourmeme.com,节点选择
- - DOMAIN-SUFFIX,kobo.com,节点选择
- - DOMAIN-SUFFIX,kobobooks.com,节点选择
- - DOMAIN-SUFFIX,kodingen.com,节点选择
- - DOMAIN-SUFFIX,lemonde.fr,节点选择
- - DOMAIN-SUFFIX,lepoint.fr,节点选择
- - DOMAIN-SUFFIX,lihkg.com,节点选择
- - DOMAIN-SUFFIX,limbopro.xyz,节点选择
- - DOMAIN-SUFFIX,listennotes.com,节点选择
- - DOMAIN-SUFFIX,livestream.com,节点选择
- - DOMAIN-SUFFIX,logimg.jp,节点选择
- - DOMAIN-SUFFIX,logmein.com,节点选择
- - DOMAIN-SUFFIX,mail.ru,节点选择
- - DOMAIN-SUFFIX,mailchimp.com,节点选择
- - DOMAIN-SUFFIX,marc.info,节点选择
- - DOMAIN-SUFFIX,matters.news,节点选择
- - DOMAIN-SUFFIX,maying.co,节点选择
- - DOMAIN-SUFFIX,medium.com,节点选择
- - DOMAIN-SUFFIX,mega.nz,节点选择
- - DOMAIN-SUFFIX,mergersandinquisitions.com,节点选择
- - DOMAIN-SUFFIX,mil,节点选择
- - DOMAIN-SUFFIX,mingpao.com,节点选择
- - DOMAIN-SUFFIX,mixi.jp,节点选择
- - DOMAIN-SUFFIX,mobile01.com,节点选择
- - DOMAIN-SUFFIX,mubi.com,节点选择
- - DOMAIN-SUFFIX,myspace.com,节点选择
- - DOMAIN-SUFFIX,myspacecdn.com,节点选择
- - DOMAIN-SUFFIX,nanyang.com,节点选择
- - DOMAIN-SUFFIX,nationalinterest.org,节点选择
- - DOMAIN-SUFFIX,naver.com,节点选择
- - DOMAIN-SUFFIX,nbcnews.com,节点选择
- - DOMAIN-SUFFIX,ndr.de,节点选择
- - DOMAIN-SUFFIX,neowin.net,节点选择
- - DOMAIN-SUFFIX,newstapa.org,节点选择
- - DOMAIN-SUFFIX,nexitally.com,节点选择
- - DOMAIN-SUFFIX,nhk.or.jp,节点选择
- - DOMAIN-SUFFIX,nii.ac.jp,节点选择
- - DOMAIN-SUFFIX,nikkei.com,节点选择
- - DOMAIN-SUFFIX,nitter.net,节点选择
- - DOMAIN-SUFFIX,nofile.io,节点选择
- - DOMAIN-SUFFIX,notion.so,节点选择
- - DOMAIN-SUFFIX,now.com,节点选择
- - DOMAIN-SUFFIX,nrk.no,节点选择
- - DOMAIN-SUFFIX,nuget.org,节点选择
- - DOMAIN-SUFFIX,nyaa.si,节点选择
- - DOMAIN-SUFFIX,nyt.com,节点选择
- - DOMAIN-SUFFIX,nytchina.com,节点选择
- - DOMAIN-SUFFIX,nytcn.me,节点选择
- - DOMAIN-SUFFIX,nytco.com,节点选择
- - DOMAIN-SUFFIX,nytimes.com,节点选择
- - DOMAIN-SUFFIX,nytimg.com,节点选择
- - DOMAIN-SUFFIX,nytlog.com,节点选择
- - DOMAIN-SUFFIX,nytstyle.com,节点选择
- - DOMAIN-SUFFIX,ok.ru,节点选择
- - DOMAIN-SUFFIX,okex.com,节点选择
- - DOMAIN-SUFFIX,on.cc,节点选择
- - DOMAIN-SUFFIX,orientaldaily.com.my,节点选择
- - DOMAIN-SUFFIX,overcast.fm,节点选择
- - DOMAIN-SUFFIX,paltalk.com,节点选择
- - DOMAIN-SUFFIX,parsevideo.com,节点选择
- - DOMAIN-SUFFIX,pawoo.net,节点选择
- - DOMAIN-SUFFIX,pbxes.com,节点选择
- - DOMAIN-SUFFIX,pcdvd.com.tw,节点选择
- - DOMAIN-SUFFIX,pchome.com.tw,节点选择
- - DOMAIN-SUFFIX,pcloud.com,节点选择
- - DOMAIN-SUFFIX,peing.net,节点选择
- - DOMAIN-SUFFIX,picacomic.com,节点选择
- - DOMAIN-SUFFIX,pinimg.com,节点选择
- - DOMAIN-SUFFIX,pixiv.net,节点选择
- - DOMAIN-SUFFIX,player.fm,节点选择
- - DOMAIN-SUFFIX,plurk.com,节点选择
- - DOMAIN-SUFFIX,po18.tw,节点选择
- - DOMAIN-SUFFIX,potato.im,节点选择
- - DOMAIN-SUFFIX,potatso.com,节点选择
- - DOMAIN-SUFFIX,prism-break.org,节点选择
- - DOMAIN-SUFFIX,proxifier.com,节点选择
- - DOMAIN-SUFFIX,pt.im,节点选择
- - DOMAIN-SUFFIX,pts.org.tw,节点选择
- - DOMAIN-SUFFIX,pubu.com.tw,节点选择
- - DOMAIN-SUFFIX,pubu.tw,节点选择
- - DOMAIN-SUFFIX,pureapk.com,节点选择
- - DOMAIN-SUFFIX,quora.com,节点选择
- - DOMAIN-SUFFIX,quoracdn.net,节点选择
- - DOMAIN-SUFFIX,qz.com,节点选择
- - DOMAIN-SUFFIX,radio.garden,节点选择
- - DOMAIN-SUFFIX,rakuten.co.jp,节点选择
- - DOMAIN-SUFFIX,rarbgprx.org,节点选择
- - DOMAIN-SUFFIX,reabble.com,节点选择
- - DOMAIN-SUFFIX,readingtimes.com.tw,节点选择
- - DOMAIN-SUFFIX,readmoo.com,节点选择
- - DOMAIN-SUFFIX,redbubble.com,节点选择
- - DOMAIN-SUFFIX,redd.it,节点选择
- - DOMAIN-SUFFIX,reddit.com,节点选择
- - DOMAIN-SUFFIX,redditmedia.com,节点选择
- - DOMAIN-SUFFIX,resilio.com,节点选择
- - DOMAIN-SUFFIX,reuters.com,节点选择
- - DOMAIN-SUFFIX,reutersmedia.net,节点选择
- - DOMAIN-SUFFIX,rfi.fr,节点选择
- - DOMAIN-SUFFIX,rixcloud.com,节点选择
- - DOMAIN-SUFFIX,roadshow.hk,节点选择
- - DOMAIN-SUFFIX,rsshub.app,节点选择
- - DOMAIN-SUFFIX,scmp.com,节点选择
- - DOMAIN-SUFFIX,scribd.com,节点选择
- - DOMAIN-SUFFIX,seatguru.com,节点选择
- - DOMAIN-SUFFIX,shadowsocks.org,节点选择
- - DOMAIN-SUFFIX,shindanmaker.com,节点选择
- - DOMAIN-SUFFIX,shopee.tw,节点选择
- - DOMAIN-SUFFIX,sina.com.hk,节点选择
- - DOMAIN-SUFFIX,slideshare.net,节点选择
- - DOMAIN-SUFFIX,softfamous.com,节点选择
- - DOMAIN-SUFFIX,spiegel.de,节点选择
- - DOMAIN-SUFFIX,ssrcloud.org,节点选择
- - DOMAIN-SUFFIX,startpage.com,节点选择
- - DOMAIN-SUFFIX,steamcommunity.com,节点选择
- - DOMAIN-SUFFIX,steemit.com,节点选择
- - DOMAIN-SUFFIX,steemitwallet.com,节点选择
- - DOMAIN-SUFFIX,straitstimes.com,节点选择
- - DOMAIN-SUFFIX,streema.com,节点选择
- - DOMAIN-SUFFIX,t66y.com,节点选择
- - DOMAIN-SUFFIX,tapatalk.com,节点选择
- - DOMAIN-SUFFIX,teco-hk.org,节点选择
- - DOMAIN-SUFFIX,teco-mo.org,节点选择
- - DOMAIN-SUFFIX,teddysun.com,节点选择
- - DOMAIN-SUFFIX,textnow.me,节点选择
- - DOMAIN-SUFFIX,theguardian.com,节点选择
- - DOMAIN-SUFFIX,theinitium.com,节点选择
- - DOMAIN-SUFFIX,themoviedb.org,节点选择
- - DOMAIN-SUFFIX,thetvdb.com,节点选择
- - DOMAIN-SUFFIX,time.com,节点选择
- - DOMAIN-SUFFIX,tineye.com,节点选择
- - DOMAIN-SUFFIX,tiny.cc,节点选择
- - DOMAIN-SUFFIX,tinyurl.com,节点选择
- - DOMAIN-SUFFIX,torproject.org,节点选择
- - DOMAIN-SUFFIX,tumblr.com,节点选择
- - DOMAIN-SUFFIX,turbobit.net,节点选择
- - DOMAIN-SUFFIX,tutanota.com,节点选择
- - DOMAIN-SUFFIX,tvboxnow.com,节点选择
- - DOMAIN-SUFFIX,udn.com,节点选择
- - DOMAIN-SUFFIX,unseen.is,节点选择
- - DOMAIN-SUFFIX,upmedia.mg,节点选择
- - DOMAIN-SUFFIX,uptodown.com,节点选择
- - DOMAIN-SUFFIX,urbandictionary.com,节点选择
- - DOMAIN-SUFFIX,ustream.tv,节点选择
- - DOMAIN-SUFFIX,uwants.com,节点选择
- - DOMAIN-SUFFIX,v2fly.org,节点选择
- - DOMAIN-SUFFIX,v2ray.com,节点选择
- - DOMAIN-SUFFIX,viber.com,节点选择
- - DOMAIN-SUFFIX,videopress.com,节点选择
- - DOMAIN-SUFFIX,vimeo.com,节点选择
- - DOMAIN-SUFFIX,voachinese.com,节点选择
- - DOMAIN-SUFFIX,voanews.com,节点选择
- - DOMAIN-SUFFIX,voxer.com,节点选择
- - DOMAIN-SUFFIX,vzw.com,节点选择
- - DOMAIN-SUFFIX,w3schools.com,节点选择
- - DOMAIN-SUFFIX,washingtonpost.com,节点选择
- - DOMAIN-SUFFIX,wattpad.com,节点选择
- - DOMAIN-SUFFIX,whoer.net,节点选择
- - DOMAIN-SUFFIX,wikileaks.org,节点选择
- - DOMAIN-SUFFIX,wikimapia.org,节点选择
- - DOMAIN-SUFFIX,wikimedia.org,节点选择
- - DOMAIN-SUFFIX,wikinews.org,节点选择
- - DOMAIN-SUFFIX,wikipedia.org,节点选择
- - DOMAIN-SUFFIX,wikiquote.org,节点选择
- - DOMAIN-SUFFIX,wikiwand.com,节点选择
- - DOMAIN-SUFFIX,winudf.com,节点选择
- - DOMAIN-SUFFIX,wire.com,节点选择
- - DOMAIN-SUFFIX,wn.com,节点选择
- - DOMAIN-SUFFIX,wordpress.com,节点选择
- - DOMAIN-SUFFIX,workflow.is,节点选择
- - DOMAIN-SUFFIX,worldcat.org,节点选择
- - DOMAIN-SUFFIX,wsj.com,节点选择
- - DOMAIN-SUFFIX,wsj.net,节点选择
- - DOMAIN-SUFFIX,xhamster.com,节点选择
- - DOMAIN-SUFFIX,xn--90wwvt03e.com,节点选择
- - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,节点选择
- - DOMAIN-SUFFIX,xnxx.com,节点选择
- - DOMAIN-SUFFIX,xvideos.com,节点选择
- - DOMAIN-SUFFIX,yahoo.com,节点选择
- - DOMAIN-SUFFIX,yandex.ru,节点选择
- - DOMAIN-SUFFIX,ycombinator.com,节点选择
- - DOMAIN-SUFFIX,yesasia.com,节点选择
- - DOMAIN-SUFFIX,yes-news.com,节点选择
- - DOMAIN-SUFFIX,yomiuri.co.jp,节点选择
- - DOMAIN-SUFFIX,you-get.org,节点选择
- - DOMAIN-SUFFIX,zaobao.com,节点选择
- - DOMAIN-SUFFIX,zb.com,节点选择
- - DOMAIN-SUFFIX,zello.com,节点选择
- - DOMAIN-SUFFIX,zeronet.io,节点选择
- - DOMAIN-SUFFIX,zoom.us,节点选择
- - DOMAIN,cc.tvbs.com.tw,节点选择
- - DOMAIN,ocsp.int-x3.letsencrypt.org,节点选择
- - DOMAIN,payments-jp.amazon.com,节点选择
- - DOMAIN,s3-ap-northeast-1.amazonaws.com,节点选择
- - DOMAIN,s3-ap-southeast-2.amazonaws.com,节点选择
- - DOMAIN,search.avira.com,节点选择
- - DOMAIN,us.weibo.com,节点选择
- - DOMAIN-KEYWORD,jav,节点选择
- - DOMAIN-KEYWORD,pinterest,节点选择
- - DOMAIN-KEYWORD,porn,节点选择
- - DOMAIN-SUFFIX,abc.xyz,节点选择
- - DOMAIN-SUFFIX,advertisercommunity.com,节点选择
- - DOMAIN-SUFFIX,ampproject.org,节点选择
- - DOMAIN-SUFFIX,android.com,节点选择
- - DOMAIN-SUFFIX,androidify.com,节点选择
- - DOMAIN-SUFFIX,dialogflow.com,节点选择
- - DOMAIN-SUFFIX,autodraw.com,节点选择
- - DOMAIN-SUFFIX,capitalg.com,节点选择
- - DOMAIN-SUFFIX,certificate-transparency.org,节点选择
- - DOMAIN-SUFFIX,chrome.com,节点选择
- - DOMAIN-SUFFIX,chromeexperiments.com,节点选择
- - DOMAIN-SUFFIX,chromestatus.com,节点选择
- - DOMAIN-SUFFIX,chromium.org,节点选择
- - DOMAIN-SUFFIX,creativelab5.com,节点选择
- - DOMAIN-SUFFIX,debug.com,节点选择
- - DOMAIN-SUFFIX,deepmind.com,节点选择
- - DOMAIN-SUFFIX,firebaseio.com,节点选择
- - DOMAIN-SUFFIX,getmdl.io,节点选择
- - DOMAIN-SUFFIX,ggpht.com,节点选择
- - DOMAIN-SUFFIX,gmail.com,节点选择
- - DOMAIN-SUFFIX,gmodules.com,节点选择
- - DOMAIN-SUFFIX,godoc.org,节点选择
- - DOMAIN-SUFFIX,golang.org,节点选择
- - DOMAIN-SUFFIX,gstatic.com,节点选择
- - DOMAIN-SUFFIX,gv.com,节点选择
- - DOMAIN-SUFFIX,gwtproject.org,节点选择
- - DOMAIN-SUFFIX,itasoftware.com,节点选择
- - DOMAIN-SUFFIX,madewithcode.com,节点选择
- - DOMAIN-SUFFIX,material.io,节点选择
- - DOMAIN-SUFFIX,page.link,节点选择
- - DOMAIN-SUFFIX,polymer-project.org,节点选择
- - DOMAIN-SUFFIX,admin.recaptcha.net,节点选择
- - DOMAIN-SUFFIX,recaptcha.net,节点选择
- - DOMAIN-SUFFIX,shattered.io,节点选择
- - DOMAIN-SUFFIX,synergyse.com,节点选择
- - DOMAIN-SUFFIX,telephony.goog,节点选择
- - DOMAIN-SUFFIX,tensorflow.org,节点选择
- - DOMAIN-SUFFIX,tfhub.dev,节点选择
- - DOMAIN-SUFFIX,tiltbrush.com,节点选择
- - DOMAIN-SUFFIX,waveprotocol.org,节点选择
- - DOMAIN-SUFFIX,waymo.com,节点选择
- - DOMAIN-SUFFIX,webmproject.org,节点选择
- - DOMAIN-SUFFIX,webrtc.org,节点选择
- - DOMAIN-SUFFIX,whatbrowser.org,节点选择
- - DOMAIN-SUFFIX,widevine.com,节点选择
- - DOMAIN-SUFFIX,x.company,节点选择
- - DOMAIN-SUFFIX,youtu.be,节点选择
- - DOMAIN-SUFFIX,yt.be,节点选择
- - DOMAIN-SUFFIX,ytimg.com,节点选择
- - DOMAIN-SUFFIX,t.me,节点选择
- - DOMAIN-SUFFIX,tdesktop.com,节点选择
- - DOMAIN-SUFFIX,telegram.me,节点选择
- - DOMAIN-SUFFIX,telesco.pe,节点选择
- - DOMAIN-SUFFIX,facebook.br,节点选择
- - DOMAIN-SUFFIX,facebook.design,节点选择
- - DOMAIN-SUFFIX,facebook.hu,节点选择
- - DOMAIN-SUFFIX,facebook.in,节点选择
- - DOMAIN-SUFFIX,facebook.nl,节点选择
- - DOMAIN-SUFFIX,facebook.se,节点选择
- - DOMAIN-SUFFIX,facebookmail.com,节点选择
- - DOMAIN-SUFFIX,noxinfluencer.com,节点选择
- - DOMAIN-SUFFIX,smartmailcloud.com,节点选择
- - DOMAIN-SUFFIX,weebly.com,节点选择
- - DOMAIN-SUFFIX,twitter.jp,节点选择
- - DOMAIN-SUFFIX,appsto.re,节点选择
- - DOMAIN,books.itunes.apple.com,节点选择
- - DOMAIN,apps.apple.com,节点选择
- - DOMAIN,itunes.apple.com,节点选择
- - DOMAIN,api-glb-sea.smoot.apple.com,节点选择
- - DOMAIN,lookup-api.apple.com,节点选择
- - DOMAIN-SUFFIX,smoot.apple.com,节点选择
- - DOMAIN,beta.music.apple.com,节点选择
- - DOMAIN-SUFFIX,bing.com,节点选择
- - DOMAIN-SUFFIX,cccat.io,节点选择
- - DOMAIN-SUFFIX,dubox.com,节点选择
- - DOMAIN-SUFFIX,duboxcdn.com,节点选择
- - DOMAIN-SUFFIX,ifixit.com,节点选择
- - DOMAIN-SUFFIX,mangakakalot.com,节点选择
- - DOMAIN-SUFFIX,shopeemobile.com,节点选择
- - DOMAIN-KEYWORD,buy.itunes.apple.com,节点选择
- - DOMAIN-SUFFIX,cloudcone.com.cn,节点选择
- - DOMAIN-SUFFIX,inkbunny.net,节点选择
- - DOMAIN-SUFFIX,metapix.net,节点选择
- - DOMAIN-SUFFIX,s3.amazonaws.com,节点选择
- - DOMAIN-SUFFIX,zaobao.com.sg,节点选择
+ - DOMAIN,testflight.apple.com,自动选择
+ - DOMAIN-SUFFIX,appspot.com,自动选择
+ - DOMAIN-SUFFIX,blogger.com,自动选择
+ - DOMAIN-SUFFIX,getoutline.org,自动选择
+ - DOMAIN-SUFFIX,gvt0.com,自动选择
+ - DOMAIN-SUFFIX,gvt1.com,自动选择
+ - DOMAIN-SUFFIX,gvt3.com,自动选择
+ - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,自动选择
+ - DOMAIN-KEYWORD,google,自动选择
+ - DOMAIN-KEYWORD,blogspot,自动选择
+ - DOMAIN-SUFFIX,onedrive.live.com,自动选择
+ - DOMAIN,az416426.vo.msecnd.net,自动选择
+ - DOMAIN,az668014.vo.msecnd.net,自动选择
+ - DOMAIN-SUFFIX,cdninstagram.com,自动选择
+ - DOMAIN-SUFFIX,facebook.com,自动选择
+ - DOMAIN-SUFFIX,facebook.net,自动选择
+ - DOMAIN-SUFFIX,fb.com,自动选择
+ - DOMAIN-SUFFIX,fb.me,自动选择
+ - DOMAIN-SUFFIX,fbaddins.com,自动选择
+ - DOMAIN-SUFFIX,fbcdn.net,自动选择
+ - DOMAIN-SUFFIX,fbsbx.com,自动选择
+ - DOMAIN-SUFFIX,fbworkmail.com,自动选择
+ - DOMAIN-SUFFIX,instagram.com,自动选择
+ - DOMAIN-SUFFIX,m.me,自动选择
+ - DOMAIN-SUFFIX,messenger.com,自动选择
+ - DOMAIN-SUFFIX,oculus.com,自动选择
+ - DOMAIN-SUFFIX,oculuscdn.com,自动选择
+ - DOMAIN-SUFFIX,rocksdb.org,自动选择
+ - DOMAIN-SUFFIX,whatsapp.com,自动选择
+ - DOMAIN-SUFFIX,whatsapp.net,自动选择
+ - DOMAIN-SUFFIX,pscp.tv,自动选择
+ - DOMAIN-SUFFIX,periscope.tv,自动选择
+ - DOMAIN-SUFFIX,t.co,自动选择
+ - DOMAIN-SUFFIX,twimg.co,自动选择
+ - DOMAIN-SUFFIX,twimg.com,自动选择
+ - DOMAIN-SUFFIX,twitpic.com,自动选择
+ - DOMAIN-SUFFIX,twitter.com,自动选择
+ - DOMAIN-SUFFIX,vine.co,自动选择
+ - DOMAIN-SUFFIX,telegra.ph,自动选择
+ - DOMAIN-SUFFIX,telegram.org,自动选择
+ - IP-CIDR,91.108.4.0/22,自动选择,no-resolve
+ - IP-CIDR,91.108.8.0/22,自动选择,no-resolve
+ - IP-CIDR,91.108.12.0/22,自动选择,no-resolve
+ - IP-CIDR,91.108.16.0/22,自动选择,no-resolve
+ - IP-CIDR,91.108.56.0/22,自动选择,no-resolve
+ - IP-CIDR,149.154.160.0/20,自动选择,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,自动选择,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,自动选择,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,自动选择,no-resolve
+ - DOMAIN-SUFFIX,line.me,自动选择
+ - DOMAIN-SUFFIX,line-apps.com,自动选择
+ - DOMAIN-SUFFIX,line-scdn.net,自动选择
+ - DOMAIN-SUFFIX,naver.jp,自动选择
+ - IP-CIDR,103.2.30.0/23,自动选择,no-resolve
+ - IP-CIDR,125.209.208.0/20,自动选择,no-resolve
+ - IP-CIDR,147.92.128.0/17,自动选择,no-resolve
+ - IP-CIDR,203.104.144.0/21,自动选择,no-resolve
+ - DOMAIN,a248.e.akamai.net,自动选择
+ - DOMAIN,a771.dscq.akamai.net,自动选择
+ - DOMAIN,d3c33hcgiwev3.cloudfront.net,自动选择
+ - DOMAIN-SUFFIX,4shared.com,自动选择
+ - DOMAIN-SUFFIX,9cache.com,自动选择
+ - DOMAIN-SUFFIX,9gag.com,自动选择
+ - DOMAIN-SUFFIX,abc.com,自动选择
+ - DOMAIN-SUFFIX,abc.net.au,自动选择
+ - DOMAIN-SUFFIX,abebooks.com,自动选择
+ - DOMAIN-SUFFIX,amazon.co.jp,自动选择
+ - DOMAIN-SUFFIX,ao3.org,自动选择
+ - DOMAIN-SUFFIX,apigee.com,自动选择
+ - DOMAIN-SUFFIX,apkcombo.com,自动选择
+ - DOMAIN-SUFFIX,apk-dl.com,自动选择
+ - DOMAIN-SUFFIX,apkfind.com,自动选择
+ - DOMAIN-SUFFIX,apkmirror.com,自动选择
+ - DOMAIN-SUFFIX,apkmonk.com,自动选择
+ - DOMAIN-SUFFIX,apkpure.com,自动选择
+ - DOMAIN-SUFFIX,aptoide.com,自动选择
+ - DOMAIN-SUFFIX,archive.is,自动选择
+ - DOMAIN-SUFFIX,archive.org,自动选择
+ - DOMAIN-SUFFIX,archiveofourown.com,自动选择
+ - DOMAIN-SUFFIX,archiveofourown.org,自动选择
+ - DOMAIN-SUFFIX,arte.tv,自动选择
+ - DOMAIN-SUFFIX,artstation.com,自动选择
+ - DOMAIN-SUFFIX,arukas.io,自动选择
+ - DOMAIN-SUFFIX,ask.com,自动选择
+ - DOMAIN-SUFFIX,avg.com,自动选择
+ - DOMAIN-SUFFIX,avgle.com,自动选择
+ - DOMAIN-SUFFIX,badoo.com,自动选择
+ - DOMAIN-SUFFIX,bandwagonhost.com,自动选择
+ - DOMAIN-SUFFIX,bangkokpost.com,自动选择
+ - DOMAIN-SUFFIX,bbc.com,自动选择
+ - DOMAIN-SUFFIX,behance.net,自动选择
+ - DOMAIN-SUFFIX,bibox.com,自动选择
+ - DOMAIN-SUFFIX,biggo.com.tw,自动选择
+ - DOMAIN-SUFFIX,binance.com,自动选择
+ - DOMAIN-SUFFIX,bit.ly,自动选择
+ - DOMAIN-SUFFIX,bitcointalk.org,自动选择
+ - DOMAIN-SUFFIX,bitfinex.com,自动选择
+ - DOMAIN-SUFFIX,bitmex.com,自动选择
+ - DOMAIN-SUFFIX,bit-z.com,自动选择
+ - DOMAIN-SUFFIX,bloglovin.com,自动选择
+ - DOMAIN-SUFFIX,bloomberg.cn,自动选择
+ - DOMAIN-SUFFIX,bloomberg.com,自动选择
+ - DOMAIN-SUFFIX,blubrry.com,自动选择
+ - DOMAIN-SUFFIX,book.com.tw,自动选择
+ - DOMAIN-SUFFIX,booklive.jp,自动选择
+ - DOMAIN-SUFFIX,books.com.tw,自动选择
+ - DOMAIN-SUFFIX,boslife.net,自动选择
+ - DOMAIN-SUFFIX,box.com,自动选择
+ - DOMAIN-SUFFIX,brave.com,自动选择
+ - DOMAIN-SUFFIX,businessinsider.com,自动选择
+ - DOMAIN-SUFFIX,buzzfeed.com,自动选择
+ - DOMAIN-SUFFIX,bwh1.net,自动选择
+ - DOMAIN-SUFFIX,castbox.fm,自动选择
+ - DOMAIN-SUFFIX,cbc.ca,自动选择
+ - DOMAIN-SUFFIX,cdw.com,自动选择
+ - DOMAIN-SUFFIX,change.org,自动选择
+ - DOMAIN-SUFFIX,channelnewsasia.com,自动选择
+ - DOMAIN-SUFFIX,ck101.com,自动选择
+ - DOMAIN-SUFFIX,clarionproject.org,自动选择
+ - DOMAIN-SUFFIX,cloudcone.com,自动选择
+ - DOMAIN-SUFFIX,clyp.it,自动选择
+ - DOMAIN-SUFFIX,cna.com.tw,自动选择
+ - DOMAIN-SUFFIX,comparitech.com,自动选择
+ - DOMAIN-SUFFIX,conoha.jp,自动选择
+ - DOMAIN-SUFFIX,crucial.com,自动选择
+ - DOMAIN-SUFFIX,cts.com.tw,自动选择
+ - DOMAIN-SUFFIX,cw.com.tw,自动选择
+ - DOMAIN-SUFFIX,cyberctm.com,自动选择
+ - DOMAIN-SUFFIX,dailymotion.com,自动选择
+ - DOMAIN-SUFFIX,dailyview.tw,自动选择
+ - DOMAIN-SUFFIX,daum.net,自动选择
+ - DOMAIN-SUFFIX,daumcdn.net,自动选择
+ - DOMAIN-SUFFIX,dcard.tw,自动选择
+ - DOMAIN-SUFFIX,deadline.com,自动选择
+ - DOMAIN-SUFFIX,deepdiscount.com,自动选择
+ - DOMAIN-SUFFIX,depositphotos.com,自动选择
+ - DOMAIN-SUFFIX,deviantart.com,自动选择
+ - DOMAIN-SUFFIX,disconnect.me,自动选择
+ - DOMAIN-SUFFIX,discordapp.com,自动选择
+ - DOMAIN-SUFFIX,discordapp.net,自动选择
+ - DOMAIN-SUFFIX,disqus.com,自动选择
+ - DOMAIN-SUFFIX,dlercloud.com,自动选择
+ - DOMAIN-SUFFIX,dmhy.org,自动选择
+ - DOMAIN-SUFFIX,dns2go.com,自动选择
+ - DOMAIN-SUFFIX,dowjones.com,自动选择
+ - DOMAIN-SUFFIX,dropbox.com,自动选择
+ - DOMAIN-SUFFIX,dropboxapi.com,自动选择
+ - DOMAIN-SUFFIX,dropboxusercontent.com,自动选择
+ - DOMAIN-SUFFIX,duckduckgo.com,自动选择
+ - DOMAIN-SUFFIX,duyaoss.com,自动选择
+ - DOMAIN-SUFFIX,dw.com,自动选择
+ - DOMAIN-SUFFIX,dynu.com,自动选择
+ - DOMAIN-SUFFIX,earthcam.com,自动选择
+ - DOMAIN-SUFFIX,ebookservice.tw,自动选择
+ - DOMAIN-SUFFIX,economist.com,自动选择
+ - DOMAIN-SUFFIX,edgecastcdn.net,自动选择
+ - DOMAIN-SUFFIX,edu,自动选择
+ - DOMAIN-SUFFIX,edx-cdn.org,自动选择
+ - DOMAIN-SUFFIX,elpais.com,自动选择
+ - DOMAIN-SUFFIX,enanyang.my,自动选择
+ - DOMAIN-SUFFIX,encyclopedia.com,自动选择
+ - DOMAIN-SUFFIX,esoir.be,自动选择
+ - DOMAIN-SUFFIX,etherscan.io,自动选择
+ - DOMAIN-SUFFIX,euronews.com,自动选择
+ - DOMAIN-SUFFIX,evozi.com,自动选择
+ - DOMAIN-SUFFIX,exblog.jp,自动选择
+ - DOMAIN-SUFFIX,feeder.co,自动选择
+ - DOMAIN-SUFFIX,feedly.com,自动选择
+ - DOMAIN-SUFFIX,feedx.net,自动选择
+ - DOMAIN-SUFFIX,firech.at,自动选择
+ - DOMAIN-SUFFIX,flickr.com,自动选择
+ - DOMAIN-SUFFIX,flipboard.com,自动选择
+ - DOMAIN-SUFFIX,flitto.com,自动选择
+ - DOMAIN-SUFFIX,foreignpolicy.com,自动选择
+ - DOMAIN-SUFFIX,fortawesome.com,自动选择
+ - DOMAIN-SUFFIX,freetls.fastly.net,自动选择
+ - DOMAIN-SUFFIX,friday.tw,自动选择
+ - DOMAIN-SUFFIX,ft.com,自动选择
+ - DOMAIN-SUFFIX,ftchinese.com,自动选择
+ - DOMAIN-SUFFIX,ftimg.net,自动选择
+ - DOMAIN-SUFFIX,gate.io,自动选择
+ - DOMAIN-SUFFIX,getlantern.org,自动选择
+ - DOMAIN-SUFFIX,getsync.com,自动选择
+ - DOMAIN-SUFFIX,github.com,自动选择
+ - DOMAIN-SUFFIX,github.io,自动选择
+ - DOMAIN-SUFFIX,githubusercontent.com,自动选择
+ - DOMAIN-SUFFIX,globalvoices.org,自动选择
+ - DOMAIN-SUFFIX,goo.ne.jp,自动选择
+ - DOMAIN-SUFFIX,goodreads.com,自动选择
+ - DOMAIN-SUFFIX,gov,自动选择
+ - DOMAIN-SUFFIX,gov.tw,自动选择
+ - DOMAIN-SUFFIX,greatfire.org,自动选择
+ - DOMAIN-SUFFIX,gumroad.com,自动选择
+ - DOMAIN-SUFFIX,hbg.com,自动选择
+ - DOMAIN-SUFFIX,heroku.com,自动选择
+ - DOMAIN-SUFFIX,hightail.com,自动选择
+ - DOMAIN-SUFFIX,hk01.com,自动选择
+ - DOMAIN-SUFFIX,hkbf.org,自动选择
+ - DOMAIN-SUFFIX,hkbookcity.com,自动选择
+ - DOMAIN-SUFFIX,hkej.com,自动选择
+ - DOMAIN-SUFFIX,hket.com,自动选择
+ - DOMAIN-SUFFIX,hootsuite.com,自动选择
+ - DOMAIN-SUFFIX,hudson.org,自动选择
+ - DOMAIN-SUFFIX,huffpost.com,自动选择
+ - DOMAIN-SUFFIX,hyread.com.tw,自动选择
+ - DOMAIN-SUFFIX,ibtimes.com,自动选择
+ - DOMAIN-SUFFIX,i-cable.com,自动选择
+ - DOMAIN-SUFFIX,icij.org,自动选择
+ - DOMAIN-SUFFIX,icoco.com,自动选择
+ - DOMAIN-SUFFIX,imgur.com,自动选择
+ - DOMAIN-SUFFIX,independent.co.uk,自动选择
+ - DOMAIN-SUFFIX,initiummall.com,自动选择
+ - DOMAIN-SUFFIX,inoreader.com,自动选择
+ - DOMAIN-SUFFIX,insecam.org,自动选择
+ - DOMAIN-SUFFIX,ipfs.io,自动选择
+ - DOMAIN-SUFFIX,issuu.com,自动选择
+ - DOMAIN-SUFFIX,istockphoto.com,自动选择
+ - DOMAIN-SUFFIX,japantimes.co.jp,自动选择
+ - DOMAIN-SUFFIX,jiji.com,自动选择
+ - DOMAIN-SUFFIX,jinx.com,自动选择
+ - DOMAIN-SUFFIX,jkforum.net,自动选择
+ - DOMAIN-SUFFIX,joinmastodon.org,自动选择
+ - DOMAIN-SUFFIX,justmysocks.net,自动选择
+ - DOMAIN-SUFFIX,justpaste.it,自动选择
+ - DOMAIN-SUFFIX,kadokawa.co.jp,自动选择
+ - DOMAIN-SUFFIX,kakao.com,自动选择
+ - DOMAIN-SUFFIX,kakaocorp.com,自动选择
+ - DOMAIN-SUFFIX,kik.com,自动选择
+ - DOMAIN-SUFFIX,kingkong.com.tw,自动选择
+ - DOMAIN-SUFFIX,knowyourmeme.com,自动选择
+ - DOMAIN-SUFFIX,kobo.com,自动选择
+ - DOMAIN-SUFFIX,kobobooks.com,自动选择
+ - DOMAIN-SUFFIX,kodingen.com,自动选择
+ - DOMAIN-SUFFIX,lemonde.fr,自动选择
+ - DOMAIN-SUFFIX,lepoint.fr,自动选择
+ - DOMAIN-SUFFIX,lihkg.com,自动选择
+ - DOMAIN-SUFFIX,limbopro.xyz,自动选择
+ - DOMAIN-SUFFIX,listennotes.com,自动选择
+ - DOMAIN-SUFFIX,livestream.com,自动选择
+ - DOMAIN-SUFFIX,logimg.jp,自动选择
+ - DOMAIN-SUFFIX,logmein.com,自动选择
+ - DOMAIN-SUFFIX,mail.ru,自动选择
+ - DOMAIN-SUFFIX,mailchimp.com,自动选择
+ - DOMAIN-SUFFIX,marc.info,自动选择
+ - DOMAIN-SUFFIX,matters.news,自动选择
+ - DOMAIN-SUFFIX,maying.co,自动选择
+ - DOMAIN-SUFFIX,medium.com,自动选择
+ - DOMAIN-SUFFIX,mega.nz,自动选择
+ - DOMAIN-SUFFIX,mergersandinquisitions.com,自动选择
+ - DOMAIN-SUFFIX,mil,自动选择
+ - DOMAIN-SUFFIX,mingpao.com,自动选择
+ - DOMAIN-SUFFIX,mixi.jp,自动选择
+ - DOMAIN-SUFFIX,mobile01.com,自动选择
+ - DOMAIN-SUFFIX,mubi.com,自动选择
+ - DOMAIN-SUFFIX,myspace.com,自动选择
+ - DOMAIN-SUFFIX,myspacecdn.com,自动选择
+ - DOMAIN-SUFFIX,nanyang.com,自动选择
+ - DOMAIN-SUFFIX,nationalinterest.org,自动选择
+ - DOMAIN-SUFFIX,naver.com,自动选择
+ - DOMAIN-SUFFIX,nbcnews.com,自动选择
+ - DOMAIN-SUFFIX,ndr.de,自动选择
+ - DOMAIN-SUFFIX,neowin.net,自动选择
+ - DOMAIN-SUFFIX,newstapa.org,自动选择
+ - DOMAIN-SUFFIX,nexitally.com,自动选择
+ - DOMAIN-SUFFIX,nhk.or.jp,自动选择
+ - DOMAIN-SUFFIX,nii.ac.jp,自动选择
+ - DOMAIN-SUFFIX,nikkei.com,自动选择
+ - DOMAIN-SUFFIX,nitter.net,自动选择
+ - DOMAIN-SUFFIX,nofile.io,自动选择
+ - DOMAIN-SUFFIX,notion.so,自动选择
+ - DOMAIN-SUFFIX,now.com,自动选择
+ - DOMAIN-SUFFIX,nrk.no,自动选择
+ - DOMAIN-SUFFIX,nuget.org,自动选择
+ - DOMAIN-SUFFIX,nyaa.si,自动选择
+ - DOMAIN-SUFFIX,nyt.com,自动选择
+ - DOMAIN-SUFFIX,nytchina.com,自动选择
+ - DOMAIN-SUFFIX,nytcn.me,自动选择
+ - DOMAIN-SUFFIX,nytco.com,自动选择
+ - DOMAIN-SUFFIX,nytimes.com,自动选择
+ - DOMAIN-SUFFIX,nytimg.com,自动选择
+ - DOMAIN-SUFFIX,nytlog.com,自动选择
+ - DOMAIN-SUFFIX,nytstyle.com,自动选择
+ - DOMAIN-SUFFIX,ok.ru,自动选择
+ - DOMAIN-SUFFIX,okex.com,自动选择
+ - DOMAIN-SUFFIX,on.cc,自动选择
+ - DOMAIN-SUFFIX,orientaldaily.com.my,自动选择
+ - DOMAIN-SUFFIX,overcast.fm,自动选择
+ - DOMAIN-SUFFIX,paltalk.com,自动选择
+ - DOMAIN-SUFFIX,parsevideo.com,自动选择
+ - DOMAIN-SUFFIX,pawoo.net,自动选择
+ - DOMAIN-SUFFIX,pbxes.com,自动选择
+ - DOMAIN-SUFFIX,pcdvd.com.tw,自动选择
+ - DOMAIN-SUFFIX,pchome.com.tw,自动选择
+ - DOMAIN-SUFFIX,pcloud.com,自动选择
+ - DOMAIN-SUFFIX,peing.net,自动选择
+ - DOMAIN-SUFFIX,picacomic.com,自动选择
+ - DOMAIN-SUFFIX,pinimg.com,自动选择
+ - DOMAIN-SUFFIX,pixiv.net,自动选择
+ - DOMAIN-SUFFIX,player.fm,自动选择
+ - DOMAIN-SUFFIX,plurk.com,自动选择
+ - DOMAIN-SUFFIX,po18.tw,自动选择
+ - DOMAIN-SUFFIX,potato.im,自动选择
+ - DOMAIN-SUFFIX,potatso.com,自动选择
+ - DOMAIN-SUFFIX,prism-break.org,自动选择
+ - DOMAIN-SUFFIX,proxifier.com,自动选择
+ - DOMAIN-SUFFIX,pt.im,自动选择
+ - DOMAIN-SUFFIX,pts.org.tw,自动选择
+ - DOMAIN-SUFFIX,pubu.com.tw,自动选择
+ - DOMAIN-SUFFIX,pubu.tw,自动选择
+ - DOMAIN-SUFFIX,pureapk.com,自动选择
+ - DOMAIN-SUFFIX,quora.com,自动选择
+ - DOMAIN-SUFFIX,quoracdn.net,自动选择
+ - DOMAIN-SUFFIX,qz.com,自动选择
+ - DOMAIN-SUFFIX,radio.garden,自动选择
+ - DOMAIN-SUFFIX,rakuten.co.jp,自动选择
+ - DOMAIN-SUFFIX,rarbgprx.org,自动选择
+ - DOMAIN-SUFFIX,reabble.com,自动选择
+ - DOMAIN-SUFFIX,readingtimes.com.tw,自动选择
+ - DOMAIN-SUFFIX,readmoo.com,自动选择
+ - DOMAIN-SUFFIX,redbubble.com,自动选择
+ - DOMAIN-SUFFIX,redd.it,自动选择
+ - DOMAIN-SUFFIX,reddit.com,自动选择
+ - DOMAIN-SUFFIX,redditmedia.com,自动选择
+ - DOMAIN-SUFFIX,resilio.com,自动选择
+ - DOMAIN-SUFFIX,reuters.com,自动选择
+ - DOMAIN-SUFFIX,reutersmedia.net,自动选择
+ - DOMAIN-SUFFIX,rfi.fr,自动选择
+ - DOMAIN-SUFFIX,rixcloud.com,自动选择
+ - DOMAIN-SUFFIX,roadshow.hk,自动选择
+ - DOMAIN-SUFFIX,rsshub.app,自动选择
+ - DOMAIN-SUFFIX,scmp.com,自动选择
+ - DOMAIN-SUFFIX,scribd.com,自动选择
+ - DOMAIN-SUFFIX,seatguru.com,自动选择
+ - DOMAIN-SUFFIX,shadowsocks.org,自动选择
+ - DOMAIN-SUFFIX,shindanmaker.com,自动选择
+ - DOMAIN-SUFFIX,shopee.tw,自动选择
+ - DOMAIN-SUFFIX,sina.com.hk,自动选择
+ - DOMAIN-SUFFIX,slideshare.net,自动选择
+ - DOMAIN-SUFFIX,softfamous.com,自动选择
+ - DOMAIN-SUFFIX,spiegel.de,自动选择
+ - DOMAIN-SUFFIX,ssrcloud.org,自动选择
+ - DOMAIN-SUFFIX,startpage.com,自动选择
+ - DOMAIN-SUFFIX,steamcommunity.com,自动选择
+ - DOMAIN-SUFFIX,steemit.com,自动选择
+ - DOMAIN-SUFFIX,steemitwallet.com,自动选择
+ - DOMAIN-SUFFIX,straitstimes.com,自动选择
+ - DOMAIN-SUFFIX,streema.com,自动选择
+ - DOMAIN-SUFFIX,t66y.com,自动选择
+ - DOMAIN-SUFFIX,tapatalk.com,自动选择
+ - DOMAIN-SUFFIX,teco-hk.org,自动选择
+ - DOMAIN-SUFFIX,teco-mo.org,自动选择
+ - DOMAIN-SUFFIX,teddysun.com,自动选择
+ - DOMAIN-SUFFIX,textnow.me,自动选择
+ - DOMAIN-SUFFIX,theguardian.com,自动选择
+ - DOMAIN-SUFFIX,theinitium.com,自动选择
+ - DOMAIN-SUFFIX,themoviedb.org,自动选择
+ - DOMAIN-SUFFIX,thetvdb.com,自动选择
+ - DOMAIN-SUFFIX,time.com,自动选择
+ - DOMAIN-SUFFIX,tineye.com,自动选择
+ - DOMAIN-SUFFIX,tiny.cc,自动选择
+ - DOMAIN-SUFFIX,tinyurl.com,自动选择
+ - DOMAIN-SUFFIX,torproject.org,自动选择
+ - DOMAIN-SUFFIX,tumblr.com,自动选择
+ - DOMAIN-SUFFIX,turbobit.net,自动选择
+ - DOMAIN-SUFFIX,tutanota.com,自动选择
+ - DOMAIN-SUFFIX,tvboxnow.com,自动选择
+ - DOMAIN-SUFFIX,udn.com,自动选择
+ - DOMAIN-SUFFIX,unseen.is,自动选择
+ - DOMAIN-SUFFIX,upmedia.mg,自动选择
+ - DOMAIN-SUFFIX,uptodown.com,自动选择
+ - DOMAIN-SUFFIX,urbandictionary.com,自动选择
+ - DOMAIN-SUFFIX,ustream.tv,自动选择
+ - DOMAIN-SUFFIX,uwants.com,自动选择
+ - DOMAIN-SUFFIX,v2fly.org,自动选择
+ - DOMAIN-SUFFIX,v2ray.com,自动选择
+ - DOMAIN-SUFFIX,viber.com,自动选择
+ - DOMAIN-SUFFIX,videopress.com,自动选择
+ - DOMAIN-SUFFIX,vimeo.com,自动选择
+ - DOMAIN-SUFFIX,voachinese.com,自动选择
+ - DOMAIN-SUFFIX,voanews.com,自动选择
+ - DOMAIN-SUFFIX,voxer.com,自动选择
+ - DOMAIN-SUFFIX,vzw.com,自动选择
+ - DOMAIN-SUFFIX,w3schools.com,自动选择
+ - DOMAIN-SUFFIX,washingtonpost.com,自动选择
+ - DOMAIN-SUFFIX,wattpad.com,自动选择
+ - DOMAIN-SUFFIX,whoer.net,自动选择
+ - DOMAIN-SUFFIX,wikileaks.org,自动选择
+ - DOMAIN-SUFFIX,wikimapia.org,自动选择
+ - DOMAIN-SUFFIX,wikimedia.org,自动选择
+ - DOMAIN-SUFFIX,wikinews.org,自动选择
+ - DOMAIN-SUFFIX,wikipedia.org,自动选择
+ - DOMAIN-SUFFIX,wikiquote.org,自动选择
+ - DOMAIN-SUFFIX,wikiwand.com,自动选择
+ - DOMAIN-SUFFIX,winudf.com,自动选择
+ - DOMAIN-SUFFIX,wire.com,自动选择
+ - DOMAIN-SUFFIX,wn.com,自动选择
+ - DOMAIN-SUFFIX,wordpress.com,自动选择
+ - DOMAIN-SUFFIX,workflow.is,自动选择
+ - DOMAIN-SUFFIX,worldcat.org,自动选择
+ - DOMAIN-SUFFIX,wsj.com,自动选择
+ - DOMAIN-SUFFIX,wsj.net,自动选择
+ - DOMAIN-SUFFIX,xhamster.com,自动选择
+ - DOMAIN-SUFFIX,xn--90wwvt03e.com,自动选择
+ - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,自动选择
+ - DOMAIN-SUFFIX,xnxx.com,自动选择
+ - DOMAIN-SUFFIX,xvideos.com,自动选择
+ - DOMAIN-SUFFIX,yahoo.com,自动选择
+ - DOMAIN-SUFFIX,yandex.ru,自动选择
+ - DOMAIN-SUFFIX,ycombinator.com,自动选择
+ - DOMAIN-SUFFIX,yesasia.com,自动选择
+ - DOMAIN-SUFFIX,yes-news.com,自动选择
+ - DOMAIN-SUFFIX,yomiuri.co.jp,自动选择
+ - DOMAIN-SUFFIX,you-get.org,自动选择
+ - DOMAIN-SUFFIX,zaobao.com,自动选择
+ - DOMAIN-SUFFIX,zb.com,自动选择
+ - DOMAIN-SUFFIX,zello.com,自动选择
+ - DOMAIN-SUFFIX,zeronet.io,自动选择
+ - DOMAIN-SUFFIX,zoom.us,自动选择
+ - DOMAIN,cc.tvbs.com.tw,自动选择
+ - DOMAIN,ocsp.int-x3.letsencrypt.org,自动选择
+ - DOMAIN,payments-jp.amazon.com,自动选择
+ - DOMAIN,s3-ap-northeast-1.amazonaws.com,自动选择
+ - DOMAIN,s3-ap-southeast-2.amazonaws.com,自动选择
+ - DOMAIN,search.avira.com,自动选择
+ - DOMAIN,us.weibo.com,自动选择
+ - DOMAIN-KEYWORD,jav,自动选择
+ - DOMAIN-KEYWORD,pinterest,自动选择
+ - DOMAIN-KEYWORD,porn,自动选择
+ - DOMAIN-SUFFIX,abc.xyz,自动选择
+ - DOMAIN-SUFFIX,advertisercommunity.com,自动选择
+ - DOMAIN-SUFFIX,ampproject.org,自动选择
+ - DOMAIN-SUFFIX,android.com,自动选择
+ - DOMAIN-SUFFIX,androidify.com,自动选择
+ - DOMAIN-SUFFIX,dialogflow.com,自动选择
+ - DOMAIN-SUFFIX,autodraw.com,自动选择
+ - DOMAIN-SUFFIX,capitalg.com,自动选择
+ - DOMAIN-SUFFIX,certificate-transparency.org,自动选择
+ - DOMAIN-SUFFIX,chrome.com,自动选择
+ - DOMAIN-SUFFIX,chromeexperiments.com,自动选择
+ - DOMAIN-SUFFIX,chromestatus.com,自动选择
+ - DOMAIN-SUFFIX,chromium.org,自动选择
+ - DOMAIN-SUFFIX,creativelab5.com,自动选择
+ - DOMAIN-SUFFIX,debug.com,自动选择
+ - DOMAIN-SUFFIX,deepmind.com,自动选择
+ - DOMAIN-SUFFIX,firebaseio.com,自动选择
+ - DOMAIN-SUFFIX,getmdl.io,自动选择
+ - DOMAIN-SUFFIX,ggpht.com,自动选择
+ - DOMAIN-SUFFIX,gmail.com,自动选择
+ - DOMAIN-SUFFIX,gmodules.com,自动选择
+ - DOMAIN-SUFFIX,godoc.org,自动选择
+ - DOMAIN-SUFFIX,golang.org,自动选择
+ - DOMAIN-SUFFIX,gstatic.com,自动选择
+ - DOMAIN-SUFFIX,gv.com,自动选择
+ - DOMAIN-SUFFIX,gwtproject.org,自动选择
+ - DOMAIN-SUFFIX,itasoftware.com,自动选择
+ - DOMAIN-SUFFIX,madewithcode.com,自动选择
+ - DOMAIN-SUFFIX,material.io,自动选择
+ - DOMAIN-SUFFIX,page.link,自动选择
+ - DOMAIN-SUFFIX,polymer-project.org,自动选择
+ - DOMAIN-SUFFIX,admin.recaptcha.net,自动选择
+ - DOMAIN-SUFFIX,recaptcha.net,自动选择
+ - DOMAIN-SUFFIX,shattered.io,自动选择
+ - DOMAIN-SUFFIX,synergyse.com,自动选择
+ - DOMAIN-SUFFIX,telephony.goog,自动选择
+ - DOMAIN-SUFFIX,tensorflow.org,自动选择
+ - DOMAIN-SUFFIX,tfhub.dev,自动选择
+ - DOMAIN-SUFFIX,tiltbrush.com,自动选择
+ - DOMAIN-SUFFIX,waveprotocol.org,自动选择
+ - DOMAIN-SUFFIX,waymo.com,自动选择
+ - DOMAIN-SUFFIX,webmproject.org,自动选择
+ - DOMAIN-SUFFIX,webrtc.org,自动选择
+ - DOMAIN-SUFFIX,whatbrowser.org,自动选择
+ - DOMAIN-SUFFIX,widevine.com,自动选择
+ - DOMAIN-SUFFIX,x.company,自动选择
+ - DOMAIN-SUFFIX,youtu.be,自动选择
+ - DOMAIN-SUFFIX,yt.be,自动选择
+ - DOMAIN-SUFFIX,ytimg.com,自动选择
+ - DOMAIN-SUFFIX,t.me,自动选择
+ - DOMAIN-SUFFIX,tdesktop.com,自动选择
+ - DOMAIN-SUFFIX,telegram.me,自动选择
+ - DOMAIN-SUFFIX,telesco.pe,自动选择
+ - DOMAIN-SUFFIX,facebook.br,自动选择
+ - DOMAIN-SUFFIX,facebook.design,自动选择
+ - DOMAIN-SUFFIX,facebook.hu,自动选择
+ - DOMAIN-SUFFIX,facebook.in,自动选择
+ - DOMAIN-SUFFIX,facebook.nl,自动选择
+ - DOMAIN-SUFFIX,facebook.se,自动选择
+ - DOMAIN-SUFFIX,facebookmail.com,自动选择
+ - DOMAIN-SUFFIX,noxinfluencer.com,自动选择
+ - DOMAIN-SUFFIX,smartmailcloud.com,自动选择
+ - DOMAIN-SUFFIX,weebly.com,自动选择
+ - DOMAIN-SUFFIX,twitter.jp,自动选择
+ - DOMAIN-SUFFIX,appsto.re,自动选择
+ - DOMAIN,books.itunes.apple.com,自动选择
+ - DOMAIN,apps.apple.com,自动选择
+ - DOMAIN,itunes.apple.com,自动选择
+ - DOMAIN,api-glb-sea.smoot.apple.com,自动选择
+ - DOMAIN,lookup-api.apple.com,自动选择
+ - DOMAIN-SUFFIX,smoot.apple.com,自动选择
+ - DOMAIN,beta.music.apple.com,自动选择
+ - DOMAIN-SUFFIX,bing.com,自动选择
+ - DOMAIN-SUFFIX,cccat.io,自动选择
+ - DOMAIN-SUFFIX,dubox.com,自动选择
+ - DOMAIN-SUFFIX,duboxcdn.com,自动选择
+ - DOMAIN-SUFFIX,ifixit.com,自动选择
+ - DOMAIN-SUFFIX,mangakakalot.com,自动选择
+ - DOMAIN-SUFFIX,shopeemobile.com,自动选择
+ - DOMAIN-KEYWORD,buy.itunes.apple.com,自动选择
+ - DOMAIN-SUFFIX,cloudcone.com.cn,自动选择
+ - DOMAIN-SUFFIX,inkbunny.net,自动选择
+ - DOMAIN-SUFFIX,metapix.net,自动选择
+ - DOMAIN-SUFFIX,s3.amazonaws.com,自动选择
+ - DOMAIN-SUFFIX,zaobao.com.sg,自动选择
  - DOMAIN-SUFFIX,aaplimg.com,苹果服务
  - DOMAIN-SUFFIX,apple.co,苹果服务
  - DOMAIN-SUFFIX,apple.com,苹果服务
