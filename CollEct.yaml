@@ -103,6 +103,7 @@ proxies:
   - {name: CollEctW_GB3, server: 89.238.133.125, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: CollEctW_GB4, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
   - {name: CollEctW_GB5, server: 185.38.150.124, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: CollEctW_GB6, server: guangzhoucm.cdn223.me, port: 47003, type: vmess, uuid: b815d9cf-eead-3fc1-8c27-9c1ff3962b69, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls, ws-headers: {Host: linodeyg.xiaobaiyun.me}}
   - {name: CollEctW_JP1, server: 5.183.176.117, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.80482495.xyz}}
   - {name: CollEctW_JP2, server: 51.89.108.65, port: 443, type: vmess, uuid: 2c21f10c-ed4a-4adc-ac34-34d65dd3ce65, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.15738743.xyz}}
   - {name: CollEctW_JP3, server: 5.183.176.78, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.94459853.xyz}}
@@ -129,6 +130,11 @@ proxies:
   - {name: CollEctW_MY3, server: 118.107.244.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: CollEctW_MY4, server: 118.107.244.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: CollEctW_MY5, server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CollEctW_CH1, server: 212.102.35.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: CollEctW_FR1, server: 51.77.170.89, port: 3030, type: ss, cipher: chacha20-ietf-poly1305, password: 7FDvhjev93bs}
+  - {name: CollEctW_FR2, server: 51.75.141.238, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: PkaS32tULDz4}
+  - {name: CollEctW_ipv61, server: boom-1811160045.blizzard.ltd, port: 443, type: vmess, uuid: 5ed1ad68-6337-4fdb-a34b-f57e0b96ddbc, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /phpmyadmin, ws-headers: {Host: video.fuck-gfw.eu.org}}
+  - {name: CollEctW_ipv62, server: 104.26.14.221, port: 443, type: vmess, uuid: 5ed1ad68-6337-4fdb-a34b-f57e0b96ddbc, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /phpmyadmin, ws-headers: {Host: video.fuck-gfw.eu.org}}
 proxy-groups:
   - name: 自动选择
     type: url-test
@@ -233,6 +239,7 @@ proxy-groups:
       - CollEctW_GB3
       - CollEctW_GB4
       - CollEctW_GB5
+      - CollEctW_GB6
       - CollEctW_JP1
       - CollEctW_JP2
       - CollEctW_JP3
@@ -259,6 +266,11 @@ proxy-groups:
       - CollEctW_MY3
       - CollEctW_MY4
       - CollEctW_MY5
+      - CollEctW_CH1
+      - CollEctW_FR1
+      - CollEctW_FR2
+      - CollEctW_ipv61
+      - CollEctW_ipv62
   - name: 国外媒体
     type: select
     proxies:
