@@ -5,23 +5,130 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CollEctQ_1, server: 185.124.240.159, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: CollEctQ_2, server: 185.124.240.159, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: CollEctQ_3, server: 185.124.240.159, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: CollEctQ_4, server: 185.124.240.159, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: CollEctQ_5, server: 185.124.240.159, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: CollEctQ_6, server: 45.66.134.210, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: CollEctQ_7, server: 185.104.184.78, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: CollEctQ_8, server: 167.88.61.236, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: CollEctQ_9, server: 45.43.14.95, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CollEctW_0, server: 89.38.227.165, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: CollEctW_1, server: 89.38.227.165, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: CollEctW_2, server: 89.38.227.165, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: CollEctW_3, server: 89.38.227.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: CollEctW_4, server: 51.79.228.135, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: CollEctW_5, server: 185.137.137.60, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: CollEctW_6, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: cWv8FcJk0VpS}
-  - {name: CollEctW_7, server: n62.boom.party, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 223178:RUOPvI, obfs-param: download.windowsupdate.com}
+  - {name: CollEctQ_1, server: 185.124.240.159, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: CollEctQ_3, server: 185.104.184.78, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CollEctW_1, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: cWv8FcJk0VpS}
+  - {name: CollEctW_US1, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: CollEctW_US2, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: CollEctW_US3, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CollEctW_US4, server: 208.78.41.198, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CollEctW_US5, server: 84.17.35.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CollEctW_US6, server: 84.17.35.118, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: CollEctW_US7, server: 84.17.35.118, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: CollEctW_US8, server: 84.17.35.118, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: CollEctW_US9, server: 84.17.35.118, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: CollEctW_US10, server: 84.17.35.118, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: CollEctW_US11, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: CollEctW_US12, server: 84.17.35.118, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: CollEctW_US13, server: 84.17.35.118, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: CollEctW_US14, server: 143.244.42.71, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: CollEctW_US15, server: 143.244.60.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: CollEctW_US16, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: CollEctW_US17, server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: CollEctW_US18, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: CollEctW_US19, server: 212.102.44.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: CollEctW_US20, server: 212.102.44.83, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CollEctW_US21, server: 212.102.44.83, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: CollEctW_US22, server: 212.102.44.83, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: CollEctW_US23, server: 207.182.155.170, port: 3030, type: ss, cipher: chacha20-ietf-poly1305, password: gRcNQyKEpDEI}
+  - {name: CollEctW_US24, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false}
+  - {name: CollEctW_US25, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CollEctW_US26, server: 45.88.179.35, port: 44657, type: vmess, uuid: 085e6815-e476-411a-a9a6-4e5306a1b875, alterId: 0, cipher: auto, tls: false}
+  - {name: CollEctW_US27, server: 51.81.35.164, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
+  - {name: CollEctW_US28, server: 45.89.107.128, port: 8080, type: vmess, uuid: d7ae5102-dacc-4ec7-afce-b6205da12b97, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.89.107.128}}
+  - {name: CollEctW_US29, server: 45.135.135.93, port: 8080, type: vmess, uuid: ae6dfbee-4dca-4906-82ec-a4633bfae0b5, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.135.135.93}}
+  - {name: CollEctW_US30, server: 45.11.92.200, port: 30500, type: vmess, uuid: 35b77d63-ba4b-3271-b526-65645bd2e267, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: en.tgchannels.org/channel/vpnpool}}
+  - {name: CollEctW_US31, server: usbackup8.mars6666.com, port: 443, type: vmess, uuid: fe93a062-d13f-3958-9ebc-0c06cd32dfb0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usbackup8.mars6666.com}}
+  - {name: CollEctW_US32, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: CollEctW_US33, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: CollEctW_US34, server: guangzhoucm.cdn223.me, port: 49003, type: vmess, uuid: b815d9cf-eead-3fc1-8c27-9c1ff3962b69, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls, ws-headers: {Host: linodedeguo.xiaobaiyun.me}}
+  - {name: CollEctW_IT1, server: 82.102.26.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: CollEctW_IT2, server: 82.102.26.117, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: CollEctW_IT3, server: 82.102.26.117, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: CollEctW_IT4, server: 82.102.26.117, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CollEctW_IT5, server: 82.102.26.117, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: CollEctW_IT6, server: 82.102.26.117, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: CollEctW_IT7, server: 82.102.26.117, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: CollEctW_IT8, server: 82.102.26.117, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: CollEctW_IT9, server: 82.102.26.117, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: CollEctW_IT10, server: 82.102.26.117, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: CollEctW_IT11, server: 82.102.26.237, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: CollEctW_IT12, server: 82.102.26.117, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: CollEctW_IT13, server: 82.102.26.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: CollEctW_IT14, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: CollEctW_IT15, server: 82.102.26.117, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: CollEctW_IT16, server: 82.102.26.117, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: CollEctW_IT17, server: 82.102.26.117, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: CollEctW_IT18, server: 82.102.26.117, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: CollEctW_IT19, server: 82.102.26.117, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: CollEctW_IT20, server: 82.102.26.117, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: CollEctW_IT21, server: 82.102.26.117, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: CollEctW_IT22, server: 82.102.26.117, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: CollEctW_IT23, server: 82.102.26.117, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: CollEctW_IT24, server: 82.102.26.117, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: CollEctW_IT25, server: 82.102.26.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: CollEctW_IT26, server: 82.102.26.117, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: CollEctW_IT27, server: 82.102.26.117, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: CollEctW_IT28, server: 82.102.26.117, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: CollEctW_IT29, server: 82.102.26.117, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: CollEctW_RO1, server: 91.90.123.155, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: CollEctW_RO2, server: 91.90.123.115, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: CollEctW_RO3, server: 91.90.123.115, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: CollEctW_RO4, server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: CollEctW_RO5, server: 91.90.123.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CollEctW_RO6, server: 91.90.121.187, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CollEctW_RO7, server: 91.90.123.125, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: CollEctW_RO8, server: 91.90.123.115, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: CollEctW_RO9, server: 91.90.123.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: CollEctW_RO10, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: CollEctW_RO11, server: 91.90.123.115, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: CollEctW_RO12, server: 91.90.123.115, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: CollEctW_RO13, server: 91.90.123.125, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: CollEctW_RO14, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: CollEctW_RO15, server: 91.90.123.115, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: CollEctW_RO16, server: 91.90.123.115, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: CollEctW_RO17, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: CollEctW_RO18, server: 91.90.123.115, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: CollEctW_RO19, server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: CollEctW_RO20, server: 91.90.123.115, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: CollEctW_RO21, server: 91.90.123.115, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: CollEctW_RO22, server: 91.90.123.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: CollEctW_RO23, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: CollEctW_RO24, server: 193.29.106.20, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CollEctW_RO25, server: 193.32.210.230, port: 35870, type: ss, cipher: aes-256-gcm, password: VFqcjsifsjyC}
+  - {name: CollEctW_RO26, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: CollEctW_SG1, server: guangzhoucm.cdn223.me, port: 964, type: vmess, uuid: b815d9cf-eead-3fc1-8c27-9c1ff3962b69, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /jiayou, ws-headers: {Host: azxjp5.xiaobaiyun.me}}
+  - {name: CollEctW_GB1, server: 89.238.133.125, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CollEctW_GB2, server: 89.238.133.125, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: CollEctW_GB3, server: 89.238.133.125, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: CollEctW_GB4, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: CollEctW_GB5, server: 185.38.150.124, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: CollEctW_JP1, server: 5.183.176.117, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.80482495.xyz}}
+  - {name: CollEctW_JP2, server: 51.89.108.65, port: 443, type: vmess, uuid: 2c21f10c-ed4a-4adc-ac34-34d65dd3ce65, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.15738743.xyz}}
+  - {name: CollEctW_JP3, server: 5.183.176.78, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.94459853.xyz}}
+  - {name: CollEctW_JP4, server: 185.160.24.214, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.74039004.xyz}}
+  - {name: CollEctW_CA1, server: ss5.ssrsub.one, port: 5443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
+  - {name: CollEctW_CA2, server: ss4.ssrsub.one, port: 5443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
+  - {name: CollEctW_CA3, server: ss3.ssrsub.one, port: 5443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
+  - {name: CollEctW_CA4, server: 51.79.64.57, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: yPAVG3dkJyPY}
+  - {name: CollEctW_NL1, server: 154.84.1.214, port: 443, type: vmess, uuid: 756f5f10-6bda-4dd0-bf07-5c4d61773611, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
+  - {name: CollEctW_NL2, server: 46.182.107.44, port: 443, type: vmess, uuid: 33b1f366-4537-437f-b3f6-20b0e0046828, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
+  - {name: CollEctW_NL3, server: 46.182.107.39, port: 443, type: vmess, uuid: d09448d0-2a16-4288-b37d-de49928e59bd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.49696760.xyz}}
+  - {name: CollEctW_NL4, server: 46.182.107.3, port: 443, type: vmess, uuid: b2aa7a8a-ab88-4c0f-a310-0b9456c69420, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.33960870.xyz}}
+  - {name: CollEctW_NL5, server: 46.182.107.147, port: 443, type: vmess, uuid: 77a48930-1e67-4a72-96be-3e584858ea4f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73207635.xyz}}
+  - {name: CollEctW_NL6, server: 154.84.1.215, port: 443, type: vmess, uuid: 756f5f10-6bda-4dd0-bf07-5c4d61773611, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
+  - {name: CollEctW_NL7, server: 154.84.1.199, port: 443, type: vmess, uuid: 3268727a-7556-4211-8a49-2cf5c5096da4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.79570456.xyz}}
+  - {name: CollEctW_NL8, server: 154.84.1.146, port: 443, type: vmess, uuid: 3268727a-7556-4211-8a49-2cf5c5096da4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.79570456.xyz}}
+  - {name: CollEctW_NL9, server: 154.84.1.116, port: 443, type: vmess, uuid: b349f65b-4b19-4255-9ee2-b679990540e7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.25936911.xyz}}
+  - {name: CollEctW_NL10, server: 154.84.1.217, port: 443, type: vmess, uuid: d03a8fbf-7d51-46c3-b02d-17ff0b32e4c5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.53103739.xyz}}
+  - {name: CollEctW_DE1, server: 78.47.94.207, port: 35139, type: ss, cipher: aes-256-gcm, password: vcFINAQlgqZZ}
+  - {name: CollEctW_DE2, server: 78.47.91.90, port: 36352, type: ss, cipher: aes-256-gcm, password: JUZTvwqCdJYW}
+  - {name: CollEctW_DE3, server: 45.134.224.15, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: CollEctW_MY1, server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CollEctW_MY2, server: 118.107.244.112, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CollEctW_MY3, server: 118.107.244.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CollEctW_MY4, server: 118.107.244.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CollEctW_MY5, server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 自动选择
     type: url-test
@@ -29,22 +136,129 @@ proxy-groups:
     interval: 300
     proxies:
       - CollEctQ_1
-      - CollEctQ_2
       - CollEctQ_3
-      - CollEctQ_4
-      - CollEctQ_5
-      - CollEctQ_6
-      - CollEctQ_7
-      - CollEctQ_8
-      - CollEctQ_9
-      - CollEctW_0
       - CollEctW_1
-      - CollEctW_2
-      - CollEctW_3
-      - CollEctW_4
-      - CollEctW_5
-      - CollEctW_6
-      - CollEctW_7
+      - CollEctW_US1
+      - CollEctW_US2
+      - CollEctW_US3
+      - CollEctW_US4
+      - CollEctW_US5
+      - CollEctW_US6
+      - CollEctW_US7
+      - CollEctW_US8
+      - CollEctW_US9
+      - CollEctW_US10
+      - CollEctW_US11
+      - CollEctW_US12
+      - CollEctW_US13
+      - CollEctW_US14
+      - CollEctW_US15
+      - CollEctW_US16
+      - CollEctW_US17
+      - CollEctW_US18
+      - CollEctW_US19
+      - CollEctW_US20
+      - CollEctW_US21
+      - CollEctW_US22
+      - CollEctW_US23
+      - CollEctW_US24
+      - CollEctW_US25
+      - CollEctW_US26
+      - CollEctW_US27
+      - CollEctW_US28
+      - CollEctW_US29
+      - CollEctW_US30
+      - CollEctW_US31
+      - CollEctW_US32
+      - CollEctW_US33
+      - CollEctW_US34
+      - CollEctW_IT1
+      - CollEctW_IT2
+      - CollEctW_IT3
+      - CollEctW_IT4
+      - CollEctW_IT5
+      - CollEctW_IT6
+      - CollEctW_IT7
+      - CollEctW_IT8
+      - CollEctW_IT9
+      - CollEctW_IT10
+      - CollEctW_IT11
+      - CollEctW_IT12
+      - CollEctW_IT13
+      - CollEctW_IT14
+      - CollEctW_IT15
+      - CollEctW_IT16
+      - CollEctW_IT17
+      - CollEctW_IT18
+      - CollEctW_IT19
+      - CollEctW_IT20
+      - CollEctW_IT21
+      - CollEctW_IT22
+      - CollEctW_IT23
+      - CollEctW_IT24
+      - CollEctW_IT25
+      - CollEctW_IT26
+      - CollEctW_IT27
+      - CollEctW_IT28
+      - CollEctW_IT29
+      - CollEctW_RO1
+      - CollEctW_RO2
+      - CollEctW_RO3
+      - CollEctW_RO4
+      - CollEctW_RO5
+      - CollEctW_RO6
+      - CollEctW_RO7
+      - CollEctW_RO8
+      - CollEctW_RO9
+      - CollEctW_RO10
+      - CollEctW_RO11
+      - CollEctW_RO12
+      - CollEctW_RO13
+      - CollEctW_RO14
+      - CollEctW_RO15
+      - CollEctW_RO16
+      - CollEctW_RO17
+      - CollEctW_RO18
+      - CollEctW_RO19
+      - CollEctW_RO20
+      - CollEctW_RO21
+      - CollEctW_RO22
+      - CollEctW_RO23
+      - CollEctW_RO24
+      - CollEctW_RO25
+      - CollEctW_RO26
+      - CollEctW_SG1
+      - CollEctW_GB1
+      - CollEctW_GB2
+      - CollEctW_GB3
+      - CollEctW_GB4
+      - CollEctW_GB5
+      - CollEctW_JP1
+      - CollEctW_JP2
+      - CollEctW_JP3
+      - CollEctW_JP4
+      - CollEctW_CA1
+      - CollEctW_CA2
+      - CollEctW_CA3
+      - CollEctW_CA4
+      - CollEctW_NL1
+      - CollEctW_NL2
+      - CollEctW_NL3
+      - CollEctW_NL4
+      - CollEctW_NL5
+      - CollEctW_NL6
+      - CollEctW_NL7
+      - CollEctW_NL8
+      - CollEctW_NL9
+      - CollEctW_NL10
+      - CollEctW_DE1
+      - CollEctW_DE2
+      - CollEctW_DE3
+      - CollEctW_MY1
+      - CollEctW_MY2
+      - CollEctW_MY3
+      - CollEctW_MY4
+      - CollEctW_MY5
   - name: 国外媒体
     type: select
     proxies:
@@ -61,7 +275,7 @@ proxy-groups:
   - name: 电报信息
     type: select
     proxies:
-      - 全球直连
+      - 自动选择
   - name: 苹果服务
     type: select
     proxies:
@@ -9300,8 +9514,8 @@ rules:
  - DOMAIN-SUFFIX,twitpic.com,自动选择
  - DOMAIN-SUFFIX,twitter.com,自动选择
  - DOMAIN-SUFFIX,vine.co,自动选择
- - DOMAIN-SUFFIX,telegra.ph,自动选择
- - DOMAIN-SUFFIX,telegram.org,自动选择
+ - DOMAIN-SUFFIX,telegra.ph,电报信息
+ - DOMAIN-SUFFIX,telegram.org,电报信息
  - IP-CIDR,91.108.4.0/22,自动选择,no-resolve
  - IP-CIDR,91.108.8.0/22,自动选择,no-resolve
  - IP-CIDR,91.108.12.0/22,自动选择,no-resolve
@@ -9739,9 +9953,9 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,自动选择
  - DOMAIN-SUFFIX,yt.be,自动选择
  - DOMAIN-SUFFIX,ytimg.com,自动选择
- - DOMAIN-SUFFIX,t.me,自动选择
- - DOMAIN-SUFFIX,tdesktop.com,自动选择
- - DOMAIN-SUFFIX,telegram.me,自动选择
+ - DOMAIN-SUFFIX,t.me,电报信息
+ - DOMAIN-SUFFIX,tdesktop.com,电报信息
+ - DOMAIN-SUFFIX,telegram.me,电报信息
  - DOMAIN-SUFFIX,telesco.pe,自动选择
  - DOMAIN-SUFFIX,facebook.br,自动选择
  - DOMAIN-SUFFIX,facebook.design,自动选择
