@@ -135,6 +135,37 @@ proxies:
   - {name: CollEctW_FR2, server: 51.75.141.238, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: PkaS32tULDz4}
   - {name: CollEctW_ipv61, server: boom-1811160045.blizzard.ltd, port: 443, type: vmess, uuid: 5ed1ad68-6337-4fdb-a34b-f57e0b96ddbc, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /phpmyadmin, ws-headers: {Host: video.fuck-gfw.eu.org}}
   - {name: CollEctW_ipv62, server: 104.26.14.221, port: 443, type: vmess, uuid: 5ed1ad68-6337-4fdb-a34b-f57e0b96ddbc, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /phpmyadmin, ws-headers: {Host: video.fuck-gfw.eu.org}}
+  - {name: CollEctW_JD_JP1, server: 194.156.230.203, port: 33342, type: vmess, uuid: 31d634a4-e223-4287-a4df-0db3e33b66bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_JP2, server: xn--ior256bc6a727b.com, port: 45111, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: CollEctW_JD_JP3, server: xn--ior256bc6a727b.com, port: 45113, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: CollEctW_JD_JP4, server: xn--ior256bc6a727b.com, port: 45118, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: CollEctW_JD_JP5, server: cn1.relay.starlink.st, port: 52102, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_JP6, server: cn1.relay.starlink.st, port: 52103, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_JP7, server: jp1.direct.starlink.st, port: 52000, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_JP8, server: jp2.direct.starlink.st, port: 52000, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_JP9, server: cn1.relay.starlink.st, port: 52004, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_JP10, server: cn2.relay.starlink.st, port: 52003, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_SG1, server: 5cb4e5c5-e850-5143-be31-1e5495d9614c.fkunky.cn, port: 58301, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: CollEctW_JD_SG2, server: xn--ior256bc6a727b.com, port: 45114, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: CollEctW_JD_SG3, server: cn1.relay.starlink.st, port: 52105, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_SG4, server: cn1.relay.starlink.st, port: 52006, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_SG5, server: kr1.direct.starlink.st, port: 52000, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_SG6, server: sg1.direct.starlink.st, port: 52000, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_KR1, server: xn--ior256bc6a727b.com, port: 45117, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: CollEctW_JD_KR2, server: 41171956-ddbb.fkunky.cn, port: 59823, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: CollEctW_JD_KR3, server: cn1.relay.starlink.st, port: 52104, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_KR4, server: cn1.relay.starlink.st, port: 52005, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_KR5, server: cn2.relay.starlink.st, port: 52004, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_US1, server: 154.208.10.121, port: 25561, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: CollEctW_JD_US2, server: 173.82.42.241, port: 48888, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: CollEctW_JD_US3, server: 173.82.197.138, port: 45624, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: CollEctW_JD_US4, server: cn1.relay.starlink.st, port: 52107, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_US5, server: cn2.relay.starlink.st, port: 52007, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_US6, server: us1.direct.starlink.st, port: 52000, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_RU1, server: cn2.relay.starlink.st, port: 52006, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_RU2, server: ru1.direct.starlink.st, port: 52000, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CollEctW_JD_RU3, server: cn1.relay.starlink.st, port: 52106, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+
 proxy-groups:
   - name: 自动选择
     type: url-test
@@ -271,6 +302,36 @@ proxy-groups:
       - CollEctW_FR2
       - CollEctW_ipv61
       - CollEctW_ipv62
+      - CollEctW_JD_JP1
+      - CollEctW_JD_JP2
+      - CollEctW_JD_JP3
+      - CollEctW_JD_JP4
+      - CollEctW_JD_JP5
+      - CollEctW_JD_JP6
+      - CollEctW_JD_JP7
+      - CollEctW_JD_JP8
+      - CollEctW_JD_JP9
+      - CollEctW_JD_JP10
+      - CollEctW_JD_SG1
+      - CollEctW_JD_SG2
+      - CollEctW_JD_SG3
+      - CollEctW_JD_SG4
+      - CollEctW_JD_SG5
+      - CollEctW_JD_SG6
+      - CollEctW_JD_KR1
+      - CollEctW_JD_KR2
+      - CollEctW_JD_KR3
+      - CollEctW_JD_KR4
+      - CollEctW_JD_KR5
+      - CollEctW_JD_US1
+      - CollEctW_JD_US2
+      - CollEctW_JD_US3
+      - CollEctW_JD_US4
+      - CollEctW_JD_US5
+      - CollEctW_JD_US6
+      - CollEctW_JD_RU1
+      - CollEctW_JD_RU2
+      - CollEctW_JD_RU3
   - name: 国外媒体
     type: select
     proxies:
