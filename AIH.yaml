@@ -27,6 +27,23 @@ proxies:
   - {name: AIHHK20, server: guangzhoucm.cdn223.me, port: 955, type: vmess, uuid: b815d9cf-eead-3fc1-8c27-9c1ff3962b69, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls, ws-headers: {Host: xingazhk1.xiaobaiyun.me}}
   - {name: AIHHK21, server: guangzhoucm.cdn223.me, port: 958, type: vmess, uuid: b815d9cf-eead-3fc1-8c27-9c1ff3962b69, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls, ws-headers: {Host: xingazhk1.xiaobaiyun.me}}
   - {name: AIHHK22, server: 120.232.41.6, port: 204, type: ss, cipher: aes-128-gcm, password: 7oosgzlD}
+  - {name: AIHHK23, server: 5.253.16.233, port: 27468, type: vmess, uuid: 91051099-d9f4-4dc3-a492-766415985862, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: AIHHK24, server: 5.253.16.38, port: 33101, type: vmess, uuid: 5157ad12-6b6c-4515-a780-c22fb415b5a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: AIHHK25, server: 5.253.16.110, port: 13935, type: vmess, uuid: ae862d35-5295-407a-8726-0862781832f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: AIHHK26, server: 62.216.92.169, port: 13139, type: vmess, uuid: 6bf86057-ee49-49ef-a396-48e4527770be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: AIHHK27, server: 5cb4e5c5-e850-5143-be31-1e5495d9614c.fkunky.cn, port: 53149, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: AIHHK28, server: xn--ior256bc6a727b.com, port: 45115, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: AIHHK29, server: 5cb4e5c5-e850-5143-be31-1e5495d9614c.fkunky.cn, port: 55861, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: AIHHK30, server: hk1.auto.starlink.st, port: 52000, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: AIHHK31, server: cn1.relay.starlink.st, port: 52100, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: AIHHK32, server: cn1.relay.starlink.st, port: 52000, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: AIHHK33, server: cn1.relay.starlink.st, port: 52001, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: AIHHK34, server: cn1.relay.starlink.st, port: 52002, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: AIHHK35, server: cn1.relay.starlink.st, port: 52003, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: AIHHK36, server: hk1.direct.starlink.st, port: 52000, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: AIHHK37, server: hk2.direct.starlink.st, port: 52000, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: AIHHK38, server: hk3.direct.starlink.st, port: 52000, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: AIHHK39, server: hk4.direct.starlink.st, port: 52000, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 自动选择
     type: url-test
@@ -55,6 +72,23 @@ proxy-groups:
       - AIHHK20
       - AIHHK21
       - AIHHK22
+      - AIHHK23
+      - AIHHK24
+      - AIHHK25
+      - AIHHK26
+      - AIHHK27
+      - AIHHK28
+      - AIHHK29
+      - AIHHK30
+      - AIHHK31
+      - AIHHK32
+      - AIHHK33
+      - AIHHK34
+      - AIHHK35
+      - AIHHK36
+      - AIHHK37
+      - AIHHK38
+      - AIHHK39
   - name: 国外媒体
     type: select
     proxies:
