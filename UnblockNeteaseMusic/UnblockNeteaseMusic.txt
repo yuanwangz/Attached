@@ -1,7 +1,7 @@
 #推荐用配置整套用，省去自己折腾时间，配置简洁干净上手难度为0
 #https://github.com/O7Y0/Profiles/blob/master/O7Y0-Quantumult%20X.conf
 proxies:
-  - {name: 🎧 TGM0NATA, server: 127.0.0.1, port: 443, type: http, tls: false, skip-cert-verify: false}
+  - {name: 🎧 TG@H0PK1NS, server: 127.0.0.1, port: 443, type: http, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易音乐 1, server: LOLICO.ME, port: 443, type: http, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易音乐 2, server: AIMER.ONE, port: 23333, type: http, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易音乐 3, server: SALVAN.ICU, port: 19980, type: http, tls: false, skip-cert-verify: false}
