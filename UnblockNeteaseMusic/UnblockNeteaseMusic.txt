@@ -12,6 +12,7 @@ proxies:
   - {name: 🎧 网易音乐 8, server: 101.132.79.113, port: 23333, type: http, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易音乐 9, server: MUSIC.LOLICO.ME, port: 39000, type: http, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易音乐 10, server: MUSIC.GRIOUGES.CN, port: 39000, type: http, tls: false, skip-cert-verify: false}
-  - {name: 🎧 网易音乐 11, server: PROXY.PLUSMEDIA.SITE, port: 58081, type: ss, cipher: rc4-md5, password: T5ckndbLSXHQ}
-  - {name: 🎧 网易音乐 12, server: MUSIC.DESPERADOJ.COM, port: 30001, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: 🎧 网易音乐 13, server: MUSIC.DESPERADOJ.COM, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
+  - {name: 🎧 网易音乐 11, server: XBMMW.XYZ, port: 5691, type: ss, cipher: aes-128-gcm, password: QQ3203434182}
+  - {name: 🎧 网易音乐 12, server: PROXY.PLUSMEDIA.SITE, port: 58081, type: ss, cipher: rc4-md5, password: T5ckndbLSXHQ}
+  - {name: 🎧 网易音乐 13, server: MUSIC.DESPERADOJ.COM, port: 30001, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
+  - {name: 🎧 网易音乐 14, server: MUSIC.DESPERADOJ.COM, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
