@@ -11,10 +11,8 @@
 <br>4.开启连接打开抑郁云哭去吧
 
 #### 后续更新（欢迎加入）
-**[TG频道](https://t.me/M0NATA)   丨   [TG群组](https://t.me/M0NATAGROUP)**
+**[TG频道](https://t.me/REBIRTHOKAY)   丨   **
 
-## windows
-[下载链接](https://github.com/o7y0/Attached/releases/tag/0.1)
 
 ![04GFbt.png](https://s1.ax1x.com/2020/10/14/04GFbt.png)
 
