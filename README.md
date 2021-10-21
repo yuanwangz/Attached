@@ -1,3 +1,6 @@
+![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+[![GitHub stars](https://img.shields.io/github/stars/O7Y0/Attached.svg?style=popout&label=Stars)](https://github.com/O7Y0/Attached/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/O7Y0/Attached.svg?style=popout&label=Fork)](https://github.com/O7Y0/Attached/fork)
 # 项目介绍
 解锁网易云音乐的通用订阅
 <br>(支持IOS-Quantumult X - Shadowrocket)
