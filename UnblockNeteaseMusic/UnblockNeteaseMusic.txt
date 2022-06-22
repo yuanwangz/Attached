@@ -1,6 +1,8 @@
 #推荐用配置整套用，省去自己折腾时间，配置简洁干净上手难度为0。
 #https://github.com/O7Y0/Profiles/blob/master/O7Y0-Quantumult%20X.conf
-proxies:
-  - {name: 🎧 网易音乐 能用, server: 119.176.253.89, port: 9080, type: http, tls: false, skip-cert-verify: false}
-  - {name: 🎧 网易音乐 self, server: 150.158.166.29, port: 2333, type: http, tls: false, skip-cert-verify: false}
+http=119.176.253.89:9080, over-tls=false, fast-open=false, udp-relay=false, server_check_url=http://interface3.music.163.com, tag=🎧 网易音乐 1
+http=150.158.166.29:2333, over-tls=false, fast-open=false, udp-relay=false, server_check_url=http://interface3.music.163.com, tag=🎧 网易音乐 self
+#proxies:
+#  - {name: 🎧 网易音乐 能用, server: 119.176.253.89, port: 9080, type: http, tls: false, skip-cert-verify: false}
+#  - {name: 🎧 网易音乐 self, server: 150.158.166.29, port: 2333, type: http, tls: false, skip-cert-verify: false}
  
